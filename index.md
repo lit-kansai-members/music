@@ -3,6 +3,8 @@
 https://www.youtube.com/watch?v=ZFoJYI7Q4iA
 ###Tell The World
 https://www.youtube.com/watch?v=vZ2_tOoefyU
+###PERFECT HUMAN(注意点HUMAN)
+https://www.youtube.com/watch?v=Y3lKgBlIDLM
 
 ##'15 クリスマスキャンプ
 ###新宝島
