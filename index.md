@@ -33,6 +33,8 @@ http://www.nicovideo.jp/watch/sm24376578
 https://www.youtube.com/watch?v=eXTo49Qo-9E
 ###Happily
 https://www.youtube.com/watch?v=s28PuyRqLrs
+###さくら体操
+https://www.youtube.com/watch?v=pnBnu5v8KTw
 
 ##'15 ライフ伊豆キャンプ
 ###バリバリ最強No.1
