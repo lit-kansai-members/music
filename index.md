@@ -5,6 +5,8 @@ https://www.youtube.com/watch?v=ZFoJYI7Q4iA
 https://www.youtube.com/watch?v=vZ2_tOoefyU
 ###PERFECT HUMAN(注意点HUMAN)
 https://www.youtube.com/watch?v=Y3lKgBlIDLM
+###さくら体操
+https://www.youtube.com/watch?v=pnBnu5v8KTw
 
 ##'15 クリスマスキャンプ
 ###新宝島
