@@ -36,6 +36,10 @@ https://www.youtube.com/watch?v=s28PuyRqLrs
 ###さくら体操
 https://www.youtube.com/watch?v=pnBnu5v8KTw
 
+##'15 Jun. YOSHIMOTO TECHDAY
+###LAUGH! LAUGH! LAUGH!
+https://www.youtube.com/watch?v=1yy4kxA_UVU&index=1&list=RD1yy4kxA_UVU
+
 ##'15 ライフ伊豆キャンプ
 ###バリバリ最強No.1
 https://www.youtube.com/watch?v=W3r_wFIGjHU
