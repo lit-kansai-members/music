@@ -79,3 +79,7 @@ https://www.youtube.com/watch?v=CwOvDQdH2-Q
 
 ##'13 夏キャンプ
 ###RPG
+
+##'12 夏キャンプ
+###君の知らない物語
+###サマーウォーズOP
