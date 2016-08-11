@@ -86,15 +86,6 @@ https://www.youtube.com/watch?v=uKgmu8g-kXE
 https://www.youtube.com/watch?v=mqBQPsEbGDw
 
 # 2016年
-## '16 夏キャンプ
-### CAN'T STOP THEE FEELING!
-https://www.youtube.com/watch?v=ru0K8uYEZWw
-### シュガーソングとビターステップ
-https://www.youtube.com/watch?v=3exsRhw3xt8
-### 宝石になった日
-https://www.youtube.com/watch?v=4Sd3iIdM4Co
-### Green Bird
-https://www.youtube.com/watch?v=PcFaBM_3Ucc
 
 ##'16 春キャンプ
 ###シルエット
@@ -108,6 +99,15 @@ https://www.youtube.com/watch?v=Y3lKgBlIDLM
 ###さくら体操
 https://www.youtube.com/watch?v=pnBnu5v8KTw
 
+## '16 夏キャンプ
+### CAN'T STOP THEE FEELING!
+https://www.youtube.com/watch?v=ru0K8uYEZWw
+### シュガーソングとビターステップ
+https://www.youtube.com/watch?v=3exsRhw3xt8
+### 宝石になった日
+https://www.youtube.com/watch?v=4Sd3iIdM4Co
+### Green Bird
+https://www.youtube.com/watch?v=PcFaBM_3Ucc
 
 # 番外編
 
