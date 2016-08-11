@@ -1,12 +1,27 @@
+##'16 夏キャンプ
+### CAN'T STOP THEE FEELING!
+https://www.google.co.jp/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiSsK-HorjOAhUCGZQKHZS0A9gQ3ywIIzAA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dru0K8uYEZWw&usg=AFQjCNF27FynepnpBloTBDb8eopsjU-mYQ&sig2=akw4GphctvE2IRcjiXtQqQ
+### シュガーソングとビターステップ
+
+### 宝石になった日
+
+### Green Bird
+
+## スクール夏期講習
+### Base Ball Bear - PERFECT BLUE
+
 ##'16 春キャンプ
 ###シルエット
 https://www.youtube.com/watch?v=ZFoJYI7Q4iA
 ###Tell The World
 https://www.youtube.com/watch?v=vZ2_tOoefyU
+ランアンドラン
 ###PERFECT HUMAN(注意点HUMAN)
 https://www.youtube.com/watch?v=Y3lKgBlIDLM
 ###さくら体操
 https://www.youtube.com/watch?v=pnBnu5v8KTw
+###SUN（メンター講習のテーマらしい？）
+
 
 ##'15 クリスマスキャンプ
 ###新宝島
@@ -61,3 +76,6 @@ https://www.youtube.com/watch?v=TIzNszoG_TA
 https://www.youtube.com/watch?v=JQowMIY2bOw
 ###変わらないもの
 https://www.youtube.com/watch?v=CwOvDQdH2-Q
+
+##'13 夏キャンプ
+###RPG
