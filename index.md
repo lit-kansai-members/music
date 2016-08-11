@@ -23,8 +23,11 @@ https://www.youtube.com/watch?v=Mi9uNu35Gmk
 ## 13' クリスマスキャンプ
 ### 恋するフォーチュンクッキー
 https://www.youtube.com/watch?v=dFf4AgBNR1E
+###ハピネス
+https://www.youtube.com/watch?v=uKgmu8g-kXE
 
 # 2014年
+=======
 
 ## '14 春キャンプ
 ### スターラブレイション
@@ -46,6 +49,8 @@ https://www.youtube.com/watch?v=TIzNszoG_TA
 https://www.youtube.com/watch?v=gsVGf1T2Hfs
 ### I Won't Let You Down
 https://www.youtube.com/watch?v=u1ZB_rGFyeU
+###ハピネス
+https://www.youtube.com/watch?v=uKgmu8g-kXE
 
 # 2015年
 
@@ -65,18 +70,6 @@ https://www.youtube.com/watch?v=W3r_wFIGjHU
 ### LAUGH! LAUGH! LAUGH!
 https://www.youtube.com/watch?v=1yy4kxA_UVU
 
-## '15 夏キャンプ
-### R.Y.U.S.E.I.
-https://www.youtube.com/watch?v=4-Gw0TAM6-Q
-### Beautiful
-https://www.youtube.com/watch?v=tfeSwQ-iU0U
-### Come On! Come On!
-https://www.youtube.com/watch?v=xii1jKIbHH8
-### 優しさの理由
-https://www.youtube.com/watch?v=0hJiMN4Csjw
-### クロスロード
-http://www.nicovideo.jp/watch/sm24376578
-
 ## '15 クリスマスキャンプ
 ### 新宝島
 https://www.youtube.com/watch?v=LIlZCmETvsY
@@ -84,6 +77,10 @@ https://www.youtube.com/watch?v=LIlZCmETvsY
 https://www.youtube.com/watch?v=uKgmu8g-kXE
 ### シェアハピ
 https://www.youtube.com/watch?v=mqBQPsEbGDw
+
+##'15 Dec-'16 Jan Be Startup Coca-Cola Camp
+###ハピネス
+https://www.youtube.com/watch?v=uKgmu8g-kXE
 
 # 2016年
 
