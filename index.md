@@ -62,8 +62,7 @@ https://www.youtube.com/watch?v=W3r_wFIGjHU
 ##'14 クリスマスキャンプ
 ###Dragon Night(リンクは英語版)
 https://www.youtube.com/watch?v=gsVGf1T2Hfs
-###ハピネス
-https://www.youtube.com/watch?v=uKgmu8g-kXE
+
 
 ##'14 夏キャンプ
 ###ray
@@ -77,9 +76,17 @@ https://www.youtube.com/watch?v=JQowMIY2bOw
 ###変わらないもの
 https://www.youtube.com/watch?v=CwOvDQdH2-Q
 
+##13' クリスマスキャンプ
+###恋するフォーチュンクッキー
+https://www.youtube.com/watch?v=uKgmu8g-kXE
+
 ##'13 夏キャンプ
 ###RPG
 
 ##'12 夏キャンプ
 ###君の知らない物語
 ###サマーウォーズOP
+
+##'12 クリスマスキャンプ
+###ハピネス
+https://www.youtube.com/watch?v=uKgmu8g-kXE
