@@ -1,6 +1,9 @@
 # Life-is-Tech-Music
 Life is Tech!的な音楽のまとめのリポジトリです。プルリクじゃんじゃんください！
 
-##協力
+## Contributors
 @ToukaiAkihiro
 @ygkn
+
+## 協力
+いかおじさん
