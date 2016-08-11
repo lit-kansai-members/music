@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=iOFZKwv_LfA
 
 ## '13 夏キャンプ
 ### RPG
-SEKAI NO OWARI「RPG」 - Duration: 4:56. sekainoowarijp ... - YouTube
+https://www.youtube.com/watch?v=Mi9uNu35Gmk
 
 ## 13' クリスマスキャンプ
 ### 恋するフォーチュンクッキー
