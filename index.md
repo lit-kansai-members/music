@@ -8,6 +8,10 @@ https://www.youtube.com/watch?v=Y3lKgBlIDLM
 ###さくら体操
 https://www.youtube.com/watch?v=pnBnu5v8KTw
 
+##'15 Dec-'16 Jan Be Startup Coca-Cola Camp
+###ハピネス
+https://www.youtube.com/watch?v=uKgmu8g-kXE
+
 ##'15 クリスマスキャンプ
 ###新宝島
 https://www.youtube.com/watch?v=LIlZCmETvsY
