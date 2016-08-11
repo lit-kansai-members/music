@@ -10,6 +10,10 @@ https://www.google.co.jp/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8
 ## スクール夏期講習
 ### Base Ball Bear - PERFECT BLUE
 
+## メンター/コース紹介
+### Little Mix - Wings
+https://www.youtube.com/watch?v=cOQDsmEqVt8
+
 ##'16 春キャンプ
 ###シルエット
 https://www.youtube.com/watch?v=ZFoJYI7Q4iA
