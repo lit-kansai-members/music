@@ -101,7 +101,8 @@ https://www.youtube.com/watch?v=PcFaBM_3Ucc
 https://www.youtube.com/watch?v=ZFoJYI7Q4iA
 ###Tell The World
 https://www.youtube.com/watch?v=vZ2_tOoefyU
-ランアンドラン
+###ランアンドラン
+https://www.youtube.com/watch?v=JbyQOzRANYs
 ###PERFECT HUMAN(注意点HUMAN)
 https://www.youtube.com/watch?v=Y3lKgBlIDLM
 ###さくら体操
