@@ -2,8 +2,9 @@
 Life is Tech!的な音楽のまとめのリポジトリです。プルリクじゃんじゃんください！
 
 ## Contributors
-@ToukaiAkihiro
-@ygkn
+@KawakawaRitsuki（ごっちゃん！！）   
+@ToukaiAkihiro（あきひろ、監督）   
+@ygkn（やぎちゃん）   
 
-## 協力
-いかおじさん
+## Special Thanks
+いかおじさん（いかさん）
