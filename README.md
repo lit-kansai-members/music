@@ -6,7 +6,8 @@ Life is Tech!的な音楽のまとめのリポジトリです。プルリクじ�
 ## Contributors
 [@KawakawaRitsuki](//github.com/KawakawaRitsuki)（ごっちゃん！！）   
 [@ToukaiAkihiro](//github.com/ToukaiAkihiro)（あきひろ、監督）   
-[@ygkn](//github.com/ygkn)（やぎちゃん）  
+[@ygkn](//github.com/ygkn)（やぎちゃん） 
+[@E235-235](//github.com/E235-235)（かっくん） 
 
 ## Special Thanks
 いかおじさん（いかさん）
