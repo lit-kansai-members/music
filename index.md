@@ -104,6 +104,8 @@ https://www.youtube.com/watch?v=3exsRhw3xt8
 https://www.youtube.com/watch?v=4Sd3iIdM4Co
 ### Green Bird
 https://www.youtube.com/watch?v=PcFaBM_3Ucc
+### 岡崎体育 MUSIC VIDEO(注意点VIDEO)
+https://www.youtube.com/watch?v=fTwAz1JC4yI
 
 # 番外編
 
