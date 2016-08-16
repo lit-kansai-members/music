@@ -54,6 +54,8 @@ https://www.youtube.com/watch?v=uKgmu8g-kXE
 # 2015年
 
 ## '15 春キャンプ
+### 超特急ライン
+http://dova-s.jp/bgm/play2260.html
 ### ひまわりの約束
 https://www.youtube.com/watch?v=eXTo49Qo-9E
 ### Happily
@@ -69,13 +71,21 @@ https://www.youtube.com/watch?v=W3r_wFIGjHU
 ### LAUGH! LAUGH! LAUGH!
 https://www.youtube.com/watch?v=1yy4kxA_UVU
 
+## '15 夏キャンプ
+### Come On! Come On! -Happy with Smile-
+https://www.youtube.com/watch?v=tffu4TOsNoE
+### Beautiful
+https://www.youtube.com/watch?v=tfeSwQ-iU0U
+
 ## '15 クリスマスキャンプ
 ### 新宝島
 https://www.youtube.com/watch?v=LIlZCmETvsY
 ### ハピネス
 https://www.youtube.com/watch?v=uKgmu8g-kXE
-### シェアハピ
+### (シェアハピ)
 https://www.youtube.com/watch?v=mqBQPsEbGDw
+### (ハレ晴レユカイ)
+https://www.youtube.com/watch?v=a6iZKNfDuh4
 
 ##'15 Dec-'16 Jan Be Startup Coca-Cola Camp
 ###ハピネス
