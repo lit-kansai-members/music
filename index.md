@@ -3,10 +3,12 @@
 ## '12 夏キャンプ
 ### 君の知らない物語
 https://www.youtube.com/watch?v=caF6nJxTejc
-### サマーウォーズOP
+### Overture of the Summer Wars
+http://www.nicovideo.jp/watch/sm26665659
 
 ## '12 クリスマスキャンプ
 ### ハピネス
+(コカ・コーラ 冬期CMソング)
 https://www.youtube.com/watch?v=uKgmu8g-kXE
 
 # 2013年
@@ -14,10 +16,12 @@ https://www.youtube.com/watch?v=uKgmu8g-kXE
 ## '13 春キャンプ
 ### Boom!
 ### ryo ODDS ENDS
+(初音ミク Project Diva f OP)
 https://www.youtube.com/watch?v=iOFZKwv_LfA
 
 ## '13 夏キャンプ
 ### RPG
+(映画クレヨンしんちゃん バカうまっ!B級グルメサバイバル!! 主題歌)
 https://www.youtube.com/watch?v=Mi9uNu35Gmk
 
 ## 13' クリスマスキャンプ
@@ -32,10 +36,12 @@ https://www.youtube.com/watch?v=uKgmu8g-kXE
 ### スターラブレイション
 https://www.youtube.com/watch?v=JQowMIY2bOw
 ### 変わらないもの
+(時をかける少女 挿入歌)
 https://www.youtube.com/watch?v=CwOvDQdH2-Q
 
 ## '14 English Camp
 ### Happy
+https://www.youtube.com/watch?v=y6Sxv-sUYtM
 
 ## '14 夏キャンプ
 ### ray
@@ -57,6 +63,7 @@ https://www.youtube.com/watch?v=uKgmu8g-kXE
 ### 超特急ライン
 http://dova-s.jp/bgm/play2260.html
 ### ひまわりの約束
+(Stand by Me ドラえもん 主題歌)
 https://www.youtube.com/watch?v=eXTo49Qo-9E
 ### Happily
 https://www.youtube.com/watch?v=s28PuyRqLrs
@@ -83,12 +90,15 @@ https://www.youtube.com/watch?v=tfeSwQ-iU0U
 
 ## '15 クリスマスキャンプ
 ### 新宝島
+(バクマン。 主題歌)
 https://www.youtube.com/watch?v=LIlZCmETvsY
 ### ハピネス
 https://www.youtube.com/watch?v=uKgmu8g-kXE
-### (シェアハピ)
+### [シェアハピ]
+(Pocky CMソング)
 https://www.youtube.com/watch?v=mqBQPsEbGDw
-### (ハレ晴レユカイ)
+### [ハレ晴レユカイ]
+(涼宮ハルヒの憂鬱 ED)
 https://www.youtube.com/watch?v=a6iZKNfDuh4
 
 ##'15 Dec-'16 Jan Be Startup Coca-Cola Camp
@@ -99,6 +109,7 @@ https://www.youtube.com/watch?v=uKgmu8g-kXE
 
 ##'16 春キャンプ
 ###シルエット
+(NARUTO -ナルト- 疾風伝 元OP)
 https://www.youtube.com/watch?v=ZFoJYI7Q4iA
 ###Tell The World
 https://www.youtube.com/watch?v=vZ2_tOoefyU
@@ -113,6 +124,7 @@ https://www.youtube.com/watch?v=pnBnu5v8KTw
 ### CAN'T STOP THEE FEELING!
 https://www.youtube.com/watch?v=ru0K8uYEZWw
 ### シュガーソングとビターステップ
+(血界戦線 ED)
 https://www.youtube.com/watch?v=3exsRhw3xt8
 ### 宝石になった日
 https://www.youtube.com/watch?v=4Sd3iIdM4Co
