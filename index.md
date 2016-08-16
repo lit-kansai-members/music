@@ -63,6 +63,10 @@ https://www.youtube.com/watch?v=s28PuyRqLrs
 ### さくら体操
 https://www.youtube.com/watch?v=pnBnu5v8KTw
 
+## '15 萩1Days
+### 超特急ライン
+http://dova-s.jp/bgm/play2260.html
+
 ## '15 ライフ伊豆キャンプ
 ### バリバリ最強No.1
 https://www.youtube.com/watch?v=W3r_wFIGjHU
