@@ -90,9 +90,9 @@ https://www.youtube.com/watch?v=tfeSwQ-iU0U
 https://www.youtube.com/watch?v=LIlZCmETvsY
 ### ハピネス(コカ・コーラ 冬期CMソング)  
 https://www.youtube.com/watch?v=uKgmu8g-kXE
-### [Share The Love](Pocky CMソング) 
+### Share The Love(Pocky CMソング) 
 https://www.youtube.com/watch?v=mqBQPsEbGDw
-### [ハレ晴レユカイ](涼宮ハルヒの憂鬱 ED)
+### {ハレ晴レユカイ}(涼宮ハルヒの憂鬱 ED)
 https://www.youtube.com/watch?v=a6iZKNfDuh4
 
 ##'15 Dec-'16 Jan Be Startup Coca-Cola Camp
