@@ -56,11 +56,11 @@
 
 ## '15 萩1Days
 ### 超特急ライン
-[YouTube](http:://dova-s.jp/bgm/play2260.html)
+[DOVA-SYNDROME](//dova-s.jp/bgm/play2260.html)
 
 ## '15 Spring Camp
 ### 超特急ライン
-[YouTube](http:://dova-s.jp/bgm/play2260.html)
+[DOVA-SYNDROME](//dova-s.jp/bgm/play2260.html)
 ### ひまわりの約束(Stand by Me ドラえもん 主題歌)
 [YouTube](//youtu.be/eXTo49Qo-9E)
 ### Happily
@@ -123,7 +123,7 @@
 ### 君の知らない物語
 [YouTube](//youtu.be/caF6nJxTejc)
 ### Overture of the Summer Wars
-[YouTube](http:://www.nicovideo.jp/watch/sm26665659)
+[ニコニコ動画](//www.nicovideo.jp/watch/sm26665659)
 
 # 番外編
 
