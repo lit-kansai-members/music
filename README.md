@@ -9,7 +9,8 @@ PRお待ちしています。情報がある方、是非お願いします。
 [@KawakawaRitsuki](//github.com/KawakawaRitsuki)（ごっちゃん！！）   
 [@ToukaiAkihiro](//github.com/ToukaiAkihiro)（あきひろ、監督）   
 [@ygkn](//github.com/ygkn)（やぎちゃん）    
-[@E235-235](//github.com/E235-235)（かっくん） 
+[@E235-235](//github.com/E235-235)（かっくん）    
+[@RinYokoi](//github.com/RinYokoi)（）    
 
 ## Special Thanks
 いかおじさん（いかさん）
