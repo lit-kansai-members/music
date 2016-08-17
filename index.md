@@ -8,7 +8,7 @@ http://www.nicovideo.jp/watch/sm26665659
 
 ## '12 クリスマスキャンプ
 ### ハピネス
-(コカ・コーラ 冬期CMソング)    
+(コカ・コーラ 冬期CMソング)      
 https://www.youtube.com/watch?v=uKgmu8g-kXE
 
 # 2013年
@@ -35,8 +35,8 @@ https://www.youtube.com/watch?v=uKgmu8g-kXE
 ## '14 春キャンプ
 ### スターラブレイション
 https://www.youtube.com/watch?v=JQowMIY2bOw
-### 変わらないもの    
-(時をかける少女 挿入歌)
+### 変わらないもの
+(時をかける少女 挿入歌)    
 https://www.youtube.com/watch?v=CwOvDQdH2-Q
 
 ## '14 English Camp
@@ -85,7 +85,7 @@ https://www.youtube.com/watch?v=1yy4kxA_UVU
 
 ## '15 夏キャンプ
 ### Come On! Come On! -Happy with Smile-
-https://www.youtube.com/watch?v=tffu4TOsNoE
+https://www.youtube.com/watch?v=xii1jKIbHH8
 ### Beautiful
 https://www.youtube.com/watch?v=tfeSwQ-iU0U
 
