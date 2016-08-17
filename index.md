@@ -1,140 +1,140 @@
 # 2016年
 
-## '16 夏キャンプ
+## '16 Summer Camp
 ### CAN'T STOP THEE FEELING!
-https://www.youtube.com/watch?v=ru0K8uYEZWw
+[YouTube](//youtu.be/ru0K8uYEZWw)
 ### シュガーソングとビターステップ(血界戦線 ED)  
-https://www.youtube.com/watch?v=3exsRhw3xt8
+[YouTube](//youtu.be/3exsRhw3xt8)
 ### 宝石になった日
-https://www.youtube.com/watch?v=4Sd3iIdM4Co
+[YouTube](//youtu.be/4Sd3iIdM4Co)
 ### Green Bird
-https://www.youtube.com/watch?v=PcFaBM_3Ucc
+[YouTube](//youtu.be/PcFaBM_3Ucc)
 ### 岡崎体育 MUSIC VIDEO(注意点VIDEO)
-https://www.youtube.com/watch?v=fTwAz1JC4yI
+[YouTube](//youtu.be/fTwAz1JC4yI)
 
-##'16 春キャンプ
+##'16 Spring Camp
 ###シルエット(NARUTO -ナルト- 疾風伝 元OP)  
-https://www.youtube.com/watch?v=ZFoJYI7Q4iA
+[YouTube](//youtu.be/ZFoJYI7Q4iA)
 ###Tell The World
-https://www.youtube.com/watch?v=vZ2_tOoefyU
+[YouTube](//youtu.be/vZ2_tOoefyU)
 ###ランアンドラン
-https://www.youtube.com/watch?v=JbyQOzRANYs
+[YouTube](//youtu.be/JbyQOzRANYs)
 ###PERFECT HUMAN(注意点HUMAN)
-https://www.youtube.com/watch?v=Y3lKgBlIDLM
+[YouTube](//youtu.be/Y3lKgBlIDLM)
 ###さくら体操
-https://www.youtube.com/watch?v=pnBnu5v8KTw
+[YouTube](//youtu.be/pnBnu5v8KTw)
 
 # 2015年
 
 ##'15 Dec-'16 Jan Be Startup Coca-Cola Camp
 ###ハピネス(コカ・コーラ 冬期CMソング)
-https://www.youtube.com/watch?v=uKgmu8g-kXE
+[YouTube](//youtu.be/uKgmu8g-kXE)
 
-## '15 クリスマスキャンプ
+## '15 Xmas Camp
 ### 新宝島(映画 バクマン。 主題歌)
-https://www.youtube.com/watch?v=LIlZCmETvsY
+[YouTube](//youtu.be/LIlZCmETvsY)
 ### ハピネス(コカ・コーラ 冬期CMソング)  
-https://www.youtube.com/watch?v=uKgmu8g-kXE
+[YouTube](//youtu.be/uKgmu8g-kXE)
 ### Share The Love(Pocky CMソング) 
-https://www.youtube.com/watch?v=mqBQPsEbGDw
+[YouTube](//youtu.be/mqBQPsEbGDw)
 ### ハレ晴レユカイ(涼宮ハルヒの憂鬱 ED)
-https://www.youtube.com/watch?v=a6iZKNfDuh4
+[YouTube](//youtu.be/a6iZKNfDuh4)
 
-## '15 夏キャンプ
+## '15 Summer Camp
 ### Come On! Come On! -Happy with Smile-
-https://www.youtube.com/watch?v=xii1jKIbHH8
+[YouTube](//youtu.be/xii1jKIbHH8)
 ### Beautiful
-https://www.youtube.com/watch?v=tfeSwQ-iU0U
+[YouTube](//youtu.be/tfeSwQ-iU0U)
 
 ## '15 Jun. YOSHIMOTO TECHDAY
 ### LAUGH! LAUGH! LAUGH!
-https://www.youtube.com/watch?v=1yy4kxA_UVU
+[YouTube](//youtu.be/1yy4kxA_UVU)
 
 ## '15 ライフ伊豆キャンプ
 ### バリバリ最強No.1
-https://www.youtube.com/watch?v=W3r_wFIGjHU
+[YouTube](//youtu.be/W3r_wFIGjHU)
 
 ## '15 萩1Days
 ### 超特急ライン
-http://dova-s.jp/bgm/play2260.html
+[YouTube](http:://dova-s.jp/bgm/play2260.html)
 
-## '15 春キャンプ
+## '15 Spring Camp
 ### 超特急ライン
-http://dova-s.jp/bgm/play2260.html
+[YouTube](http:://dova-s.jp/bgm/play2260.html)
 ### ひまわりの約束(Stand by Me ドラえもん 主題歌)
-https://www.youtube.com/watch?v=eXTo49Qo-9E
+[YouTube](//youtu.be/eXTo49Qo-9E)
 ### Happily
-https://www.youtube.com/watch?v=s28PuyRqLrs
+[YouTube](//youtu.be/s28PuyRqLrs)
 ### さくら体操
-https://www.youtube.com/watch?v=pnBnu5v8KTw
+[YouTube](//youtu.be/pnBnu5v8KTw)
 
 # 2014年
 
-## '14 クリスマスキャンプ
+## '14 Xmas Camp
 ### Dragon Night
 (リンクは英語版)    
-https://www.youtube.com/watch?v=gsVGf1T2Hfs
+[YouTube](//youtu.be/gsVGf1T2Hfs)
 ### I Won't Let You Down
-https://www.youtube.com/watch?v=u1ZB_rGFyeU
+[YouTube](//youtu.be/u1ZB_rGFyeU)
 ###ハピネス(コカ・コーラ 冬期CMソング)  
-https://www.youtube.com/watch?v=uKgmu8g-kXE
+[YouTube](//youtu.be/uKgmu8g-kXE)
 
-## '14 夏キャンプ
+## '14 Summer Camp
 ### ray
-https://www.youtube.com/watch?v=yT_ylSCgY6Q
+[YouTube](//youtu.be/yT_ylSCgY6Q)
 ### ミラクル
-https://www.youtube.com/watch?v=TIzNszoG_TA
+[YouTube](//youtu.be/TIzNszoG_TA)
 
 ## '14 English Camp
 ### Happy
-https://www.youtube.com/watch?v=y6Sxv-sUYtM
+[YouTube](//youtu.be/y6Sxv-sUYtM)
 
-## '14 春キャンプ
+## '14 Spring Camp
 ### スターラブレイション
-https://www.youtube.com/watch?v=JQowMIY2bOw
+[YouTube](//youtu.be/JQowMIY2bOw)
 ### 変わらないもの(時をかける少女 挿入歌)    
-https://www.youtube.com/watch?v=CwOvDQdH2-Q
+[YouTube](//youtu.be/CwOvDQdH2-Q)
 
 # 2013年
 
-## 13' クリスマスキャンプ
+## 13' Xmas Camp
 ### 恋するフォーチュンクッキー
-https://www.youtube.com/watch?v=dFf4AgBNR1E
+[YouTube](//youtu.be/dFf4AgBNR1E)
 ###ハピネス(コカ・コーラ 冬期CMソング)  
-https://www.youtube.com/watch?v=uKgmu8g-kXE
+[YouTube](//youtu.be/uKgmu8g-kXE)
 
-## '13 夏キャンプ
+## '13 Summer Camp
 ### RPG(映画クレヨンしんちゃん バカうまっ!B級グルメサバイバル!! 主題歌) 
-https://www.youtube.com/watch?v=Mi9uNu35Gmk
+[YouTube](//youtu.be/Mi9uNu35Gmk)
 
-## '13 春キャンプ
+## '13 Spring Camp
 ### Boom!(九州新幹線 CMソング)
-https://www.youtube.com/watch?v=N6-0aquSvXk
+[YouTube](//youtu.be/N6-0aquSvXk)
 ### ODDS&ENDS(初音ミク Project Diva f OP) 
-https://www.youtube.com/watch?v=iOFZKwv_LfA
+[YouTube](//youtu.be/iOFZKwv_LfA)
 
 # 2012年
 
-## '12 クリスマスキャンプ
+## '12 Xmas Camp
 ### ハピネス(コカ・コーラ 冬期CMソング)  
-https://www.youtube.com/watch?v=uKgmu8g-kXE
+[YouTube](//youtu.be/uKgmu8g-kXE)
 
-## '12 夏キャンプ
+## '12 Summer Camp
 ### 君の知らない物語
-https://www.youtube.com/watch?v=caF6nJxTejc
+[YouTube](//youtu.be/caF6nJxTejc)
 ### Overture of the Summer Wars
-http://www.nicovideo.jp/watch/sm26665659
+[YouTube](http:://www.nicovideo.jp/watch/sm26665659)
 
 # 番外編
 
 ## メンター/コース紹介
 ### Little Mix - Wings
-https://www.youtube.com/watch?v=cOQDsmEqVt8
+[YouTube](//youtu.be/cOQDsmEqVt8)
 
 ## スクール夏期講習
 ### Base Ball Bear - PERFECT BLUE
-https://www.youtube.com/watch?v=jgofbf8Q_-Y
+[YouTube](//youtu.be/jgofbf8Q_-Y)
 
 ## メンター講習テーマ
 ### SUN
-https://www.youtube.com/watch?v=7gcCRAl58u4
+[YouTube](//youtu.be/7gcCRAl58u4)
