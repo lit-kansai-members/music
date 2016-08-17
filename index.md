@@ -1,6 +1,6 @@
 # 2016年
 
-## '16 夏キャンプ
+## '16 Summer Camp
 ### CAN'T STOP THEE FEELING!
 [YouTube](//youtu.be/ru0K8uYEZWw)
 ### シュガーソングとビターステップ(血界戦線 ED)  
@@ -12,7 +12,7 @@
 ### 岡崎体育 MUSIC VIDEO(注意点VIDEO)
 [YouTube](//youtu.be/fTwAz1JC4yI)
 
-##'16 春キャンプ
+##'16 Spring Camp
 ###シルエット(NARUTO -ナルト- 疾風伝 元OP)  
 [YouTube](//youtu.be/ZFoJYI7Q4iA)
 ###Tell The World
@@ -30,7 +30,7 @@
 ###ハピネス(コカ・コーラ 冬期CMソング)
 [YouTube](//youtu.be/uKgmu8g-kXE)
 
-## '15 クリスマスキャンプ
+## '15 Xmas Camp
 ### 新宝島(映画 バクマン。 主題歌)
 [YouTube](//youtu.be/LIlZCmETvsY)
 ### ハピネス(コカ・コーラ 冬期CMソング)  
@@ -40,7 +40,7 @@
 ### ハレ晴レユカイ(涼宮ハルヒの憂鬱 ED)
 [YouTube](//youtu.be/a6iZKNfDuh4)
 
-## '15 夏キャンプ
+## '15 Summer Camp
 ### Come On! Come On! -Happy with Smile-
 [YouTube](//youtu.be/xii1jKIbHH8)
 ### Beautiful
@@ -58,7 +58,7 @@
 ### 超特急ライン
 [YouTube](http:://dova-s.jp/bgm/play2260.html)
 
-## '15 春キャンプ
+## '15 Spring Camp
 ### 超特急ライン
 [YouTube](http:://dova-s.jp/bgm/play2260.html)
 ### ひまわりの約束(Stand by Me ドラえもん 主題歌)
@@ -70,7 +70,7 @@
 
 # 2014年
 
-## '14 クリスマスキャンプ
+## '14 Xmas Camp
 ### Dragon Night
 (リンクは英語版)    
 [YouTube](//youtu.be/gsVGf1T2Hfs)
@@ -79,7 +79,7 @@
 ###ハピネス(コカ・コーラ 冬期CMソング)  
 [YouTube](//youtu.be/uKgmu8g-kXE)
 
-## '14 夏キャンプ
+## '14 Summer Camp
 ### ray
 [YouTube](//youtu.be/yT_ylSCgY6Q)
 ### ミラクル
@@ -89,7 +89,7 @@
 ### Happy
 [YouTube](//youtu.be/y6Sxv-sUYtM)
 
-## '14 春キャンプ
+## '14 Spring Camp
 ### スターラブレイション
 [YouTube](//youtu.be/JQowMIY2bOw)
 ### 変わらないもの(時をかける少女 挿入歌)    
@@ -97,17 +97,17 @@
 
 # 2013年
 
-## 13' クリスマスキャンプ
+## 13' Xmas Camp
 ### 恋するフォーチュンクッキー
 [YouTube](//youtu.be/dFf4AgBNR1E)
 ###ハピネス(コカ・コーラ 冬期CMソング)  
 [YouTube](//youtu.be/uKgmu8g-kXE)
 
-## '13 夏キャンプ
+## '13 Summer Camp
 ### RPG(映画クレヨンしんちゃん バカうまっ!B級グルメサバイバル!! 主題歌) 
 [YouTube](//youtu.be/Mi9uNu35Gmk)
 
-## '13 春キャンプ
+## '13 Spring Camp
 ### Boom!(九州新幹線 CMソング)
 [YouTube](//youtu.be/N6-0aquSvXk)
 ### ODDS&ENDS(初音ミク Project Diva f OP) 
@@ -115,11 +115,11 @@
 
 # 2012年
 
-## '12 クリスマスキャンプ
+## '12 Xmas Camp
 ### ハピネス(コカ・コーラ 冬期CMソング)  
 [YouTube](//youtu.be/uKgmu8g-kXE)
 
-## '12 夏キャンプ
+## '12 Summer Camp
 ### 君の知らない物語
 [YouTube](//youtu.be/caF6nJxTejc)
 ### Overture of the Summer Wars
