@@ -33,7 +33,7 @@ TVアニメ「NARUTO -ナルト- 疾風伝」オープニングテーマ
 ### RADIOFISH - PERFECT HUMAN
 注意点HUMAN  
 [YouTube](//youtu.be/4Bh1nm7Ir8c)
-[注意点HUMAN歌詞](./注意点HUMAN.txt)
+[注意点HUMAN歌詞](./注意点human.txt)
 [歌詞(J-Lyric.net)](//j-lyric.net/artist/a05b4f4/l03ab42.html)
 ### NIPPON HOSO KYOUKAI - さくら体操
 [歌詞(J-Lyric.net)](//j-lyric.net/artist/a0006b5/l001e01.html)
