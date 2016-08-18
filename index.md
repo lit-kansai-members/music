@@ -1,49 +1,58 @@
 # 2016年
 
 ## '16 Summer Camp
-### CAN'T STOP THEE FEELING!
+### JUSTIN TIMBERLAKE - CAN'T STOP THEE FEELING!
 [YouTube](//youtu.be/ru0K8uYEZWw)
-### シュガーソングとビターステップ(血界戦線 ED)  
+### UNISON SQUARE GARDEN - シュガーソングとビターステップ
+TVアニメ「血界戦線」エンディングテーマ  
 [YouTube](//youtu.be/3exsRhw3xt8)
-### 宝石になった日
+### BUMP OF CHICKEN - 宝石になった日
 [YouTube](//youtu.be/4Sd3iIdM4Co)
-### Green Bird
+### フジファブリック - Green Bird
 [YouTube](//youtu.be/PcFaBM_3Ucc)
-### 岡崎体育 MUSIC VIDEO(注意点VIDEO)
+### 岡崎体育 - MUSIC VIDEO
+注意点 VIDEO 元曲
 [YouTube](//youtu.be/fTwAz1JC4yI)
 
 ##'16 Spring Camp
-###シルエット(NARUTO -ナルト- 疾風伝 元OP)  
+### KANA-BOON - シルエット
+TVアニメ「NARUTO -ナルト- 疾風伝」オープニングテーマ  
 [YouTube](//youtu.be/ZFoJYI7Q4iA)
-###Tell The World
+### Eric Hutchinson - Tell The World
 [YouTube](//youtu.be/vZ2_tOoefyU)
-###ランアンドラン
+### KANA-BOON - ランアンドラン
 [YouTube](//youtu.be/JbyQOzRANYs)
-###PERFECT HUMAN(注意点HUMAN)
+### RADIOFISH - PERFECT HUMAN
+注意点HUMAN
 [YouTube](//youtu.be/Y3lKgBlIDLM)
-###さくら体操
+### NIPPON HOSO KYOUKAI - さくら体操
 [YouTube](//youtu.be/pnBnu5v8KTw)
 
 # 2015年
 
 ##'15 Dec-'16 Jan Be Startup Coca-Cola Camp
-###ハピネス(コカ・コーラ 冬期CMソング)
+### AI - ハピネス
+コカ・コーラ 冬期CMソング
 [YouTube](//youtu.be/uKgmu8g-kXE)
 
 ## '15 Xmas Camp
-### 新宝島(映画 バクマン。 主題歌)
+### サカナクション - 新宝島
+映画 バクマン。 主題歌
 [YouTube](//youtu.be/LIlZCmETvsY)
-### ハピネス(コカ・コーラ 冬期CMソング)  
+### AI - ハピネス
+コカ・コーラ 冬期CMソング  
 [YouTube](//youtu.be/uKgmu8g-kXE)
-### Share The Love(Pocky CMソング) 
+### 三代目 J Soul Brothers - Share The Love
+Pocky CMソング
 [YouTube](//youtu.be/mqBQPsEbGDw)
-### ハレ晴レユカイ(涼宮ハルヒの憂鬱 ED)
+### 涼宮ハルヒ(平野綾)/長門有希(茅原実里)/朝比奈みくる(後藤邑子) - ハレ晴レユカイ
+TVアニメ「涼宮ハルヒの憂鬱」エンディングテーマ
 [YouTube](//youtu.be/a6iZKNfDuh4)
 
 ## '15 Summer Camp
-### Come On! Come On! -Happy with Smile-
+### THE UNITED - Come On! Come On! -Happy with Smile-
 [YouTube](//youtu.be/xii1jKIbHH8)
-### Beautiful
+### Superfly - Beautiful
 [YouTube](//youtu.be/tfeSwQ-iU0U)
 
 ## '15 Jun. YOSHIMOTO TECHDAY
@@ -51,7 +60,7 @@
 [YouTube](//youtu.be/1yy4kxA_UVU)
 
 ## '15 ライフ伊豆キャンプ
-### バリバリ最強No.1
+### FEEL SO BAD - バリバリ最強No.1
 [YouTube](//youtu.be/W3r_wFIGjHU)
 
 ## '15 萩1Days
@@ -61,68 +70,76 @@
 ## '15 Spring Camp
 ### 超特急ライン
 [DOVA-SYNDROME](//dova-s.jp/bgm/play2260.html)
-### ひまわりの約束(Stand by Me ドラえもん 主題歌)
+### 秦基博 - ひまわりの約束
+Stand by Me ドラえもん 主題歌
 [YouTube](//youtu.be/eXTo49Qo-9E)
-### Happily
+### One Direction - Happily
 [YouTube](//youtu.be/s28PuyRqLrs)
-### さくら体操
+### NIPPON HOSO KYOUKAI - さくら体操
 [YouTube](//youtu.be/pnBnu5v8KTw)
 
 # 2014年
 
 ## '14 Xmas Camp
-### Dragon Night
-(リンクは英語版)    
+### SEKAI NO OWARI - Dragon Night
 [YouTube](//youtu.be/gsVGf1T2Hfs)
-### I Won't Let You Down
+### OK Go - I Won't Let You Down
 [YouTube](//youtu.be/u1ZB_rGFyeU)
-###ハピネス(コカ・コーラ 冬期CMソング)  
+### AI - ハピネス
+コカ・コーラ 冬期CMソング  
 [YouTube](//youtu.be/uKgmu8g-kXE)
 
 ## '14 Summer Camp
-### ray
+### BUMP OF CHICKEN feat. HATSUNE MIKU - ray
 [YouTube](//youtu.be/yT_ylSCgY6Q)
-### ミラクル
+### miwa - ミラクル
 [YouTube](//youtu.be/TIzNszoG_TA)
 
 ## '14 English Camp
-### Happy
+### Rharrell Williams - Happy
 [YouTube](//youtu.be/y6Sxv-sUYtM)
 
 ## '14 Spring Camp
-### スターラブレイション
+### ケラケラ - スターラブレイション
 [YouTube](//youtu.be/JQowMIY2bOw)
-### 変わらないもの(時をかける少女 挿入歌)    
+### 奥華子 - 変わらないもの
+アニメ映画「時をかける少女」挿入歌    
 [YouTube](//youtu.be/CwOvDQdH2-Q)
 
 # 2013年
-
 ## 13' Xmas Camp
-### 恋するフォーチュンクッキー
+### AKB48 - 恋するフォーチュンクッキー
 [YouTube](//youtu.be/dFf4AgBNR1E)
-###ハピネス(コカ・コーラ 冬期CMソング)  
+### AI - ハピネス
+コカ・コーラ 冬期CMソング  
 [YouTube](//youtu.be/uKgmu8g-kXE)
 
 ## '13 Summer Camp
-### RPG(映画クレヨンしんちゃん バカうまっ!B級グルメサバイバル!! 主題歌) 
+### SEKAI NO OWARI - RPG
+映画「クレヨンしんちゃん バカうまっ!B級グルメサバイバル!!」主題歌
 [YouTube](//youtu.be/Mi9uNu35Gmk)
 
 ## '13 Spring Camp
-### Boom!(九州新幹線 CMソング)
+### Maia Hirasawa -  Boom!
+「JR九州/祝！九州キャンペーン」CMソング
 [YouTube](//youtu.be/N6-0aquSvXk)
-### ODDS&ENDS(初音ミク Project Diva f OP) 
+### ryo(supercell) feat. 初音ミク - ODDS&ENDS
+ゲーム「初音ミク -Project Diva-」テーマソング
 [YouTube](//youtu.be/iOFZKwv_LfA)
 
 # 2012年
 
 ## '12 Xmas Camp
-### ハピネス(コカ・コーラ 冬期CMソング)  
+### AI - ハピネス
+コカ・コーラ 冬期CMソング  
 [YouTube](//youtu.be/uKgmu8g-kXE)
 
 ## '12 Summer Camp
-### 君の知らない物語
+### supercell - 君の知らない物語
+TVアニメ「化物語」エンディングテーマ
 [YouTube](//youtu.be/caF6nJxTejc)
-### Overture of the Summer Wars
+### 松本晃彦 - Overture of the Summer Wars
+アニメ映画「サマーウォーズ」挿入歌
 [ニコニコ動画](//www.nicovideo.jp/watch/sm26665659)
 
 # 番外編
@@ -136,5 +153,5 @@
 [YouTube](//youtu.be/jgofbf8Q_-Y)
 
 ## メンター講習テーマ
-### SUN
+### 星野源 - SUN
 [YouTube](//youtu.be/7gcCRAl58u4)
