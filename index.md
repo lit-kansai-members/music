@@ -24,7 +24,7 @@ TVアニメ「NARUTO -ナルト- 疾風伝」オープニングテーマ
 [YouTube](//youtu.be/JbyQOzRANYs)
 ### RADIOFISH - PERFECT HUMAN
 注意点HUMAN  
-[YouTube](//youtu.be/Y3lKgBlIDLM)
+[YouTube](//youtu.be/4Bh1nm7Ir8c)
 ### NIPPON HOSO KYOUKAI - さくら体操
 [YouTube](//youtu.be/pnBnu5v8KTw)
 
@@ -72,7 +72,7 @@ TVアニメ「涼宮ハルヒの憂鬱」エンディングテーマ
 [DOVA-SYNDROME](//dova-s.jp/bgm/play2260.html)
 ### 秦基博 - ひまわりの約束
 Stand by Me ドラえもん 主題歌  
-[YouTube](//youtu.be/eXTo49Qo-9E)
+[YouTube](//youtu.be/Aw1nqhvHY48)
 ### One Direction - Happily
 [YouTube](//youtu.be/s28PuyRqLrs)
 ### NIPPON HOSO KYOUKAI - さくら体操
@@ -140,7 +140,7 @@ TVアニメ「化物語」エンディングテーマ
 [YouTube](//youtu.be/caF6nJxTejc)
 ### 松本晃彦 - Overture of the Summer Wars
 アニメ映画「サマーウォーズ」挿入歌  
-[ニコニコ動画](//www.nicovideo.jp/watch/sm26665659)
+[YouTube](//youtu.be/1pFIXC3pZlI)
 
 # 番外編
 
