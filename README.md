@@ -6,11 +6,11 @@ PRお待ちしています。情報がある方、是非お願いします。
 
 ## Contribution
 LiT-BGMにおけるContributionのやり方講座
-1. Fork
-2. Edit
-3. Commitをする
-4. Pull Request
-5. ([@KawakawaRitsuki](//github.com/KawakawaRitsuki)に)Marge plz! :)
+1. Fork  
+2. Edit  
+3. Commitをする  
+4. Pull Request  
+5. ([@KawakawaRitsuki](//github.com/KawakawaRitsuki)に)Marge plz! :)  
 
 :warning: WARNING :warning:
 - 以下のフォーマットを使用してください
