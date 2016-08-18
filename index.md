@@ -43,7 +43,7 @@ TVアニメ「NARUTO -ナルト- 疾風伝」オープニングテーマ
 コカ・コーラ 冬期CMソング  
 [YouTube](//youtu.be/uKgmu8g-kXE)
 ### 三代目 J Soul Brothers - Share The Love
-Pocky CMソング
+Pocky CMソング  
 [YouTube](//youtu.be/mqBQPsEbGDw)
 ### 涼宮ハルヒ(平野綾)/長門有希(茅原実里)/朝比奈みくる(後藤邑子) - ハレ晴レユカイ
 TVアニメ「涼宮ハルヒの憂鬱」エンディングテーマ  
