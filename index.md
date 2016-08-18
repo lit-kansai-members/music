@@ -11,7 +11,7 @@ TVアニメ「血界戦線」エンディングテーマ
 ### フジファブリック - Green Bird
 [YouTube](//youtu.be/PcFaBM_3Ucc)
 ### 岡崎体育 - MUSIC VIDEO
-注意点 VIDEO 元曲
+注意点 VIDEO 元曲  
 [YouTube](//youtu.be/fTwAz1JC4yI)
 
 ##'16 Spring Camp
@@ -23,7 +23,7 @@ TVアニメ「NARUTO -ナルト- 疾風伝」オープニングテーマ
 ### KANA-BOON - ランアンドラン
 [YouTube](//youtu.be/JbyQOzRANYs)
 ### RADIOFISH - PERFECT HUMAN
-注意点HUMAN
+注意点HUMAN  
 [YouTube](//youtu.be/Y3lKgBlIDLM)
 ### NIPPON HOSO KYOUKAI - さくら体操
 [YouTube](//youtu.be/pnBnu5v8KTw)
@@ -32,12 +32,12 @@ TVアニメ「NARUTO -ナルト- 疾風伝」オープニングテーマ
 
 ##'15 Dec-'16 Jan Be Startup Coca-Cola Camp
 ### AI - ハピネス
-コカ・コーラ 冬期CMソング
+コカ・コーラ 冬期CMソング  
 [YouTube](//youtu.be/uKgmu8g-kXE)
 
 ## '15 Xmas Camp
 ### サカナクション - 新宝島
-映画 バクマン。 主題歌
+映画 バクマン。 主題歌  
 [YouTube](//youtu.be/LIlZCmETvsY)
 ### AI - ハピネス
 コカ・コーラ 冬期CMソング  
@@ -46,7 +46,7 @@ TVアニメ「NARUTO -ナルト- 疾風伝」オープニングテーマ
 Pocky CMソング
 [YouTube](//youtu.be/mqBQPsEbGDw)
 ### 涼宮ハルヒ(平野綾)/長門有希(茅原実里)/朝比奈みくる(後藤邑子) - ハレ晴レユカイ
-TVアニメ「涼宮ハルヒの憂鬱」エンディングテーマ
+TVアニメ「涼宮ハルヒの憂鬱」エンディングテーマ  
 [YouTube](//youtu.be/a6iZKNfDuh4)
 
 ## '15 Summer Camp
@@ -71,7 +71,7 @@ TVアニメ「涼宮ハルヒの憂鬱」エンディングテーマ
 ### 超特急ライン
 [DOVA-SYNDROME](//dova-s.jp/bgm/play2260.html)
 ### 秦基博 - ひまわりの約束
-Stand by Me ドラえもん 主題歌
+Stand by Me ドラえもん 主題歌  
 [YouTube](//youtu.be/eXTo49Qo-9E)
 ### One Direction - Happily
 [YouTube](//youtu.be/s28PuyRqLrs)
@@ -103,7 +103,7 @@ Stand by Me ドラえもん 主題歌
 ### ケラケラ - スターラブレイション
 [YouTube](//youtu.be/JQowMIY2bOw)
 ### 奥華子 - 変わらないもの
-アニメ映画「時をかける少女」挿入歌    
+アニメ映画「時をかける少女」挿入歌  
 [YouTube](//youtu.be/CwOvDQdH2-Q)
 
 # 2013年
@@ -116,15 +116,15 @@ Stand by Me ドラえもん 主題歌
 
 ## '13 Summer Camp
 ### SEKAI NO OWARI - RPG
-映画「クレヨンしんちゃん バカうまっ!B級グルメサバイバル!!」主題歌
+映画「クレヨンしんちゃん バカうまっ!B級グルメサバイバル!!」主題歌  
 [YouTube](//youtu.be/Mi9uNu35Gmk)
 
 ## '13 Spring Camp
-### Maia Hirasawa -  Boom!
-「JR九州/祝！九州キャンペーン」CMソング
+### Maia Hirasawa - Boom!
+「JR九州/祝！九州キャンペーン」CMソング  
 [YouTube](//youtu.be/N6-0aquSvXk)
 ### ryo(supercell) feat. 初音ミク - ODDS&ENDS
-ゲーム「初音ミク -Project Diva-」テーマソング
+ゲーム「初音ミク -Project Diva-」テーマソング  
 [YouTube](//youtu.be/iOFZKwv_LfA)
 
 # 2012年
@@ -136,10 +136,10 @@ Stand by Me ドラえもん 主題歌
 
 ## '12 Summer Camp
 ### supercell - 君の知らない物語
-TVアニメ「化物語」エンディングテーマ
+TVアニメ「化物語」エンディングテーマ  
 [YouTube](//youtu.be/caF6nJxTejc)
 ### 松本晃彦 - Overture of the Summer Wars
-アニメ映画「サマーウォーズ」挿入歌
+アニメ映画「サマーウォーズ」挿入歌  
 [ニコニコ動画](//www.nicovideo.jp/watch/sm26665659)
 
 # 番外編
