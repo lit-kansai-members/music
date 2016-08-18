@@ -81,7 +81,7 @@ TVアニメ「涼宮ハルヒの憂鬱」エンディングテーマ
 
 ## '15 ライフ伊豆キャンプ
 ### FEEL SO BAD - バリバリ最強No.1
-[YouTube](//youtu.be/W3r_wFIGjHU)
+[YouTube](//youtu.be/W3r_wFIGjHU)  
 [歌詞(J-Lyric)](//j-lyric.net/artist/a01176a/l0011d8.html)  
 
 ## '15 萩1Days
@@ -145,7 +145,7 @@ Stand by Me ドラえもん 主題歌
 [歌詞(J-Lyric.net)](//j-lyric.net/artist/a04cb7c/l02e06a.html)  
 ### AI - ハピネス
 コカ・コーラ 冬期CMソング  
-[YouTube](//youtu.be/uKgmu8g-kXE)
+[YouTube](//youtu.be/uKgmu8g-kXE)  
 [歌詞(J-Lyric.net)](//j-lyric.net/artist/a001bf4/l027392.html)  
 
 ## '13 Summer Camp
@@ -157,7 +157,7 @@ Stand by Me ドラえもん 主題歌
 ## '13 Spring Camp
 ### Maia Hirasawa - Boom!
 「JR九州/祝！九州キャンペーン」CMソング  
-[YouTube](//youtu.be/N6-0aquSvXk)
+[YouTube](//youtu.be/N6-0aquSvXk)  
 [歌詞(J-Lyric.net)](//j-lyric.net/artist/a054d2c/l025022.html)  
 
 ### ryo(supercell) feat. 初音ミク - ODDS&ENDS
@@ -190,7 +190,7 @@ TVアニメ「化物語」エンディングテーマ
 
 ## スクール夏期講習
 ### Base Ball Bear - PERFECT BLUE
-[YouTube](//youtu.be/jgofbf8Q_-Y)
+[YouTube](//youtu.be/jgofbf8Q_-Y)  
 [歌詞(J-Lyric.net)](//j-lyric.net/artist/a04c8a1/l02bdf5.html)  
 
 ## メンター講習テーマ
