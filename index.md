@@ -92,7 +92,7 @@ TVアニメ「涼宮ハルヒの憂鬱」エンディングテーマ
 ### 超特急ライン
 [DOVA-SYNDROME](//dova-s.jp/bgm/play2260.html)  
 ### 秦基博 - ひまわりの約束
-Stand by Me ドラえもん 主題歌  
+STAND BY ME ドラえもん 主題歌  
 [YouTube](//youtu.be/Aw1nqhvHY48)  
 [歌詞(J-Lyric)](http://j-lyric.net/artist/a04c9d1/l032376.html)  
 ### One Direction - Happily
@@ -161,7 +161,7 @@ Stand by Me ドラえもん 主題歌
 [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a054d2c/l025022.html)  
 
 ### ryo(supercell) feat. 初音ミク - ODDS&ENDS
-ゲーム「初音ミク -Project Diva-」テーマソング  
+ゲーム「初音ミク -Project Diva- f」テーマソング  
 [YouTube](//youtu.be/iOFZKwv_LfA)  
 [歌詞(歌ネット)](http://www.uta-net.com/song/134511/)  
 
