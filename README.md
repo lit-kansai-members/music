@@ -10,7 +10,7 @@ LiT-BGMにおけるContributionのやり方講座
 2. Edit  
 3. Commitをする  
 4. Pull Request  
-5. ([@KawakawaRitsuki](//github.com/KawakawaRitsuki)に)Marge plz! :)  
+5. Marge plz! :)  
 
 :warning: WARNING :warning:
 - 以下のフォーマットを使用してください
