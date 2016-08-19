@@ -5,12 +5,13 @@ PRお待ちしています。情報がある方、是非お願いします。
 [通常版](./index.md)
 
 ## Contribution
-LiT-BGMにおけるContributionのやり方講座  
-1. Fork  
-2. Edit  
-3. Commitをする  
-4. Pull Request  
-5. Marge plz! :)  
+LiT-BGMにおけるContributionのやり方講座
+
+1. Fork
+2. Edit
+3. Commitをする
+4. Pull Request
+5. Marge plz! :)
 
 :warning: WARNING :warning:
 - 以下のフォーマットを使用してください
