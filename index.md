@@ -165,6 +165,10 @@ STAND BY ME ドラえもん 主題歌
 [YouTube](//youtu.be/iOFZKwv_LfA)  
 [歌詞(歌ネット)](http://www.uta-net.com/song/134511/)  
 
+### supercell - さよならメモリーズ
+[YouTube](//youtu.be/oneSbqH4lwY)  
+[歌詞(J-Lyric.net)](http://j-lyric.net/artist/a051979/l01e2e0.html)
+
 # 2012年
 
 ## '12 Xmas Camp
