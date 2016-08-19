@@ -30,6 +30,7 @@ LiT-BGMにおけるContributionのやり方講座
 [@ygkn](//github.com/ygkn)（やぎちゃん）    
 [@E235-235](//github.com/E235-235)（かっくん）    
 [@RinYokoi](//github.com/RinYokoi)（りん）    
+[@shoya140](//github.com/shoya140)（しょうさま）    
 
 ## Special Thanks
 いかおじさん（いかさん）
