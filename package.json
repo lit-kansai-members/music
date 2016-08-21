@@ -19,6 +19,8 @@
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.2.4",
     "gulp-markdown": "^1.2.0"
   }
 }
