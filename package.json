@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lit-kansai-members/LiT-BGM/issues"
   },
-  "homepage": "https://github.com/lit-kansai-members/LiT-BGM#readme"
+  "homepage": "https://github.com/lit-kansai-members/LiT-BGM#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
 }
