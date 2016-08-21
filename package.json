@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/lit-kansai-members/LiT-BGM#readme",
   "dependencies": {
+  },
+  "devDependencies": {
     "gulp": "^3.9.1"
   }
 }
