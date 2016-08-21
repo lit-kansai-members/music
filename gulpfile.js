@@ -18,7 +18,6 @@ gulp.task("generate:html", ["markdown"], function(){
 
 gulp.task("markdown", function(){
   gulp.src("./*.md")
-    .pipe($.emojify())
     .pipe($.markdown())
     .pipe(gulp.dest("./tmp"))
 });
