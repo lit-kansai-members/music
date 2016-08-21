@@ -1,0 +1,19 @@
+{
+  "name": "lit-bgm",
+  "version": "1.0.0",
+  "description": "Life is Tech! の音楽",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lit-kansai-members/LiT-BGM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lit-kansai-members/LiT-BGM/issues"
+  },
+  "homepage": "https://github.com/lit-kansai-members/LiT-BGM#readme"
+}
