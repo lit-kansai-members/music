@@ -9,7 +9,7 @@ gulp.task "generate", ["clean","generate:html"]
 gulp.task "generate:html", ["markdown"], ->
   gulp.src [
     './src/html/header.html'
-    './tmp/*.html'
+    './tmp/index.html'
     './src/html/footer.html'
   ]
     .pipe $.concat "index.html"
