@@ -2,8 +2,9 @@
 
 gulp    =    require "gulp"
 $       = do require "gulp-load-plugins"
+del     =    require "del"
 
-gulp.task "generate", ["generate:html"]
+gulp.task "generate", ["clean","generate:html"]
 
 gulp.task "generate:html", ["markdown"], ->
   gulp.src [
@@ -19,3 +20,6 @@ gulp.task "markdown", ->
   gulp.src "./*.md"
     .pipe do $.markdown
     .pipe gulp.dest "./tmp"
+
+gulp.task "clean", ->
+  del.sync "docs/*"
