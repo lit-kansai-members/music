@@ -13,7 +13,7 @@ gulp.task("generate:html", ["markdown"], function(){
     './src/html/footer.html'
   ])
     .pipe($.concat("index.html"))
-    .pipe(gulp.dest("./doc"));
+    .pipe(gulp.dest("./docs"));
 });
 
 gulp.task("markdown", function(){
