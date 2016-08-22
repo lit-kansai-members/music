@@ -19,6 +19,7 @@
   "dependencies": {},
   "devDependencies": {
     "coffee-script": "^1.10.0",
+    "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-load-plugins": "^1.2.4",
