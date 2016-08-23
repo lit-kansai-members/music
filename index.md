@@ -19,7 +19,7 @@ TVアニメ「血界戦線」エンディングテーマ
 [YouTube](//youtu.be/fTwAz1JC4yI)  
 [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b49f/l03a993.html)  
 
-##'16 Spring Camp
+## '16 Spring Camp
 ### KANA-BOON - シルエット
 TVアニメ「NARUTO -ナルト- 疾風伝」オープニングテーマ  
 [YouTube](//youtu.be/ZFoJYI7Q4iA)  
@@ -41,7 +41,7 @@ TVアニメ「NARUTO -ナルト- 疾風伝」オープニングテーマ
 
 # 2015年
 
-##'15 Dec-'16 Jan Be Startup Coca-Cola Camp
+## '15 Dec-'16 Jan Be Startup Coca-Cola Camp
 ### AI - ハピネス
 コカ・コーラ 冬期CMソング  
 [YouTube](//youtu.be/uKgmu8g-kXE)  
@@ -69,7 +69,7 @@ TVアニメ「涼宮ハルヒの憂鬱」エンディングテーマ
 注意点体操  
 [YouTube](//youtu.be/G0zRBRUQils)  
 [注意点体操歌詞](./注意点体操 Xmas2015.txt)  
-[歌詞(J-Lyric.net)](http://utaten.com/lyric/COWCOW/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E4%BD%93%E6%93%8D(%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3)/) 
+[歌詞(J-Lyric.net)](http://utaten.com/lyric/COWCOW/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E4%BD%93%E6%93%8D%28%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%29/) 
 
 ## '15 Summer Camp
 ### THE UNITED - Come On! Come On! -Happy with Smile-
@@ -81,7 +81,7 @@ TVアニメ「涼宮ハルヒの憂鬱」エンディングテーマ
 ### COWCOW - あたりまえ体操
 注意点体操  
 [YouTube](//youtu.be/G0zRBRUQils)  
-[歌詞(J-Lyric.net)](http://utaten.com/lyric/COWCOW/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E4%BD%93%E6%93%8D(%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3)/) 
+[歌詞(J-Lyric.net)](http://utaten.com/lyric/COWCOW/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E4%BD%93%E6%93%8D%28%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%29/) 
 
 ## '15 Jun. YOSHIMOTO TECHDAY
 ### LAUGH! LAUGH! LAUGH!
