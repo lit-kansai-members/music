@@ -24,6 +24,7 @@ LiT-BGMにおけるContributionのやり方講座
 ```
 - メンバーがかけていた曲はこのリポジトリのBGMには **含まれません**
 - なるべくリンクはYouTubeにしてください。
+- YouTubeは `[YouTube](//youtu.be/{動画ID})` の形式以外は埋め込めません。
 
 ## Contributors
 [@KawakawaRitsuki](//github.com/KawakawaRitsuki)（ごっちゃん！！）   
@@ -35,3 +36,10 @@ LiT-BGMにおけるContributionのやり方講座
 
 ## Special Thanks
 いかおじさん（いかさん）
+
+## 最後に
+質問等があれば[@KawakawaRitsuki](//twitter.com/KawakawaRitsuki)まで連絡をいただけると幸いです。    
+一応このまとめを始めたっぽい人です。いつの間にか共同リポジトリになってますが笑    
+Githubの使い方が分からない方は、私にキャンプ情報と曲名をリプ飛ばしてもらえば検討/追加しますのでお気軽にどうぞ。    
+    
+ベイベー！
