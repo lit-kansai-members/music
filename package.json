@@ -21,8 +21,10 @@
     "coffee-script": "^1.10.0",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.2",
     "gulp-concat": "^2.6.0",
     "gulp-load-plugins": "^1.2.4",
-    "gulp-markdown": "^1.2.0"
+    "gulp-markdown": "^1.2.0",
+    "gulp-sass": "^2.3.2"
   }
 }
