@@ -42,5 +42,5 @@ $(window).on "load", ->
         .appendTo $bg
   
   $("#main h2, #main h3").each bg
-  do bg
+  bg.call $("footer")[0]
 
