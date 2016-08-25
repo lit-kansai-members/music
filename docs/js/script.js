@@ -1,28 +1,35 @@
 (function() {
-  var background;
+  var backgrounds;
 
-  background = ["https://life-is-tech.com/materials/images/desktop_summer2016_blue.png", "https://life-is-tech.com/materials/images/desktop_spring2016_web.png", "", "https://life-is-tech.com/materials/images/desktop_xmas2015_night.jpg", "https://life-is-tech.com/materials/images/summer2015-blue.jpg", "", "", "", "https://life-is-tech.com/materials/images/spring2015-blue.png", "", "https://life-is-tech.com/materials/images/summer2014-blue.png", "", "", "", "", "", "", ""];
+  backgrounds = ["https://life-is-tech.com/materials/images/desktop_summer2016_blue.png", "https://life-is-tech.com/materials/images/desktop_spring2016_web.png", "", "https://life-is-tech.com/materials/images/desktop_xmas2015_night.jpg", "https://life-is-tech.com/materials/images/summer2015-blue.jpg", "", "", "", "https://life-is-tech.com/materials/images/spring2015-blue.png", "", "https://life-is-tech.com/materials/images/summer2014-blue.png", "", "", "", "", "", "", ""];
 
-  $(window).on("load", function() {
-    var $bg, $preHeading, bg, campCount;
+  $(function() {
+    var $bg, bg, campCount, preHeadingOffset, preHeadingTagName;
     campCount = 0;
-    $bg = $("#background");
-    $preHeading = null;
+    $bg = $("#bg");
+    preHeadingOffset = null;
+    preHeadingTagName = null;
     bg = function() {
-      var $heading, css, ref;
-      $heading = $(this);
-      if ($preHeading != null) {
+      var css, headingOffset, noimage;
+      headingOffset = $(this).offset().top;
+      if (preHeadingOffset != null) {
         css = {};
-        if ($preHeading.prop("tagName") === "H3") {
-          css.backgroundImage = "url(" + ((ref = backgrounds[campCount]) != null ? ref : "https://life-is-tech.com/materials/images/lifeistech-logo.png") + ")";
+        if (preHeadingTagName === "H3") {
+          if (backgrounds[campCount]) {
+            css.backgroundImage = "url(" + backgrounds[campCount] + ")";
+          } else {
+            noimage = "noimage";
+          }
           campCount++;
         }
-        css.height = $heading.offset() - $preHeading.offset();
-        return $("<div>").css(css).appendTo($bg);
+        css.height = headingOffset - preHeadingOffset;
+        $("<div>").css(css).appendTo($bg).addClass(noimage);
       }
+      preHeadingOffset = headingOffset;
+      return preHeadingTagName = this.tagName;
     };
     $("#main h2, #main h3").each(bg);
-    return bg();
+    return bg.call($("footer")[0]);
   });
 
 }).call(this);
