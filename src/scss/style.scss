@@ -1,0 +1,122 @@
+$Red: #e63c35;
+$Yellow: #fac700;
+$Green: #67b62d;
+$Blue: #009bdb;
+$Orange: #ff8b22;
+$Purple: #bb39ff;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+body{
+  overflow: hidden;
+}
+
+#loading{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+body.loaded{
+  overflow: auto;
+  #loading{
+    display: none;
+  }
+}
+
+header{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  h1{
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20px);
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    line-height: 40px;
+    img{
+      height: 40px;
+    }
+  }
+}
+
+#conatiner{
+  position: relative;
+}
+
+#bg{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  div{
+    width: 100%;
+    background: #fff center center/cover no-repeat fixed;
+    &.noimage{
+      background-image: url(https://life-is-tech.com/materials/images/lifeistech-logo.png);
+      background-size: 100% auto;
+    }
+  }
+}
+
+#main{
+  padding: 0 20px;
+  background-color: rgba(255, 255, 255, .5);
+  position: absolute;
+  width: 600px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  .youtube {
+  	position: relative;
+  	padding-bottom: 56.25%;
+  	padding-top: 30px;
+  	height: 0;
+  	overflow: hidden;
+  }
+  
+  .youtube iframe{
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+}
+}
+
+.colorful span:nth-child(6n+1){
+  color:#FF4C4C
+}
+.colorful span:nth-child(6n+2){
+  color:#0085FF
+}
+.colorful span:nth-child(6n+3){
+  color:#7DC600
+}
+.colorful span:nth-child(6n+4){
+  color:#FAC800
+}
+.colorful span:nth-child(6n+5){
+  color:#FF8B00
+}
+.colorful span:nth-child(6n){
+  color:#a278ff
+}

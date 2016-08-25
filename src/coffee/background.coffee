@@ -1,4 +1,4 @@
-background = [
+backgrounds = [
   "https://life-is-tech.com/materials/images/desktop_summer2016_blue.png" # '16 Summer
   "https://life-is-tech.com/materials/images/desktop_spring2016_web.png"  # '16 Spring
   ""                                                                      # '15 Coca-Cola
@@ -19,27 +19,34 @@ background = [
   ""                                                                      # '12 Summer
 ]
 
-$(window).on "load", ->
+$ ->
   campCount   = 0
-  $bg         = $ "#background"
-  $preHeading = null
+  $bg         = $ "#bg"
+  preHeadingOffset = null
+  preHeadingTagName = null
 
   bg = ->
-    $heading = $ this
+    headingOffset = $(this).offset().top
     
-    if $preHeading?
+    if preHeadingOffset?
       css = {}
 
-      if $preHeading.prop("tagName") is "H3"
-        css.backgroundImage = "url(#{backgrounds[campCount] ?
-          "https://life-is-tech.com/materials/images/lifeistech-logo.png"})"
+      if preHeadingTagName is "H3"
+        if backgrounds[campCount]
+          css.backgroundImage = "url(#{backgrounds[campCount]})"
+        else
+          noimage = "noimage"
         campCount++
 
-      css.height = do $heading.offset - do $preHeading.offset
+      css.height = headingOffset - preHeadingOffset
 
       $ "<div>"
         .css css
         .appendTo $bg
+        .addClass noimage
+        
+    preHeadingOffset  = headingOffset
+    preHeadingTagName = this.tagName
   
   $("#main h2, #main h3").each bg
   bg.call $("footer")[0]
