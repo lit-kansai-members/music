@@ -102,21 +102,23 @@ header{
 }
 }
 
-.colorful span:nth-child(6n+1){
-  color:#FF4C4C
-}
-.colorful span:nth-child(6n+2){
-  color:#0085FF
-}
-.colorful span:nth-child(6n+3){
-  color:#7DC600
-}
-.colorful span:nth-child(6n+4){
-  color:#FAC800
-}
-.colorful span:nth-child(6n+5){
-  color:#FF8B00
-}
-.colorful span:nth-child(6n){
-  color:#a278ff
+.colorful, h2{
+  span:nth-child(6n+1){
+    color:#FF4C4C
+  }
+  span:nth-child(6n+2){
+    color:#0085FF
+  }
+  span:nth-child(6n+3){
+    color:#7DC600
+  }
+  span:nth-child(6n+4){
+    color:#FAC800
+  }
+  span:nth-child(6n+5){
+    color:#FF8B00
+  }
+  span:nth-child(6n){
+    color:#a278ff
+  }
 }
