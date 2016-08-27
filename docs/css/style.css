@@ -60,11 +60,8 @@ header {
 #main {
   padding: 0 20px;
   background-color: rgba(255, 255, 255, 0.5);
-  position: absolute;
   width: 600px;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 0; }
+  margin: 0 auto; }
   #main .youtube {
     position: relative;
     padding-bottom: 56.25%;
