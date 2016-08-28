@@ -4,7 +4,8 @@
   "description": "Life is Tech! の音楽",
   "main": "README.md",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp generate:development",
+    "start": "gulp generate"
   },
   "repository": {
     "type": "git",
