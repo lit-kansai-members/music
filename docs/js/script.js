@@ -33,3 +33,10 @@
   });
 
 }).call(this);
+
+(function() {
+  $(".colorful, h2").each(function() {
+    return this.innerHTML = this.innerText.replace(/./g, "<span>$&</span>");
+  });
+
+}).call(this);
