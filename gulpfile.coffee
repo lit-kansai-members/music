@@ -1,8 +1,9 @@
 "use strict"
 
-gulp    =    require "gulp"
-$       = do require "gulp-load-plugins"
-del     =    require "del"
+gulp        =    require "gulp"
+$           = do require "gulp-load-plugins"
+del         =    require "del"
+browserSync =    require "browser-sync"
 
 gulp.task "generate", ["clean","generate:html", "generate:coffee", "generate:scss"]
 
@@ -42,3 +43,18 @@ gulp.task "youtube", ->
 
 gulp.task "clean", ->
   del.sync "docs/*"
+
+
+gulp.task "reload", ->
+  do browserSync.reload
+
+gulp.task "generate:development", ["generate"], ->
+  browserSync
+    server:
+      baseDir: "docs"
+    port: 8082
+  
+  gulp.watch "docs/**/*", "reload"
+  gulp.watch ["./*.md", "./src/html/*.html"], "generate:html"
+  gulp.watch "./src/coffee*.coffee", "generate:coffee"
+  gulp.watch "./src/scss/*.scss", "generate:scss"
