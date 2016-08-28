@@ -4,6 +4,14 @@ gulp        =    require "gulp"
 $           = do require "gulp-load-plugins"
 del         =    require "del"
 browserSync =    require "browser-sync"
+minimist    =    require "minimist"
+
+argv = minimist process.argv.slice(2),
+  alias:
+    n: "noyoutube"
+  boolean: "noyoutube"
+  default:
+    noyoutube: false
 
 gulp.task "generate", ["clean","generate:html", "generate:coffee", "generate:scss"]
 
@@ -34,11 +42,13 @@ gulp.task "markdown", ["youtube"], ->
     .pipe gulp.dest "./tmp"
 
 gulp.task "youtube", ->
+  iframe = if argv.noyoutube then "" else '<iframe src="https://www.youtube.com/embed/$1"
+      frameborder="0" allowfullscreen></iframe>'
   gulp.src "./*.md"
     .pipe $.replace /\[YouTube\]\(\/\/youtu\.be\/([\w-]+)\)/g,
-      '\n<div class="youtube">
-      <iframe src="https://www.youtube.com/embed/$1" frameborder="0" allowfullscreen></iframe>
-      </div>\n'
+      '\n<div class="youtube">' +
+      iframe +
+      '</div>\n'
     .pipe gulp.dest "./tmp"
 
 gulp.task "clean", ->
