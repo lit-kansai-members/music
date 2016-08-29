@@ -76,6 +76,20 @@ header {
     width: 100%;
     height: 100%; }
 
+footer {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+  footer div {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%); }
+
+#thanks {
+  font-size: 3em; }
+
 .colorful span:nth-child(6n+1), h2 span:nth-child(6n+1) {
   color: #FF4C4C; }
 
