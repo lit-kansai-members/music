@@ -19,35 +19,34 @@ backgrounds = [
   ""                                                                      # '12 Summer
 ]
 
-$ ->
-  campCount   = 0
-  $bg         = $ "#bg"
-  preHeadingOffset = null
-  preHeadingTagName = null
+campCount   = 0
+$bg         = $ "#bg"
+preHeadingOffset = null
+preHeadingTagName = null
 
-  bg = ->
-    headingOffset = $(this).offset().top
-    
-    if preHeadingOffset?
-      css = {}
-
-      if preHeadingTagName is "H3"
-        if backgrounds[campCount]
-          css.backgroundImage = "url(#{backgrounds[campCount]})"
-        else
-          noimage = "noimage"
-        campCount++
-
-      css.height = headingOffset - preHeadingOffset
-
-      $ "<div>"
-        .css css
-        .appendTo $bg
-        .addClass noimage
-        
-    preHeadingOffset  = headingOffset
-    preHeadingTagName = this.tagName
+bg = ->
+  headingOffset = $(this).offset().top
   
-  $("#main h2, #main h3").each bg
-  bg.call $("footer")[0]
+  if preHeadingOffset?
+    css = {}
+
+    if preHeadingTagName is "H3"
+      if backgrounds[campCount]
+        css.backgroundImage = "url(#{backgrounds[campCount]})"
+      else
+        noimage = "noimage"
+      campCount++
+
+    css.height = headingOffset - preHeadingOffset
+
+    $ "<div>"
+      .css css
+      .appendTo $bg
+      .addClass noimage
+      
+  preHeadingOffset  = headingOffset
+  preHeadingTagName = this.tagName
+
+$("#main h2, #main h3").each bg
+bg.call $("footer")[0]
 
