@@ -1,39 +1,33 @@
 (function() {
-  var $bg, backgrounds, bg, campCount, preHeadingOffset, preHeadingTagName;
+  var $bg, backgrounds, bg, campCount, html, preH3Bottom;
 
   backgrounds = ["https://life-is-tech.com/materials/images/desktop_summer2016_blue.png", "https://life-is-tech.com/materials/images/desktop_spring2016_web.png", "", "https://life-is-tech.com/materials/images/desktop_xmas2015_night.jpg", "https://life-is-tech.com/materials/images/summer2015-blue.jpg", "", "", "", "https://life-is-tech.com/materials/images/spring2015-blue.png", "", "https://life-is-tech.com/materials/images/summer2014-blue.png", "", "", "", "", "", "", ""];
 
   campCount = 0;
 
-  $bg = $("#bg");
+  $bg = document.getElementById("bg");
 
-  preHeadingOffset = null;
+  preH3Bottom = null;
 
-  preHeadingTagName = null;
+  html = "";
 
   bg = function() {
-    var css, headingOffset, noimage;
-    headingOffset = $(this).offset().top;
-    if (preHeadingOffset != null) {
-      css = {};
-      if (preHeadingTagName === "H3") {
-        if (backgrounds[campCount]) {
-          css.backgroundImage = "url(" + backgrounds[campCount] + ")";
-        } else {
-          noimage = "noimage";
-        }
-        campCount++;
-      }
-      css.height = headingOffset - preHeadingOffset;
-      $("<div>").css(css).appendTo($bg).addClass(noimage);
+    var $this, background, headingOffset;
+    $this = $(this);
+    headingOffset = $this.position().top;
+    if (preH3Bottom != null) {
+      background = backgrounds[campCount];
+      html += "<div class='" + (!background ? "noimage" : "") + "' style='" + (background ? "background-image: url(" + background + ");" : "") + " height: " + (headingOffset - preH3Bottom) + "px; top: " + preH3Bottom + "px'></div>";
+      campCount++;
     }
-    preHeadingOffset = headingOffset;
-    return preHeadingTagName = this.tagName;
+    return preH3Bottom = this.tagName === "H3" ? headingOffset + $this.outerHeight(true) : void 0;
   };
 
   $("#main h2, #main h3").each(bg);
 
   bg.call($("footer")[0]);
+
+  $bg.innerHTML = html;
 
 }).call(this);
 

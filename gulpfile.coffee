@@ -42,9 +42,9 @@ gulp.task "markdown", ["youtube"], ->
 gulp.task "youtube", ->
   gulp.src "./*.md"
     .pipe $.replace /\[YouTube\]\(\/\/youtu\.be\/([\w-]+)\)/g,
-      '\n<div class="youtube">' +
+      '\n<div class="youtube">\n' +
       iframe +
-      '\n</div>'
+      '\n</div>\n'
     .pipe gulp.dest "./tmp"
 
 gulp.task "clean", -> del "docs/*"

@@ -20,33 +20,28 @@ backgrounds = [
 ]
 
 campCount   = 0
-$bg         = $ "#bg"
-preHeadingOffset = null
-preHeadingTagName = null
+$bg         = document.getElementById "bg"
+preH3Bottom = null
+html        = ""
 
 bg = ->
-  headingOffset = $(this).offset().top
+  $this = $ this
+  headingOffset = $this.position().top
   
-  if preHeadingOffset?
-    css = {}
+  if preH3Bottom?
+    background = backgrounds[campCount]
+    html += "<div class='#{
+      unless background then "noimage" else ""
+    }' style='#{
+      if background then "background-image: url(#{background});" else ""
+    }
+    height: #{headingOffset - preH3Bottom}px;
+    top: #{preH3Bottom}px'></div>"
+    campCount++
 
-    if preHeadingTagName is "H3"
-      if backgrounds[campCount]
-        css.backgroundImage = "url(#{backgrounds[campCount]})"
-      else
-        noimage = "noimage"
-      campCount++
-
-    css.height = headingOffset - preHeadingOffset
-
-    $ "<div>"
-      .css css
-      .appendTo $bg
-      .addClass noimage
-      
-  preHeadingOffset  = headingOffset
-  preHeadingTagName = this.tagName
+  preH3Bottom = if this.tagName is "H3" then headingOffset +  $this.outerHeight true
 
 $("#main h2, #main h3").each bg
 bg.call $("footer")[0]
 
+$bg.innerHTML = html
