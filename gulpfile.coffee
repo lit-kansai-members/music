@@ -1,17 +1,15 @@
 "use strict"
+iframe = if process.argv.indexOf("--noyoutube") is -1 and
+process.argv.indexOf("-n") is -1
+    '<iframe src="https://www.youtube.com/embed/$1"
+    frameborder="0" allowfullscreen></iframe>'
+  else
+    ""
 
 gulp        =    require "gulp"
 $           = do require "gulp-load-plugins"
 del         =    require "del"
 browserSync =    require "browser-sync"
-minimist    =    require "minimist"
-
-argv = minimist process.argv.slice(2),
-  alias:
-    n: "noyoutube"
-  boolean: "noyoutube"
-  default:
-    noyoutube: false
 
 gulp.task "generate", ["clean","generate:html", "generate:coffee", "generate:scss"]
 
@@ -42,21 +40,14 @@ gulp.task "markdown", ["youtube"], ->
     .pipe gulp.dest "./tmp"
 
 gulp.task "youtube", ->
-  iframe = if argv.noyoutube then "" else '<iframe src="https://www.youtube.com/embed/$1"
-      frameborder="0" allowfullscreen></iframe>'
   gulp.src "./*.md"
     .pipe $.replace /\[YouTube\]\(\/\/youtu\.be\/([\w-]+)\)/g,
       '\n<div class="youtube">' +
       iframe +
-      '</div>\n'
+      '\n</div>'
     .pipe gulp.dest "./tmp"
 
-gulp.task "clean", ->
-  del.sync "docs/*"
-
-
-gulp.task "reload", ->
-  do browserSync.reload
+gulp.task "clean", -> del "docs/*"
 
 gulp.task "generate:development", ["generate"], ->
   browserSync
@@ -64,7 +55,7 @@ gulp.task "generate:development", ["generate"], ->
       baseDir: "docs"
     port: 8082
   
-  gulp.watch "docs/**/*", "reload"
-  gulp.watch ["./*.md", "./src/html/*.html"], "generate:html"
-  gulp.watch "./src/coffee*.coffee", "generate:coffee"
-  gulp.watch "./src/scss/*.scss", "generate:scss"
+  gulp.watch "docs/**/*", -> do browserSync.reload
+  gulp.watch ["./*.md", "./src/html/*.html"], ["generate:html"]
+  gulp.watch "./src/coffee*.coffee", ["generate:coffee"]
+  gulp.watch "./src/scss/*.scss", ["generate:scss"]
