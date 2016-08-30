@@ -10,8 +10,9 @@ gulp        =    require "gulp"
 $           = do require "gulp-load-plugins"
 del         =    require "del"
 browserSync =    require "browser-sync"
+fs          =    require "fs"
 
-gulp.task "generate", ["clean","generate:html", "generate:coffee", "generate:scss"]
+gulp.task "generate", ["clean","generate:html", "generate:coffee", "generate:scss", "backgrounds"]
 
 gulp.task "generate:html", ["markdown"], ->
   gulp.src [
@@ -46,6 +47,16 @@ gulp.task "youtube", ->
       iframe +
       '\n</div>\n'
     .pipe gulp.dest "./tmp"
+
+gulp.task "backgrounds", ->
+  fs.readFile "./res/backgrounds.txt", (err, data) ->
+    fs.writeFile "./docs/backgrounds.json",
+      JSON.stringify(
+        data.toString()
+          .replace /#.*/g, ""
+          .replace /[ \t]/g, ""
+          .split "\n"
+      )
 
 gulp.task "clean", -> del "docs/*"
 
