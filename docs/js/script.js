@@ -55,7 +55,7 @@
       $mark.animate({
         left: markLeft,
         transform: "translateX(0)"
-      }, "slow", function() {
+      }, 1000, function() {
         return $mark.css({
           left: "auto"
         });
@@ -63,11 +63,11 @@
       return $("#logo").animate({
         transform: "translateX(0)",
         opacity: 1
-      }, "slow");
+      }, 1000);
     }).then(function() {
       return $("h1 > span").animate({
         opacity: 1
-      }, "slow");
+      }, 1000);
     }).then(function() {
       return setTimeout(function() {
         $("body").css({
