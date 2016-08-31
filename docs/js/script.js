@@ -37,7 +37,9 @@
 }).call(this);
 
 (function() {
-  var $mark, markLeft;
+  var $mark, $scroller, markLeft;
+
+  $scroller = $("header > a");
 
   $mark = $("#mark");
 
@@ -63,10 +65,29 @@
         opacity: 1
       }, "slow");
     }).then(function() {
-      return $("body").css({
-        overflow: "auto"
-      });
+      return setTimeout(function() {
+        $("body").css({
+          overflow: "auto"
+        });
+        $scroller.css({
+          display: "block"
+        });
+        return setInterval(function() {
+          return $scroller.toggleClass("show");
+        }, 1000);
+      }, 0);
     });
+  });
+
+}).call(this);
+
+(function() {
+  $("a[href^='#']").on("click", function() {
+    var target;
+    target = $(this).attr("href");
+    return $('body, html').animate({
+      scrollTop: target === "#" ? 0 : $(target).offset().top
+    }, 1000, target === "#main" ? 'easeOutBack' : "swing");
   });
 
 }).call(this);

@@ -1,3 +1,4 @@
+$scroller = $ "header > a"
 $mark = $ "#mark"
 markLeft = $mark.position().left
 $mark.css left: "50%" ,transform: "translateX(-50%)"
@@ -11,4 +12,11 @@ $(window).on "load", ->
     .then ->
       $("h1 > span").animate
         opacity: 1, "slow"
-    .then -> $("body").css overflow: "auto"
+    .then ->
+      setTimeout ->
+        $("body").css overflow: "auto"
+        $scroller.css display: "block"
+        setInterval ->
+          $scroller.toggleClass "show"
+        ,1000
+      ,0

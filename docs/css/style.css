@@ -50,6 +50,23 @@ header {
       opacity: 0; }
     header h1 > span {
       opacity: 0; }
+  header a[href="#main"] {
+    transition: .3s;
+    display: none;
+    left: 50%;
+    color: #000;
+    text-decoration: none;
+    opacity: 0;
+    position: absolute;
+    bottom: 25%;
+    transform: translate(-50%, 50%);
+    text-align: center; }
+    header a[href="#main"] img {
+      height: 1em; }
+    header a[href="#main"].show {
+      opacity: .5; }
+    header a[href="#main"]:hover {
+      opacity: .25; }
 
 #conatiner {
   position: relative; }
