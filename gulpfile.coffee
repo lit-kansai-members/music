@@ -12,7 +12,8 @@ del         =    require "del"
 browserSync =    require "browser-sync"
 fs          =    require "fs"
 
-gulp.task "generate", ["clean","generate:html", "generate:coffee", "generate:scss", "backgrounds"]
+gulp.task "generate", ["clean","generate:html", "generate:coffee",
+  "generate:scss", "backgrounds", "images"]
 
 gulp.task "generate:html", ["markdown"], ->
   gulp.src [
@@ -57,6 +58,10 @@ gulp.task "backgrounds", ->
           .replace /[ \t]/g, ""
           .split "\n"
       )
+
+gulp.task "images", ->
+  gulp.src "res/img/*"
+    .pipe gulp.dest "docs/img/"
 
 gulp.task "clean", -> del "docs/*"
 
