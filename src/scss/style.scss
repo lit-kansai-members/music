@@ -39,10 +39,6 @@ body{
   }
 }
 
-body.loaded{
-  overflow: auto;
-}
-
 header{
   width: 100%;
   height: 100%;
@@ -63,14 +59,12 @@ header{
     }
     #mark{
       position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
     }
     #logo{
       transform: translateX(-100%);
       opacity: 0;
     }
-    span{
+    > span{
       opacity: 0;
     }
   }
