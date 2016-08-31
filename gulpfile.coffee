@@ -73,5 +73,5 @@ gulp.task "generate:development", ["generate"], ->
   
   gulp.watch "docs/**/*", -> do browserSync.reload
   gulp.watch ["./*.md", "./src/html/*.html"], ["generate:html"]
-  gulp.watch "./src/coffee*.coffee", ["generate:coffee"]
+  gulp.watch "./src/coffee/*.coffee", ["generate:coffee"]
   gulp.watch "./src/scss/*.scss", ["generate:scss"]
