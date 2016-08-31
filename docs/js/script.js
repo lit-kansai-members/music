@@ -55,7 +55,11 @@
       $mark.animate({
         left: markLeft,
         transform: "translateX(0)"
-      }, "slow");
+      }, "slow", function() {
+        return $mark.css({
+          left: "auto"
+        });
+      });
       return $("#logo").animate({
         transform: "translateX(0)",
         opacity: 1

@@ -7,7 +7,8 @@ $(window).on "load", ->
   $("#loading").fadeOut "fast"
     .promise()
     .then ->
-      $mark.animate left: markLeft, transform: "translateX(0)", "slow"
+      $mark.animate left: markLeft, transform: "translateX(0)", "slow", ->
+        $mark.css left: "auto"
       $("#logo").animate transform: "translateX(0)", opacity: 1, "slow"
     .then ->
       $("h1 > span").animate
