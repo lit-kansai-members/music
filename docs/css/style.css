@@ -3,7 +3,8 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
-  position: relative; }
+  position: relative;
+  background: #fff; }
 
 body {
   overflow: hidden; }
@@ -118,6 +119,24 @@ footer {
 
 #thanks {
   font-size: 3em; }
+
+a:hover, a:focus {
+  color: #FF4C4C; }
+
+a:hover {
+  cursor: pointer; }
+
+a {
+  -webkit-transition: all .25s ease-out;
+  -moz-transition: all .25s ease-out;
+  -ms-transition: all .25s ease-out;
+  -o-transition: all .25s ease-out;
+  transition: all .25s ease-out; }
+
+a {
+  color: #008CBA;
+  text-decoration: none;
+  line-height: inherit; }
 
 .colorful span:nth-child(6n+1), h2 span:nth-child(6n+1) {
   color: #FF4C4C; }
