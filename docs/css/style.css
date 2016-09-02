@@ -109,7 +109,8 @@ header {
 footer {
   height: 100%;
   width: 100%;
-  position: relative; }
+  position: relative;
+  background: #fff; }
   footer div {
     width: 100%;
     position: absolute;
