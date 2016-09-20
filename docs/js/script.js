@@ -30,6 +30,26 @@
 }).call(this);
 
 (function() {
+  var $body;
+
+  $body = $("body");
+
+  $("a[href^=注意点]").each(function() {
+    var fileName, href;
+    href = this.getAttribute("href");
+    fileName = href.split("/").pop().split(".").shift();
+    return $.get("https://raw.githubusercontent.com/lit-kansai-members/music/master/" + href, (function(_this) {
+      return function(data) {
+        _this.href = "#" + fileName;
+        console.log(_this);
+        return $body.prepend("<div class=\"chuiten\" id=\"" + fileName + "\">" + (data.replace(/\n/g, "<br>\n")) + "</div>");
+      };
+    })(this));
+  });
+
+}).call(this);
+
+(function() {
   $(".colorful, h2").each(function() {
     return this.innerHTML = this.innerText.replace(/./g, "<span>$&</span>");
   });

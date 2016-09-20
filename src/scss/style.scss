@@ -211,6 +211,41 @@ a {
 	line-height: inherit;
 }
 
+.chuiten{
+  display: none;
+  box-sizing: border-box;
+  overflow: auto;
+  position: fixed;
+  top: 30px;
+  left: 0;
+  right: 0;
+  height: calc(100vh - 60px);
+  width: 500px;
+  margin: 0 auto;
+  border: solid 2em #fff;
+  border-radius: 2em;
+  background: #fff;
+  z-index: 3;
+}
+
+#modal-overlay{
+  background: rgba(0,0,0,.5);
+  height: 100%;
+  width: 100%;
+  display: none;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.chuiten:target{
+  display: block;
+  ~ #modal-overlay{
+    display: block;
+  }
+}
+
 .colorful, h2{
   span:nth-child(6n+1){
     color:#FF4C4C
