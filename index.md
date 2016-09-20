@@ -17,6 +17,7 @@ TVアニメ「血界戦線」エンディングテーマ
 #### 岡崎体育 - MUSIC VIDEO
 注意点 VIDEO 元曲  
 [YouTube](//youtu.be/fTwAz1JC4yI)  
+[注意点VIDEO歌詞](注意点/注意点VIDEO.txt)  
 [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b49f/l03a993.html)  
 
 ### '16 Spring Camp
