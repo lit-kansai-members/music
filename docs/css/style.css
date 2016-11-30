@@ -98,7 +98,8 @@ header {
     padding-bottom: 56.25%;
     padding-top: 30px;
     height: 0;
-    overflow: hidden; }
+    overflow: hidden;
+    background: #000; }
   #main .youtube iframe {
     position: absolute;
     top: 0;

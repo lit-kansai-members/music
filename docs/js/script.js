@@ -41,7 +41,6 @@
     return $.get("https://raw.githubusercontent.com/lit-kansai-members/music/master/" + href, (function(_this) {
       return function(data) {
         _this.href = "#" + fileName;
-        console.log(_this);
         return $body.prepend("<div class=\"chuiten\" id=\"" + fileName + "\">" + (data.replace(/\n/g, "<br>\n")) + "</div>");
       };
     })(this));
