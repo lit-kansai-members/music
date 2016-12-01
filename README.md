@@ -1,4 +1,5 @@
 # Life is Tech! BGM
+[![Build Status](https://travis-ci.org/lit-kansai-members/music.svg?branch=master)](https://travis-ci.org/lit-kansai-members/music)
 Life is Tech!で使われているBGMのまとめのリポジトリです。    
 PRお待ちしています。情報がある方、是非お願いします。    
 
