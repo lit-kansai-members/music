@@ -17,4 +17,4 @@ after_success:
   - git add docs -f
   - git commit -m '[bot] Automatic generation of html'
   - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && echo "OK :)"'
-  - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && git push --quiet "https://${GH_TOKEN}@github.com/lit-kansai-members/music.git" master:master 2> /dev/null'
+  - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && git push -f --quiet "https://${GH_TOKEN}@github.com/lit-kansai-members/music.git" master:master 2> /dev/null'
