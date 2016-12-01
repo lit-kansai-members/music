@@ -57,6 +57,15 @@ gulp.task "backgrounds", ->
       footer: '</script>'
     .pipe gulp.dest "./tmp"
 
+gulp.task "chuiten", ->
+  gulp.src "./注意点/*.md"
+    .pipe do $.markdown
+    .pipe $.wrapper
+      header: '<div class="chuiten" id="${filename}">'
+      footer: '</div>'
+    .pipe $.concat "chuiten.txt"
+    .pipe gulp.dest "./tmp"
+
 gulp.task "images", ->
   gulp.src "res/img/*"
     .pipe gulp.dest "docs/img/"
