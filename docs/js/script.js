@@ -1,5 +1,5 @@
 (function() {
-  var $bg, campCount, html, preH3Bottom;
+  var $bg, backgrounds, bg, campCount, html, preH3Bottom;
 
   campCount = 0;
 
@@ -9,23 +9,25 @@
 
   html = "";
 
-  $.get("./backgrounds.json", function(backgrounds) {
-    var bg;
-    bg = function() {
-      var $this, background, headingOffset;
-      $this = $(this);
-      headingOffset = $this.position().top;
-      if (preH3Bottom != null) {
-        background = backgrounds[campCount];
-        html += "<div class='" + (!background ? "noimage" : "") + "' style='" + (background ? "background-image: url(" + background + ");" : "") + " height: " + (headingOffset - preH3Bottom) + "px; top: " + preH3Bottom + "px'></div>";
-        campCount++;
-      }
-      return preH3Bottom = this.tagName === "H3" ? headingOffset + $this.outerHeight(true) : void 0;
-    };
-    $("#main h2, #main h3").each(bg);
-    bg.call($("footer")[0]);
-    return $bg.innerHTML = html;
-  });
+  backgrounds = $("#backgrounds").html().split("\n");
+
+  bg = function() {
+    var $this, background, headingOffset;
+    $this = $(this);
+    headingOffset = $this.position().top;
+    if (preH3Bottom != null) {
+      background = backgrounds[campCount];
+      html += "<div class='" + (!background ? "noimage" : "") + "' style='" + (background ? "background-image: url(" + background + ");" : "") + " height: " + (headingOffset - preH3Bottom) + "px; top: " + preH3Bottom + "px'></div>";
+      campCount++;
+    }
+    return preH3Bottom = this.tagName === "H3" ? headingOffset + $this.outerHeight(true) : void 0;
+  };
+
+  $("#main h2, #main h3").each(bg);
+
+  bg.call($("footer")[0]);
+
+  $bg.innerHTML = html;
 
 }).call(this);
 
