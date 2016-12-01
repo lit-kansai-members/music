@@ -41,6 +41,7 @@ gulp.task "generate:scss", ->
 gulp.task "markdown", ["youtube"], ->
   gulp.src "./tmp/*.md"
     .pipe do $.markdown
+    .pipe $.replace /(['"])注意点\//, '$1#'
     .pipe gulp.dest "./tmp"
 
 gulp.task "youtube", ->
