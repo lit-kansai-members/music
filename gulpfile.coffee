@@ -12,7 +12,7 @@ browserSync =    require "browser-sync"
 fs          =    require "fs"
 
 gulp.task "generate", ["clean","generate:html", "generate:coffee",
-  "generate:scss", "backgrounds", "images"]
+  "generate:scss", "images"]
 
 gulp.task "generate:html", ["markdown"], ->
   gulp.src [
