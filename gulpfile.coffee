@@ -55,6 +55,7 @@ gulp.task "backgrounds", ->
     .pipe $.wrapper
       header: '<script type="text/x-backgrounds-data" id="backgrounds">'
       footer: '</script>'
+    .pipe gulp.dest "./tmp"
 
 gulp.task "images", ->
   gulp.src "res/img/*"
