@@ -49,14 +49,12 @@ gulp.task "youtube", ->
     .pipe gulp.dest "./tmp"
 
 gulp.task "backgrounds", ->
-  fs.readFile "./res/backgrounds.txt", (err, data) ->
-    fs.writeFile "./docs/backgrounds.json",
-      JSON.stringify(
-        data.toString()
-          .replace /#.*/g, ""
-          .replace /[ \t]/g, ""
-          .split "\n"
-      )
+  gulp.src "./res/backgrounds.txt"
+    .pipe $.replace /#.*/g, ""
+    .pipe $.replace /[ \t]/g, ""
+    .pipe $.wrapper
+      header: '<script type="text/x-backgrounds-data" id="backgrounds">'
+      footer: '</script>'
 
 gulp.task "images", ->
   gulp.src "res/img/*"
