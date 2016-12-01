@@ -4,7 +4,7 @@
   "description": "Life is Tech! の音楽",
   "main": "README.md",
   "scripts": {
-    "test": "gulp generate:development",
+    "browser": "gulp generate:development",
     "start": "gulp generate"
   },
   "repository": {
