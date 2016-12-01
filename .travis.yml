@@ -1,20 +1,18 @@
 language: node_js
 node_js: node
-
 before_script:
-  - npm install
+- npm install
 script: npm start
-
 env:
   global:
-    - GIT_COMMITTER_NAME=Yugo Yagita
-    - GIT_COMMITTER_EMAIL=2000ygkn0713@gmail.com
-    - GIT_AUTHOR_NAME=Yugo Yagita
-    - GIT_AUTHOR_EMAIL=2000ygkn0713@gmail
-    - secure: "NXi+SH8KgOjeCCwJlLh+eQcD2IwpsMZGJ5uFrFM1EJxjfw0EzoGE/GP2qQWfWDE92sqliEZhi6SAD2vDV1v/queUwEyRuO12KxnrP/tZuy702ka1vn4hDw6UNrwZmBBUwCB/pJrZKBLmYCjHM7eh1S0YVvs2nAiikUEYSYfZupSs3eIAaGnZLpctobgiDuam9ox+y0zGIgM3ZQ/iaYG9VFQC+O/QbnaOgudU5c1mjYYLeOt1xFPaY349SLE9/KAK5WPC2vPJ1GzfJRshOXo6WgSfaVrm5vJG5BIBEfLLp4vqTjL8AFcTMBawOrHy6bPATeBvLNBUDf5ZrQh0VEIM4wXjfpi/gtrf/mIfSI4n9kwA7xfKZMhe9SGJmrEsjzOxf29QjYimmsQv0cm8HL7TRxYzXwwc3Je7/L/wuwbLIrMAxo881w9G3apmQDLfW5D2Bu+dRaAbJ3xVgEhznWKp4n1SvBPfjWDfkgnoDIP/OXAk2Gs1HGNX9pGhpNCCijUWrMP9aSJcRYssi5LOPV3TqYKHrwwPsOPFN5LkH+L/o7+LsdtYMMi+sf2OAKTpLtiWvt8BEGb0UGIKPQ7qOk4YJXMXgRTcXnAKTgwfq2ZV9HEyH39hRzmEG8KJb/L/Wy8WHWLEEUtz7/ZE6d19AHYADdxmArXkEXvl9J2e5L2YqLk="
-
+  - GIT_COMMITTER_NAME=Yugo Yagita
+  - GIT_COMMITTER_EMAIL=2000ygkn0713@gmail.com
+  - GIT_AUTHOR_NAME=Yugo Yagita
+  - GIT_AUTHOR_EMAIL=2000ygkn0713@gmail
+  - secure: xaguDb2hTHBEmmAcA1kaxWnl9ZBOve8fSyNKNFMhWD6a9aHahGox6uY5UjBfc587Xk7SNzuz9dEUZFGUXsl5rnu2jKJudqx0y+Ydo/rrc/q9DOtkl7yjvJwDNaqLjQ6O7+xurN9hDQ4Zo1O63gv3AGyjLtx/C6D43oebw6mpzY5yk97L1CY+AjROxvqDb9jxugnVSCdePwycfUTszur6wtL8JLeTbp43eJVcfiZ+75YYVvNCKEzU53Ct/lEjIzbZhk32mD/FxCrABPU1eXLGrNJ7VJfcPDJTu5iR1q7+bt3EwsJeSDFlroRstoYxWZLfGzXMwu0l2KU5kqycAIcd9l3d1Vob66k/nfrSk0Iq8uEoiwjOx8LvXfVQA3DCOf1YwgzIpp3FeR1+3lIu4q/oovLVZEp4PBOie1/ud6OJqeq6n+137ULnyiyj6M8U8PQHVG0QvUcgmcR7nvbB7ckaes+ST32daLjMYEltyYJshWS8oKB7s9l13qTksHGHM06Llmo3k9d2zw0Cz5riqsa6qASh0JV5GVObgzShQnG4sDgcC/7wLYS0rNHBLd2CdesX1SX+HtDdRG3/Nwui4pmq9S7cn1Hw5G3/H1t1n9duFN5pAXA+N0VuLK9dLHnr1P2HCie20kkhudjgprqgMkPOXnggfPtDtW6cxxmCt9FSFWc=
 after_success:
-  - git add docs -f
-  - git commit -m '[bot] Automatic generation of html'
-  - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && echo "OK :)"'
-  - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && git push -f --quiet "https://${GH_TOKEN}@github.com/lit-kansai-members/music.git" master:master 2> /dev/null'
+- git add docs -f
+- git commit -m '[bot] Automatic generation of html'
+- '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && echo "OK :)"'
+- '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && git push -f --quiet "https://${GH_TOKEN}@github.com/lit-kansai-members/music.git"
+  master:master 2> /dev/null'
