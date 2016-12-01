@@ -14,11 +14,14 @@ fs          =    require "fs"
 gulp.task "generate", ["clean","generate:html", "generate:coffee",
   "generate:scss", "images"]
 
-gulp.task "generate:html", ["markdown"], ->
+gulp.task "generate:html", ["markdown", "chuiten", "backgrounds"], ->
   gulp.src [
     './src/html/header.html'
     './tmp/index.html'
-    './src/html/footer.html'
+    './src/html/footer1.html'
+    './tmp/chuiten.txt'
+    './tmp/backgrounds.txt'
+    './src/html/footer2.html'
   ]
     .pipe $.concat "index.html"
     .pipe gulp.dest "./docs"
