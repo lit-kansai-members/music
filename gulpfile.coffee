@@ -7,7 +7,7 @@ iframe = unless process.argv.includes("--noyoutube") or process.argv.includes("-
 
 gulp        =    require "gulp"
 $           = do require "gulp-load-plugins"
-del         =    require "del"
+rimraf      =    require "rimraf"
 browserSync =    require "browser-sync"
 fs          =    require "fs"
 
@@ -74,7 +74,7 @@ gulp.task "images", ->
   gulp.src "res/img/**/*"
     .pipe gulp.dest "docs/img/"
 
-gulp.task "clean", -> del "docs/**/*", force: true
+gulp.task "clean", (cb)-> rimraf "docs/**/*", cb
 
 gulp.task "generate:development", ["generate"], ->
   browserSync
