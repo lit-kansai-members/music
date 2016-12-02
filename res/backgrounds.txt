@@ -4,7 +4,7 @@ img/backgorunds/desktop_spring2016_web.png  # '16 Spring
 img/backgorunds/desktop_xmas2015_night.jpg  # '15 Xmas
 img/backgorunds/summer2015-blue.jpg         # '15 Summer
                                             # '15 YOSHIMOTO
-                                            # '15 伊豆
+img/backgorunds/key_izu.png                 # '15 伊豆
                                             # '15 萩
 img/backgorunds/2015_spring.jpeg            # '15 Spring
                                             # '14 Xmas
