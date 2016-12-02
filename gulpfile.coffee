@@ -71,7 +71,7 @@ gulp.task "chuiten", ->
     .pipe gulp.dest "./tmp"
 
 gulp.task "images", ->
-  gulp.src "res/img/*"
+  gulp.src "res/img/**/*"
     .pipe gulp.dest "docs/img/"
 
 gulp.task "clean", -> del "docs/*"
