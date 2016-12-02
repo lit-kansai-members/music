@@ -6,7 +6,7 @@ img/backgorunds/summer2015-blue.jpg         # '15 Summer
                                             # '15 YOSHIMOTO
                                             # '15 伊豆
                                             # '15 萩
-img/backgorunds/spring2015-blue.png         # '15 Spring
+img/backgorunds/2015_spring.jpeg            # '15 Spring
                                             # '14 Xmas
 img/backgorunds/summer2014-blue.png         # '14 Summer
                                             # '14 English
