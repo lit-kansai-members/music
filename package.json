@@ -30,6 +30,7 @@
     "gulp-load-plugins": "^1.2.4",
     "gulp-markdown": "^1.2.0",
     "gulp-replace": "^0.5.4",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
+    "rimraf": "^2.5.4"
   }
 }
