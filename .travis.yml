@@ -9,11 +9,11 @@ env:
   - GIT_COMMITTER_EMAIL=2000ygkn0713@gmail.com
   - GIT_AUTHOR_NAME=Yugo Yagita
   - GIT_AUTHOR_EMAIL=2000ygkn0713@gmail
-  - secure: "qHKPBx8p6/aRT/wBUOTHjDAEuttjLd3kt77uI2A1V0DLRCLD11UiQpP4eGszjetEVV1XJid26vX6B0qbgQPXmB/hUcYUKf9vnHNIMuE7QF+ipqHzxVuD9wCFPHAAgNG8NgtvI+j9n4b9H2zLDKCA63jaHzGZGmBuokafODju+nDCUSWZFuaGHX57SY2cbJtHTZ1DnGGtBIzd1njCpeakcKCn/bmTkikKMfogJ/cs/AlWueQvsBZyYD+KnhV5/wzr+QbVOlrwdv2rCuTX085rePuSHpKkwYTUPUt1+dzJdkS6xPmdx57it8bAgoHkvMeOlJOWOXQ86pUD4bHznoYnzEnRz/wVhNH1IqGnFeBqumlJa12a0sHdxHe8+fhbTZY38E5I2kzFRciKpg3V57tsa+kmUrTXLJSQgOGyZeZmWeOaVDoRYF4pfQxoBvS0oHAn7ej2fT2CbnfXnnT0+C+e9rfOzS9auJ1/etNI0NPxUCqhQ7uzQM7losTXuZt22yX/0+Mdg8O+13q1jkziMeWzyscagT0bIThPf5KZptLB5V+TlEFBhYrBwtacYpZYOCZVajDLigLQ30UWGcRIAQYcn92o0kC2MJaGRihxHQZAgIpH1sIZhdIJlxKSaMTvOg9hzRSmZ1tMulYnfxNChlMm0sYKq0BTMx2eqSZZRP+kwdk="
-
 after_success:
 - git add docs -f
 - git commit -m '[bot] Automatic generation of html'
 - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && echo "OK :)"'
 - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && git push -f --quiet "https://${GH_TOKEN}@github.com/lit-kansai-members/music.git"
   master:master 2> /dev/null'
+dd:
+  secure: FAYSNIoGkK+10gyDDQ28661NBIgCatzsgK8DTItvgAmd1bH4GfUmZKAWjT9b8NNSteMQd1EMVF/l5UtAvI8ajVIRvp1HjNRPCoZ/AZPu4mc4NfkfYSJtO/Cc1/a5Qivmfxuc8j7Kxvc5llWgy0YjR4jNoZQGgOClUlttzTPV9Jax4w+pMEkheM2lB6i9q8or+OOsjUD/RBdd3AQNjr+GCQj4skBz1GX3pwxSDbjxrY4Tdt10UEcIDvj7fEcNLRzJKo+Agx//oQZ9LKtry5pDudBqrG/ZbOdqI8oHISD/Jms7xb+l5jc1v0Kjzg6JAUsWm3PvPbRUP+3k93affDLRhxtrjPdPvzccCY8g9mFHZfBghbukjGM0+yO5L+DSj9RP19q7rkph7fI7sbGuABTk3hlZgMAxseT3x4yOmiimYm5oQ59NBoXtK5oFhxxXLgOSSU0lGWekYbuitwxQMcfLAjC2VWX7IFLzxfyVfIeJTaVOrz2pKhwDVoGUKVC/Yf3pUIdZHJSk6nDTrAu9U2OBByPgSXSCVsCOEQWbPZFlZXBI6a+DWWVXGU6v7Q00Rk1yeseLHkJC5mGVfGYpUHMN2Msm60aP+BkD/9vL+73awKVsLCIHs6FCaOYd6GyHz9QW7CK/n78WBWnsWG09V1D7mxqxxLT3OPyTmqIpiQ8hJwk=
