@@ -1,5 +1,5 @@
 "use strict"
-iframe = if process.argv.includes "--noyoutube" or process.argv.includes "-n"
+iframe = unless process.argv.includes("--noyoutube") or process.argv.includes("-n")
     '<iframe src="https://www.youtube.com/embed/$1"
     frameborder="0" allowfullscreen></iframe>'
   else
