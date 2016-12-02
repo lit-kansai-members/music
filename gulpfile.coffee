@@ -74,7 +74,7 @@ gulp.task "images", ->
   gulp.src "res/img/**/*"
     .pipe gulp.dest "docs/img/"
 
-gulp.task "clean", -> del "docs/*"
+gulp.task "clean", -> del "docs/**/*", force: true
 
 gulp.task "generate:development", ["generate"], ->
   browserSync
