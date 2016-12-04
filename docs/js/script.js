@@ -39,13 +39,6 @@
 }).call(this);
 
 (function() {
-  var layzr;
-
-  layzr = new Layzr({});
-
-}).call(this);
-
-(function() {
   var $mark, $scroller, markLeft;
 
   $scroller = $("header > a");

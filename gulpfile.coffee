@@ -1,6 +1,6 @@
 "use strict"
 iframe = unless process.argv.includes("--noyoutube") or process.argv.includes("-n")
-    '<iframe data-normal="https://www.youtube.com/embed/$1"
+    '<iframe data-src="https://www.youtube.com/embed/$1" class="lazyload"
     frameborder="0" allowfullscreen></iframe>'
   else
     ""
