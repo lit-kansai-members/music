@@ -74,7 +74,7 @@ gulp.task "images", ->
   gulp.src "res/img/**/*"
     .pipe gulp.dest "docs/img/"
 
-gulp.task "clean", (cb)-> rimraf "docs/**/*", cb
+gulp.task "clean", -> rimraf.sync "docs/**/*"
 
 gulp.task "generate:development", ["generate"], ->
   browserSync
