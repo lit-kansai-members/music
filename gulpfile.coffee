@@ -1,6 +1,6 @@
 "use strict"
 iframe = unless process.argv.includes("--noyoutube") or process.argv.includes("-n")
-    '<iframe src="https://www.youtube.com/embed/$1"
+    '<iframe data-normal="https://www.youtube.com/embed/$1"
     frameborder="0" allowfullscreen></iframe>'
   else
     ""
@@ -74,7 +74,7 @@ gulp.task "images", ->
   gulp.src "res/img/**/*"
     .pipe gulp.dest "docs/img/"
 
-gulp.task "clean", (cb)-> rimraf "docs/**/*", cb
+gulp.task "clean", -> rimraf.sync "docs/**/*"
 
 gulp.task "generate:development", ["generate"], ->
   browserSync
