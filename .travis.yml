@@ -9,7 +9,6 @@ env:
   - GIT_COMMITTER_EMAIL=2000ygkn0713@gmail.com
   - GIT_AUTHOR_NAME=Yugo Yagita
   - GIT_AUTHOR_EMAIL=2000ygkn0713@gmail
-  - secure: FAYSNIoGkK+10gyDDQ28661NBIgCatzsgK8DTItvgAmd1bH4GfUmZKAWjT9b8NNSteMQd1EMVF/l5UtAvI8ajVIRvp1HjNRPCoZ/AZPu4mc4NfkfYSJtO/Cc1/a5Qivmfxuc8j7Kxvc5llWgy0YjR4jNoZQGgOClUlttzTPV9Jax4w+pMEkheM2lB6i9q8or+OOsjUD/RBdd3AQNjr+GCQj4skBz1GX3pwxSDbjxrY4Tdt10UEcIDvj7fEcNLRzJKo+Agx//oQZ9LKtry5pDudBqrG/ZbOdqI8oHISD/Jms7xb+l5jc1v0Kjzg6JAUsWm3PvPbRUP+3k93affDLRhxtrjPdPvzccCY8g9mFHZfBghbukjGM0+yO5L+DSj9RP19q7rkph7fI7sbGuABTk3hlZgMAxseT3x4yOmiimYm5oQ59NBoXtK5oFhxxXLgOSSU0lGWekYbuitwxQMcfLAjC2VWX7IFLzxfyVfIeJTaVOrz2pKhwDVoGUKVC/Yf3pUIdZHJSk6nDTrAu9U2OBByPgSXSCVsCOEQWbPZFlZXBI6a+DWWVXGU6v7Q00Rk1yeseLHkJC5mGVfGYpUHMN2Msm60aP+BkD/9vL+73awKVsLCIHs6FCaOYd6GyHz9QW7CK/n78WBWnsWG09V1D7mxqxxLT3OPyTmqIpiQ8hJwk=
 after_success:
 - git add docs -f
 - git commit -m '[bot] Automatic generation of html'
