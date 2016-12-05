@@ -1,10 +1,12 @@
+@charset "UTF-8";
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
   position: relative;
-  background: #fff; }
+  background: #fff;
+  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif; }
 
 body {
   overflow: hidden; }
