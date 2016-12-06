@@ -7,7 +7,7 @@ cache:
   - node_modules
 before_script:
 - yarn
-- git clone --quiet https//github.com/lit-kansai-members/music.git docs
+- git clone --quiet https://github.com/lit-kansai-members/music.git docs
 - pushd docs
 - git checkout -b gh-pages
 - popd
