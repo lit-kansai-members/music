@@ -1,5 +1,9 @@
 language: node_js
 node_js: node
+cache:
+  yarn: true
+  directories:
+  - node_modules
 before_script:
 - yarn
 - git clone --quiet https//github.com/lit-kansai-members/music.git docs
