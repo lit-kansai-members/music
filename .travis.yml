@@ -12,7 +12,7 @@ before_script:
 - git clone --quiet https//github.com/lit-kansai-members/music.git docs
 - pushd docs
 - git checkout -b gh-pages
--popd
+- popd
 script: npm start
 env:
   global:
