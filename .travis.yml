@@ -11,9 +11,9 @@ before_script:
 script: npm start
 env:
   global:
-  - GIT_COMMITTER_NAME=Yugo Yagita
+  - GIT_COMMITTER_NAME="Yugo Yagita"
   - GIT_COMMITTER_EMAIL=2000ygkn0713@gmail.com
-  - GIT_AUTHOR_NAME=Yugo Yagita
+  - GIT_AUTHOR_NAME="Yugo Yagita"
   - GIT_AUTHOR_EMAIL=2000ygkn0713@gmail
   - secure: "WR10xcYIug9+6crQVP85Z2j/g9N/b8fBQeQ8KXUegqWQmFknZGBbbSaESg9frta8tocfa1QfVyFGBFTFf6WT+hYbTyoaW5YHANymVZ3zK5ju6FW69h5+VuHD2LiFPGsXn4EPBnVgzIClvl3kEOo/I4ujaOsN3ZZ2diHaLbwogMEyApI8bWxkK0oi4GEdttDC2ARvJFdfPzCEpuMXMk+bASJPPHbUemglotRsIsNjYBU0oUu96ILUU5mLNsqara16YZ1YdgRgkOwZkNlgqpNyB8YQNl1s7MrUHvQuULHGp2YmrAF0qqWHt1z5PQzLjpMjmz4B/RdCfW9ZAjSrmmvk5ZheEwtxApw/ThysbOQru49dLZvUccTbNhWiItM9vPo1OdNxQEoftKiVqBenlid8kAMBndDzB/KHyXHlnlkQXMcHT+iwCUIakz0JBH6Lfv84PQYBuYDlAjwsTIcCb/gpSa0zainqvAYMT6LFo4SO+pXNsAPlcZaz6vsEky7ifqIkQ7IjmBAFyrtdb1eeZ3Aa4R7sZ9vER0RRxHlBENkTyPFvd0XGRWEXtlMZRK2QRkR6lrN+eBLL+eDFw9twfxoyFRSx5dPHxaDGQtXBAF+ceBTm/JMwfpKPXjrHnODpbGvePicVK88Dpj/An8EVLFdmdblCok71ACwTEk7Jj/L95KE="
 after_success:
