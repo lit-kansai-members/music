@@ -9,9 +9,16 @@ for $h, i in $ "#main h2, #main h3"
   if $h.tagName is "H2"
     if i isnt 0
       html +="  </ul>\n</li>\n"
+    t = $h.innerText
+    tn = parseInt t
     html += """
-    <li class="yaer">
-      <div class="inneryear">#{$h.innerText}</div>
+    <li class="yaer" data-year="#{
+      unless isNaN tn
+        "'#{tn.toString().slice -2}"
+      else
+        ""
+      }">
+      <div class="inneryear">#{t}</div>
       <ul class="outerCamp">\n
     """
   else if $h.tagName is "H3"
