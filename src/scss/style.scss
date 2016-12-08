@@ -48,7 +48,7 @@ body{
   $length: length($colors);
   @each $color in $colors{
     $key: index($colors, $color);
-    > .yaer:nth-child(#{$length}n+#{$key}){
+    > .year:nth-child(#{$length}n+#{$key}){
       background: $color;
       border-color: $color;
       > .inneryear{
@@ -65,7 +65,7 @@ body{
   padding: 0;
   margin: 0;
   width: calc(3.5em + 2px);
-  > .yaer{
+  > .year{
     line-height: 1.5;
     transition: .3s;
     box-sizing: content-box;

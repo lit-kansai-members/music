@@ -12,7 +12,7 @@ for $h, i in $ "#main h2, #main h3"
     t = $h.innerText
     tn = parseInt t
     html += """
-    <li class="yaer" data-year="#{
+    <li class="year" data-year="#{
       unless isNaN tn
         "'#{tn.toString().slice -2}"
       else
@@ -27,7 +27,7 @@ for $h, i in $ "#main h2, #main h3"
 html += "  </ul>\n</li>"
 
 $container.html html
-.on "mouseenter", ".yaer", ->
+.on "mouseenter", ".year", ->
   $this = $ this
   w = do $this
     .children ".inneryear"
@@ -35,7 +35,7 @@ $container.html html
 
   $this.css width: w, right: w
     .addClass "opened"
-.on "mouseleave", ".yaer", ->
+.on "mouseleave", ".year", ->
   $ this
   .css width: 0, right: 0
   .removeClass "opened"
