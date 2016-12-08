@@ -49,7 +49,9 @@ body{
   z-index: 2;
   font-size: .75em;
   > .yaer{
-    width: 1.5em;
+    box-sizing: content-box;
+    padding: 0 1.5em 0 0;
+    width: 0;
     height: 1.5em;
     text-align: right;
     overflow: hidden;
@@ -58,6 +60,8 @@ body{
     border-radius: .75em;
     &:after{
       content: attr(data-year);
+      position: absolute;
+      right: 0;
     }
     > .inneryear{
       position: absolute;
