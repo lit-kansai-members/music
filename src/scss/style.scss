@@ -63,6 +63,9 @@ body{
   right: 1em;
   z-index: 2;
   font-size: .75em;
+  padding: 0;
+  margin: 0;
+  width: calc(3.5em + 2px);
   > .yaer{
     line-height: 1.5;
     transition: .3s;
@@ -74,7 +77,7 @@ body{
     overflow: hidden;
     position: relative;
     margin: 1em;
-    border-radius: 50%;
+    border-radius: calc(.75em + 2px);
     color: #fff;
     border: solid 2px;
     &:after{
