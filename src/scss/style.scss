@@ -4,6 +4,9 @@ $Green: #67b62d;
 $Blue: #009bdb;
 $Orange: #ff8b22;
 $Purple: #bb39ff;
+
+$colors: $Red, $Yellow, $Green, $Blue, $Orange, $Purple;
+
 $title-height: 60px;
 
 html, body {
@@ -42,6 +45,18 @@ body{
 }
 
 #navigations{
+  $length: length($colors);
+  @each $color in $colors{
+    $key: index($colors, $color);
+    > .yaer:nth-child(#{$length}n+#{$key}){
+      background: $color;
+      border-color: $color;
+      &:hover{
+        background: #fff;
+        color: $color;
+      }
+    };
+  }
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
@@ -49,6 +64,8 @@ body{
   z-index: 2;
   font-size: .75em;
   > .yaer{
+    line-height: 1.5;
+    transition: .3s;
     box-sizing: content-box;
     padding: 0 1.5em 0 0;
     width: 0;
@@ -57,7 +74,9 @@ body{
     overflow: hidden;
     position: relative;
     margin: 1em;
-    border-radius: .75em;
+    border-radius: 50%;
+    color: #fff;
+    border: solid 2px;
     &:after{
       content: attr(data-year);
       position: absolute;
