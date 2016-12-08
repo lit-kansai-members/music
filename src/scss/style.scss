@@ -51,8 +51,7 @@ body{
     > .yaer:nth-child(#{$length}n+#{$key}){
       background: $color;
       border-color: $color;
-      &:hover{
-        background: #fff;
+      > .inneryear{
         color: $color;
       }
     };
@@ -80,15 +79,20 @@ body{
     border-radius: calc(.75em + 2px);
     color: #fff;
     border: solid 2px;
+    right: 0;
     &:after{
       content: attr(data-year);
       position: absolute;
       right: 0;
     }
+    &:hover, &.opened{
+      background: #fff;
+    }
     > .inneryear{
       position: absolute;
       right: 1.5em;
       word-break: keep-all;
+      padding: 0 0 0 1em;
     }
     > .outerCamp{
       position: absolute;
