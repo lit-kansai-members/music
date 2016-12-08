@@ -27,3 +27,15 @@ for $h, i in $ "#main h2, #main h3"
 html += "  </ul>\n</li>"
 
 $container.html html
+.on "mouseenter", ".yaer", ->
+  $this = $ this
+  w = do $this
+    .children ".inneryear"
+    .innerWidth
+
+  $this.css width: w, right: w
+    .addClass "opened"
+.on "mouseleave", ".yaer", ->
+  $ this
+  .css width: 0, right: 0
+  .removeClass "opened"
