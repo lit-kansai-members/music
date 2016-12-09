@@ -33,9 +33,9 @@ $container.html html
     .children ".inneryear"
     .innerWidth
 
-  $this.css width: w, right: w
+  $this.css width: w
     .addClass "opened"
 .on "mouseleave", ".year", ->
   $ this
-  .css width: 0, right: 0
+  .css width: 0
   .removeClass "opened"
