@@ -91,8 +91,8 @@ body{
     > .inneryear{
       position: absolute;
       right: 1.5em;
-      word-break: keep-all;
       padding: 0 0 0 1em;
+      white-space: nowrap;
     }
     > .outerCamp{
       position: absolute;
@@ -100,6 +100,7 @@ body{
       overflow: hidden;
       padding: 0;
       > .camp{
+        white-space: nowrap;
       }
     }
   }
