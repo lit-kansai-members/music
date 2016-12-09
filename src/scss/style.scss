@@ -64,7 +64,7 @@ body{
   font-size: .75em;
   padding: 0;
   margin: 0;
-  width: calc(3.5em + 2px);
+  width: calc(1.5em + 2px);
   > .year{
     line-height: 1.5;
     transition: .3s;
@@ -75,7 +75,7 @@ body{
     text-align: right;
     overflow: hidden;
     position: relative;
-    margin: 1em;
+    margin: 1em 0;
     border-radius: calc(.75em + 2px);
     color: #fff;
     border: solid 2px;
@@ -98,6 +98,7 @@ body{
       position: absolute;
       height: 0;
       overflow: hidden;
+      padding: 0;
       > .camp{
       }
     }
