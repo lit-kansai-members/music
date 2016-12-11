@@ -54,6 +54,9 @@ body{
       > .inneryear{
         color: $color;
       }
+      > .outerCamp{
+        background: $color;
+      }
     };
   }
   position: fixed;
@@ -68,39 +71,44 @@ body{
   padding: 0;
   margin: 0;
   > .year{
+    display: flex;
     line-height: 1.5;
     transition: .3s;
     box-sizing: content-box;
     padding: 0 1.5em 0 0;
     width: 0;
     height: 1.5em;
-    text-align: right;
     overflow: hidden;
-    position: relative;
     margin: .5em 0;
     border-radius: calc(.75em + 2px);
     color: #fff;
     border: solid 2px;
-    right: 0;
     &:after{
       content: attr(data-year);
       position: absolute;
-      right: 0;
+      right: 2px;
     }
     &:hover, &.opened{
       background: #fff;
     }
     > .inneryear{
-      position: absolute;
-      right: 1.5em;
+      flex-grow: 1;
       padding: 0 0 0 1em;
       white-space: nowrap;
     }
     > .outerCamp{
+      box-sizing: content-box;
       position: absolute;
       height: 0;
       overflow: hidden;
-      padding: 0;
+      transform: translateX(-2px);
+      padding: .75em;
+      z-index: -1;
+      border-radius: .75em;
+      &.opened{
+        border-radius: 0 0 .75em .75em;
+        transform: translateY(.75em) translateX(-2px);
+      }
       > .camp{
         white-space: nowrap;
       }
@@ -147,7 +155,6 @@ header{
     position: absolute;
     bottom: 25%;
     transform: translate(-50%,50%);
-    text-align: center;
     img{
       height: 1em;
     }
