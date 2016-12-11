@@ -4,6 +4,9 @@ $Green: #67b62d;
 $Blue: #009bdb;
 $Orange: #ff8b22;
 $Purple: #bb39ff;
+
+$colors: $Red, $Yellow, $Green, $Blue, $Orange, $Purple;
+
 $title-height: 60px;
 
 html, body {
@@ -38,6 +41,70 @@ body{
   p{
     position: absolute;
     bottom: 0;
+  }
+}
+
+#navigations{
+  $length: length($colors);
+  @each $color in $colors{
+    $key: index($colors, $color);
+    > .year:nth-child(#{$length}n+#{$key}){
+      background: $color;
+      border-color: $color;
+      > .inneryear{
+        color: $color;
+      }
+    };
+  }
+  position: fixed;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1em;
+  z-index: 2;
+  font-size: .75em;
+  padding: 0;
+  margin: 0;
+  > .year{
+    line-height: 1.5;
+    transition: .3s;
+    box-sizing: content-box;
+    padding: 0 1.5em 0 0;
+    width: 0;
+    height: 1.5em;
+    text-align: right;
+    overflow: hidden;
+    position: relative;
+    margin: .5em 0;
+    border-radius: calc(.75em + 2px);
+    color: #fff;
+    border: solid 2px;
+    right: 0;
+    &:after{
+      content: attr(data-year);
+      position: absolute;
+      right: 0;
+    }
+    &:hover, &.opened{
+      background: #fff;
+    }
+    > .inneryear{
+      position: absolute;
+      right: 1.5em;
+      padding: 0 0 0 1em;
+      white-space: nowrap;
+    }
+    > .outerCamp{
+      position: absolute;
+      height: 0;
+      overflow: hidden;
+      padding: 0;
+      > .camp{
+        white-space: nowrap;
+      }
+    }
   }
 }
 
