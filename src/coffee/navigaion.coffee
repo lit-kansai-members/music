@@ -1,7 +1,12 @@
-$yearHeading = $ "#main h2"
-$campHeading = $ "#main h3"
+$headings =
+  year: $ "#main h2"
+  camp: $ "#main h3"
+
+$scroller = $ "html, body"
 
 $container = $ "#navigations"
+
+timeout = null
 
 html = ""
 
@@ -39,3 +44,43 @@ $container.html html
   $ this
   .css width: 0
   .removeClass "opened"
+.on "mouseenter", ".inneryear, .outerCamp", ->
+  timeout? and clearTimeout timeout
+  $outer = $(this).closest ".year"
+  $outerCamp = $outer.children ".outerCamp"
+  $lastCamp = $outerCamp.children ":last"
+  height = $lastCamp.position().top + do $lastCamp.innerHeight
+
+  $outer.css width: do $outerCamp.innerWidth
+  t = $outer.css "transition-duration"
+  
+  timeout = setTimeout ->
+    $outerCamp.css
+      visibility: "visible"
+      height: height
+      paddingTop: "1.5em"
+  , parseFloat(t) * 1000
+
+.on "mouseleave", ".inneryear, .outerCamp", ->
+  timeout? and clearTimeout timeout
+  $outer = $(this).closest ".year"
+  $outerCamp = $outer.children ".outerCamp"
+  
+  t = $outerCamp
+  .css height: 0
+  .css "transition-duration"
+
+  timeout = setTimeout ->
+    $outerCamp.css visibility: "hidden"
+  , parseFloat(t) * 1000
+
+.on "click", "li", ->
+  target = if this.classList.contains "year" then "year" else "camp"
+  index = $container.find "li.#{target}"
+  .index this
+  top = $headings[target]
+  .eq index
+  .offset()
+  .top
+  $scroller.animate scrollTop: top, 200
+  no
