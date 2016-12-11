@@ -97,12 +97,12 @@ body{
       white-space: nowrap;
     }
     > .outerCamp{
+      transition: .2s;
       box-sizing: content-box;
       position: absolute;
       height: 0;
-      width: 0;
-      opacity: 0;
       overflow: hidden;
+      visibility: hidden;
       transform: translateX(-2px);
       padding: .75em;
       z-index: -1;
