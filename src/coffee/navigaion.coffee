@@ -1,5 +1,8 @@
-$yearHeading = $ "#main h2"
-$campHeading = $ "#main h3"
+$headings =
+  year: $ "#main h2"
+  camp: $ "#main h3"
+
+$scroller = $ "html, body"
 
 $container = $ "#navigations"
 
@@ -39,3 +42,13 @@ $container.html html
   $ this
   .css width: 0
   .removeClass "opened"
+.on "click", "li", ->
+  target = if this.classList.contains "year" then "year" else "camp"
+  index = $container.find "li.#{target}"
+  .index this
+  top = $headings[target]
+  .eq index
+  .offset()
+  .top
+  $scroller.animate scrollTop: top, 200
+  no

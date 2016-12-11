@@ -100,6 +100,8 @@ body{
       box-sizing: content-box;
       position: absolute;
       height: 0;
+      width: 0;
+      opacity: 0;
       overflow: hidden;
       transform: translateX(-2px);
       padding: .75em;
