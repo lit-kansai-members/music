@@ -61,6 +61,19 @@ $container.html html
       paddingTop: "1.5em"
   , parseFloat(t) * 1000
 
+.on "mouseleave", ".inneryear, .outerCamp", ->
+  timeout? and clearTimeout timeout
+  $outer = $(this).closest ".year"
+  $outerCamp = $outer.children ".outerCamp"
+  
+  t = $outerCamp
+  .css height: 0
+  .css "transition-duration"
+
+  timeout = setTimeout ->
+    $outerCamp.css visibility: "hidden"
+  , parseFloat(t) * 1000
+
 .on "click", "li", ->
   target = if this.classList.contains "year" then "year" else "camp"
   index = $container.find "li.#{target}"
