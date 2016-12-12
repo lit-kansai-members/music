@@ -6,7 +6,7 @@ $scroller = $ "html, body"
 
 $container = $ "#navigations"
 
-waitTransition = null
+waitMouseMove = waitTransition = null
 
 html = ""
 
@@ -45,6 +45,7 @@ $container.html html
   .css width: 0
   .removeClass "opened"
 .on "mouseenter", ".inneryear, .outerCamp", ->
+  clearTimeout waitMouseMove
   waitTransition? and clearTimeout waitTransition
   $outer = $(this).closest ".year"
   $outerCamp = $outer.children ".outerCamp"
@@ -62,16 +63,18 @@ $container.html html
 
 .on "mouseleave", ".inneryear, .outerCamp", ->
   waitTransition? and clearTimeout waitTransition
-  $outer = $(this).closest ".year"
-  $outerCamp = $outer.children ".outerCamp"
-  
-  t = $outerCamp
-  .css height: 0
-  .css "transition-duration"
+  waitMouseMove = setTimeout =>
+    $outer = $(this).closest ".year"
+    $outerCamp = $outer.children ".outerCamp"
+    
+    t = $outerCamp
+    .css height: 0
+    .css "transition-duration"
 
-  waitTransition = setTimeout ->
-    $outerCamp.css visibility: "hidden"
-  , parseFloat(t) * 1000
+    waitTransition = setTimeout ->
+      $outerCamp.css visibility: "hidden"
+    , parseFloat(t) * 1000
+  ,100
 
 .on "click", "li", ->
   target = if this.classList.contains "year" then "year" else "camp"
