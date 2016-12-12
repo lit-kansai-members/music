@@ -71,6 +71,7 @@ body{
   padding: 0;
   margin: 0;
   > .year{
+    cursor: pointer;
     display: flex;
     line-height: 1.5;
     transition: .3s;
@@ -97,14 +98,14 @@ body{
       white-space: nowrap;
     }
     > .outerCamp{
-      transition: .2s;
+      transition: inherit;
       box-sizing: content-box;
       position: absolute;
       height: 0;
       overflow: hidden;
       visibility: hidden;
       transform: translateX(-2px);
-      padding: .75em;
+      padding: 0 .75em;
       z-index: -1;
       border-radius: .75em;
       &.opened{
@@ -113,6 +114,16 @@ body{
       }
       > .camp{
         white-space: nowrap;
+        padding: .25em;
+        transform: translateY(1.5em);
+        border-top: solid 1px #fff;
+        transition: inherit;
+        &:first-child{
+          border: none;
+        }
+        &:hover{
+          background: rgba(255, 255, 255, .5)
+        }
       }
     }
   }

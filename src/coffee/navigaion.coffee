@@ -6,7 +6,10 @@ $scroller = $ "html, body"
 
 $container = $ "#navigations"
 
-timeout = null
+$window = $ window
+
+waitMouseMove = waitTransition = null
+
 
 html = ""
 
@@ -31,21 +34,44 @@ for $h, i in $ "#main h2, #main h3"
 
 html += "  </ul>\n</li>"
 
-$container.html html
-.on "mouseenter", ".year", ->
-  $this = $ this
+headingTops = for el, i in $headings.year
+  $(el).position().top
+
+open = (index)->
+  $this = if typeof index is "number"
+    do close
+    $container
+    .find ".year:nth-child(#{index + 1})"
+    .addClass "opened"
+  else
+    $ this
+
   w = do $this
     .children ".inneryear"
     .innerWidth
 
-  $this.css width: w
-    .addClass "opened"
-.on "mouseleave", ".year", ->
-  $ this
-  .css width: 0
-  .removeClass "opened"
+  $this
+  .css width: w
+  .data "autoWidth", w
+
+close = (e)->
+  clearTimeout waitTransition
+  $this = if e?
+    $ this
+  else
+    $container
+    .find ".year.opened"
+    .removeClass "opened"
+
+  unless $this.hasClass "opened"
+    $this.css width: 0
+
+$container.html html
+.on "mouseenter", ".year", open
+.on "mouseleave", ".year", close
 .on "mouseenter", ".inneryear, .outerCamp", ->
-  timeout? and clearTimeout timeout
+  clearTimeout waitMouseMove
+  clearTimeout waitTransition
   $outer = $(this).closest ".year"
   $outerCamp = $outer.children ".outerCamp"
   $lastCamp = $outerCamp.children ":last"
@@ -54,25 +80,29 @@ $container.html html
   $outer.css width: do $outerCamp.innerWidth
   t = $outer.css "transition-duration"
   
-  timeout = setTimeout ->
+  waitTransition = setTimeout ->
     $outerCamp.css
       visibility: "visible"
       height: height
-      paddingTop: "1.5em"
   , parseFloat(t) * 1000
 
 .on "mouseleave", ".inneryear, .outerCamp", ->
-  timeout? and clearTimeout timeout
-  $outer = $(this).closest ".year"
-  $outerCamp = $outer.children ".outerCamp"
-  
-  t = $outerCamp
-  .css height: 0
-  .css "transition-duration"
+  clearTimeout waitTransition
+  waitMouseMove = setTimeout =>
+    $outer = $(this).closest ".year"
+    $outerCamp = $outer.children ".outerCamp"
+    
+    t = $outerCamp
+    .css height: 0
+    .css "transition-duration"
 
-  timeout = setTimeout ->
-    $outerCamp.css visibility: "hidden"
-  , parseFloat(t) * 1000
+    waitTransition = setTimeout ->
+      $outerCamp.css visibility: "hidden"
+      if $outer.is ":hover, .opened"
+        $outer.css width: $outer.data "autoWidth"
+
+    , parseFloat(t) * 1000
+  ,100
 
 .on "click", "li", ->
   target = if this.classList.contains "year" then "year" else "camp"
@@ -84,3 +114,14 @@ $container.html html
   .top
   $scroller.animate scrollTop: top, 200
   no
+
+$window.on "scroll", (e)->
+  seeing = null
+  for top, i in headingTops
+    if top <= do $window.scrollTop - do $window.width / 2
+      seeing = i
+
+  if seeing?
+    open seeing
+  else
+    do close
