@@ -77,7 +77,7 @@ $container.html html
   $lastCamp = $outerCamp.children ":last"
   height = $lastCamp.position().top + do $lastCamp.innerHeight
 
-  $outer.css width: do $outerCamp.innerWidth
+  $outer.css width: do $outerCamp.innerWidth + 2
   t = $outer.css "transition-duration"
   
   waitTransition = setTimeout ->
