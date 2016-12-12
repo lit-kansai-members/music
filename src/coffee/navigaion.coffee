@@ -67,7 +67,7 @@ $container.html html
 .on "mouseleave", ".year", close
 .on "mouseenter", ".inneryear, .outerCamp", ->
   clearTimeout waitMouseMove
-  waitTransition? and clearTimeout waitTransition
+  clearTimeout waitTransition
   $outer = $(this).closest ".year"
   $outerCamp = $outer.children ".outerCamp"
   $lastCamp = $outerCamp.children ":last"
@@ -83,7 +83,7 @@ $container.html html
   , parseFloat(t) * 1000
 
 .on "mouseleave", ".inneryear, .outerCamp", ->
-  waitTransition? and clearTimeout waitTransition
+  clearTimeout waitTransition
   waitMouseMove = setTimeout =>
     $outer = $(this).closest ".year"
     $outerCamp = $outer.children ".outerCamp"
