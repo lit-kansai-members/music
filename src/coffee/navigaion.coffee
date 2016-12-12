@@ -6,7 +6,7 @@ $scroller = $ "html, body"
 
 $container = $ "#navigations"
 
-timeout = null
+waitTransition = null
 
 html = ""
 
@@ -45,7 +45,7 @@ $container.html html
   .css width: 0
   .removeClass "opened"
 .on "mouseenter", ".inneryear, .outerCamp", ->
-  timeout? and clearTimeout timeout
+  waitTransition? and clearTimeout waitTransition
   $outer = $(this).closest ".year"
   $outerCamp = $outer.children ".outerCamp"
   $lastCamp = $outerCamp.children ":last"
@@ -54,14 +54,14 @@ $container.html html
   $outer.css width: do $outerCamp.innerWidth
   t = $outer.css "transition-duration"
   
-  timeout = setTimeout ->
+  waitTransition = setTimeout ->
     $outerCamp.css
       visibility: "visible"
       height: height
   , parseFloat(t) * 1000
 
 .on "mouseleave", ".inneryear, .outerCamp", ->
-  timeout? and clearTimeout timeout
+  waitTransition? and clearTimeout waitTransition
   $outer = $(this).closest ".year"
   $outerCamp = $outer.children ".outerCamp"
   
@@ -69,7 +69,7 @@ $container.html html
   .css height: 0
   .css "transition-duration"
 
-  timeout = setTimeout ->
+  waitTransition = setTimeout ->
     $outerCamp.css visibility: "hidden"
   , parseFloat(t) * 1000
 
