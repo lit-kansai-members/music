@@ -104,7 +104,7 @@ body{
       overflow: hidden;
       visibility: hidden;
       transform: translateX(-2px);
-      padding: .75em;
+      padding: 0 .75em;
       z-index: -1;
       border-radius: .75em;
       &.opened{
@@ -113,6 +113,12 @@ body{
       }
       > .camp{
         white-space: nowrap;
+        padding: .25em;
+        transform: translateY(1.5em);
+        border-top: solid 1px #fff;
+        &:first-child{
+          border: none;
+        }
       }
     }
   }

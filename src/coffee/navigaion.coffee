@@ -58,7 +58,6 @@ $container.html html
     $outerCamp.css
       visibility: "visible"
       height: height
-      paddingTop: "1.5em"
   , parseFloat(t) * 1000
 
 .on "mouseleave", ".inneryear, .outerCamp", ->
