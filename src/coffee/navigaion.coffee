@@ -10,6 +10,7 @@ $window = $ window
 
 waitMouseMove = waitTransition = null
 
+
 html = ""
 
 for $h, i in $ "#main h2, #main h3"
@@ -49,9 +50,13 @@ open = (index)->
     .children ".inneryear"
     .innerWidth
 
-  $this.css width: w
+  $this
+  .css width: w
+  .data "autoWidth", w
 
 close = (e)->
+  console.log "closeyear"
+  clearTimeout waitTransition
   $this = if e?
     $ this
   else
@@ -66,6 +71,7 @@ $container.html html
 .on "mouseenter", ".year", open
 .on "mouseleave", ".year", close
 .on "mouseenter", ".inneryear, .outerCamp", ->
+  console.log "enter"
   clearTimeout waitMouseMove
   clearTimeout waitTransition
   $outer = $(this).closest ".year"
@@ -85,6 +91,7 @@ $container.html html
 .on "mouseleave", ".inneryear, .outerCamp", ->
   clearTimeout waitTransition
   waitMouseMove = setTimeout =>
+    console.log "leave"
     $outer = $(this).closest ".year"
     $outerCamp = $outer.children ".outerCamp"
     
@@ -94,6 +101,10 @@ $container.html html
 
     waitTransition = setTimeout ->
       $outerCamp.css visibility: "hidden"
+      if $outer.is ":hover, .opened"
+        $outer.css width: $outer.data "autoWidth"
+
+      console.log "hide outerCamp"
     , parseFloat(t) * 1000
   ,100
 
