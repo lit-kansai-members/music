@@ -119,6 +119,9 @@ body{
         &:first-child{
           border: none;
         }
+        &:hover{
+          background: rgba(255, 255, 255, .5)
+        }
       }
     }
   }
