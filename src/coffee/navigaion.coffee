@@ -46,13 +46,7 @@ open = (index)->
   else
     $ this
 
-  w = do $this
-    .children ".inneryear"
-    .innerWidth
-
-  $this
-  .css width: w
-  .data "autoWidth", w
+  $this.css width: $this.data "autoWidth"
 
 close = (e)->
   $this = if e?
@@ -116,6 +110,17 @@ $container.html html
   .top
   $scroller.animate scrollTop: top, 200
   no
+
+.children ".year"
+.each ->
+  $this = $ this
+  $this.data "autoWidth",
+    do $this
+    .children ".inneryear"
+    .innerWidth
+
+
+
 
 $window.on "scroll", (e)->
   seeing = null
