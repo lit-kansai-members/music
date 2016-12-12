@@ -6,6 +6,8 @@ $scroller = $ "html, body"
 
 $container = $ "#navigations"
 
+$window = $ window
+
 waitMouseMove = waitTransition = null
 
 html = ""
@@ -31,19 +33,38 @@ for $h, i in $ "#main h2, #main h3"
 
 html += "  </ul>\n</li>"
 
-$container.html html
-.on "mouseenter", ".year", ->
-  $this = $ this
+headingTops = for el, i in $headings.year
+  $(el).position().top
+
+open = (index)->
+  $this = if typeof index is "number"
+    do close
+    $container
+    .find ".year:nth-child(#{index + 1})"
+    .addClass "opened"
+  else
+    $ this
+
   w = do $this
     .children ".inneryear"
     .innerWidth
 
   $this.css width: w
-    .addClass "opened"
-.on "mouseleave", ".year", ->
-  $ this
-  .css width: 0
-  .removeClass "opened"
+
+close = (e)->
+  $this = if e?
+    $ this
+  else
+    $container
+    .find ".year.opened"
+    .removeClass "opened"
+
+  unless $this.hasClass "opened"
+    $this.css width: 0
+
+$container.html html
+.on "mouseenter", ".year", open
+.on "mouseleave", ".year", close
 .on "mouseenter", ".inneryear, .outerCamp", ->
   clearTimeout waitMouseMove
   waitTransition? and clearTimeout waitTransition
@@ -86,3 +107,14 @@ $container.html html
   .top
   $scroller.animate scrollTop: top, 200
   no
+
+$window.on "scroll", (e)->
+  seeing = null
+  for top, i in headingTops
+    if top <= do $window.scrollTop - do $window.width / 2
+      seeing = i
+
+  if seeing?
+    open seeing
+  else
+    do close
