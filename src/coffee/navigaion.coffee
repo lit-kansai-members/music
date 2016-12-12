@@ -55,7 +55,6 @@ open = (index)->
   .data "autoWidth", w
 
 close = (e)->
-  clearTimeout waitTransition
   $this = if e?
     $ this
   else
