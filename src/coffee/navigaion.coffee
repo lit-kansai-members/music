@@ -63,7 +63,10 @@ close = (e)->
     .removeClass "opened"
 
   unless $this.hasClass "opened"
-    $this.css width: 0
+    $this
+    .css width: 0
+    .children ".outerCamp"
+    .css visibility: "hidden"
 
 $container.html html
 .on "mouseenter", ".year", open
