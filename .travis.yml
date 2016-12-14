@@ -25,7 +25,7 @@ after_success:
     $(npm bin)/set-up-ssh --key "$encrypted_c4ab829a9399_key" \
                           --iv "$encrypted_c4ab829a9399_iv" \
                           --path-encrypted-key ".travis/github_deploy_key.enc"
--|
+- |
 
     # Add the SSH-related commands here, see:
     # https://github.com/alrra/travis-scripts/blob/master/doc/github-deploy-keys.md#26-set-up-ssh-connection-for-travis-ci
