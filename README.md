@@ -1,5 +1,5 @@
 # Life is Tech! BGM
-[![Build Status](https://travis-ci.org/lit-kansai-members/music.svg?branch=master)](https://travis-ci.org/lit-kansai-members/music) [![dependencies Status](https://david-dm.org/lit-kansai-members/music/status.svg)](https://david-dm.org/lit-kansai-members/music)
+[![Build Status](https://travis-ci.org/lit-kansai-members/music.svg?branch=master)](https://travis-ci.org/lit-kansai-members/music) [![devDependencies Status](https://david-dm.org/lit-kansai-members/music/dev-status.png)](https://david-dm.org/lit-kansai-members/music?type=dev)
 
 Life is Tech!で使われているBGMのまとめのリポジトリです。    
 PRお待ちしています。情報がある方、是非お願いします。    
