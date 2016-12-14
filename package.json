@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/lit-kansai-members/LiT-BGM#readme",
   "devDependencies": {
+    "@alrra/travis-scripts": "^3.0.1",
     "browser-sync": "^2.14.0",
     "coffee-script": "^1.10.0",
     "del": "^2.2.2",
