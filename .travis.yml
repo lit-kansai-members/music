@@ -8,10 +8,8 @@ cache:
 
 env:
   global:
-  - GIT_COMMITTER_NAME="Yugo Yagita"
-  - GIT_COMMITTER_EMAIL=2000ygkn0713@gmail.com
-  - GIT_AUTHOR_NAME="Yugo Yagita"
-  - GIT_AUTHOR_EMAIL=2000ygkn0713@gmail
+  - GH_USER_EMAIL="2000ygkn0713@gmail"
+  - GH_USER_NAME="Yugo Yagita"
 
 before_script:
 - yarn
