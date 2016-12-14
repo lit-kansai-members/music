@@ -13,7 +13,7 @@ env:
 
 before_script:
 - yarn
-- git clone -b gh-pages https://github.com/lit-kansai-members/music.git pages
+#- git clone -b gh-pages https://github.com/lit-kansai-members/music.git pages
 
 script: npm start
 
