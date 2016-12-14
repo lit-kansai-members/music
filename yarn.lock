@@ -1158,7 +1158,7 @@ gulp-util@^3.0, gulp-util@^3.0.0, gulp-util@^3.0.2, gulp-util@^3.0.4:
     through2 "^2.0.0"
     vinyl "^0.5.0"
 
-gulp-wrapper@^1.0.0:
+gulp-wrapper:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/gulp-wrapper/-/gulp-wrapper-1.0.0.tgz#2bd3c3c852921d209ea448eac2810811dd6a2bf3"
   dependencies:

@@ -17,9 +17,6 @@
     "url": "https://github.com/lit-kansai-members/LiT-BGM/issues"
   },
   "homepage": "https://github.com/lit-kansai-members/LiT-BGM#readme",
-  "dependencies": {
-    "gulp-wrapper": "^1.0.0"
-  },
   "devDependencies": {
     "browser-sync": "^2.14.0",
     "coffee-script": "^1.10.0",
@@ -31,6 +28,7 @@
     "gulp-markdown": "^1.2.0",
     "gulp-replace": "^0.5.4",
     "gulp-sass": "^2.3.2",
+    "gulp-wrapper": "^1.0.0",
     "rimraf": "^2.5.4"
   }
 }
