@@ -1121,6 +1121,10 @@ gulp-markdown@^1.2.0:
     marked "^0.3.2"
     through2 "^2.0.0"
 
+gulp-rename:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/gulp-rename/-/gulp-rename-1.2.2.tgz#3ad4428763f05e2764dec1c67d868db275687817"
+
 gulp-replace@^0.5.4:
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/gulp-replace/-/gulp-replace-0.5.4.tgz#69a67914bbd13c562bff14f504a403796aa0daa9"
