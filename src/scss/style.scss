@@ -297,38 +297,49 @@ a {
 	line-height: inherit;
 }
 
-.chuiten{
-  display: none;
+.modal{
+  transition: .5s;
   box-sizing: border-box;
-  overflow: auto;
   position: fixed;
-  top: 30px;
+  bottom: 100%;
   left: 0;
   right: 0;
   height: calc(100vh - 60px);
   width: 500px;
   margin: 0 auto;
-  border: solid 2em #fff;
+  padding: 2em;
   border-radius: .5em;
   background: #fff;
   z-index: 3;
+  opacity: 0;
+  > .chuiten{
+    overflow: auto;
+    display: none;
+    height: calc(100% - 1em);
+  }
 }
 
 #modal-overlay{
+  transition: .5s;
   background: rgba(0,0,0,.5);
   height: 100%;
   width: 100%;
-  display: none;
   z-index: 2;
   position: fixed;
-  top: 0;
+  bottom: 100%;
+  opacity: 0;
   left: 0;
 }
 
-.chuiten:target{
-  display: block;
-  ~ #modal-overlay{
+.modal.open{
+  bottom: 30px;
+  opacity: 1;
+  > .chuiten{
     display: block;
+  }
+  ~ #modal-overlay{
+    bottom: 0;
+    opacity: 1;
   }
 }
 
