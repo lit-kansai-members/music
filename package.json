@@ -29,7 +29,7 @@
     "gulp-markdown": "^1.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
-    "gulp-sass": "^2.3.2",
+    "gulp-sass": "^3.0.0",
     "gulp-wrapper": "^1.0.0",
     "rimraf": "^2.5.4"
   }
