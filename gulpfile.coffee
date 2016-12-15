@@ -40,8 +40,8 @@ gulp.task "generate:scss", ->
 
 gulp.task "markdown", ["youtube"], ->
   gulp.src "./tmp/*.md"
+    .pipe $.replace /\[(.*)\]\(注意点\/(.+).md\)/g, '<a href="#$2" class="open-modal">$1</a>'
     .pipe do $.markdown
-    .pipe $.replace /注意点\/(.+).md/g, '#$1.html'
     .pipe gulp.dest "./tmp"
 
 gulp.task "youtube", ->
@@ -62,11 +62,16 @@ gulp.task "backgrounds", ->
     .pipe gulp.dest "./tmp"
 
 gulp.task "chuiten", ->
+  template = fs.readFileSync "src/html/chuiten.html"
+    .toString()
+    .split "${contents}"
+
   gulp.src "./注意点/*.md"
     .pipe do $.markdown
+    .pipe $.rename extname: ""
     .pipe $.wrapper
-      header: '<div class="chuiten" id="${filename}">'
-      footer: '</div>'
+      header: template[0]
+      footer: template[1]
     .pipe $.concat "chuiten.txt"
     .pipe gulp.dest "./tmp"
 
