@@ -139,7 +139,8 @@ opened = null
 $window.on "scroll", (e)->
   scrollTop = do $window.scrollTop
   height = do $window.height
-  seeing = 0
+  seeing = headingTops.length
+
   for top, i in headingTops
     if top - height >= scrollTop
       seeing = i
