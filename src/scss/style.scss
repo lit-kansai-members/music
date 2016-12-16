@@ -106,14 +106,14 @@ body{
       height: 0;
       overflow: hidden;
       visibility: hidden;
-      transform: translateX(-2px);
+      transform: translateX(-2px) translateY(.75em);
       padding: .5em;
       z-index: -1;
-      border-radius: .75em;
+      border-radius: 0 0 .75em .75em;
       > .camp{
         white-space: nowrap;
         padding: .25em;
-        transform: translateY(1.5em);
+        transform: translateY(.75em);
         border-top: solid 1px #fff;
         transition: inherit;
         &:first-child{
