@@ -26,7 +26,7 @@ for $h, i in $ "#main h2, #main h3"
       unless isNaN tn
         "'#{tn.toString().slice -2}"
       else
-        t.slice 0, 1
+        "★"
       }">
       <div class="inneryear">#{t}</div>
       <ul class="outerCamp">\n
