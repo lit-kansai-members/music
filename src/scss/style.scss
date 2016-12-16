@@ -88,6 +88,8 @@ body{
       content: attr(data-year);
       position: absolute;
       right: 2px;
+      width: 1.5em;
+      text-align: center;
     }
     &:hover, &.opened{
       background: #fff;
