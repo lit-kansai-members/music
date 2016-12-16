@@ -46,7 +46,6 @@ headingTops.shift 0
 
 open = (index)->
   $this = if typeof index is "number"
-    console.log index
     do close
     $container
     .find ".year:eq(#{index})"
@@ -67,7 +66,6 @@ close = (e)->
     .find ".year.opened"
     .removeClass "opened"
 
-  console.log $this[0], $this.data "hover"
   unless $this.hasClass("opened") or $this.data("hover")
     $this
     .css width: 0
@@ -140,7 +138,6 @@ $container.html html
 opened = null
 $window.on "scroll", (e)->
   scrollTop = do $window.scrollTop
-  console.log scrollTop
   seeing = 0
   for top, i in headingTops
     if top >= scrollTop
