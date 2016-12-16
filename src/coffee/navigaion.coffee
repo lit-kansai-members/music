@@ -45,18 +45,22 @@ open = (index)->
     .addClass "opened"
   else
     $ this
+    .data "hover", true
 
-  $this.css width: $this.data "autoWidth"
+  unless do $this.width
+    $this.css width: $this.data "autoWidth"
 
 close = (e)->
   $this = if e?
     $ this
+    .data "hover", false
   else
     $container
     .find ".year.opened"
     .removeClass "opened"
 
-  unless $this.hasClass "opened"
+  console.log $this[0], $this.data "hover"
+  unless $this.hasClass("opened") or $this.data("hover")
     $this
     .css width: 0
     .children ".outerCamp"
@@ -121,7 +125,7 @@ $container.html html
 
 
 
-
+opened = 0
 $window.on "scroll", (e)->
   seeing = null
   for top, i in headingTops
@@ -129,6 +133,9 @@ $window.on "scroll", (e)->
       seeing = i
 
   if seeing?
-    open seeing
+    if seeing isnt opened
+      open seeing
   else
     do close
+
+  opened = seeing
