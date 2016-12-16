@@ -34,10 +34,7 @@ for $h, i in $ "#main h2, #main h3"
   else if $h.tagName is "H3"
     html += "    <li class='camp'>#{$h.innerText}</li>\n"
 
-html += """</ul>\n</li>
-            <li class="year" data-year=" ">
-              <div class="inneryear">Thanks</div>
-            </li>"""
+html += """</ul>\n</li>"""
 
 headingTops = for el, i in $headings.year
   $(el).offset().top
