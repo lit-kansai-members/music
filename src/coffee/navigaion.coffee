@@ -138,9 +138,10 @@ $container.html html
 opened = null
 $window.on "scroll", (e)->
   scrollTop = do $window.scrollTop
+  height = do $window.height
   seeing = 0
   for top, i in headingTops
-    if top >= scrollTop
+    if top - height >= scrollTop
       seeing = i
       break
 
