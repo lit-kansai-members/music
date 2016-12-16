@@ -1,5 +1,5 @@
 $headings =
-  year: $ "#main h2"
+  year: $ "header, #main h2, footer"
   camp: $ "#main h3"
 
 $scroller = $ "html, body"
@@ -11,7 +11,9 @@ $window = $ window
 waitMouseMove = waitTransition = null
 
 
-html = ""
+html = """<li class="year" data-year="↑">
+            <div class="inneryear">TOP</div>
+          </li>"""
 
 for $h, i in $ "#main h2, #main h3"
   if $h.tagName is "H2"
@@ -24,7 +26,7 @@ for $h, i in $ "#main h2, #main h3"
       unless isNaN tn
         "'#{tn.toString().slice -2}"
       else
-        ""
+        t.slice 0, 1
       }">
       <div class="inneryear">#{t}</div>
       <ul class="outerCamp">\n
@@ -32,16 +34,22 @@ for $h, i in $ "#main h2, #main h3"
   else if $h.tagName is "H3"
     html += "    <li class='camp'>#{$h.innerText}</li>\n"
 
-html += "  </ul>\n</li>"
+html += """</ul>\n</li>
+            <li class="year" data-year=" ">
+              <div class="inneryear">Thanks</div>
+            </li>"""
 
 headingTops = for el, i in $headings.year
-  $(el).position().top
+  $(el).offset().top
+
+headingTops.shift 0
 
 open = (index)->
   $this = if typeof index is "number"
+    console.log index
     do close
     $container
-    .find ".year:nth-child(#{index + 1})"
+    .find ".year:eq(#{index})"
     .addClass "opened"
   else
     $ this
@@ -74,6 +82,8 @@ $container.html html
   clearTimeout waitTransition
   $outer = $(this).closest ".year"
   $outerCamp = $outer.children ".outerCamp"
+  unless $outerCamp.length
+    return
   $lastCamp = $outerCamp.children ":last"
   height = $lastCamp.position().top + do $lastCamp.innerHeight
 
@@ -91,6 +101,8 @@ $container.html html
   waitMouseMove = setTimeout =>
     $outer = $(this).closest ".year"
     $outerCamp = $outer.children ".outerCamp"
+    unless $outerCamp.length
+      return
     
     t = $outerCamp
     .css height: 0
@@ -109,9 +121,9 @@ $container.html html
   index = $container.find "li.#{target}"
   .index this
   top = $headings[target]
-  .eq index
-  .offset()
-  .top
+    .eq index
+    .offset()
+    .top
   $scroller.animate scrollTop: top, 200
   no
 
@@ -125,17 +137,19 @@ $container.html html
 
 
 
-opened = 0
+opened = null
 $window.on "scroll", (e)->
-  seeing = null
+  scrollTop = do $window.scrollTop
+  console.log scrollTop
+  seeing = 0
   for top, i in headingTops
-    if top <= do $window.scrollTop - do $window.width / 2
+    if top >= scrollTop
       seeing = i
+      break
 
-  if seeing?
-    if seeing isnt opened
-      open seeing
-  else
-    do close
+  if seeing isnt opened
+    open seeing
 
   opened = seeing
+
+$window.trigger "scroll"
