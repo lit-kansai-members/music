@@ -109,7 +109,7 @@ $container.html html
         $outer.css width: $outer.data "autoWidth"
 
     , parseFloat(t) * 1000
-  ,100
+  , 15
 
 .on "click", "li", ->
   target = if this.classList.contains "year" then "year" else "camp"
