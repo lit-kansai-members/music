@@ -101,10 +101,10 @@ $container.html html
     
     t = $outerCamp
     .css height: 0
+    .css visibility: "hidden"
     .css "transition-duration"
 
     waitTransition = setTimeout ->
-      $outerCamp.css visibility: "hidden"
       if $outer.is ":hover, .opened"
         $outer.css width: $outer.data "autoWidth"
 
