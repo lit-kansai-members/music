@@ -29,6 +29,6 @@ after_success:
 
     $(npm bin)/update-branch --commands "npm start" \
                              --commit-message "[build] build page. [skip ci]" \
-                             --directory "pages" \
+                             --directory "build" \
                              --distribution-branch "gh-pages" \
                              --source-branch "master"

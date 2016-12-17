@@ -24,19 +24,19 @@ gulp.task "generate:html", ["markdown", "chuiten", "backgrounds"], ->
     './src/html/footer2.html'
   ]
     .pipe $.concat "index.html"
-    .pipe gulp.dest "./pages"
+    .pipe gulp.dest "./build"
 
 gulp.task "generate:coffee", ->
   gulp.src "src/coffee/*.coffee"
     .pipe do $.coffee
     .pipe $.concat "script.js"
-    .pipe gulp.dest "pages/js/"
+    .pipe gulp.dest "build/js/"
 
 gulp.task "generate:scss", ->
   gulp.src "src/scss/*.scss"
     .pipe do $.sass
     .pipe $.concat "style.css"
-    .pipe gulp.dest "pages/css/"
+    .pipe gulp.dest "build/css/"
 
 gulp.task "markdown", ["youtube"], ->
   gulp.src "./tmp/index.md"
@@ -77,17 +77,17 @@ gulp.task "chuiten", ->
 
 gulp.task "images", ->
   gulp.src "res/img/**/*"
-    .pipe gulp.dest "pages/img/"
+    .pipe gulp.dest "build/img/"
 
-gulp.task "clean", -> rimraf.sync "pages/**/*"
+gulp.task "clean", -> rimraf.sync "build/**/*"
 
 gulp.task "generate:development", ["generate"], ->
   browserSync
     server:
-      baseDir: "pages"
+      baseDir: "build"
     port: 8082
   
-  gulp.watch "pages/**/*", -> do browserSync.reload
+  gulp.watch "build/**/*", -> do browserSync.reload
   gulp.watch ["./index.md", "./注意点/*.md", "./src/html/*.html"], ["generate:html"]
   gulp.watch "./src/coffee/*.coffee", ["generate:coffee"]
   gulp.watch "./src/scss/*.scss", ["generate:scss"]
