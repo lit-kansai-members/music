@@ -88,6 +88,6 @@ gulp.task "generate:development", ["generate"], ->
     port: 8082
   
   gulp.watch "pages/**/*", -> do browserSync.reload
-  gulp.watch ["./*.md", "./src/html/*.html"], ["generate:html"]
+  gulp.watch ["./index.md", "./注意点/*.md", "./src/html/*.html"], ["generate:html"]
   gulp.watch "./src/coffee/*.coffee", ["generate:coffee"]
   gulp.watch "./src/scss/*.scss", ["generate:scss"]
