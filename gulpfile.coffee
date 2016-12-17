@@ -39,13 +39,13 @@ gulp.task "generate:scss", ->
     .pipe gulp.dest "pages/css/"
 
 gulp.task "markdown", ["youtube"], ->
-  gulp.src "./tmp/*.md"
+  gulp.src "./tmp/index.md"
     .pipe $.replace /\[(.*)\]\(注意点\/(.+).md\)/g, '<a href="#$2" class="open-modal">$1</a>'
     .pipe do $.markdown
     .pipe gulp.dest "./tmp"
 
 gulp.task "youtube", ->
-  gulp.src "./*.md"
+  gulp.src "./index.md"
     .pipe $.replace /\[YouTube\]\(\/\/youtu\.be\/([\w-]+)\)/g,
       '\n<div class="youtube">\n' +
       iframe +
