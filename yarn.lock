@@ -399,6 +399,10 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
+coffee-script:
+  version "1.12.2"
+  resolved "https://registry.yarnpkg.com/coffee-script/-/coffee-script-1.12.2.tgz#0d4cbdee183f650da95419570c4929d08ef91376"
+
 coffee-script@^1.10.0:
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/coffee-script/-/coffee-script-1.12.1.tgz#67b8dfec64f0620f82f39583f04fbdd9f01e9cfd"
