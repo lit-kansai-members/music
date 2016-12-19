@@ -33,7 +33,7 @@ LiT-BGMにおけるContributionのやり方講座
 [@ToukaiAkihiro](//github.com/ToukaiAkihiro)（あきひろ、監督）   
 [@ygkn](//github.com/ygkn)（やぎちゃん）    
 [@E235-235](//github.com/E235-235)（かっくん）    
-[@RinYokoi](//github.com/RinYokoi)（なぽるん,りん）    
+[@RinYokoi](//github.com/RinYokoi)（なぽるん,りん）    
 [@shoya140](//github.com/shoya140)（しょうさま）    
 
 ## Special Thanks
@@ -42,6 +42,6 @@ LiT-BGMにおけるContributionのやり方講座
 ## 最後に
 質問等があれば[@KawakawaRitsuki](//twitter.com/KawakawaRitsuki)まで連絡をいただけると幸いです。    
 一応このまとめを始めたっぽい人です。いつの間にか共同リポジトリになってますが笑    
-Githubの使い方が分からない方は、私にキャンプ情報と曲名をリプ飛ばしてもらえば検討/追加しますのでお気軽にどうぞ。    
+GitHubの使い方が分からない方は、私にキャンプ情報と曲名をリプ飛ばしてもらえば検討/追加しますのでお気軽にどうぞ。    
     
 ベイベー！
