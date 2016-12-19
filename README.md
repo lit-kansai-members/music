@@ -33,11 +33,11 @@ LiT-BGMにおけるContributionのやり方講座
 [@ToukaiAkihiro](//github.com/ToukaiAkihiro)（あきひろ、監督）   
 [@ygkn](//github.com/ygkn)（やぎちゃん）    
 [@E235-235](//github.com/E235-235)（かっくん）    
-[@RinYokoi](//github.com/RinYokoi)（りん）    
+[@RinYokoi](//github.com/RinYokoi)（なぽるん,りん）    
 [@shoya140](//github.com/shoya140)（しょうさま）    
 
 ## Special Thanks
-いかおじさん（いかさん）
+[@sanu22](//github.com/sanu22)（いかさん,いかおじさん）
 
 ## 最後に
 質問等があれば[@KawakawaRitsuki](//twitter.com/KawakawaRitsuki)まで連絡をいただけると幸いです。    
