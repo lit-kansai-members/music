@@ -82,6 +82,7 @@ TVアニメ「涼宮ハルヒの憂鬱」エンディングテーマ
 #### COWCOW - あたりまえ体操
 注意点体操  
 [YouTube](//youtu.be/G0zRBRUQils)  
+[注意点体操歌詞](注意点/注意点体操  '15Summer.md)  
 [歌詞(J-Lyric.net)](http://utaten.com/lyric/COWCOW/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E4%BD%93%E6%93%8D%28%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%29/) 
 
 ### '15 Jun. YOSHIMOTO TECHDAY
