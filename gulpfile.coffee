@@ -12,7 +12,10 @@ browserSync =    require "browser-sync"
 fs          =    require "fs"
 
 gulp.task "generate", ["clean","generate:html", "generate:coffee",
-  "generate:scss", "images"]
+  "generate:scss", "images"], ->
+  gulp.src "src/gh-pages_README.md"
+    .pipe $.rename "README.md"
+    .pipe gulp.dest "build"
 
 gulp.task "generate:html", ["markdown", "chuiten", "backgrounds"], ->
   gulp.src [
