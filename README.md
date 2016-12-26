@@ -28,6 +28,7 @@ LiT-BGMにおけるContributionのやり方講座
 - メンバーがかけていた曲はこのリポジトリのBGMには **含まれません**
 - なるべくリンクはYouTubeにしてください。
 - YouTubeは `[YouTube](//youtu.be/{動画ID})` の形式以外はビルド時に埋め込めません。
+- 注意点系のファイルはファイル名がそのままHTML要素のIDになります。` `(スペース)、`.`(コロン)、`#`(井桁)は使用しないでください。
 
 ## Contributors
 [@KawakawaRitsuki](//github.com/KawakawaRitsuki)（ごっちゃん！！）   
