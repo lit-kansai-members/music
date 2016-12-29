@@ -150,7 +150,7 @@ STAND BY ME ドラえもん 主題歌
 [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04c9e3/l00af88.html)  
 
 ## 2013年
-### 13' Xmas Camp
+### '13 Xmas Camp
 #### AKB48 - 恋するフォーチュンクッキー
 [YouTube](//youtu.be/dFf4AgBNR1E)  
 [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cb7c/l02e06a.html)  
