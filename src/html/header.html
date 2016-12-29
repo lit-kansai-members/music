@@ -18,6 +18,34 @@
   <script src="//cdn.jsdelivr.net/jquery.transform/0.1/jquery.transform2d.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/2.0.7/lazysizes.min.js"></script>
+  <script type="text/javascript">
+  $(function (){
+    var movies = [];
+    var images = [];
+    $('iframe').each(function(index, element) {
+        var movie_src = $(this).attr('data-src');
+        movies[index] = movie_src
+        images[index] = 'http://i.ytimg.com/vi' + movie_src.substring(movie_src.lastIndexOf("/")) + '/0.jpg'
+        $(this).after('<img src="' + images[index] + '" height="345">').remove();
+    });
+
+     $('.youtube').each(function(index, element) {
+        $(this).css({'padding-top':'0px','padding-bottom':'calc(56.25% + 30px)','text-align':'center'});
+        $(this).click(function (){
+            $(this).addClass('movie');
+            $(this).css({'padding-top':'','padding-bottom':'56.25%','text-align':'30px'});
+            $(this).after('<iframe src="' + movies[index] + '?autoplay=1" width="560" height="315"></iframe>').remove();
+           // $(this).children("movie").after('<iframe src="' + movies[index] + '?autoplay=1" width="560" height="315"></iframe>').remove();
+        });
+    });
+
+    $('.movie').each(function(index, element) {
+        $(this).click(function (){
+            $(this).after('<iframe src="' + movies[index] + '?autoplay=1" width="560" height="315"></iframe>').remove();
+        });
+    });
+  });
+  </script>
 </head>
 <body>
   <div id="loading">
