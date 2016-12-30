@@ -1,3 +1,4 @@
+img/backgorunds/xmas2016_desktop_yellow.jpg # '16 Xmas
 img/backgorunds/desktop_summer2016_blue.png # '16 Summer
 img/backgorunds/desktop_spring2016_web.png  # '16 Spring
                                             # '15 Coca-Cola
