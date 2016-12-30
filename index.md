@@ -1,5 +1,15 @@
 ## 2016年
 
+### '16 Xmas Camp
+#### SEKAI NO OWARI - Hey Ho
+[YouTube](//youtu.be/qfsr0S_QGOU)
+[歌詞(J-Lyric.net)](http://j-lyric.net/artist/a055790/l03c659.html)
+
+#### ピコ太郎 - PPAP(ペンパイナッポーアッポーペン)
+注意点太郎 元曲
+[YouTube](//youtu.be/0E00Zuayv9Q)
+[歌詞(歌ネット)](http://www.uta-net.com/song/216737/)
+
 ### '16 Summer Camp
 #### JUSTIN TIMBERLAKE - CAN'T STOP THEE FEELING!
 [YouTube](//youtu.be/ru0K8uYEZWw)  
