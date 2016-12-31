@@ -214,15 +214,31 @@ header{
   	height: 0;
   	overflow: hidden;
     background: #000;
+    &:after, iframe, img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    &:after {
+      content: "Click to play!";
+      background-color: rgba(0,0,0,.5);
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      opacity: 0;
+      transition: .2s;
+      cursor: pointer;
+    }
+
+    &:hover:after {
+      opacity: 1;
+    }
   }
-  
-  .youtube iframe{
-  	position: absolute;
-  	top: 0;
-  	left: 0;
-  	width: 100%;
-  	height: 100%;
-}
 }
 
 footer{
