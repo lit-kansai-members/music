@@ -6,10 +6,10 @@
 [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a055790/l03c659.html)
 
 #### ピコ太郎 - PPAP(ペンパイナッポーアッポーペン)
-注意点太郎 元曲　　
-[YouTube](//youtu.be/0E00Zuayv9Q)　　
-[歌詞(歌ネット)](http://www.uta-net.com/song/216737/)　　
-[注意点太郎歌詞](注意点/注意点太郎2016Xmas.md)　　
+注意点太郎 元曲  
+[YouTube](//youtu.be/0E00Zuayv9Q)  
+[歌詞(歌ネット)](http://www.uta-net.com/song/216737/)  
+[注意点太郎歌詞](注意点/注意点太郎2016Xmas.md)  
 
 ### '16 Summer Camp
 #### JUSTIN TIMBERLAKE - CAN'T STOP THEE FEELING!
