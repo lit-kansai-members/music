@@ -1,9 +1,10 @@
-$ ".youtube"
+$ ".play"
 .on "click", ->
-  $this = $ this
-  $this.append """
+  $ this
+  .closest ".youtube"
+  .append """
   <iframe 
-    src="http://www.youtube.com/embed/#{$this.data "youtube-id"}?autoplay=1"
+    src="http://www.youtube.com/embed/#{this.dataset.youtubeId}?autoplay=1"
     frameborder="0"
     allowfullscreen
     >

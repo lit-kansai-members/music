@@ -6,6 +6,9 @@ rimraf      =    require "rimraf"
 browserSync =    require "browser-sync"
 fs          =    require "fs"
 
+embed = do fs.readFileSync "src/html/youtube.html"
+  .toString
+
 gulp.task "generate", ["clean","generate:html", "generate:coffee",
   "generate:scss", "images"], ->
   gulp.src "src/gh-pages_README.md"
@@ -44,10 +47,10 @@ gulp.task "markdown", ["youtube"], ->
 
 gulp.task "youtube", ->
   gulp.src "./index.md"
-    .pipe $.replace /\[YouTube\]\(\/\/youtu\.be\/([\w-]+)\)/g,
-      """\n<div class="youtube" data-youtube-id="$1">
-      <img src="https://img.youtube.com/vi/$1/0.jpg">
-      </div>\n"""
+    .pipe $.replace /\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)/g, (match, url, id) ->
+      embed
+      .replace /{url}/g, url
+      .replace /{id}/g, id
     .pipe gulp.dest "./tmp"
 
 gulp.task "backgrounds", ->
