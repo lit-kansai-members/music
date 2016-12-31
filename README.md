@@ -8,7 +8,7 @@ PRお待ちしています。情報がある方、是非お願いします。
 [Markdown版](./index.md)
 
 ## Contribution
-LiT-BGMにおけるContributionのやり方講座
+Life is Tech! BGM におけるContributionのやり方講座
 
 1. Fork
 2. Edit
@@ -29,6 +29,13 @@ LiT-BGMにおけるContributionのやり方講座
 - なるべくリンクはYouTubeにしてください。
 - YouTubeは `[YouTube](//youtu.be/{動画ID})` の形式以外はビルド時に埋め込めません。
 - 注意点系のファイルはファイル名がそのままHTML要素のIDになります。` `(スペース)、`.`(コロン)、`#`(井桁)は使用しないでください。
+- Pull Request を行う前に可能ならばテストを行ってください。
+
+```
+npm i -g yarn
+yarn
+yarn test
+```
 
 ## Contributors
 [@KawakawaRitsuki](//github.com/KawakawaRitsuki)（ごっちゃん！！）   
