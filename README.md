@@ -8,7 +8,7 @@ PRお待ちしています。情報がある方、是非お願いします。
 [Markdown版](./index.md)
 
 ## Contribution
-LiT-BGMにおけるContributionのやり方講座
+Life is Tech! BGM におけるContributionのやり方講座
 
 1. Fork
 2. Edit
