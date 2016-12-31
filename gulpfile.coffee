@@ -1,9 +1,4 @@
 "use strict"
-iframe = unless process.argv.includes("--noyoutube") or process.argv.includes("-n")
-    '<iframe data-src="https://www.youtube.com/embed/$1" class="lazyload"
-    frameborder="0" allowfullscreen></iframe>'
-  else
-    ""
 
 gulp        =    require "gulp"
 $           = do require "gulp-load-plugins"
@@ -50,9 +45,9 @@ gulp.task "markdown", ["youtube"], ->
 gulp.task "youtube", ->
   gulp.src "./index.md"
     .pipe $.replace /\[YouTube\]\(\/\/youtu\.be\/([\w-]+)\)/g,
-      '\n<div class="youtube">\n' +
-      iframe +
-      '\n</div>\n'
+      """\n<div class="youtube" data-youtube-id="$1">
+      <img src="https://img.youtube.com/vi/$1/0.jpg">
+      </div>\n"""
     .pipe gulp.dest "./tmp"
 
 gulp.task "backgrounds", ->
