@@ -32,7 +32,7 @@ Life is Tech! BGM におけるContributionのやり方講座
 - Pull Request を行う前に可能ならばテストを行ってください。
 
 ```
-npm i -g yarn
+# yarn をインストールしていない場合は npm i -g yarn でインストールしてください
 yarn
 yarn test
 ```
