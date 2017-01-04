@@ -205,7 +205,7 @@ TVアニメ「化物語」エンディングテーマ
 [歌詞(歌詞タイム)](http://www.kasi-time.com/item-43855.html)  
 #### 松本晃彦 - Overture of the Summer Wars
 アニメ映画「サマーウォーズ」挿入歌  
-[YouTube](//youtu.be/1pFIXC3pZlI)  
+[YouTube](//youtu.be/RbpDRk_OAPU)  
 
 ## 番外編
 
