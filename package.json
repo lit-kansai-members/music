@@ -19,17 +19,17 @@
   "homepage": "https://github.com/lit-kansai-members/LiT-BGM#readme",
   "devDependencies": {
     "@alrra/travis-scripts": "^3.0.1",
-    "browser-sync": "^2.14.0",
-    "coffee-script": "^1.12.2",
+    "browser-sync": "^2.18.6",
+    "coffee-script": "^1.12.3",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
-    "gulp-coffee": "^2.3.2",
-    "gulp-concat": "^2.6.0",
-    "gulp-load-plugins": "^1.2.4",
+    "gulp-coffee": "^2.3.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-load-plugins": "^1.4.0",
     "gulp-markdown": "^1.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
-    "gulp-sass": "^3.0.0",
+    "gulp-sass": "^3.1.0",
     "gulp-wrapper": "^1.0.0",
     "rimraf": "^2.5.4"
   }
