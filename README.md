@@ -4,7 +4,7 @@
 Life is Tech!で使われているBGMのまとめのリポジトリです。    
 PRお待ちしています。情報がある方、是非お願いします。    
 
-[通常版](http://lit-kansai-members.github.io/music/)（Markdown版から自動生成）  
+[通常版](http://lit-kansai-members.github.io/music/)（Markdown版から自動生成）  
 [Markdown版](./index.md)
 
 ## Contribution
