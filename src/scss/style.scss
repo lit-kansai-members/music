@@ -164,7 +164,6 @@ header{
     }
   }
   a[href="#main"]{
-    transition: .3s;
     display: none;
     left: 50%;
     color: #000;
@@ -174,14 +173,12 @@ header{
     bottom: 25%;
     transform: translate(-50%,50%);
     text-align: center;
+    animation: fadeFalf .6s infinite alternate;
     img{
       height: 1em;
     }
-    &.show{
-      opacity: .5;
-    }
     &:hover{
-      opacity: .25;
+      animation-play-state: paused;
     }
   }
 }
