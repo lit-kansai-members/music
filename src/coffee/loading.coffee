@@ -17,7 +17,4 @@ $(window).on "load", ->
       setTimeout ->
         $("body").css overflow: "auto"
         $scroller.css display: "block"
-        setInterval ->
-          $scroller.toggleClass "show"
-        ,1000
       ,0
