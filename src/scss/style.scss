@@ -26,8 +26,26 @@ html, body {
   font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif; 
 }
 
-body{
-  overflow: hidden;
+body.loaded {
+  #loading {
+    display: none;
+  }
+  #mark {
+    transform: translateX(0) !important;
+  }
+  #logo {
+    transform: translateX(-0);
+    opacity: 1;
+  }
+  header{
+    h1 > span {
+      opacity: 1;
+    }
+    a[href="#main"]{
+      display: block;
+      animation: fadeFalf .6s ease 3.2s infinite alternate;
+    }
+  }
 }
 
 #loading{
@@ -142,29 +160,28 @@ header{
     text-align: center;
     height: $title-height;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, $title-height / -2);
+    top: calc(50% - calc(#{$title-height} / 2));
+    left: 0;
+    width: 100%;
     padding: 0;
     margin: 0;
     font-size: $title-height;
     line-height: $title-height;
     img{
       height: $title-height;
-    }
-    #mark{
-      position: absolute;
+      transition: .2s 1s; 
     }
     #logo{
       transform: translateX(-100%);
       opacity: 0;
+      transition:  1s; 
     }
     > span{
       opacity: 0;
+      transition: 1.2s 1s;
     }
   }
   a[href="#main"]{
-    display: none;
     left: 50%;
     color: #000;
     text-decoration: none;
@@ -173,7 +190,6 @@ header{
     bottom: 25%;
     transform: translate(-50%,50%);
     text-align: center;
-    animation: fadeFalf .6s infinite alternate;
     img{
       height: 1em;
     }
