@@ -11,6 +11,11 @@ $title-height: 60px;
 
 $youtube-triangle-height: 50px;
 
+@keyframes fadeFalf {
+  0% {opacity: 0}
+  100% {opacity: .5}
+}
+
 html, body {
   margin: 0;
   padding: 0;
