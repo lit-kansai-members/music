@@ -1,20 +1,6 @@
-$scroller = $ "header > a"
-$mark = $ "#mark"
-markLeft = $mark.position().left
-$mark.css left: "50%" ,transform: "translateX(-50%)"
+$("#mark").css({
+  transform:"translateX(#{$("#loading img").offset().left-$("#mark").offset().left}px)"
+})
 
 $(window).on "load", ->
-  $("#loading").fadeOut "fast"
-    .promise()
-    .then ->
-      $mark.animate left: markLeft, transform: "translateX(0)", 1000, ->
-        $mark.css left: "auto"
-      $("#logo").animate transform: "translateX(0)", opacity: 1, 1000
-    .then ->
-      $("h1 > span").animate
-        opacity: 1, 1000
-    .then ->
-      setTimeout ->
-        $("body").css overflow: "auto"
-        $scroller.css display: "block"
-      ,0
+  $("body").addClass("loaded")
