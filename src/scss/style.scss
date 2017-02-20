@@ -169,16 +169,19 @@ header{
     line-height: $title-height;
     img{
       height: $title-height;
-      transition: .2s 1s; 
+      transition: 1s;
     }
     #logo{
       transform: translateX(-100%);
       opacity: 0;
-      transition:  1s; 
     }
     > span{
       opacity: 0;
-      transition: 1.2s 1s;
+      display: inline-block;
+      transition: 1s 1s;
+      > span {
+        vertical-align: middle;
+      }
     }
   }
   a[href="#main"]{
