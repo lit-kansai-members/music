@@ -38,7 +38,7 @@ body.loaded {
     opacity: 1;
   }
   header{
-    h1 > span {
+    #music {
       opacity: 1;
     }
     a[href="#main"]{
@@ -175,14 +175,8 @@ header{
       transform: translateX(-100%);
       opacity: 0;
     }
-    > span{
+    #music {
       opacity: 0;
-      display: inline-block;
-      transition: 1s 1s;
-      vertical-align: middle;
-      > span {
-        vertical-align: middle;
-      }
     }
   }
   a[href="#main"]{
