@@ -6,8 +6,6 @@ rimraf      =    require "rimraf"
 browserSync =    require "browser-sync"
 fs          =    require "fs"
 
-embed = do fs.readFileSync "src/html/youtube.html"
-  .toString
 
 gulp.task "generate", ["clean","generate:html", "generate:coffee",
   "generate:scss", "images"], ->
@@ -47,10 +45,24 @@ gulp.task "markdown", ["youtube"], ->
 
 gulp.task "youtube", ->
   gulp.src "./index.md"
-    .pipe $.replace /\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)/g, (match, url, id) ->
-      embed
-      .replace /{url}/g, url
-      .replace /{id}/g, id
+    .pipe $.replace /####([^#\n]+)\n(([^#][^#\n]+\n)*)/g, (match, song, body) ->
+      result = /\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)/.exec body
+      body = body.replace /\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)/, ""
+      [author, title] = song.split(" - ")
+
+      youtube = if result
+        fs.readFileSync "src/html/youtube.html"
+          .toString()
+          .replace /{url}/g, result[1]
+          .replace /{id}/g, result[2]
+      else ""
+
+      fs.readFileSync "src/html/song.html"
+        .toString()
+        .replace /{youtube}/, youtube
+        .replace /{title}/, title
+        .replace /{author}/, author
+        .replace /{body}/, body
     .pipe gulp.dest "./tmp"
 
 gulp.task "backgrounds", ->
