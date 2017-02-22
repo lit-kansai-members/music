@@ -8,9 +8,9 @@ PRお待ちしています。情報がある方、是非お願いします。
 [Markdown版](./index.md)
 
 ## こんな曲かかってたよ！
-そんな曲をご存知の方は
-https://goo.gl/forms/VNdvhC37OuRBtWCD3
-上記ページから提案していただくか、Issueを投げていただければと思います。
+そんな曲をご存知の方は    
+https://goo.gl/forms/VNdvhC37OuRBtWCD3    
+上記ページから提案していただければと思います。
 
 ## Contribution
 Life is Tech! BGM におけるContributionのやり方講座
