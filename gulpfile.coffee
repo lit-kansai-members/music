@@ -44,26 +44,72 @@ gulp.task "markdown", ["youtube"], ->
     .pipe gulp.dest "./tmp"
 
 gulp.task "youtube", ->
-  gulp.src "./index.md"
-    .pipe $.replace /####([^#\n]+)\n(([^#][^#\n]+\n)*)/g, (match, song, body) ->
-      result = /\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)/.exec body
-      body = body.replace /\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)/, ""
-      [author, title] = song.split(" - ")
+    bgs = fs.readFileSync "./res/backgrounds.txt"
+      .toString()
+      .replace /#.*$/gm, ""
+      .replace /[ \t]/g, ""
+      .split "\n"
+    bgcount = 0
+    nav = """<li class="year" data-year="↑">
+              <div class="inneryear">TOP</div>
+            </li>"""
+    yearTagOpened = false
 
-      youtube = if result
-        fs.readFileSync "src/html/youtube.html"
-          .toString()
-          .replace /{url}/g, result[1]
-          .replace /{id}/g, result[2]
-      else ""
+    res = fs.readFileSync "./index.md"
+      .toString()
+      .replace /^##(#?)([^#\n]+)\n((?:(?:#{4,}[^\n]+|[^#\n]*)\n)*)/gm, (match, isYear, name, body)->
+        id = name.toLowerCase().replace(/[!-/:-@¥[-`{-~\s]/g, "-")
+        isYear = isYear is ""
+        str = """<h#{if isYear then "2" else "3"} id=#{id}>
+                  <a href="##{id}">#{name}</a>
+                </h#{if isYear then "2" else "3"}>"""
+        if isYear
+          if yearTagOpened
+            nav +="  </ul>\n</li>\n"
+          yearTagOpened = true
+          year = parseInt name
+          nav += """
+            <li class="year" data-year="#{
+              unless isNaN year
+                "'#{year.toString().slice -2}"
+              else
+                "★"
+              }">
+              <div class="inneryear">#{name}</div>
+              <ul class="outerCamp">\n
+            """
 
-      fs.readFileSync "src/html/song.html"
-        .toString()
-        .replace /{youtube}/, youtube
-        .replace /{title}/, title
-        .replace /{author}/, author
-        .replace /{body}/, body
-    .pipe gulp.dest "./tmp"
+          return str + body
+        else
+          nav += "    <li class='camp'>#{name}</li>\n"
+          return str +
+          """
+          <div class="pallalax">
+            <img src="#{bgs[++bgcount]}" class="background">
+          #{
+          body.replace /####([^#\n]+)\n(([^#][^#\n]+\n)*)/g, (match, song, body) ->
+            result = /\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\) {0,2}/.exec body
+            body = body.replace /\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\) {0,2}/, ""
+            [author, title] = song.split(" - ")
+
+            youtube = if result
+              fs.readFileSync "src/html/youtube.html"
+              .toString()
+              .replace /{url}/g, result[1]
+              .replace /{id}/g, result[2]
+            else
+              ""
+
+            fs.readFileSync "src/html/song.html"
+              .toString()
+              .replace /{youtube}/, youtube
+              .replace /{title}/, title
+              .replace /{author}/, author
+              .replace /{body}/, body
+          }</div>""".replace(/\n\s+/g, "\n")
+      nav += """</ul>\n</li>"""
+      fs.writeFileSync("./tmp/navigation.html", nav)
+      fs.writeFileSync "./tmp/index.md", res
 
 gulp.task "backgrounds", ->
   gulp.src "./res/backgrounds.txt"
