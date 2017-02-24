@@ -82,10 +82,12 @@ gulp.task "youtube", ->
           return str + body
         else
           nav += "    <li class='camp'>#{name}</li>\n"
+          bg = bgs[++bgcount]
           return str +
           """
           <div class="pallalax">
-            <img src="#{bgs[++bgcount]}" class="background">
+            <img src="#{bg or "./img/backgorunds/lifeistech-logo.png"}"
+              class="background#{bg ? "" : " noimage"}">
           #{
           body.replace /####([^#\n]+)\n(([^#][^#\n]+\n)*)/g, (match, song, body) ->
             result = /\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\) {0,2}/.exec body
