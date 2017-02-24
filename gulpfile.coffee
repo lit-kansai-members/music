@@ -82,7 +82,7 @@ gulp.task "youtube", ->
           return str + body
         else
           nav += "    <li class='camp'>#{name}</li>\n"
-          bg = bgs[++bgcount]
+          bg = bgs[bgcount++]
           return str +
           """
           <div class="pallalax">
