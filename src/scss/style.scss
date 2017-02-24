@@ -278,6 +278,9 @@ main {
       width: 100%;
       object-fit: cover;
       height: 140vh;
+      &.noimage {
+        object-fit: contain;
+      }
     }
   }
   section {
