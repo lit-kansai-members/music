@@ -15,11 +15,12 @@ gulp.task "generate", ["clean","generate:html", "generate:coffee",
 
 gulp.task "generate:html", ["markdown", "chuiten"], ->
   gulp.src [
-    './src/html/header.html'
+    './src/html/header1.html'
+    './tmp/navigation.html'
+    './src/html/header2.html'
     './tmp/index.html'
     './src/html/footer1.html'
     './tmp/chuiten.txt'
-    './tmp/backgrounds.txt'
     './src/html/footer2.html'
   ]
     .pipe $.concat "index.html"
