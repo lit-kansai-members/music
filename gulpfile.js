@@ -7,7 +7,7 @@ const browserSync =    require("browser-sync");
 const fs          =    require("fs");
 
 
-gulp.task("generate", ["clean","generate:html", "generate:coffee",
+gulp.task("generate", ["clean","generate:html", "generate:js",
   "generate:scss", "images"], () =>
   gulp.src("src/gh-pages_README.md")
     .pipe($.rename("README.md"))
@@ -28,9 +28,9 @@ gulp.task("generate:html", ["markdown", "chuiten"], () =>
     .pipe(gulp.dest("./build"))
 );
 
-gulp.task("generate:coffee", () =>
-  gulp.src("src/coffee/*.coffee")
-    .pipe($.coffee())
+gulp.task("generate:js", () =>
+  gulp.src("src/js/*.js")
+    .pipe($.wrapper({header: '{', footer: '}'}))
     .pipe($.concat("script.js"))
     .pipe(gulp.dest("build/js/"))
 );
@@ -121,7 +121,7 @@ ${
     });
     nav += "</ul>\n</li>";
     fs.writeFileSync("./tmp/navigation.html", nav);
-    return fs.writeFileSync("./tmp/index.md", res);
+    fs.writeFileSync("./tmp/index.md", res);
 });
 
 gulp.task("chuiten", function() {
@@ -156,5 +156,5 @@ gulp.task("generate:development", ["generate"], function() {
   
   gulp.watch("build/**/*", () => browserSync.reload());
   gulp.watch(["./index.md", "./注意点/*.md", "./src/html/*.html"], ["generate:html"]);
-  gulp.watch("./src/coffee/*.coffee", ["generate:coffee"]);
+  gulp.watch("./src/js/*.js", ["generate:js"]);
   return gulp.watch("./src/scss/*.scss", ["generate:scss"]);});
