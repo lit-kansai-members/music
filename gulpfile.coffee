@@ -13,7 +13,7 @@ gulp.task "generate", ["clean","generate:html", "generate:coffee",
     .pipe $.rename "README.md"
     .pipe gulp.dest "build"
 
-gulp.task "generate:html", ["markdown", "chuiten", "backgrounds"], ->
+gulp.task "generate:html", ["markdown", "chuiten"], ->
   gulp.src [
     './src/html/header.html'
     './tmp/index.html'
@@ -112,15 +112,6 @@ gulp.task "youtube", ->
       nav += """</ul>\n</li>"""
       fs.writeFileSync("./tmp/navigation.html", nav)
       fs.writeFileSync "./tmp/index.md", res
-
-gulp.task "backgrounds", ->
-  gulp.src "./res/backgrounds.txt"
-    .pipe $.replace /#.*/g, ""
-    .pipe $.replace /[ \t]/g, ""
-    .pipe $.wrapper
-      header: '<script type="text/x-backgrounds-data" id="backgrounds">'
-      footer: '</script>'
-    .pipe gulp.dest "./tmp"
 
 gulp.task "chuiten", ->
   template = fs.readFileSync "src/html/chuiten.html"
