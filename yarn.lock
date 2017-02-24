@@ -31,9 +31,9 @@ acorn@^3.0.4, acorn@^3.1.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
 
-add-variable-declarations@^2.0.1:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/add-variable-declarations/-/add-variable-declarations-2.0.4.tgz#76165be873b2de244e5953eeff245db3e2404cc3"
+add-variable-declarations@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/add-variable-declarations/-/add-variable-declarations-2.0.5.tgz#02f19501e832adc4dc92b558dbef69c85e233198"
   dependencies:
     babel-traverse "^6.13.0"
     babylon "^6.8.4"
@@ -608,6 +608,23 @@ debug@2.3.3:
   dependencies:
     ms "0.7.2"
 
+decaffeinate:
+  version "2.50.10"
+  resolved "https://registry.yarnpkg.com/decaffeinate/-/decaffeinate-2.50.10.tgz#f880a57440ab2f24f742e133623387cda65a35a1"
+  dependencies:
+    add-variable-declarations "^2.0.5"
+    ast-processor-babylon-config "^1.0.0"
+    automatic-semicolon-insertion "^1.0.2"
+    babylon "^6.12.0"
+    coffee-lex "^7.0.0"
+    decaffeinate-coffeescript "1.10.0-patch19"
+    decaffeinate-parser "^16.0.7"
+    detect-indent "^4.0.0"
+    esnext "^3.0.13"
+    lines-and-columns "^1.1.5"
+    magic-string "^0.17.0"
+    repeating "^2.0.0"
+
 decaffeinate-coffeescript@^1.10.0-patch19:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/decaffeinate-coffeescript/-/decaffeinate-coffeescript-1.10.0.tgz#919f1d1870acd8ff072fb0e6315472bace261be0"
@@ -616,31 +633,14 @@ decaffeinate-coffeescript@1.10.0-patch19:
   version "1.10.0-patch19"
   resolved "https://registry.yarnpkg.com/decaffeinate-coffeescript/-/decaffeinate-coffeescript-1.10.0-patch19.tgz#85614a1815f624974c5bc6ec34d1c1ea688f003d"
 
-decaffeinate-parser@^16.0.3:
-  version "16.0.4"
-  resolved "https://registry.yarnpkg.com/decaffeinate-parser/-/decaffeinate-parser-16.0.4.tgz#b5ea8e59bbab61b5aa23649c06e626b162a8282a"
+decaffeinate-parser@^16.0.7:
+  version "16.0.7"
+  resolved "https://registry.yarnpkg.com/decaffeinate-parser/-/decaffeinate-parser-16.0.7.tgz#34ed54a5b54b7186a145b96ffd24c08956fcef6c"
   dependencies:
     babylon "^6.14.1"
     coffee-lex "^7.0.0"
     decaffeinate-coffeescript "^1.10.0-patch19"
     lines-and-columns "^1.1.6"
-
-decaffeinate@^2.47.5:
-  version "2.47.5"
-  resolved "https://registry.yarnpkg.com/decaffeinate/-/decaffeinate-2.47.5.tgz#1aef0a5a40aff4a887b6fe3313f4d72a0131eba0"
-  dependencies:
-    add-variable-declarations "^2.0.1"
-    ast-processor-babylon-config "^1.0.0"
-    automatic-semicolon-insertion "^1.0.2"
-    babylon "^6.12.0"
-    coffee-lex "^7.0.0"
-    decaffeinate-coffeescript "1.10.0-patch19"
-    decaffeinate-parser "^16.0.3"
-    detect-indent "^4.0.0"
-    esnext "^3.0.12"
-    lines-and-columns "^1.1.5"
-    magic-string "^0.17.0"
-    repeating "^2.0.0"
 
 decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2:
   version "1.2.0"
@@ -821,9 +821,9 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.3:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-esnext@^3.0.12:
-  version "3.0.12"
-  resolved "https://registry.yarnpkg.com/esnext/-/esnext-3.0.12.tgz#dc6ccd0727aadcbb0a602a3e594e3d950fc3759e"
+esnext@^3.0.13:
+  version "3.0.13"
+  resolved "https://registry.yarnpkg.com/esnext/-/esnext-3.0.13.tgz#80c387801726f6d89badb6f9a6e193ead1f26927"
   dependencies:
     babel-traverse "^6.21.0"
     babel-types "^6.21.0"
