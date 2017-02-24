@@ -88,7 +88,7 @@ gulp.task "youtube", ->
           """
           <div class="pallalax">
             <img src="#{bg or "./img/backgorunds/lifeistech-logo.png"}"
-              class="background#{bg ? "" : " noimage"}">
+              class="background#{if bg then "" else " noimage"}">
           #{
           body.replace /####([^#\n]+)\n(([^#][^#\n]+\n)*)/g, (match, song, body) ->
             result = /\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\) {0,2}/.exec body
