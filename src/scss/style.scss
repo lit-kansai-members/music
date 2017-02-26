@@ -157,6 +157,7 @@ header{
   height: 100%;
   position: relative;
   h1{
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     height: $title-height;
