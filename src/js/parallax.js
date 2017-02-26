@@ -12,9 +12,9 @@ const anim = () =>{
   let i = 0;
   while( i < $backgrounds.length){
     const {background, container} = $backgrounds[i];
-    const scroll = -container.getBoundingClientRect().top;
+    const scroll = container.getBoundingClientRect().top;
     background.style.transform = "translateY(" + 
-      (scroll - (scroll + viewportHeight) / (viewportHeight + container.offsetHeight) * (background.offsetHeight - viewportHeight)) +
+      -(scroll + (viewportHeight - scroll) / (viewportHeight + container.offsetHeight) * (background.offsetHeight - viewportHeight)) +
     "px)";
     i = (i+1) | 0;
   }
