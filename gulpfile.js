@@ -120,6 +120,7 @@ ${
         }
     });
     nav += "</ul>\n</li>";
+    fs.mkdirSync("./tmp");
     fs.writeFileSync("./tmp/navigation.html", nav);
     fs.writeFileSync("./tmp/index.md", res);
 });
