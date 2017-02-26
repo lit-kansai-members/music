@@ -25,26 +25,16 @@ headingTops.shift(0);
 
 
 let close = function(e){
-  let $this = (e != null) ?
-    $(this)
-    .data("hover", false)
-  :
-    $container
-    .find(".year.opened")
-    .removeClass("opened");
-  $this.css("width", "")
+  $container
+  .find(".year.opened")
+  .removeClass("opened");
 };
 
 let open = function(index){
-  let $this = typeof index === "number" ?
-    (close(),
-    $container
-    .find(`.year:eq(${index})`)
-    .addClass("opened"))
-  :
-    $(this)
-    .data("hover", true);
-
+  close();
+  $container
+  .find(`.year:eq(${index})`)
+  .addClass("opened")
 };
 
 
