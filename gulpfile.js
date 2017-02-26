@@ -92,7 +92,7 @@ gulp.task("youtube", function() {
           const bg = bgs[bgcount++];
           return str +
           `\
-<div class="pallalax">
+<div class="parallax">
   <img src="${bg || "./img/backgorunds/lifeistech-logo.png"}"
     class="background${bg ? "" : " noimage"}">
 ${
