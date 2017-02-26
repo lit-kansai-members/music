@@ -78,7 +78,7 @@ gulp.task("youtube", function() {
           nav += `\
 <li class="year" data-year="${
               !isNaN(year) ?
-                `'${year.toString().slice(-2)}`
+                `${year.toString().slice(-2)}`
               :
                 "★"
               }">
