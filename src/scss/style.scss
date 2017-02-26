@@ -300,9 +300,11 @@ main {
     margin: 4em auto;
     background: white;
     border-radius: 2px;
-    padding-bottom: .5em;
     h4, .body {
-      margin: 1em;
+      margin: 0 1em;
+    }
+    h4, .body{
+      padding: .5em 0;
     }
   }
 }
