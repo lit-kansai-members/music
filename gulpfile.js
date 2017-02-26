@@ -112,8 +112,8 @@ ${
             return fs.readFileSync("src/html/song.html")
               .toString()
               .replace(/{youtube}/, youtube)
-              .replace(/{title}/, title)
-              .replace(/{author}/, author)
+              .replace(/{title}/, title ? title : author)
+              .replace(/{author}/, title ? author : "")
               .replace(/{body}/, body);
           })
           }</div>`.replace(/\n\s+/g, "\n");
