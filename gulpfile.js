@@ -120,7 +120,11 @@ ${
         }
     });
     nav += "</ul>\n</li>";
+    try{
     fs.mkdirSync("./tmp");
+    } catch(o_O){
+      console.log(o_O);
+    }
     fs.writeFileSync("./tmp/navigation.html", nav);
     fs.writeFileSync("./tmp/index.md", res);
 });
