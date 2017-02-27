@@ -82,13 +82,13 @@ gulp.task("youtube", function() {
               :
                 "★"
               }">
-  <div class="inneryear">${name}</div>
+  <a class="inneryear smoothscroll" href="#${id}">${name}</a>
   <ul class="outerCamp">\n\
 `;
 
           return str + body;
         } else {
-          nav += `    <li class='camp'>${name}</li>\n`;
+          nav += `    <li class='camp'><a href="#${id}" class="smoothscroll">${name}</a></li>\n`;
           const bg = bgs[bgcount++];
           return str +
           `\
