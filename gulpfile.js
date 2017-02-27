@@ -57,7 +57,7 @@ gulp.task("youtube", function() {
       .split("\n");
     let bgcount = 0;
     let nav = `<li class="year" data-year="↑">
-  <div class="inneryear">TOP</div>
+  <a class="inneryear smoothscroll" href="#">TOP</a>
 </li>`;
     let yearTagOpened = false;
 
