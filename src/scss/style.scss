@@ -119,7 +119,7 @@ body.loaded {
     &.full-opened > .outerCamp {
       visibility: visible;
     }
-    &:hover, &.opened{
+    &:hover, &.opened, &.full-opened{
       background: #fff;
     }
     > .inneryear{
