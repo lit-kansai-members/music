@@ -62,3 +62,33 @@ Array.from(document.getElementsByClassName("outerCamp"))
     }
   })
 );
+
+/**
+ * TOPがウィンドウの高さの半分以上の最後の要素を開く
+ */
+
+const years = Array.from(document.getElementById("main").childNodes)
+.filter(e => e.tagName === "H2")
+.reverse();
+
+years.push(document.getElementsByTagName("header")[0]);
+
+const yearNavs = Array.from(document.getElementById("navigations").childNodes)
+.filter(e => e.classList && e.classList.contains("year"))
+.reverse();
+
+
+let opened = 0;
+
+window.addEventListener("scroll", e =>{
+  const VHHalf = window.innerHeight / 2;
+  let open = years.findIndex(e => e.getBoundingClientRect().top < VHHalf);
+  ~open || console.log();
+  open = ~open ? open : years.length - 1;
+  if(open !== opened) {
+    yearNavs[opened].classList.remove("opened");
+    yearNavs[open].classList.add("opened");
+    console.log(yearNavs[open])
+    opened = open;
+  }
+});
