@@ -145,6 +145,9 @@ body.loaded {
         transform: translateY(.75em);
         border-top: solid 1px #fff;
         transition: inherit;
+        > a{
+          color: #fff;
+        }
         &:first-child{
           border: none;
         }
