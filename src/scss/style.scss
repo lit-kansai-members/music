@@ -16,6 +16,19 @@ $youtube-triangle-height: 50px;
   100% {opacity: .5}
 }
 
+@keyframes animFirst {
+  0% {stroke-dashoffset: 0}
+  50% {stroke-dashoffset: var(--max)}
+  100% {stroke-dashoffset: var(--max)}
+}
+
+@keyframes animSecond {
+  0% {stroke-dashoffset: 0}
+  40% {stroke-dashoffset: 0}
+  100% {stroke-dashoffset: var(--max)}
+}
+
+
 html, body {
   margin: 0;
   padding: 0;
@@ -56,18 +69,44 @@ body.loaded {
   left: 0;
   background: #fff;
   z-index: 999;
-  img{
+  svg{
     height: $title-height;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    path {
+      fill: none;
+      stroke-width:50;
+    }
+
+    .first, .second {
+      stroke-dasharray: 100%;
+      stroke-dashoffset: 0;
+      --max: 100%;
+      animation-duration: 1.4s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+
+    .square {
+      --max: calc(100% - 50px);
+    }
+
+    .first{
+      animation-name: animFirst;
+    }
+    .second{
+      animation-name: animSecond;
+    }
   }
   p{
     position: absolute;
     bottom: 0;
   }
 }
+
 
 #navigations{
   $length: length($colors);
