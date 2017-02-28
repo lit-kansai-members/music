@@ -313,6 +313,9 @@ main {
     section:nth-child(#{$length}n+#{$key}) > .youtube > .play:after{
       border-left-color: $color;
     }
+    .parallax:nth-child(#{$length}n+#{$key}) img.noimage{
+      background: lighten( $color, 10% );
+    }
   }
 
   h2 {
