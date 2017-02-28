@@ -83,7 +83,6 @@ let opened = 0;
 window.addEventListener("scroll", e =>{
   const VHHalf = window.innerHeight / 2;
   let open = years.findIndex(e => e.getBoundingClientRect().top < VHHalf);
-  ~open || console.log();
   open = ~open ? open : years.length - 1;
   if(open !== opened) {
     yearNavs[opened].classList.remove("opened");
