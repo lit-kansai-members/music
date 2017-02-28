@@ -6,7 +6,7 @@ $("#mark").css({
 const paths = Array.from(document.querySelectorAll("path.first, path.second"));
 
 Promise.resolve()
-.then(new Promise(res => window.addEventListener("load", e => res())))
+.then(new Promise(res => document.addEventListener("load", e => res())))
 .then(new Promise(res => 
   paths[0].addEventListener("animationiteration", e =>{
     if(!(e.elapsedTime % 4)) res()
