@@ -62,7 +62,8 @@ html(lang='ja')
           h3(id=createId(camp.name))
             a(href=`#${createId(camp.name)}`)= camp.name
           .parallax
-            img.background(src=camp.background)
+            img(src=camp.background || "./img/backgorunds/lifeistech-logo.png",
+              class=`background${camp.background ? "" : " noimage"}`)
             each song in camp.songs
               - const youtube = /^\s*\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)\s*$/mg.exec(song.description);
               - const description = song.description.replace(/^\s*\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)\s*$/mg, "");
