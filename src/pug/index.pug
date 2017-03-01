@@ -1,0 +1,98 @@
+doctype html
+html(lang='ja')
+  -
+    const createId = str => str.toString().toLowerCase().replace(/[!-/:-@¥[-`{-~\s]/g, "-");
+  head
+    title Life is Tech! Music
+    meta(name='viewport', content='width=device-width,initial-scale=1')
+    meta(content='Life is Tech! Music', name='title')
+    meta(content='Life is Tech!な音楽のまとめです。', name='description')
+    meta(property='og:type', content='website')
+    meta(property='og:title', content='Life is Tech! Music')
+    meta(property='og:description', content='Life is Tech!な音楽のまとめのリポジトリです。')
+    meta(property='og:image', content='http://lit-kansai-members.github.io/music/img/og.png')
+    meta(property='og:url', content='http://lit-kansai-members.github.io/music/')
+    meta(property='og:site_name', content='Life is Tech! Music')
+    meta(content='Life is Tech!な音楽のまとめのリポジトリです。', name='twitter:card')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/4.1.0/sanitize.min.css')
+    link(rel='stylesheet', href='./css/style.css', type='text/css')
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js')
+    script(src='//cdn.jsdelivr.net/jquery.transform/0.1/jquery.transform2d.js')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js')
+  body
+    #loading
+      svg#lit-logo(viewbox='0 0 230 280')
+        path.second.square(style='stroke:#1792cb', d='m 25,0 0,230')
+        path.second(style='stroke:#f0c11a', d='m 85,120 0,100')
+        path(style='stroke:#f0c11a', d='M 85,110 85,60')
+        path.first(style='stroke:#e83e37', d='M 205,50 C 205,25 180,25 180,25 L 60,25')
+        path.second.square(style='stroke:#e83e37', d='M 145,280 145,50')
+        path.second(style='stroke:#66ae32', d='M 205,220 205,60')
+        path(style='stroke:#66ae32', d='m 205,280 0,-50')
+        path.first(d='m 25,225 c -1,25 25,25 25,25 l 60,0', style='stroke:#1792cb')
+      p
+        | take too much time? see 
+        a(href='https://github.com/lit-kansai-members/music/blob/master/index.md') Markdown version
+        | .
+    nav
+      ul#navigations
+        li.year(data-year='↑')
+          a.inneryear.smoothscroll(href='#') TOP
+        each year in data.years
+          li.year(data-year=isNaN(year.year) ? "★" : year.year.slice(0, 2))
+            a.inneryear.smoothscroll(href=`#${createId(year.year)}`)= year.year
+            ul.outerCamp
+              each camp in year.camps
+                li.camp
+                  a.smoothscroll(href=`#${createId(camp.name)}`)= camp.name
+    header
+      h1
+        img#mark(src='img/mark.png')
+        img#logo(src='img/logo.png', alt='Life is Tech! ®')
+        img#music(src='img/music.svg', alt='music')
+      a.smoothscroll(href='#main')
+        | Scroll Down
+        br
+        img(src='img/arrow.svg')
+    main#main
+      each year in data.years
+        h2(id=createId(year.year))
+          a.colorful(href=`#${createId(year.year)}`)= year.year
+        each camp in year.camps
+          h3(id=createId(camp.name))
+            a(href=`#${createId(camp.name)}`)= camp.name
+          .parallax
+            img.background(src=camp.background)
+            each song in camp.songs
+              - const youtube = /^\s*\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)\s*$/mg.exec(song.description);
+              - const description = song.description.replace(/^\s*\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)\s*$/mg, "");
+              section
+                if youtube
+                  .youtube
+                    img.thumb(src="https://img.youtube.com/vi/"+
+                      youtube[2]+"/0.jpg")
+                    button.play(data-youtube-id=youtube[2])
+                    a(href=youtube[1])
+                      | Watch at 
+                      img(src='./img/YouTube-logo-light.png', alt='YouTube')
+                h4= song.title
+                  small= song.author
+                .body!= data.marked(description)
+    footer
+      div
+        p#thanks.colorful Thanks for visit!
+        p
+          | do you have some infomation?
+          br
+          |     fork me on 
+          a(href='https://github.com/lit-kansai-members/music')
+            img(src='img/github-mark.svg')
+            img(src='img/github-logo.svg', alt='GitHub')
+          br
+          small This project is an unoffcial.
+    each chuiten in data.chuitens
+      .modal(id=createId(chuiten.name))
+        a.close-modal(href='#') Close
+        .chuiten!= data.marked(chuiten.content)
+    a#modal-overlay.close-modal(href='#')
+    script(type='text/javascript', src='./js/script.js')
