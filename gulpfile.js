@@ -6,6 +6,8 @@ const rimraf      =    require("rimraf");
 const browserSync =    require("browser-sync");
 const fs          =    require("fs");
 const YAML        = require("js-yaml");
+const browserify = require('browserify');
+const source = require('vinyl-source-stream');
 
 gulp.task("generate", ["clean","generate:pug", "generate:js",
   "generate:scss", "images"], () =>
@@ -29,11 +31,18 @@ gulp.task("generate:pug", () =>
     .pipe(gulp.dest("./build"))
 );
 
-gulp.task("generate:js", () =>
+gulp.task("concat", () =>
   gulp.src("src/js/*.js")
     .pipe($.wrapper({header: '{', footer: '}'}))
     .pipe($.concat("script.js"))
-    .pipe(gulp.dest("build/js/"))
+    .pipe(gulp.dest("./tmp"))
+);
+
+gulp.task("generate:js", ["concat"], () =>
+  browserify({entries: ["./tmp/script.js"]})
+    .bundle()
+    .pipe(source("script.js"))
+    .pipe(gulp.dest("./build/js"))
 );
 
 gulp.task("generate:scss", () =>
