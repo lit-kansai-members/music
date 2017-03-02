@@ -1,6 +1,6 @@
-$("#mark").css({
-  transform:`translateX(${ $("#loading svg").offset().left - $("#mark").offset().left }px)`
-});
+$("#mark")[0].style.transform = `translateX(${
+    $("#loading svg")[0].getBoundingClientRect.left - $("#mark")[0].getBoundingClientRect().left
+  }px)`;
 
 
 const paths = Array.from(document.querySelectorAll("path.first, path.second"));

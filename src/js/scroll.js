@@ -1,7 +1,8 @@
-$("a.smoothscroll[href^='#']").on("click", function() {
-  const target = $(this).attr("href");
-  return $('body, html').animate(
-      {scrollTop: target === "#" ? 0 : $(target).offset().top},
-      1000,
-      target === "#main" ? 'easeOutBack' : "swing");
-});
+const jump = require("jump.js");
+
+$("a.smoothscroll[href^='#']").forEach(v =>
+  v.addEventListener("click", e =>{
+    const target = e.target.getAttribute("href");
+    jump(target === "#" ? document.body : document.getElementById(target.slice(1)));
+  })
+);
