@@ -65,7 +65,10 @@ html(lang='ja')
               class=`background${camp.background ? "" : " noimage"}`)
             each song in camp.songs
               - const youtube = /^\s*\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)\s*$/mg.exec(song.description);
-              - const description = song.description.replace(/^\s*\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)\s*$/mg, "");
+              - 
+                const description = song.description
+                  .replace(/^\s*\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)\s*$/mg, "")
+                  .replace(/\[(.*)\]\(注意点\/(.+).md\)/g, '<a href="#$2" class="open-modal">$1</a>');
               section
                 if youtube
                   .youtube
