@@ -69,6 +69,8 @@ body.loaded {
   left: 0;
   background: #fff;
   z-index: 999;
+  opacity: 100;
+  transition: .4s;
   svg{
     height: $title-height;
     position: absolute;
