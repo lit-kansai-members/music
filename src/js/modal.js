@@ -11,7 +11,7 @@ $(".open-modal").forEach(v =>
   v.addEventListener("click", e => {
     document.body.style.overflow = "hidden";
     e.preventDefault();
-    $(e.target.getAttribute("href"))[0]
-      .classList.remove("open");
+    document.getElementById(v.getAttribute("href").slice(1).toLowerCase())
+      .classList.add("open");
   })
 );
