@@ -24,7 +24,7 @@ gulp.task("generate:pug", () =>
         years: YAML.safeLoad(fs.readFileSync("./index.yml")),
         chuitens: fs.readdirSync("./注意点")
           .filter(p => /.+\.md$/.test(p))
-          .map(p => ({content: fs.readFileSync("./注意点/"+p).toString(), name: p}))
+          .map(p => ({content: fs.readFileSync("./注意点/"+p).toString(), name: p.slice(0, -3)}))
       }})
     ))
     .pipe($.pug({pretty: true}))
