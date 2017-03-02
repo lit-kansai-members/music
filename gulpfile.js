@@ -68,6 +68,6 @@ gulp.task("generate:development", ["generate"], function() {
   });
   
   gulp.watch("build/**/*", () => browserSync.reload());
-  gulp.watch(["./index.yml", "./注意点/*.md", "./src/pug/index.pug"], ["generate:html"]);
+  gulp.watch(["./index.yml", "./注意点/*.md", "./src/pug/index.pug"], ["generate:pug"]);
   gulp.watch("./src/js/*.js", ["generate:js"]);
   return gulp.watch("./src/scss/*.scss", ["generate:scss"]);});
