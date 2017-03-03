@@ -35,11 +35,15 @@ html(lang='ja')
         | .
     nav
       ul#navigations
-        li.year(data-year='↑')
-          a.inneryear.smoothscroll(href='#') TOP
+        li.year
+          a.smoothscroll(href='#')
+            span ↑
+            .inneryear TOP
         each year in data.years
-          li.year(data-year=isNaN(year.year) ? "★" : year.year.slice(0, 2))
-            a.inneryear.smoothscroll(href=`#${createId(year.year)}`)= year.year
+          li.year
+            a.smoothscroll(href=`#${createId(year.year)}`)
+              span=isNaN(year.year) ? "★" : year.year.slice(0, 2)
+              .inneryear= year.year
             ul.outerCamp
               each camp in year.camps
                 li.camp
