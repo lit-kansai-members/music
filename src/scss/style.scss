@@ -143,7 +143,7 @@ body.loaded {
     transition: .4s;
     box-sizing: content-box;
     --width: 0px;
-    width: calc(var(--width,0) + 1.5em);
+    width: calc(var(--width) + 1.5em);
     height: 1.5em;
     margin: .5em 0;
     border-radius: calc(.75em + 2px);
