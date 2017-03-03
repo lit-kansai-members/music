@@ -365,8 +365,8 @@ main {
     h4, .body{
       padding: .5em 0;
     }
-    h4 > small:before {
-      content: " ";
+    h4  small:before {
+      content: "";
       display: inline-block;
       width: 1em;
     }
