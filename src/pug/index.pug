@@ -42,7 +42,7 @@ html(lang='ja')
         each year in data.years
           li.year
             a.smoothscroll(href=`#${createId(year.year)}`)
-              span=isNaN(year.year) ? "★" : year.year.slice(0, 2)
+              span=isNaN(year.year) ? "★" : year.year.slice(-2)
               .inneryear= year.year
             ul.outerCamp
               each camp in year.camps
