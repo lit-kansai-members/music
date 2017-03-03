@@ -117,7 +117,7 @@ body.loaded {
     > .year:nth-child(#{$length}n+#{$key}){
       background: $color;
       border-color: $color;
-      > .inneryear{
+      > a > .inneryear{
         color: $color;
       }
       > .outerCamp{
@@ -138,35 +138,41 @@ body.loaded {
   margin: 0;
   > .year{
     cursor: pointer;
-    display: flex;
+    position: relative;
     line-height: 1.5;
     transition: .4s;
     box-sizing: content-box;
-    padding: 0 1.5em 0 0;
-    width: 0;
+    --width: 0px;
+    width: calc(var(--width,0) + 1.5em);
     height: 1.5em;
-    overflow: hidden;
     margin: .5em 0;
     border-radius: calc(.75em + 2px);
     color: #fff;
     border: solid 2px;
-    &:after{
-      content: attr(data-year);
-      width: 1.5em;
-      text-align: center;
-      position: absolute;
-      right: 2px;
-    }
     &.full-opened > .outerCamp {
       visibility: visible;
     }
     &:hover, &.opened, &.full-opened{
       background: #fff;
     }
-    > .inneryear{
-      flex-grow: 1;
-      padding: 0 0 0 1em;
-      white-space: nowrap;
+    > a{
+      width: 100%;
+      display: flex;
+      overflow: hidden;
+      right: 0;
+      flex-direction: row-reverse;
+      flex-shrink: 0;
+      > span {
+        width: 1.5em;
+        text-align: center;
+        color: white;
+        flex-shrink: 0;
+      }
+      > .inneryear{
+        padding: 0 0 0 1em;
+        flex-grow: 1;
+        white-space: nowrap;
+      }
     }
     > .outerCamp{
       transition: inherit;
@@ -175,25 +181,27 @@ body.loaded {
       height: 0;
       overflow: hidden;
       visibility: hidden;
-      transform: translateX(-2px) translateY(.75em);
+      left: -2px;
+      top: .75em;
       padding: .5em;
       z-index: -1;
       border-radius: 0 0 .75em .75em;
       transition-delay: .4s;
       > .camp{
         white-space: nowrap;
-        padding: .25em;
-        transform: translateY(.75em);
+        transform: translateY(.5em);
         border-top: solid 1px #fff;
         transition: inherit;
-        > a{
-          color: #fff;
-        }
         &:first-child{
           border: none;
         }
         &:hover{
           background: rgba(255, 255, 255, .5)
+        }
+        > a{
+          padding: .3em;
+          color: #fff;
+          display: block;
         }
       }
     }
