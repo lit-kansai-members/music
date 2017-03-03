@@ -455,7 +455,8 @@ a {
   left: 0;
   right: 0;
   height: calc(100vh - 60px);
-  width: 500px;
+  width: calc(100% - 2em);
+  max-width: 500px;
   margin: 0 auto;
   padding: 2em;
   border-radius: .5em;
