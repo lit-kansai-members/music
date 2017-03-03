@@ -9,18 +9,22 @@ Array.from(document.querySelectorAll("#navigations .year"))
 .forEach((el, i) => {
   const selector =`#navigations > .year:nth-child(${i + 1})`;
   const children = Array.from(el.childNodes);
-  const inneryear = children.find(e => e.classList && e.classList.contains("inneryear"));
+  const inneryear = Array.from(children
+    .find(e => e.tagName === "A")
+    .childNodes)
+    .find(e => e.classList && e.classList.contains("inneryear"));
   const outerCamp = children.find(e => e.classList && e.classList.contains("outerCamp"));
   css += `
 ${selector}.opened, ${selector}:hover {
-  min-width: ${inneryear.offsetWidth + 2}px;
+  --width: ${inneryear.offsetWidth + 2}px;
 }`;
   if(outerCamp){
-    const camps = Array.from(outerCamp.childNodes).filter(e => e.classList && e.classList.contains("camp"));
+    const camps = Array.from(outerCamp.childNodes)
+      .filter(e => e.classList && e.classList.contains("camp"));
     const lastCamp = camps.pop();
     css += `
 ${selector}.full-opened {
-  width: ${outerCamp.offsetWidth + 2}px;
+  --width: ${outerCamp.offsetWidth + 2}px;
 }
 ${selector}.full-opened .outerCamp {
   height: ${lastCamp.offsetTop + lastCamp.offsetHeight}px;
@@ -38,10 +42,9 @@ document.head.appendChild(style);
 
 Array.from(document.querySelectorAll(".inneryear, .outerCamp"))
 .forEach( v => {
-  v.addEventListener("mouseenter", e =>
-    v.parentElement.classList.add("full-opened"));
-  v.addEventListener("mouseleave", e =>
-    v.parentElement.classList.remove("full-opened"));
+  const year = (v.classList.contains("inneryear") ? v.parentElement : v).parentElement;
+  v.addEventListener("mouseenter", e => year.classList.add("full-opened"));
+  v.addEventListener("mouseleave", e => year.classList.remove("full-opened"));
 });
 
 /**
