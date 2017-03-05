@@ -7,9 +7,7 @@ PRお待ちしています。情報がある方、是非お願いします。
 [通常版](http://lit-kansai-members.github.io/music/)（[index.yml](./index.yml)から自動生成） 
 
 ## こんな曲かかってたよ！
-そんな曲をご存知の方は 
-https://goo.gl/forms/VNdvhC37OuRBtWCD3 
-上記ページから提案していただければと思います。
+そんな曲をご存知の方は [Google Form](https://goo.gl/forms/VNdvhC37OuRBtWCD3) から提案していただければと思います。
 
 ## Contribution
 Life is Tech! BGM におけるContributionのやり方講座
