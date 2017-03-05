@@ -58,7 +58,7 @@ gulp.task("images", () =>
 
 gulp.task("clean", () => rimraf.sync("build/**/*"));
 
-gulp.task("generate:development", ["generate"], function() {
+gulp.task("generate:development", ["generate"], () => {
   browserSync({
     server: {
       baseDir: "build"
@@ -69,4 +69,5 @@ gulp.task("generate:development", ["generate"], function() {
   gulp.watch("build/**/*", () => browserSync.reload());
   gulp.watch(["./index.yml", "./注意点/*.md", "./src/pug/index.pug"], ["generate:pug"]);
   gulp.watch("./src/js/*.js", ["generate:js"]);
-  return gulp.watch("./src/scss/*.scss", ["generate:scss"]);});
+  gulp.watch("./src/scss/*.scss", ["generate:scss"]);
+});
