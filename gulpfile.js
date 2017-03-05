@@ -1,16 +1,15 @@
 "use strict";
 
-const gulp        =    require("gulp");
+const gulp        = require("gulp");
 const $           = require("gulp-load-plugins")();
-const rimraf      =    require("rimraf");
-const browserSync =    require("browser-sync");
-const fs          =    require("fs");
+const rimraf      = require("rimraf");
+const browserSync = require("browser-sync");
+const fs          = require("fs");
 const YAML        = require("js-yaml");
-const browserify = require('browserify');
-const source = require('vinyl-source-stream');
+const browserify  = require('browserify');
+const source      = require('vinyl-source-stream');
 
-gulp.task("generate", ["clean","generate:pug", "generate:js",
-  "generate:scss", "images"], () =>
+gulp.task("generate", ["clean","generate:pug", "generate:js", "generate:scss", "images"], () =>
   gulp.src("src/gh-pages_README.md")
     .pipe($.rename("README.md"))
     .pipe(gulp.dest("build"))
