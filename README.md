@@ -4,7 +4,7 @@
 Life is Tech!で使われているBGMのまとめのリポジトリです。 
 PRお待ちしています。情報がある方、是非お願いします。 
 
-[通常版](http://lit-kansai-members.github.io/music/)（[index.yml](./index.yml)から自動生成） 
+[Webページ](http://lit-kansai-members.github.io/music/)（[index.yml](./index.yml)から自動生成） 
 
 ## こんな曲かかってたよ！
 そんな曲をご存知の方は [Google Form](https://goo.gl/forms/VNdvhC37OuRBtWCD3) から提案していただければと思います。
@@ -20,24 +20,33 @@ Life is Tech! BGM におけるContributionのやり方講座
 
 :warning: WARNING :warning:
 - 以下のフォーマットを使用してください
-```
-# 年 (ex: 2016年)
-## キャンプ名 (ex: '16 Summer Camp)
-### 歌手名 - 曲名 (ex: 岡崎体育 - MUSIC VIDEO)
-備考など、あれば (ex: 注意点 VIDEO 元曲) 
-リンク (ex: [YouTube](//youtu.be/fTwAz1JC4yI))
-```
+
+  ```yml
+  - year: "2016" # 年 (Stringです！)
+    camps:
+    - name: "'16 Xmas Camp" # キャンプ名
+      background: "img/backgorunds/xmas2016_desktop_yellow.jpg" # 背景画像のURL
+      songs: 
+      - title: "Hey Ho" # 曲名
+        author: "SEKAI NO OWARI" # 歌手名
+        description: |
+          [YouTube](//youtu.be/qfsr0S_QGOU)
+          [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a055790/l03c659.html)
+        # リンクなど。"|"はYAMLの複数行記法です。
+  ```
+
 - メンバーがかけていた曲はこのリポジトリのBGMには **含まれません**
-- なるべくリンクはYouTubeにしてください。
-- YouTubeは `[YouTube](//youtu.be/{動画ID})` の形式以外はビルド時に埋め込めません。
-- 注意点系のファイルはファイル名がそのままHTML要素のIDになります。` `(スペース)、`.`(コロン)、`#`(井桁)は使用しないでください。
+- なるべく動画はYouTubeにしてください。
+- YouTubeへのリンクは `[YouTube](//youtu.be/動画ID)` のみ動画を埋め込みます。
+- 背景画像が指定されていない場合は Life is Tech! のロゴが表示されます。
+- `description` では Markdown 記法が利用できます。HTMLへの変換は [marked](https://github.com/chjj/marked)を使用しています。
 - Pull Request を行う前に可能ならばテストを行ってください。
 
-```
-# yarn をインストールしていない場合は npm i -g yarn でインストールしてください
-yarn
-yarn test
-```
+  ```bash
+  # yarn をインストールしていない場合は npm i -g yarn でインストールしてください
+  yarn
+  yarn test
+  ```
 
 ## Contributors
 [@KawakawaRitsuki](//github.com/KawakawaRitsuki)（ごっちゃん！！） 
