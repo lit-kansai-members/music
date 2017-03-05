@@ -1,10 +1,10 @@
 # Life is Tech! BGM
 [![Build Status](https://travis-ci.org/lit-kansai-members/music.svg?branch=master)](https://travis-ci.org/lit-kansai-members/music) [![devDependencies Status](https://david-dm.org/lit-kansai-members/music/dev-status.svg)](https://david-dm.org/lit-kansai-members/music?type=dev)
 
-Life is Tech!で使われているBGMのまとめのリポジトリです。 
-PRお待ちしています。情報がある方、是非お願いします。 
+Life is Tech!で使われているBGMのまとめのリポジトリです。  
+PRお待ちしています。情報がある方、是非お願いします。  
 
-[Webページ](http://lit-kansai-members.github.io/music/)（[index.yml](./index.yml)から自動生成） 
+[Webページ](http://lit-kansai-members.github.io/music/)（[index.yml](./index.yml)から自動生成）  
 
 ## こんな曲かかってたよ！
 そんな曲をご存知の方は [Google Form](https://goo.gl/forms/VNdvhC37OuRBtWCD3) から提案していただければと思います。
@@ -26,7 +26,7 @@ Life is Tech! BGM におけるContributionのやり方講座
     camps:
     - name: "'16 Xmas Camp" # キャンプ名
       background: "img/backgorunds/xmas2016_desktop_yellow.jpg" # 背景画像のURL
-      songs: 
+      songs:
       - title: "Hey Ho" # 曲名
         author: "SEKAI NO OWARI" # 歌手名
         description: |
@@ -49,19 +49,19 @@ Life is Tech! BGM におけるContributionのやり方講座
   ```
 
 ## Contributors
-[@KawakawaRitsuki](//github.com/KawakawaRitsuki)（ごっちゃん！！） 
-[@ToukaiAkihiro](//github.com/ToukaiAkihiro)（あきひろ、監督） 
-[@ygkn](//github.com/ygkn)（やぎちゃん） 
-[@E235-235](//github.com/E235-235)（かっくん） 
-[@RinYokoi](//github.com/RinYokoi)（なぽるん,りん） 
-[@shoya140](//github.com/shoya140)（しょうさま） 
+[@KawakawaRitsuki](//github.com/KawakawaRitsuki)（ごっちゃん！！）  
+[@ToukaiAkihiro](//github.com/ToukaiAkihiro)（あきひろ、監督）  
+[@ygkn](//github.com/ygkn)（やぎちゃん）  
+[@E235-235](//github.com/E235-235)（かっくん）  
+[@RinYokoi](//github.com/RinYokoi)（なぽるん,りん）  
+[@shoya140](//github.com/shoya140)（しょうさま）  
 
 ## Special Thanks
 [@sanu22](//github.com/sanu22)（いかさん,いかおじさん）
 
 ## 最後に
-質問等があれば[@KawakawaRitsuki](//twitter.com/KawakawaRitsuki)まで連絡をいただけると幸いです。 
-一応このまとめを始めたっぽい人です。いつの間にか共同リポジトリになってますが笑 
-GitHubの使い方が分からない方は、私にキャンプ情報と曲名をリプ飛ばしてもらえば検討/追加しますのでお気軽にどうぞ。 
- 
+質問等があれば[@KawakawaRitsuki](//twitter.com/KawakawaRitsuki)まで連絡をいただけると幸いです。  
+一応このまとめを始めたっぽい人です。いつの間にか共同リポジトリになってますが笑  
+GitHubの使い方が分からない方は、私にキャンプ情報と曲名をリプ飛ばしてもらえば検討/追加しますのでお気軽にどうぞ。  
+  
 ベイベー！
