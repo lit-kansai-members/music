@@ -34,6 +34,7 @@ gulp.task("concat", () =>
   gulp.src("src/js/*.js")
     .pipe($.wrapper({header: '{', footer: '}'}))
     .pipe($.concat("script.js"))
+    .pipe($.wrapper({header: '"use strict";\n', footer: ''}))
     .pipe(gulp.dest("./tmp"))
 );
 
