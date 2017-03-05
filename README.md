@@ -10,7 +10,7 @@ PRお待ちしています。情報がある方、是非お願いします。
 そんな曲をご存知の方は [Google Form](https://goo.gl/forms/VNdvhC37OuRBtWCD3) から提案していただければと思います。
 
 ## Contribution
-Life is Tech! BGM におけるContributionのやり方講座
+### Life is Tech! BGM におけるContributionのやり方講座
 
 1. Fork
 2. Edit
@@ -18,7 +18,7 @@ Life is Tech! BGM におけるContributionのやり方講座
 4. Pull Request
 5. Marge plz! :)
 
-:warning: WARNING :warning:
+### :warning: WARNING :warning:
 - 以下のフォーマットを使用してください
 
   ```yml
