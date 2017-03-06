@@ -226,7 +226,9 @@ header{
     line-height: $title-height;
     img{
       height: $title-height;
+      &:not(#mark) {
       transition: 1s;
+      }
     }
     #logo{
       transform: translateX(-100%);
