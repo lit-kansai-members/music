@@ -217,7 +217,7 @@ header{
     justify-content: center;
     height: $title-height;
     position: absolute;
-    top: calc(50% - calc(#{$title-height} / 2));
+    top: calc(50% - (#{$title-height} / 2));
     left: 0;
     width: 100%;
     padding: 0;
