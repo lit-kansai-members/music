@@ -1,7 +1,6 @@
 doctype html
 html(lang='ja')
-  -
-    const createId = str => str.toString().toLowerCase().replace(/[!-/:-@¥[-`{-~\s]/g, "-");
+  - const createId = str => "a-" + str.toString().replace(/[!-/:-@¥[-`{-~\s]/g, "-");
   head
     title Life is Tech! Music
     meta(name='viewport', content='width=device-width,initial-scale=1')
