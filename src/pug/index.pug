@@ -35,24 +35,24 @@ html(lang='ja')
     nav
       ul#navigations
         li.year
-          a.smoothscroll(href='#')
+          a(href='#' data-scroll)
             span ↑
             .inneryear TOP
         each year in data.years
           li.year
-            a.smoothscroll(href=`#${createId(year.year)}`)
+            a(href=`#${createId(year.year)}` data-scroll)
               span=isNaN(year.year) ? "★" : year.year.slice(-2)
               .inneryear= year.year
             ul.outerCamp
               each camp in year.camps
                 li.camp
-                  a.smoothscroll(href=`#${createId(camp.name)}`)= camp.name
+                  a(href=`#${createId(camp.name)}` data-scroll)= camp.name
     header
       h1
         img#mark(src='img/mark.png')
         img#logo(src='img/logo.png', alt='Life is Tech! ®')
         img#music(src='img/music.svg', alt='music')
-      a.smoothscroll(href='#main')
+      a.bounce(href='#main' data-scroll)
         | Scroll Down
         br
         img(src='img/arrow.svg')
