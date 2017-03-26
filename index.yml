@@ -1,7 +1,7 @@
 - year: "2016"
   camps:
   - name: "'16 Xmas Camp"
-    background: "img/backgorunds/xmas2016_desktop_yellow.jpg"
+    background: "img/backgrounds/xmas2016_desktop_yellow.jpg"
     songs: 
     - title: "Hey Ho"
       author: "SEKAI NO OWARI"
@@ -16,7 +16,7 @@
         [歌詞(歌ネット)](http://www.uta-net.com/song/216737/)  
         [注意点太郎歌詞](注意点/注意点太郎2016Xmas.md)  
   - name: "'16 Summer Camp"
-    background: "img/backgorunds/desktop_summer2016_blue.png"
+    background: "img/backgrounds/desktop_summer2016_blue.png"
     songs: 
     - title: "CAN'T STOP THEE FEELING!"
       author: "JUSTIN TIMBERLAKE"
@@ -47,7 +47,7 @@
         [注意点VIDEO歌詞](注意点/注意点VIDEO2016Summer.md)  
         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b49f/l03a993.html)  
   - name: "'16 Spring Camp"
-    background: "img/backgorunds/desktop_spring2016_web.png"
+    background: "img/backgrounds/desktop_spring2016_web.png"
     songs: 
     - title: "シルエット"
       author: "KANA-BOON"
@@ -88,7 +88,7 @@
         [YouTube](//youtu.be/uKgmu8g-kXE)  
         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)  
   - name: "'15 Xmas Camp"
-    background: "img/backgorunds/desktop_xmas2015_night.jpg"
+    background: "img/backgrounds/desktop_xmas2015_night.jpg"
     songs: 
     - title: "新宝島"
       author: "サカナクション"
@@ -122,7 +122,7 @@
         [注意点体操歌詞](注意点/注意点体操Xmas2015.md)  
         [歌詞(J-Lyric.net)](http://utaten.com/lyric/COWCOW/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E4%BD%93%E6%93%8D%28%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%29/) 
   - name: "'15 Summer Camp"
-    background: "img/backgorunds/summer2015-blue.jpg"
+    background: "img/backgrounds/summer2015-blue.jpg"
     songs: 
     - title: "Come On! Come On! -Happy with Smile-"
       author: "THE UNITED"
@@ -142,14 +142,14 @@
         [注意点体操歌詞](注意点/注意点体操2015Summer.md)  
         [歌詞(J-Lyric.net)](http://utaten.com/lyric/COWCOW/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E4%BD%93%E6%93%8D%28%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%29/) 
   - name: "'15 Jun. YOSHIMOTO TECHDAY"
-    background: "img/backgorunds/yoshimoto_bg.png"
+    background: "img/backgrounds/yoshimoto_bg.png"
     songs: 
     - title: "LAUGH! LAUGH! LAUGH!"
       description: |
         [YouTube](//youtu.be/1yy4kxA_UVU)  
         [歌詞(歌ネット)](http://www.uta-net.com/song/167194/)  
   - name: "'15 ライフ伊豆キャンプ"
-    background: "img/backgorunds/key_izu.png"
+    background: "img/backgrounds/key_izu.png"
     songs: 
     - title: "バリバリ最強No.1"
       author: "FEEL SO BAD"
@@ -162,7 +162,7 @@
       description: |
         [DOVA-SYNDROME](//dova-s.jp/bgm/play2260.html)  
   - name: "'15 Spring Camp"
-    background: "img/backgorunds/2015_spring.jpeg"
+    background: "img/backgrounds/2015_spring.jpeg"
     songs: 
     - title: "超特急ライン"
       description: |
@@ -204,7 +204,7 @@
         [YouTube](//youtu.be/uKgmu8g-kXE)  
         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)  
   - name: "'14 Summer Camp"
-    background: "img/backgorunds/summer2014-blue.png"
+    background: "img/backgrounds/summer2014-blue.png"
     songs: 
     - title: "ray"
       author: "BUMP OF CHICKEN feat. HATSUNE MIKU"
