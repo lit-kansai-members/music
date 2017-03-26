@@ -1,8 +1,5 @@
-const jump = require("jump.js");
+const SweetScroll = require("sweet-scroll");
 
-$("a.smoothscroll[href^='#']").forEach(v =>
-  v.addEventListener("click", e =>{
-    const target = e.target.getAttribute("href");
-    jump(target === "#" ? document.body : document.getElementById(target.slice(1)));
-  })
-);
+const scroll = new SweetScroll({trigger: "[data-scroll]:not(.bounce)"});
+const scrollBounce = new SweetScroll({trigger: "[data-scroll].bounce", easing: "easeOutBack"});
+
