@@ -71,7 +71,7 @@ html(lang='ja')
               - 
                 const description = song.description
                   .replace(/^\s*\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)\s*$/mg, "")
-                  .replace(/\[(.*)\]\(注意点\/(.+).md\)/g, '<a href="#$2" class="open-modal">$1</a>');
+                  .replace(/\[(.*)\]\(注意点\/(.+).md\)/g, '<a href="#a-$2" class="open-modal">$1</a>');
               section
                 if youtube
                   .youtube
