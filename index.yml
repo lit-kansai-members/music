@@ -1,6 +1,7 @@
 - year: "2017"
   camps:
   - name: "'17 Spring Camp"
+    theme: "閃け！春！Spark"
     background: "img/backgrounds/spring2017_desktop_1.png"
     songs: 
     - title: "さよならバイスタンダー"
