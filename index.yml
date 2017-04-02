@@ -17,6 +17,7 @@
 - year: "2016"
   camps:
   - name: "'16 Xmas Camp"
+    theme: "一年に一度だけ、特別な数日間。"
     background: "img/backgrounds/xmas2016_desktop_yellow.jpg"
     songs: 
     - title: "Hey Ho"
@@ -32,6 +33,7 @@
         [歌詞(歌ネット)](http://www.uta-net.com/song/216737/)  
         [注意点太郎歌詞](注意点/注意点太郎2016Xmas.md)  
   - name: "'16 Summer Camp"
+    theme: "世界なんて、ひと夏で変わる。"
     background: "img/backgrounds/desktop_summer2016_blue.png"
     songs: 
     - title: "CAN'T STOP THEE FEELING!"
