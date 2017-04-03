@@ -66,7 +66,7 @@ html(lang='ja')
             if camp.theme
               small.camp-theme=camp.theme
           .parallax
-            img(src=camp.background || "./img/backgorunds/lifeistech-logo.png",
+            img(src=camp.background || "./img/backgrounds/lifeistech-logo.png",
               class=`background${camp.background ? "" : " noimage"}`)
             each song in camp.songs
               - const youtube = /^\s*\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)\s*$/mg.exec(song.description);
