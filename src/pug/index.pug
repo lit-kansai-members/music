@@ -63,6 +63,8 @@ html(lang='ja')
         each camp in year.camps
           h3(id=createId(camp.name))
             a(href=`#${createId(camp.name)}`)= camp.name
+            if camp.theme
+              small.camp-theme=camp.theme
           .parallax
             img(src=camp.background || "./img/backgorunds/lifeistech-logo.png",
               class=`background${camp.background ? "" : " noimage"}`)
