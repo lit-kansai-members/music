@@ -338,6 +338,23 @@ main {
     width: calc(100% - 2em);
     max-width: 600px;
     margin: 1em auto;
+    .camp-theme {
+      margin: .3em;
+      display: block;
+      font-size: .8em;
+      font-weight: normal;
+      color: #808080;
+      font-style: italic;
+      &:before {
+        content: "";
+        display: inline-block;
+        height: 0;
+        width: 1.5em;
+        border-top: solid 1px;
+        transform: translateY(-.4em);
+        margin: 0 .5em;
+      }
+    }
   }
   .parallax {
     position: relative;
