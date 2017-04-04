@@ -326,7 +326,7 @@ main {
       border-left-color: $color;
     }
     .parallax:nth-child(#{$length}n+#{$key}) img.noimage{
-      background: lighten( $color, 10% );
+      background: lighten( $color, 20% );
     }
   }
 
