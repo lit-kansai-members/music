@@ -4,16 +4,16 @@
     theme: "閃け！春！Spark"
     background: "img/backgrounds/spring2017_desktop_1.png"
     songs: 
-    - title: "さよならバイスタンダー"
-      author: "YUKI"
-      description: |
-        [YouTube](//youtu.be/ZFshsGiJqmM)
-        [歌詞(歌詞タイム)](http://www.kasi-time.com/item-80975.html)
     - title: "Next Stage with You"
       author: "Perfume"
       description: |
         [YouTube](//youtu.be/3j77uK8hu5A)  
         [歌詞(J-Lyric)](http://j-lyric.net/artist/a04cc66/l03a371.html)  
+    - title: "さよならバイスタンダー"
+      author: "YUKI"
+      description: |
+        [YouTube](//youtu.be/ZFshsGiJqmM)
+        [歌詞(歌詞タイム)](http://www.kasi-time.com/item-80975.html)
 - year: "2016"
   camps:
   - name: "'16 Xmas Camp"
