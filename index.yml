@@ -1,3 +1,26 @@
+# Life is Tech ! MUSIC
+
+# Life is Tech!で使われているBGMのまとめのリポジトリです。
+# PRお待ちしています。情報がある方、是非お願いします。
+
+# http://lit-kansai-members.github.io/music/ （このファイルから自動生成）
+
+# 例
+
+# - year: "2017" # String です！
+#   camps:
+#   - name: "'17 Spring Camp" # キャンプ名
+#     theme: "閃け！春！Spark" # キャンプのテーマ
+#     background: "img/backgrounds/spring2017_desktop_1.png" # キャンプの壁紙
+#     songs: 
+#     - title: "Next Stage with YOU" # 曲名
+#       author: "Perfume" # 歌手名
+#       description: |
+#         メルセデス・ベンツ × Perfume コラボレーションCMソング  
+#         [YouTube](//youtu.be/3j77uK8hu5A)  
+#         [歌詞(J-Lyric)](http://j-lyric.net/artist/a04cc66/l03a371.html)  
+#       # リンクなど。 "|" はYAMLの複数行記法です。
+
 - year: "2017"
   camps:
   - name: "'17 Spring Camp"
