@@ -340,20 +340,24 @@ main {
     margin: 1em auto;
     font-size: 1.3em;
     .camp-theme {
-      margin: .3em;
+      position: relative;
+      padding-left: 3.5em;
+      margin: .2em 0;
       display: block;
       font-size: .7em;
       font-weight: normal;
       color: #808080;
       font-style: italic;
       &:before {
+        position: absolute;
+        top: .6em;
+        left: .75em;
         content: "";
         display: inline-block;
         height: 0;
-        width: 1.5em;
+        width: 2em;
         border-top: solid 1px;
-        transform: translateY(-.4em);
-        margin: 0 .5em;
+        margin: 0 .25em;
       }
     }
   }
