@@ -47,6 +47,10 @@ html(lang='ja')
               each camp in year.camps
                 li.camp
                   a(href=`#${createId(camp.name)}` data-scroll)= camp.name
+        li.year
+          a(href='#thanks' data-scroll)
+            span ！
+            .inneryear Thanks !
     header
       h1
         img#mark(src='img/mark.png')
