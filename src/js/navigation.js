@@ -75,6 +75,7 @@ const years = Array.from(document.getElementById("main").childNodes)
 .reverse();
 
 years.push(document.getElementsByTagName("header")[0]);
+years.unshift(document.getElementsByTagName("footer")[0]);
 
 const yearNavs = Array.from(document.getElementById("navigations").childNodes)
 .filter(e => e.classList && e.classList.contains("year"))
