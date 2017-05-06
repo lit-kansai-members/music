@@ -1,9 +1,13 @@
 # Life is Tech ! MUSIC
 
-# Life is Tech!で使われているBGMのまとめのリポジトリです。
-# PRお待ちしています。情報がある方、是非お願いします。
+# Webページを生成するためのYAMLファイルです。
 
-# http://lit-kansai-members.github.io/music/ （このファイルから自動生成）
+# ルール
+
+# 背景画像が指定されていない場合は Life is Tech! のロゴが表示されます。
+# description では Markdown 記法が利用できます。HTMLへの変換は https://github.com/chjj/marked を使用しています。
+# なるべく動画はYouTubeにしてください。
+# YouTubeへのリンクは `[YouTube](//youtu.be/動画ID)` のみ動画を埋め込みます。
 
 # 例
 
@@ -142,6 +146,11 @@
         コカ・コーラ 冬期CMソング  
         [YouTube](//youtu.be/uKgmu8g-kXE)  
         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)  
+    - title: "螢のテーマ"
+      author: "AI"
+      description: |
+        北の国から 遥かなる大地より  
+        [YouTube](//youtu.be/hsSAnsrQvLk)  
   - name: "'15 Xmas Camp"
     theme: "5日間だけの魔法の世界へ、ようこそ -Make with Magic-"
     background: "img/backgrounds/desktop_xmas2015_night.jpg"
