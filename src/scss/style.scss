@@ -383,11 +383,9 @@ main {
     margin: 4em auto;
     background: white;
     border-radius: 2px;
-    h4, .body {
-      margin: 0 1em;
-    }
-    h4, .body{
-      padding: .5em 0;
+    padding-bottom: 1px;
+    p, h4 {
+      margin: 1em 1em;
     }
     h4  small:before {
       content: "";
