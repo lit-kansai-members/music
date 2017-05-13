@@ -1,7 +1,8 @@
 const getDocumentOffset = e => e.getBoundingClientRect().top + pageYOffset;
 const viewportHeight = window.innerHeight;
 
-const $backgrounds = Array
+let scrollY;
+let $backgrounds = Array
   .from(document.querySelectorAll(".parallax"))
   .map(container => {
     const background = Array.from(container.children)
@@ -24,13 +25,14 @@ window.addEventListener("resize", e =>{
   })
   viewportHeight = window.innerHeight;
 })
+
+window.addEventListener("scroll", e => scrollY = pageYOffset);
  
 const anim = () =>{
-  const scrollY = pageYOffset;
   let i = 0;
   while( i < $backgrounds.length){
     const {background, top, containerHeight, backgroundHeight} = $backgrounds[i];
-    const viewportTop = top - pageYOffset;
+    const viewportTop = top - scrollY;
     if(!(viewportTop < 0 && viewportTop > viewportHeight)) {
       background.style.transform = "translateY(" + 
         -(viewportTop + (viewportHeight - viewportTop) / (viewportHeight + containerHeight) * (backgroundHeight - viewportHeight)) +
