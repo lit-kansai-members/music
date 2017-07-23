@@ -91,7 +91,6 @@ window.addEventListener("scroll", e =>{
   if(open !== opened) {
     yearNavs[opened].classList.remove("opened");
     yearNavs[open].classList.add("opened");
-    console.log(yearNavs[open])
     opened = open;
   }
 });
