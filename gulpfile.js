@@ -30,16 +30,8 @@ gulp.task("generate:pug", () =>
     .pipe(gulp.dest("./build"))
 );
 
-gulp.task("concat", () =>
-  gulp.src("src/js/*.js")
-    .pipe($.wrapper({header: '{', footer: '}'}))
-    .pipe($.concat("script.js"))
-    .pipe($.wrapper({header: '"use strict";\n', footer: ''}))
-    .pipe(gulp.dest("./tmp"))
-);
-
-gulp.task("generate:js", ["concat"], () =>
-  browserify({entries: ["./tmp/script.js"]})
+gulp.task("generate:js", () =>
+  browserify({entries: ["./src/js/index.js"]})
     .bundle()
     .pipe(source("script.js"))
     .pipe(gulp.dest("./build/js"))
