@@ -1,6 +1,14 @@
 
 const players = [];
-const events = {};
+const events = {
+  onStateChange({target, data: state}){
+    if(state === 1) {
+      players.forEach(({player}) =>
+        player !== target && player.getPlayerState() === 1 && player.pauseVideo()
+      );
+    }
+  }
+};
 
 window.onYouTubeIframeAPIReady = () =>
   $(".play").forEach(el =>
