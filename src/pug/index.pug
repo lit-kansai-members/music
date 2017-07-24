@@ -83,7 +83,7 @@ html(lang='ja')
                   .youtube
                     img.thumb(src="https://img.youtube.com/vi/"+
                       youtube[2]+"/0.jpg")
-                    button.play(data-youtube-id=youtube[2])
+                    button.play(data-youtube-id=youtube[2], data-title=song.title, data-author=song.author)
                     a(href=youtube[1])
                       | Watch at 
                       img(src='./img/YouTube-logo-light.png', alt='YouTube')
@@ -114,3 +114,4 @@ html(lang='ja')
         .chuiten!= data.marked(chuiten.content)
     a#modal-overlay.close-modal(href='#')
     script(type='text/javascript', src='./js/script.js')
+    script(src="https://www.youtube.com/iframe_api")
