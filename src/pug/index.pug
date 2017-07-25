@@ -113,5 +113,16 @@ html(lang='ja')
         a.close-modal(href='#') Close
         .chuiten!= data.marked(chuiten.content)
     a#modal-overlay.close-modal(href='#')
+    .player
+      .playing
+        img.thumb(src="https://img.youtube.com/vi/pnBnu5v8KTw/0.jpg")
+        span
+          strong.title タイトル
+          span.author 歌手
+      .controller
+        button.back ⏪
+        button.toggle ▶
+        button.next ⏩
+      .offset
     script(type='text/javascript', src='./js/script.js')
     script(src="https://www.youtube.com/iframe_api")

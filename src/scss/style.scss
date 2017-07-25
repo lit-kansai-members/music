@@ -28,6 +28,15 @@ $youtube-triangle-height: 50px;
   100% {stroke-dashoffset: var(--max)}
 }
 
+@keyframes animateLiTcolor {
+  0%   { color: #e63c35;}
+  20%  { color: #fac700;}
+  40%  { color: #67b62d;}
+  60%  { color: #009bdb;}
+  80%  { color: #ff8b22;}
+  90%  { color: #bb39ff;}
+  100% { color: #e63c35;}
+}
 
 html, body {
   margin: 0;
@@ -514,6 +523,48 @@ a {
   ~ #modal-overlay{
     bottom: 0;
     opacity: 1;
+  }
+}
+
+.player {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 4em;
+  background: #fff;
+  display: flex;
+  z-index: 5;
+  transform: translateY(100%);
+  transition: .3s;
+  &.show {
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, .5);
+    transform: none;
+  }
+  .playing {
+    flex: 1;
+    display: flex;
+    min-width: 200px;
+    .thumb {
+      padding: 10px;
+      height: 100%
+    }
+    > span{
+      overflow: auto;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .offset {
+    min-width: 0;
+    flex: 1;
+  }
+  .controller {
+    align-self: center;
+    font-size: 2em;
+    > button{
+      animation: animateLiTcolor 20s infinite;
+    }
   }
 }
 
