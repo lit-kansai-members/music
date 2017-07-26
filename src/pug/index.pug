@@ -28,10 +28,6 @@ html(lang='ja')
         path.second(style='stroke:#66ae32', d='M 205,220 205,60')
         path(style='stroke:#66ae32', d='m 205,280 0,-50')
         path.first(d='m 25,225 c -1,25 25,25 25,25 l 60,0', style='stroke:#1792cb')
-      p
-        | take too much time? see 
-        a(href='https://github.com/lit-kansai-members/music/blob/master/index.md') Markdown version
-        | .
     nav
       ul#navigations
         li.year
@@ -83,7 +79,7 @@ html(lang='ja')
                   .youtube
                     img.thumb(src="https://img.youtube.com/vi/"+
                       youtube[2]+"/0.jpg")
-                    button.play(data-youtube-id=youtube[2], data-title=song.title, data-author=song.author)
+                    button.play(data-youtube-id=youtube[2])
                     a(href=youtube[1])
                       | Watch at 
                       img(src='./img/YouTube-logo-light.png', alt='YouTube')
@@ -114,4 +110,3 @@ html(lang='ja')
         .chuiten!= data.marked(chuiten.content)
     a#modal-overlay.close-modal(href='#')
     script(type='text/javascript', src='./js/script.js')
-    script(src="https://www.youtube.com/iframe_api")
