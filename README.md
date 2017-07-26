@@ -1,4 +1,4 @@
-# Life is Tech! BGM
+# Life is Tech! MUSIC
 [![Build Status](https://travis-ci.org/lit-kansai-members/music.svg?branch=master)](https://travis-ci.org/lit-kansai-members/music) [![devDependencies Status](https://david-dm.org/lit-kansai-members/music/dev-status.svg)](https://david-dm.org/lit-kansai-members/music?type=dev)
 
 Life is Tech!で使われているBGMのまとめのリポジトリです。  
