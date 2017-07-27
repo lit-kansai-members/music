@@ -81,7 +81,6 @@ const yearNavs = Array.from(document.getElementById("navigations").childNodes)
 .filter(e => e.classList && e.classList.contains("year"))
 .reverse();
 
-
 let opened = 0;
 
 window.addEventListener("scroll", e =>{

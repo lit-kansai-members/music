@@ -21,4 +21,3 @@ Promise.resolve()
   loading.addEventListener("transitionend", () => res());
 }))
 .then(() => document.body.classList.add("loaded"));
-
