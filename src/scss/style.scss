@@ -38,6 +38,16 @@ $youtube-triangle-height: 50px;
   100% { color: #e63c35;}
 }
 
+@keyframes animateLiTBGcolor {
+  0%   { background-color: #e63c35;}
+  20%  { background-color: #fac700;}
+  40%  { background-color: #67b62d;}
+  60%  { background-color: #009bdb;}
+  80%  { background-color: #ff8b22;}
+  90%  { background-color: #bb39ff;}
+  100% { background-color: #e63c35;}
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -544,6 +554,7 @@ a {
     flex: 1;
     display: flex;
     min-width: 200px;
+    height: 100%;
     .thumb {
       padding: 10px;
       height: 100%
@@ -562,8 +573,70 @@ a {
   .controller {
     align-self: center;
     font-size: 2em;
+    display: flex;
+    align-items: center;
     > button{
       animation: animateLiTcolor 20s infinite;
+      margin: 0.25em;
+      line-height: 1;
+      &.toggle {
+        padding: 0;
+        background: none;
+        border: none;
+        height: 1em;
+        width: 1em;
+        display: block;
+        overflow: hidden;
+        position: relative;
+        .left {
+          height: 100%;
+          float: left;
+          width: 36%;
+          transition: all 0.25s ease;
+          overflow: hidden;
+          animation: animateLiTBGcolor 20s infinite;
+        }
+        .triangle-1 {
+          transform: translate(0, -100%);
+        }
+        .triangle-2 {
+          transform: translate(0, 100%);
+        }
+        .triangle-1,
+        .triangle-2 {
+          position: absolute;
+          top: 0;
+          right: 0;
+          background-color: transparent;
+          width: 0;
+          height: 0;
+          border-right: 1em solid #fff;
+          border-top: .5em solid transparent;
+          border-bottom: .5em solid transparent;
+          transition: transform 0.25s ease;
+        }
+        .right {
+          height: 100%;
+          float: right;
+          width: 36%;
+          animation: animateLiTBGcolor 20s infinite;
+          transition: all 0.25s ease;
+        }
+        &.paused{
+          .left {
+            width: 50%;
+          }
+          .right {
+            width: 50%;
+          }
+          .triangle-1 {
+            transform: translate(0, -50%);
+          }
+          .triangle-2 {
+            transform: translate(0, 50%);
+          }
+        }
+      }
     }
   }
 }

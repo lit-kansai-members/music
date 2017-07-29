@@ -79,7 +79,7 @@ html(lang='ja')
                   .youtube
                     img.thumb(src="https://img.youtube.com/vi/"+
                       youtube[2]+"/0.jpg")
-                    button.play(data-youtube-id=youtube[2])
+                    button.play(data-youtube-id=youtube[2], data-title=song.title, data-author=song.author)
                     a(href=youtube[1])
                       | Watch at 
                       img(src='./img/YouTube-logo-light.png', alt='YouTube')
@@ -117,7 +117,11 @@ html(lang='ja')
           span.author 歌手
       .controller
         button.back ⏪
-        button.toggle ▶
+        button.toggle
+          .left
+          .right
+          .triangle-1
+          .triangle-2
         button.next ⏩
       .offset
     script(type='text/javascript', src='./js/script.js')
