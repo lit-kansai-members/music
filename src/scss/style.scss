@@ -580,6 +580,7 @@ a {
       animation: animateLiTcolor 20s infinite;
       margin: 0.25em;
       line-height: 1;
+      &:hover {cursor: pointer; opacity: .8;}
       &.toggle {
         padding: 0;
         background: none;
