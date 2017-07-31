@@ -1,4 +1,5 @@
-const getDocumentOffset = e => e.getBoundingClientRect().top + pageYOffset;
+let scroll = window.pageYOffset;
+const getDocumentOffset = e => e.getBoundingClientRect().top + scroll;
 let viewportHeight = window.innerHeight;
 
 let $backgrounds = Array
@@ -14,6 +15,7 @@ let $backgrounds = Array
 
 const update = e =>
   requestAnimationFrame(()=> {
+    scroll = window.pageYOffset;
     if(e.type !== 'scroll') {
       $backgrounds = $backgrounds.map(value => {
         value.top = getDocumentOffset(value.container);
@@ -26,7 +28,7 @@ const update = e =>
     let i = 0;
     while( i < $backgrounds.length){
       const {background, top, containerHeight, backgroundHeight} = $backgrounds[i];
-      const viewportTop = top - window.pageYOffset;
+      const viewportTop = top - scroll;
       if(!(viewportTop < 0 && viewportTop > viewportHeight)) {
         background.style.transform = "translateY(" + 
           -(viewportTop + (viewportHeight - viewportTop) / (viewportHeight + containerHeight) * (backgroundHeight - viewportHeight)) +
