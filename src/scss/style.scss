@@ -571,6 +571,7 @@ a {
     flex: 1;
   }
   .controller {
+    * {outline: none;}
     align-self: center;
     font-size: 2em;
     display: flex;
