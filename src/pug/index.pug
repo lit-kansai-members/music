@@ -8,6 +8,8 @@ html(lang='ja')
       image: "http://lit-kansai-members.github.io/music/img/og.png",
       url: "http://lit-kansai-members.github.io/music/"
     };
+  mixin faicon(name)
+    i.fa(class=`fa-${name}`, area-hidden="true")
   head
     title Life is Tech! Music
     meta(name='viewport', content='width=device-width,initial-scale=1')
@@ -26,6 +28,7 @@ html(lang='ja')
     meta(name='twitter:image:alt', content=info.title)
     link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/4.1.0/sanitize.min.css')
     link(rel='stylesheet', href='./css/style.css', type='text/css')
+    script(src='https://use.fontawesome.com/6915a2ffb0.js')
     script.
       const $ = s => Array.from(document.querySelectorAll(s));
   body
@@ -43,12 +46,15 @@ html(lang='ja')
       ul#navigations
         li.year
           a(href='#' data-scroll)
-            span ↑
+            span: +faicon("arrow-up")
             .inneryear TOP
         each year in data.years
           li.year
             a(href=`#${createId(year.year)}` data-scroll)
-              span=isNaN(year.year) ? "★" : year.year.slice(-2)
+              if isNaN(year.year)
+                span: +faicon("star")
+              else
+                span=year.year.slice(-2)
               .inneryear= year.year
             ul.outerCamp
               each camp in year.camps
@@ -56,7 +62,7 @@ html(lang='ja')
                   a(href=`#${createId(camp.name)}` data-scroll)= camp.name
         li.year
           a(href='#thanks' data-scroll)
-            span ！
+            span: +faicon("exclamation")
             .inneryear Thanks !
     header
       h1
@@ -66,7 +72,7 @@ html(lang='ja')
       a.bounce(href='#main' data-scroll)
         | Scroll Down
         br
-        img(src='img/arrow.svg')
+        +faicon("chevron-down")
     main#main
       each year in data.years
         h2(id=createId(year.year))
@@ -127,13 +133,13 @@ html(lang='ja')
           strong.title タイトル
           span.author 歌手
       .controller
-        button.back ⏪
+        button.back: +faicon("backward")
         button.toggle
           .left
           .right
           .triangle-1
           .triangle-2
-        button.next ⏩
+        button.next: +faicon("forward")
       .offset
     script(type='text/javascript', src='./js/script.js')
     script(src="https://www.youtube.com/iframe_api")
