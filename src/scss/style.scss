@@ -323,12 +323,12 @@ main {
       right: 0;
       opacity: .5;
       z-index: 2;
-      font-size: .8em;
       &:hover{
         opacity: .7;
       }
       img{
-        height: 3.5em;
+        height: 24px;
+        margin: 12px;
       }
     }
 
