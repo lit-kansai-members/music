@@ -70,16 +70,9 @@ Array.from(document.getElementsByClassName("outerCamp"))
  * TOPがウィンドウの高さの半分以上の最後の要素を開く
  */
 
-const years = Array.from(document.getElementById("main").childNodes)
-.filter(e => e.tagName === "H2")
-.reverse();
+const years = Array.from(document.querySelectorAll("header, main > h2 ,footer")).reverse();
 
-years.push(document.getElementsByTagName("header")[0]);
-years.unshift(document.getElementsByTagName("footer")[0]);
-
-const yearNavs = Array.from(document.getElementById("navigations").childNodes)
-.filter(e => e.classList && e.classList.contains("year"))
-.reverse();
+const yearNavs = Array.from(document.querySelectorAll("#navigations > .year")).reverse();
 
 let opened = 0;
 

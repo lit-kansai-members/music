@@ -12,6 +12,7 @@ Promise.resolve()
 .then(() => new Promise(res => window.addEventListener("load", e => res())))
 .then(() => new Promise(res => 
   paths[0].addEventListener("animationiteration", e =>{
+    console.log(e);
     if((e.elapsedTime % 4) < 2) res()
 })))
 .then(() => new Promise(res =>{
