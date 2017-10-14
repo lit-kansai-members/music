@@ -12,6 +12,8 @@ window.onYouTubeIframeAPIReady = () => {
   const $author       = $(".playing .author")[0];
   const $thumbnail    = $(".playing .thumb")[0];
   const $player       = $(".player")[0];
+  const $toggleSetting = $(".toggle-setting")[0];
+  const $balloon       = $(".balloon")[0];
 
   const events = {
     onStateChange({target, data: state}){
@@ -71,4 +73,6 @@ window.onYouTubeIframeAPIReady = () => {
     play(playing - 1 < 0 ? players.length - 1 : playing - 1));
   $nextButton.addEventListener("click", e =>
     play((playing + 1) % players.length));
+
+  $toggleSetting.addEventListener("click", e => $balloon.classList.toggle("opened"))
 }

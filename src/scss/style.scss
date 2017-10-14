@@ -549,6 +549,9 @@ a {
   &.show {
     box-shadow: 0 0 3px 3px rgba(0, 0, 0, .5);
     transform: none;
+    .balloon.opened {
+      transform: translateY(-2em) scale(1);
+    }
   }
   .playing {
     flex: 1;
@@ -566,9 +569,79 @@ a {
       flex-direction: column;
     }
   }
-  .offset {
+  .setting {
     min-width: 0;
     flex: 1;
+    position: relative;
+    .toggle-setting {
+      position: absolute;
+      height: 100%;
+      font-size: 1.5em;
+      animation: animateLiTcolor 20s infinite;
+      padding: 0 1em;
+      right: 0;
+    }
+    .balloon {
+      position: absolute;
+      bottom: 100%;
+      right: 1em;
+      padding: .5em;
+      border-radius: .5em;
+      background: #fff;
+      border: solid 1px #333;
+      transform: translateX(0) scale(0);
+      transform-origin: bottom right;
+      transition: .2s;
+      &:before {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 1em;
+        width: 1em;
+        background: #fff;
+        border: solid 1px #333;
+        border-style: none solid solid none;
+        top: 100%;
+        right: .5em;
+        transform: rotate(45deg) translate(-.5em, -.2em);
+      }
+      label {
+        > input[type="checkbox"] {
+          display: none;
+          &:checked {
+            ~ .checkbox-bg {
+              animation: animateLiTBGcolor 20s infinite;
+              border: none;
+              background-clip: border-box;
+              > i {
+                width: 100%;
+              }
+            }
+          }
+        }
+        .checkbox-bg {
+          display: inline-block;
+          margin-right: 1em;
+          height: 1em;
+          width: 1em;
+          animation: animateLiTcolor 20s infinite;
+          border-radius: .2em;
+          box-sizing: border-box;
+          border: solid 2px;
+          padding: 1px;
+          transition: .2s;
+          vertical-align: middle;
+          > i {
+            color: #fff;
+            width: 0;
+            overflow: hidden;
+            transition: .2s;
+            font-size: calc( 1em - 2px );
+            vertical-align: top;
+          } 
+        } 
+      } 
+    } 
   }
   .controller {
     * {outline: none;}
