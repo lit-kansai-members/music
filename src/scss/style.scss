@@ -28,6 +28,17 @@ $youtube-triangle-height: 50px;
   100% {stroke-dashoffset: var(--max)}
 }
 
+@keyframes buttonAnimation {
+  0% {
+    opacity: 1;
+    transform: translateX(var(--moveFromX));
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(var(--moveToX));
+  }
+}
+
 @keyframes animateLiTcolor {
   0%   { color: #e63c35;}
   20%  { color: #fac700;}
@@ -577,9 +588,9 @@ a {
       position: absolute;
       height: 100%;
       font-size: 1.5em;
-      animation: animateLiTcolor 20s infinite;
       padding: 0 1em;
       right: 0;
+      margin: 0
     }
     .balloon {
       position: absolute;
@@ -644,72 +655,88 @@ a {
     } 
   }
   .controller {
-    * {outline: none;}
     align-self: center;
     font-size: 2em;
     display: flex;
     align-items: center;
-    > button{
-      animation: animateLiTcolor 20s infinite;
-      margin: 0.25em;
-      line-height: 1;
-      &:hover {cursor: pointer; opacity: .8;}
-      &.toggle {
-        padding: 0;
-        background: none;
-        border: none;
-        height: 1em;
-        width: 1em;
-        display: block;
+  }
+  * {outline: none;}
+  button{
+    animation: animateLiTcolor 20s infinite;
+    margin: 0.25em;
+    line-height: 1;
+
+    &:hover {cursor: pointer; opacity: .8;}
+    .shadow {
+      position: absolute;
+      transform: translateX(var(--moveFromX));
+    }
+    &.next .shadow {
+      --moveFromX: -100%;
+      --moveToX: 0;
+    }
+    &.back .shadow {
+      --moveFromX: -100%;
+      --moveToX: -200%; 
+    }
+    &:active .shadow {
+      animation: buttonAnimation .3s both;
+    }
+    &.toggle {
+      padding: 0;
+      background: none;
+      border: none;
+      height: 1em;
+      width: 1em;
+      display: block;
+      overflow: hidden;
+      position: relative;
+      .left {
+        height: 100%;
+        float: left;
+        width: 36%;
+        transition: all 0.25s ease;
         overflow: hidden;
-        position: relative;
+        animation: animateLiTBGcolor 20s infinite;
+      }
+      .triangle-1 {
+        transform: translate(0, -100%);
+      }
+      .triangle-2 {
+        transform: translate(0, 100%);
+      }
+      .triangle-1,
+      .triangle-2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: transparent;
+        width: 0;
+        height: 0;
+        border-right: 1em solid #fff;
+        border-top: .5em solid transparent;
+        border-bottom: .5em solid transparent;
+        transition: transform 0.25s ease;
+      }
+      .right {
+        height: 100%;
+        float: right;
+        width: 36%;
+        animation: animateLiTBGcolor 20s infinite;
+        transition: all 0.25s ease;
+      }
+      &.paused{
         .left {
-          height: 100%;
-          float: left;
-          width: 36%;
-          transition: all 0.25s ease;
-          overflow: hidden;
-          animation: animateLiTBGcolor 20s infinite;
-        }
-        .triangle-1 {
-          transform: translate(0, -100%);
-        }
-        .triangle-2 {
-          transform: translate(0, 100%);
-        }
-        .triangle-1,
-        .triangle-2 {
-          position: absolute;
-          top: 0;
-          right: 0;
-          background-color: transparent;
-          width: 0;
-          height: 0;
-          border-right: 1em solid #fff;
-          border-top: .5em solid transparent;
-          border-bottom: .5em solid transparent;
-          transition: transform 0.25s ease;
+          width: 50%;
         }
         .right {
-          height: 100%;
-          float: right;
-          width: 36%;
-          animation: animateLiTBGcolor 20s infinite;
-          transition: all 0.25s ease;
+          width: 50%;
         }
-        &.paused{
-          .left {
-            width: 50%;
-          }
-          .right {
-            width: 50%;
-          }
-          .triangle-1 {
-            transform: translate(0, -50%);
-          }
-          .triangle-2 {
-            transform: translate(0, 50%);
-          }
+        .triangle-1 {
+          transform: translate(0, -50%);
+        }
+        .triangle-2 {
+          transform: translate(0, 50%);
         }
       }
     }

@@ -133,13 +133,17 @@ html(lang='ja')
           strong.title タイトル
           span.author 歌手
       .controller
-        button.back: +faicon("backward")
+        button.back
+          +faicon("backward")
+          span.shadow: +faicon("backward")
         button.toggle
           .left
           .right
           .triangle-1
           .triangle-2
-        button.next: +faicon("forward")
+        button.next
+          +faicon("forward")
+          span.shadow: +faicon("forward")
       .setting
         button.toggle-setting: +faicon("ellipsis-v")
         .balloon
