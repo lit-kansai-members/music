@@ -27,6 +27,27 @@
 
 - year: "2017"
   camps:
+  - name: "'17 Summer Camp"
+    theme: "夏が君を動かす。君が世界を動かす。-Move-"
+    background: "img/backgrounds/summer2017_desktop_2.png"
+    songs: 
+    - title: "明日も"
+      author: "SHISHAMO"
+      description: |
+        NTTドコモ"ドコモの学割「ししゃも？」篇" CMソング  
+        [YouTube](//youtu.be/zhCtzmDWsN0)  
+        [歌詞(J-Lyric)](http://j-lyric.net/artist/a056dae/l03e5dd.html)  
+    - title: "鱗"
+      author: "秦基博"
+      description: |
+        [YouTube](//youtu.be/x2WP1ZSQVlQ)  
+        [歌詞(J-Lyric)](http://j-lyric.net/artist/a04c9d1/l00a8ba.html)
+    - title: "SHINY"
+      author: "夜の本気ダンス"
+      description: |
+        NHK Eテレ テレビアニメ「境界のRINNE」第3シリーズ OPテーマソング  
+        [YouTube](//youtu.be/6idlVhWIWAE)  
+        [歌詞(J-Lyric)](http://j-lyric.net/artist/a05b135/l03f540.html)
   - name: "'17 Spring Camp"
     theme: "閃け！春！Spark -Spark! Spring!-"
     background: "img/backgrounds/spring2017_desktop_1.png"
