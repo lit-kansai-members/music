@@ -27,6 +27,44 @@
 
 - year: "2017"
   camps:
+  - name: "'17 Summer Camp"
+    theme: "夏が君を動かす。君が世界を動かす。-Move-"
+    poem: |
+      Summer moves your heart. You inspire the World .  
+      
+      夏は不思議な力を持っている。  
+      
+      何かに夢中になりたくなる。  
+      誰かとはしゃぎたくなる。  
+      秘密を語り合いたくなる。  
+      新しい自分を見たくなる。  
+      
+      夏が君を突き動かす。  
+      そこからすべてが始まる。  
+      
+      君が動くことで、世界は動き始める。  
+      この夏のテーマは「Move」  
+      
+      世界を動かす、感動させる特別な夏へようこそ！  
+    background: "img/backgrounds/summer2017_desktop_2.png"
+    songs: 
+    - title: "明日も"
+      author: "SHISHAMO"
+      description: |
+        NTTドコモ"ドコモの学割「ししゃも？」篇" CMソング  
+        [YouTube](//youtu.be/zhCtzmDWsN0)  
+        [歌詞(J-Lyric)](http://j-lyric.net/artist/a056dae/l03e5dd.html)  
+    - title: "鱗"
+      author: "秦基博"
+      description: |
+        [YouTube](//youtu.be/x2WP1ZSQVlQ)  
+        [歌詞(J-Lyric)](http://j-lyric.net/artist/a04c9d1/l00a8ba.html)
+    - title: "SHINY"
+      author: "夜の本気ダンス"
+      description: |
+        NHK Eテレ テレビアニメ「境界のRINNE」第3シリーズ OPテーマソング  
+        [YouTube](//youtu.be/6idlVhWIWAE)  
+        [歌詞(J-Lyric)](http://j-lyric.net/artist/a05b135/l03f540.html)
   - name: "Life 那須 Tech !"
     theme: "一年に一度だけ、地獄のような３日間"
     background: "img/backgrounds/nasu2017.jpg"

@@ -81,7 +81,11 @@ html(lang='ja')
           h3(id=createId(camp.name))
             a(href=`#${createId(camp.name)}`)= camp.name
             if camp.theme
-              small.camp-theme=camp.theme
+              if camp.poem
+                a(href=`#${createId(`poem_${year.year}_${camp.name}`)}`).open-modal
+                  small.camp-theme=camp.theme
+              else
+                small.camp-theme=camp.theme
           .parallax
             img(src=camp.background || "./img/backgrounds/lifeistech-logo.png",
               class=`background${camp.background ? "" : " noimage"}`)
@@ -125,6 +129,12 @@ html(lang='ja')
       .modal(id=createId(chuiten.name))
         a.close-modal(href='#') Close
         .chuiten!= data.marked(chuiten.content)
+    each year in data.years
+      each camp in year.camps
+        if camp.poem
+          .modal(id=createId(`poem_${year.year}_${camp.name}`))
+            a.close-modal(href='#') Close
+            div!= data.marked(camp.poem)
     a#modal-overlay.close-modal(href='#')
     .player
       .playing
