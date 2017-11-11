@@ -83,7 +83,7 @@ body.loaded {
 #loading{
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background: #fff;
@@ -365,7 +365,7 @@ main {
       display: block;
       font-size: .7em;
       font-weight: normal;
-      color: #808080;
+      opacity: .6;
       font-style: italic;
       &:before {
         position: absolute;
