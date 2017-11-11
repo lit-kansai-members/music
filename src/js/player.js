@@ -12,6 +12,10 @@ window.onYouTubeIframeAPIReady = () => {
   const $author       = $(".playing .author")[0];
   const $thumbnail    = $(".playing .thumb")[0];
   const $player       = $(".player")[0];
+  const $toggleSetting = $(".toggle-setting")[0];
+  const $balloon       = $(".balloon")[0];
+  const $continue      = $("[name='continue']")[0];
+  const $repeat        = $("[name='repeat']")[0];
 
   const events = {
     onStateChange({target, data: state}){
@@ -28,14 +32,19 @@ window.onYouTubeIframeAPIReady = () => {
               $toggleButton.classList.remove("paused");
               $player.classList.add("show");
               const iframe = target.getIframe();
-              const box = iframe.getBoundingClientRect();
-              if (box.top <= 0 || box.top >= window.innerHeight)
-                sweetScroll.toElement(iframe);
+              sweetScroll.toElement(iframe);
             }
         });
-      } else if(state === 2 || state === 0) {
+      } else if(state === 2) {
         if(players.findIndex(({player}) => player === target) === playing) {
           $toggleButton.classList.add("paused");
+        }
+      } else if(state === 0) {
+        if($continue.checked) {
+          if(playing !== players.length - 1 || $repeat.checked)
+            playNext();
+        } else if($repeat.checked) {
+          play(playing);
         }
       }
     }
@@ -44,7 +53,7 @@ window.onYouTubeIframeAPIReady = () => {
   const load = index => {
     players[index].player = new YT.Player(players[index].trigger, {
       videoId: players[index].youtubeId,
-      playerVars: {autoplay: 1},
+      playerVars: {autoplay: 1, rel:0},
       events
     });
     delete players[index].trigger;
@@ -52,11 +61,18 @@ window.onYouTubeIframeAPIReady = () => {
 
   const play = index => {
     if(players[index].player) {
+      players[index].player.seekTo(0, true);
       players[index].player.playVideo();
     } else {
       load(index);
     }
   }
+
+  const playBack = () => 
+    play(playing - 1 < 0 ? players.length - 1 : playing - 1);
+
+  const playNext = () => 
+    play((playing + 1) % players.length);
 
   const players = $(".play").map( (trigger, index) => {
     const data = Object.assign({}, trigger.dataset);
@@ -67,8 +83,8 @@ window.onYouTubeIframeAPIReady = () => {
   $toggleButton.addEventListener("click", e =>
     players[playing].player[$toggleButton.classList.contains("paused") ? "playVideo" : "pauseVideo"]());
 
-  $backButton.addEventListener("click", e =>
-    play(playing - 1 < 0 ? players.length - 1 : playing - 1));
-  $nextButton.addEventListener("click", e =>
-    play((playing + 1) % players.length));
+  $backButton.addEventListener("click", playBack);
+  $nextButton.addEventListener("click", playNext);
+
+  $toggleSetting.addEventListener("click", e => $balloon.classList.toggle("opened"))
 }

@@ -143,13 +143,31 @@ html(lang='ja')
           strong.title タイトル
           span.author 歌手
       .controller
-        button.back: +faicon("backward")
+        button.back
+          +faicon("backward")
+          span.shadow: +faicon("backward")
         button.toggle
           .left
           .right
           .triangle-1
           .triangle-2
-        button.next: +faicon("forward")
-      .offset
+        button.next
+          +faicon("forward")
+          span.shadow: +faicon("forward")
+      .setting
+        button.toggle-setting: +faicon("ellipsis-v")
+        .balloon
+          p
+            label
+              input(type="checkbox", name="continue", checked)
+              span.checkbox-bg
+                i.fa.fa-check(class="fa fa-check", aria-hidden="true")
+              span 連続再生
+          p
+            label
+              input(type="checkbox", name="repeat", checked)
+              span.checkbox-bg
+                i.fa.fa-check(class="fa fa-check", aria-hidden="true")
+              span リピート再生
     script(type='text/javascript', src='./js/script.js')
     script(src="https://www.youtube.com/iframe_api")
