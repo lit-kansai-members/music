@@ -27,6 +27,21 @@
 
 - year: "2017"
   camps:
+  - name: "Life 那須 Tech !"
+    theme: "一年に一度だけ、地獄のような３日間"
+    background: "img/backgrounds/nasu2017.jpg"
+    songs: 
+    - title: "見たこともない景色"
+      author: "菅田将暉"
+      description: |
+        au「au BLUE CHALLENGE」「応援」編 CMソング
+        [YouTube](//youtu.be/g4fgxzh9Ofc)  
+        [歌詞(J-Lyric)](http://j-lyric.net/artist/a05c7bf/l03ee0e.html)  
+    - title: "Stay"
+      author: "Zedd & Alessia Cara"
+      description: |
+        [YouTube](//youtu.be/h--P8HzYZ74)  
+        [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/zedd/stay.html)  
   - name: "'17 Spring Camp"
     theme: "閃け！春！Spark -Spark! Spring!-"
     background: "img/backgrounds/spring2017_desktop_1.png"
