@@ -127,14 +127,14 @@ html(lang='ja')
           small This project is an unoffcial.
     each chuiten in data.chuitens
       .modal(id=createId(chuiten.name))
-        a.close-modal(href='#') Close
-        .chuiten!= data.marked(chuiten.content)
+        a.close-modal.close-button(href='#'): +faicon("times-circle")
+        .inner!= data.marked(chuiten.content)
     each year in data.years
       each camp in year.camps
         if camp.poem
           .modal(id=createId(`poem_${year.year}_${camp.name}`))
-            a.close-modal(href='#') Close
-            div!= data.marked(camp.poem)
+            a.close-modal.close-button(href='#'): +faicon("times-circle")
+            .inner!= data.marked(camp.poem)
     a#modal-overlay.close-modal(href='#')
     .player
       .playing

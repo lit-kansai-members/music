@@ -516,10 +516,16 @@ a {
   background: #fff;
   z-index: 3;
   opacity: 0;
-  > .chuiten{
+  > .inner{
     overflow: auto;
-    display: none;
-    height: calc(100% - 1em);
+    height: 100%;
+  }
+  .close-button {
+    color: #f00;
+    font-size: 1.5em;
+    position: absolute;
+    top: 1em;
+    right: 1em;
   }
 }
 
@@ -538,9 +544,6 @@ a {
 .modal.open{
   bottom: 30px;
   opacity: 1;
-  > .chuiten{
-    display: block;
-  }
   ~ #modal-overlay{
     bottom: 0;
     opacity: 1;
