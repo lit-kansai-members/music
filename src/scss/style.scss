@@ -413,7 +413,8 @@ main {
     margin: 4em auto;
     background: white;
     border-radius: 2px;
-    padding-bottom: 1px;
+    padding: 1px 0;
+    background-clip: content-box;
     p, h4 {
       margin: 1em 1em;
     }
