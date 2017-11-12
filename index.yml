@@ -192,6 +192,7 @@
 - year: "2015"
   camps:
   - name: "'15 Dec-'16 Jan Be Startup Coca-Cola Camp"
+    background: "img/backgrounds/cocacola2015.jpg"
     songs: 
     - title: "ハピネス"
       author: "AI"
