@@ -15,3 +15,8 @@ $(".open-modal").forEach(v =>
       .classList.add("open");
   })
 );
+
+const $modals = $(".modal");
+
+window.addEventListener("keydown", ({key}) =>
+  key === "Escape" && $modals.forEach(modal => modal.classList.remove("open")))
