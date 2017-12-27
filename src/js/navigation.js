@@ -8,20 +8,14 @@ let css = "";
 Array.from(document.querySelectorAll("#navigations .year"))
 .forEach((el, i) => {
   const selector =`#navigations > .year:nth-child(${i + 1})`;
-  const children = Array.from(el.childNodes);
-  const inneryear = Array.from(children
-    .find(e => e.tagName === "A")
-    .childNodes)
-    .find(e => e.classList && e.classList.contains("inneryear"));
-  const outerCamp = children.find(e => e.classList && e.classList.contains("outerCamp"));
+  const inneryear = el.querySelector(".inneryear");
+  const outerCamp = el.querySelector(".outerCamp");
   css += `
 ${selector}.opened, ${selector}:hover {
   --width: ${inneryear.offsetWidth + 2}px;
 }`;
   if(outerCamp){
-    const camps = Array.from(outerCamp.childNodes)
-      .filter(e => e.classList && e.classList.contains("camp"));
-    const lastCamp = camps.pop();
+    const lastCamp = outerCamp.querySelector(".camp:last-child");
     css += `
 ${selector}.full-opened {
   --width: ${outerCamp.offsetWidth + 2}px;

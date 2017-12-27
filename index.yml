@@ -27,6 +27,21 @@
 
 - year: "2017"
   camps:
+  - name: "'17 Xmas Camp"
+    theme: "さあ、とっておきの世にも素敵な魔法の世界へ -MAKE WITH MAGIC-"
+    background: "img/backgrounds/xmas2017_desktop_1.png"
+    songs: 
+    - title: "ONE"
+      author: "Aimer"
+      description: |
+        [YouTube](//youtu.be/8HleM0glzdE)  
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05570f/l04307e.html)  
+    - title: "ハピネス"
+      author: "AI"
+      description: |
+        コカ・コーラ 冬期CMソング  
+        [YouTube](//youtu.be/uKgmu8g-kXE)  
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)  
   - name: "'17 Summer Camp"
     theme: "夏が君を動かす。君が世界を動かす。-Move-"
     poem: |
