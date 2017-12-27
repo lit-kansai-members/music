@@ -34,14 +34,14 @@ html(lang='ja')
   body
     #loading
       svg#lit-logo(viewbox='0 0 230 280')
-        path.second.square(style='stroke:#1792cb', d='m 25,0 0,230')
+        path.second.square(style='stroke:#1792cb', d='m 25,0 0,231')
         path.second(style='stroke:#f0c11a', d='m 85,120 0,100')
         path(style='stroke:#f0c11a', d='M 85,110 85,60')
         path.first(style='stroke:#e83e37', d='M 205,50 C 205,25 180,25 180,25 L 60,25')
-        path.second.square(style='stroke:#e83e37', d='M 145,280 145,50')
+        path.second.square(style='stroke:#e83e37', d='M 145,280 145,49')
         path.second(style='stroke:#66ae32', d='M 205,220 205,60')
         path(style='stroke:#66ae32', d='m 205,280 0,-50')
-        path.first(d='m 25,225 c -1,25 25,25 25,25 l 60,0', style='stroke:#1792cb')
+        path.first(d='m 25,230 c 0,25 25,25 25,25 l 60,0', style='stroke:#1792cb')
     nav
       ul#navigations
         li.year
@@ -81,7 +81,11 @@ html(lang='ja')
           h3(id=createId(camp.name))
             a(href=`#${createId(camp.name)}`)= camp.name
             if camp.theme
-              small.camp-theme=camp.theme
+              if camp.poem
+                a(href=`#${createId(`poem_${year.year}_${camp.name}`)}`).open-modal
+                  small.camp-theme=camp.theme
+              else
+                small.camp-theme=camp.theme
           .parallax
             img(src=camp.background || "./img/backgrounds/lifeistech-logo.png",
               class=`background${camp.background ? "" : " noimage"}`)
@@ -123,8 +127,14 @@ html(lang='ja')
           small This project is an unoffcial.
     each chuiten in data.chuitens
       .modal(id=createId(chuiten.name))
-        a.close-modal(href='#') Close
-        .chuiten!= data.marked(chuiten.content)
+        a.close-modal.close-button(href='#'): +faicon("times-circle")
+        .inner!= data.marked(chuiten.content)
+    each year in data.years
+      each camp in year.camps
+        if camp.poem
+          .modal(id=createId(`poem_${year.year}_${camp.name}`))
+            a.close-modal.close-button(href='#'): +faicon("times-circle")
+            .inner!= data.marked(camp.poem)
     a#modal-overlay.close-modal(href='#')
     .player
       .playing
