@@ -35,13 +35,23 @@
       author: "Aimer"
       description: |
         [YouTube](//youtu.be/8HleM0glzdE)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05570f/l04307e.html)  
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05570f/l04307e.html)
+        - title: "ONE"
+      author: "Aimer"
+      description: |
+        [YouTube](//youtu.be/8HleM0glzdE)  
     - title: "ハピネス"
       author: "AI"
       description: |
         コカ・コーラ 冬期CMソング  
         [YouTube](//youtu.be/uKgmu8g-kXE)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)  
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
+      title: "ようこそジャパリパークへ"
+      author: "どうぶつビスケッツ×PPP"
+      description: |
+        けものフレンズ　主題歌（MC紹介）
+        [YouTube](/https://youtu.be/xkMdLcB_vNU)  
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05c47f/l03e218.html)   
   - name: "'17 Summer Camp"
     theme: "夏が君を動かす。君が世界を動かす。-Move-"
     poem: |
@@ -456,7 +466,7 @@
       description: |
         [YouTube](//youtu.be/cOQDsmEqVt8)  
         [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/littlemix/wings.html)  
-  - name: "スクール夏期講習"
+  - name: "スクール夏期講習(2016)"
     songs: 
     - title: "PERFECT BLUE"
       author: "Base Ball Bear"
