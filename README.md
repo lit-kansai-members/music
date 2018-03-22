@@ -72,7 +72,7 @@ yarn test
 ## Contributors
 
 [@KawakawaRitsuki](//github.com/KawakawaRitsuki)（ごっちゃん！！）  
-[@ToukaiAkihiro](//github.com/ToukaiAkihiro)（あきひろ、監督）  
+[@KNTK](//github.com/AkihiroTokai)（あきひろ、監督）  
 [@ygkn](//github.com/ygkn)（やぎちゃん）
 
 ## 最後に
