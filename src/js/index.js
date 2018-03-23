@@ -1,8 +1,9 @@
-require("./colorful");
-require("./index");
-require("./loading");
-require("./modal");
-require("./navigation");
-require("./parallax");
-require("./player");
-require("./scroll");
+require('./colorful');
+require('./index');
+require('./loading');
+require('./lit-words');
+require('./modal');
+require('./navigation');
+require('./parallax');
+require('./player');
+require('./scroll');

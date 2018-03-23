@@ -12,20 +12,36 @@ $title-height: 60px;
 $youtube-triangle-height: 50px;
 
 @keyframes fadeFalf {
-  0% {opacity: 0}
-  100% {opacity: .5}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
 }
 
 @keyframes animFirst {
-  0% {stroke-dashoffset: 0}
-  50% {stroke-dashoffset: var(--max)}
-  100% {stroke-dashoffset: var(--max)}
+  0% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: var(--max);
+  }
+  100% {
+    stroke-dashoffset: var(--max);
+  }
 }
 
 @keyframes animSecond {
-  0% {stroke-dashoffset: 0}
-  40% {stroke-dashoffset: 0}
-  100% {stroke-dashoffset: var(--max)}
+  0% {
+    stroke-dashoffset: 0;
+  }
+  40% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: var(--max);
+  }
 }
 
 @keyframes buttonAnimation {
@@ -40,33 +56,64 @@ $youtube-triangle-height: 50px;
 }
 
 @keyframes animateLiTcolor {
-  0%   { color: #e63c35;}
-  20%  { color: #fac700;}
-  40%  { color: #67b62d;}
-  60%  { color: #009bdb;}
-  80%  { color: #ff8b22;}
-  90%  { color: #bb39ff;}
-  100% { color: #e63c35;}
+  0% {
+    color: #e63c35;
+  }
+  20% {
+    color: #fac700;
+  }
+  40% {
+    color: #67b62d;
+  }
+  60% {
+    color: #009bdb;
+  }
+  80% {
+    color: #ff8b22;
+  }
+  90% {
+    color: #bb39ff;
+  }
+  100% {
+    color: #e63c35;
+  }
 }
 
 @keyframes animateLiTBGcolor {
-  0%   { background-color: #e63c35;}
-  20%  { background-color: #fac700;}
-  40%  { background-color: #67b62d;}
-  60%  { background-color: #009bdb;}
-  80%  { background-color: #ff8b22;}
-  90%  { background-color: #bb39ff;}
-  100% { background-color: #e63c35;}
+  0% {
+    background-color: #e63c35;
+  }
+  20% {
+    background-color: #fac700;
+  }
+  40% {
+    background-color: #67b62d;
+  }
+  60% {
+    background-color: #009bdb;
+  }
+  80% {
+    background-color: #ff8b22;
+  }
+  90% {
+    background-color: #bb39ff;
+  }
+  100% {
+    background-color: #e63c35;
+  }
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
   position: relative;
   background: #fff;
-  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', Arial, sans-serif; 
+  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro',
+    'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック',
+    'MS PGothic', Arial, sans-serif;
 }
 
 body.loaded {
@@ -80,18 +127,18 @@ body.loaded {
     transform: translateX(-0);
     opacity: 1;
   }
-  header{
+  header {
     #music {
       opacity: 1;
     }
-    a[href="#main"]{
+    a[href='#main'] {
       display: block;
-      animation: fadeFalf .6s ease 1s infinite alternate;
+      animation: fadeFalf 0.6s ease 1s infinite alternate;
     }
   }
 }
 
-#loading{
+#loading {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -100,8 +147,16 @@ body.loaded {
   background: #fff;
   z-index: 999;
   opacity: 100;
-  transition: .4s;
-  svg{
+  transition: 0.4s;
+  #loading-message {
+    position: absolute;
+    bottom: 20%;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    opacity: 0.5;
+  }
+  svg {
     height: $title-height;
     position: absolute;
     top: 50%;
@@ -109,10 +164,11 @@ body.loaded {
     transform: translate(-50%, -50%);
     path {
       fill: none;
-      stroke-width:50;
+      stroke-width: 50;
     }
 
-    .first, .second {
+    .first,
+    .second {
       stroke-dasharray: 100%;
       stroke-dashoffset: 0;
       --max: 100%;
@@ -126,34 +182,29 @@ body.loaded {
       --max: calc(100% - 50px);
     }
 
-    .first{
+    .first {
       animation-name: animFirst;
     }
-    .second{
+    .second {
       animation-name: animSecond;
     }
   }
-  p{
-    position: absolute;
-    bottom: 0;
-  }
 }
 
-
-#navigations{
+#navigations {
   $length: length($colors);
-  @each $color in $colors{
+  @each $color in $colors {
     $key: index($colors, $color);
-    > .year:nth-child(#{$length}n+#{$key}){
+    > .year:nth-child(#{$length}n + #{$key}) {
       background: $color;
       border-color: $color;
-      > a > .inneryear{
+      > a > .inneryear {
         color: $color;
       }
-      > .outerCamp{
+      > .outerCamp {
         background: $color;
       }
-    };
+    }
   }
   position: fixed;
   display: flex;
@@ -163,28 +214,30 @@ body.loaded {
   transform: translateY(-50%);
   right: 1em;
   z-index: 4;
-  font-size: .75em;
+  font-size: 0.75em;
   padding: 0;
   margin: 0;
-  > .year{
+  > .year {
     cursor: pointer;
     position: relative;
     line-height: 1.5;
-    transition: .4s;
+    transition: 0.4s;
     box-sizing: content-box;
     width: calc(var(--width, 0px) + 1.5em);
     height: 1.5em;
-    margin: .5em 0;
-    border-radius: calc(.75em + 2px);
+    margin: 0.5em 0;
+    border-radius: calc(0.75em + 2px);
     color: #fff;
     border: solid 2px;
     &.full-opened > .outerCamp {
       visibility: visible;
     }
-    &:hover, &.opened, &.full-opened{
+    &:hover,
+    &.opened,
+    &.full-opened {
       background: #fff;
     }
-    > a{
+    > a {
       width: 100%;
       display: flex;
       overflow: hidden;
@@ -197,13 +250,13 @@ body.loaded {
         color: white;
         flex-shrink: 0;
       }
-      > .inneryear{
+      > .inneryear {
         padding: 0 0 0 1em;
         flex-grow: 1;
         white-space: nowrap;
       }
     }
-    > .outerCamp{
+    > .outerCamp {
       transition: inherit;
       box-sizing: content-box;
       position: absolute;
@@ -211,24 +264,24 @@ body.loaded {
       overflow: hidden;
       visibility: hidden;
       left: -2px;
-      top: .75em;
-      padding: .5em;
+      top: 0.75em;
+      padding: 0.5em;
       z-index: -1;
-      border-radius: 0 0 .75em .75em;
-      transition-delay: .4s;
-      > .camp{
+      border-radius: 0 0 0.75em 0.75em;
+      transition-delay: 0.4s;
+      > .camp {
         white-space: nowrap;
-        transform: translateY(.5em);
+        transform: translateY(0.5em);
         border-top: solid 1px #fff;
         transition: inherit;
-        &:first-child{
+        &:first-child {
           border: none;
         }
-        &:hover{
-          background: rgba(255, 255, 255, .5)
+        &:hover {
+          background: rgba(255, 255, 255, 0.5);
         }
-        > a{
-          padding: .3em;
+        > a {
+          padding: 0.3em;
           color: #fff;
           display: block;
         }
@@ -237,11 +290,11 @@ body.loaded {
   }
 }
 
-header{
+header {
   width: 100%;
   height: 100%;
   position: relative;
-  h1{
+  h1 {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
@@ -254,13 +307,13 @@ header{
     margin: 0;
     font-size: $title-height;
     line-height: $title-height;
-    img{
+    img {
       height: $title-height;
       &:not(#mark) {
-      transition: 1s;
+        transition: 1s;
       }
     }
-    #logo{
+    #logo {
       transform: translateX(-100%);
       opacity: 0;
     }
@@ -268,19 +321,19 @@ header{
       opacity: 0;
     }
   }
-  a[href="#main"]{
+  a[href='#main'] {
     left: 50%;
     color: #000;
     text-decoration: none;
     opacity: 0;
     position: absolute;
     bottom: 25%;
-    transform: translate(-50%,50%);
+    transform: translate(-50%, 50%);
     text-align: center;
-    img{
+    img {
       height: 1em;
     }
-    &:hover{
+    &:hover {
       animation-play-state: paused;
     }
   }
@@ -305,58 +358,59 @@ main {
 
     > .play {
       cursor: pointer;
-      transition: .2s;
+      transition: 0.2s;
       background: rgba(0, 0, 0, 0);
-      &:after{
-        transition: .2s;
+      &:after {
+        transition: 0.2s;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        content: "";
+        content: '';
         width: 0;
         height: 0;
-        border-width: $youtube-triangle-height/2 0 $youtube-triangle-height/2 $youtube-triangle-height*0.866;
+        border-width: $youtube-triangle-height/2 0 $youtube-triangle-height/2
+          $youtube-triangle-height * 0.866;
         border-color: transparent;
         border-style: solid;
       }
 
-      &:hover{
-        background: rgba(0, 0, 0, .3);
+      &:hover {
+        background: rgba(0, 0, 0, 0.3);
       }
     }
 
-    a{
+    a {
       color: #fff;
       font-weight: bold;
       position: absolute;
       bottom: 0;
       right: 0;
-      opacity: .5;
+      opacity: 0.5;
       z-index: 2;
-      &:hover{
-        opacity: .7;
+      &:hover {
+        opacity: 0.7;
       }
-      img{
+      img {
         height: 24px;
         margin: 12px;
       }
     }
 
-    iframe{
+    iframe {
       z-index: 3;
       border: none;
     }
   }
 
   $length: length($colors);
-  @each $color in $colors{
+  @each $color in $colors {
     $key: index($colors, $color);
-    section:nth-child(#{$length}n+#{$key}) > .youtube > .play:after{
+    section:nth-child(#{$length}n + #{$key}) > .youtube > .play:after {
       border-left-color: $color;
     }
-    .parallax:nth-child(#{$length}n+#{$key}) img.noimage{
-      background: lighten( $color, 20% );
+    .parallax:nth-child(#{$length}n + #{$key}) img.noimage {
+      background: lighten($color, 20%);
     }
   }
 
@@ -372,29 +426,29 @@ main {
     .camp-theme {
       position: relative;
       padding-left: 3.5em;
-      margin: .2em 0;
+      margin: 0.2em 0;
       display: block;
-      font-size: .7em;
+      font-size: 0.7em;
       font-weight: normal;
-      opacity: .6;
+      opacity: 0.6;
       font-style: italic;
       &:before {
         position: absolute;
-        top: .6em;
-        left: .75em;
-        content: "";
+        top: 0.6em;
+        left: 0.75em;
+        content: '';
         display: inline-block;
         height: 0;
         width: 2em;
         border-top: solid 1px;
-        margin: 0 .25em;
+        margin: 0 0.25em;
       }
     }
   }
   .parallax {
     position: relative;
     overflow: hidden;
-     > .background {
+    > .background {
       position: absolute;
       top: 0;
       z-index: -1;
@@ -409,36 +463,37 @@ main {
   section {
     width: calc(100% - 2em);
     max-width: 600px;
-    box-shadow: 2px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
     margin: 4em auto;
     background: white;
     border-radius: 2px;
     padding: 1px 0;
     background-clip: content-box;
-    p, h4 {
+    p,
+    h4 {
       margin: 1em 1em;
     }
-    h4  small:before {
-      content: "";
+    h4 small:before {
+      content: '';
       display: inline-block;
       width: 1em;
     }
   }
 }
 
-footer{
+footer {
   height: 100%;
   width: 100%;
   position: relative;
   font-size: 1.5em;
   line-height: 1.5em;
   background: #fff;
-  div{
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  text-align: center;
-  transform: translateY(-50%);
+  div {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
     a.github {
       position: relative;
       display: inline-block;
@@ -447,13 +502,15 @@ footer{
       color: #111;
       padding: 10px 0;
       box-sizing: border-box;
-      img{
+      img {
         height: 1em;
       }
-      &:hover, &:focus {
+      &:hover,
+      &:focus {
         text-decoration: none;
         color: #000;
-        &:after, &:after {
+        &:after,
+        &:after {
           -webkit-transform: scaleX(1);
           -ms--transform: scaleX(1);
           transform: scaleX(1);
@@ -470,39 +527,40 @@ footer{
         -webkit-transform: scaleX(0);
         -ms-transform: scaleX(0);
         background-color: #111;
-        -webkit-transition: all .3s ease;
-        transition: all .3s ease;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
       }
     }
   }
 }
 
-#thanks{
+#thanks {
   line-height: 1;
   font-size: 3em;
 }
 
-a:hover, a:focus {
-	color: #FF4C4C;
+a:hover,
+a:focus {
+  color: #ff4c4c;
 }
 a:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 a {
-	-webkit-transition: all .25s ease-out;
-	-moz-transition: all .25s ease-out;
-	-ms-transition: all .25s ease-out;
-	-o-transition: all .25s ease-out;
-	transition: all .25s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
 }
 a {
-	color: #008CBA;
-	text-decoration: none;
-	line-height: inherit;
+  color: #008cba;
+  text-decoration: none;
+  line-height: inherit;
 }
 
-.modal{
-  transition: .5s;
+.modal {
+  transition: 0.5s;
   box-sizing: border-box;
   position: fixed;
   bottom: 100%;
@@ -513,11 +571,11 @@ a {
   max-width: 500px;
   margin: 0 auto;
   padding: 2em;
-  border-radius: .5em;
+  border-radius: 0.5em;
   background: #fff;
   z-index: 3;
   opacity: 0;
-  > .inner{
+  > .inner {
     overflow: auto;
     height: 100%;
   }
@@ -530,9 +588,9 @@ a {
   }
 }
 
-#modal-overlay{
-  transition: .5s;
-  background: rgba(0,0,0,.5);
+#modal-overlay {
+  transition: 0.5s;
+  background: rgba(0, 0, 0, 0.5);
   height: 100%;
   width: 100%;
   z-index: 2;
@@ -542,10 +600,10 @@ a {
   left: 0;
 }
 
-.modal.open{
+.modal.open {
   bottom: 30px;
   opacity: 1;
-  ~ #modal-overlay{
+  ~ #modal-overlay {
     bottom: 0;
     opacity: 1;
   }
@@ -560,9 +618,9 @@ a {
   display: flex;
   z-index: 5;
   transform: translateY(100%);
-  transition: .3s;
+  transition: 0.3s;
   &.show {
-    box-shadow: 0 0 3px 3px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.5);
     transform: none;
     .balloon.opened {
       transform: translateY(-2em) scale(1);
@@ -575,9 +633,9 @@ a {
     height: 100%;
     .thumb {
       padding: 10px;
-      height: 100%
+      height: 100%;
     }
-    > span{
+    > span {
       overflow: auto;
       flex-grow: 1;
       display: flex;
@@ -594,21 +652,21 @@ a {
       font-size: 1.5em;
       padding: 0 1em;
       right: 0;
-      margin: 0
+      margin: 0;
     }
     .balloon {
       position: absolute;
       bottom: 100%;
       right: 1em;
-      padding: .5em;
-      border-radius: .5em;
+      padding: 0.5em;
+      border-radius: 0.5em;
       background: #fff;
       border: solid 1px #333;
       transform: translateX(0) scale(0);
       transform-origin: bottom right;
-      transition: .2s;
+      transition: 0.2s;
       &:before {
-        content: "";
+        content: '';
         position: absolute;
         display: block;
         height: 1em;
@@ -617,11 +675,11 @@ a {
         border: solid 1px #333;
         border-style: none solid solid none;
         top: 100%;
-        right: .5em;
-        transform: rotate(45deg) translate(-.5em, -.2em);
+        right: 0.5em;
+        transform: rotate(45deg) translate(-0.5em, -0.2em);
       }
       label {
-        > input[type="checkbox"] {
+        > input[type='checkbox'] {
           display: none;
           &:checked {
             ~ .checkbox-bg {
@@ -640,23 +698,23 @@ a {
           height: 1em;
           width: 1em;
           animation: animateLiTcolor 20s infinite;
-          border-radius: .2em;
+          border-radius: 0.2em;
           box-sizing: border-box;
           border: solid 2px;
           padding: 1px;
-          transition: .2s;
+          transition: 0.2s;
           vertical-align: middle;
           > i {
             color: #fff;
             width: 0;
             overflow: hidden;
-            transition: .2s;
-            font-size: calc( 1em - 2px );
+            transition: 0.2s;
+            font-size: calc(1em - 2px);
             vertical-align: top;
-          } 
-        } 
-      } 
-    } 
+          }
+        }
+      }
+    }
   }
   .controller {
     align-self: center;
@@ -664,13 +722,18 @@ a {
     display: flex;
     align-items: center;
   }
-  * {outline: none;}
-  button{
+  * {
+    outline: none;
+  }
+  button {
     animation: animateLiTcolor 20s infinite;
     margin: 0.25em;
     line-height: 1;
 
-    &:hover {cursor: pointer; opacity: .8;}
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
     .shadow {
       position: absolute;
       transform: translateX(var(--moveFromX));
@@ -681,10 +744,10 @@ a {
     }
     &.back .shadow {
       --moveFromX: -100%;
-      --moveToX: -200%; 
+      --moveToX: -200%;
     }
     &:active .shadow {
-      animation: buttonAnimation .3s both;
+      animation: buttonAnimation 0.3s both;
     }
     &.toggle {
       padding: 0;
@@ -718,8 +781,8 @@ a {
         width: 0;
         height: 0;
         border-right: 1em solid #fff;
-        border-top: .5em solid transparent;
-        border-bottom: .5em solid transparent;
+        border-top: 0.5em solid transparent;
+        border-bottom: 0.5em solid transparent;
         transition: transform 0.25s ease;
       }
       .right {
@@ -729,7 +792,7 @@ a {
         animation: animateLiTBGcolor 20s infinite;
         transition: all 0.25s ease;
       }
-      &.paused{
+      &.paused {
         .left {
           width: 50%;
         }
@@ -747,23 +810,24 @@ a {
   }
 }
 
-.colorful, h2{
-  span:nth-child(6n+1){
-    color:#FF4C4C
+.colorful,
+h2 {
+  span:nth-child(6n + 1) {
+    color: #ff4c4c;
   }
-  span:nth-child(6n+2){
-    color:#0085FF
+  span:nth-child(6n + 2) {
+    color: #0085ff;
   }
-  span:nth-child(6n+3){
-    color:#7DC600
+  span:nth-child(6n + 3) {
+    color: #7dc600;
   }
-  span:nth-child(6n+4){
-    color:#FAC800
+  span:nth-child(6n + 4) {
+    color: #fac800;
   }
-  span:nth-child(6n+5){
-    color:#FF8B00
+  span:nth-child(6n + 5) {
+    color: #ff8b00;
   }
-  span:nth-child(6n){
-    color:#a278ff
+  span:nth-child(6n) {
+    color: #a278ff;
   }
 }
