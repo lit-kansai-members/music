@@ -77,5 +77,4 @@ yarn test
 
 ## 最後に
 
-質問等があれば[@KawakawaRitsuki](//twitter.com/KawakawaRitsuki)まで連絡をいただけると幸いです。  
-一応このまとめを始めたっぽい人です。いつの間にか共同リポジトリになってますが笑
+質問等があれば[LiT! Music](//www.facebook.com/LiTmusic-182225395894104/)まで。
