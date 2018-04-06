@@ -29,6 +29,7 @@
   camps:
   - name: "'18 Spring Camp"
     background: "img/backgrounds/spring2018_desktop_5.png"
+    theme: "STARTING"
     songs: 
     - title: "始まりの朝"
       author: "Official髭男dism"
