@@ -328,6 +328,7 @@
   - name: "'15 萩1Days"
     songs: 
     - title: "超特急ライン"
+      author: "もっぴーさうんど"
       description: |
         [YouTube](//youtu.be/5FOBkm0ibWI)  
         [DOVA-SYNDROME(//dova-s.jp/bgm/play2260.html)  
@@ -336,6 +337,7 @@
     background: "img/backgrounds/2015_spring.jpeg"
     songs: 
     - title: "超特急ライン"
+      author: "もっぴーさうんど"
       description: |
         [YouTube](//youtu.be/5FOBkm0ibWI)  
         [DOVA-SYNDROME](//dova-s.jp/bgm/play2260.html)  
