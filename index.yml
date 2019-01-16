@@ -40,8 +40,6 @@
       description: |
         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a050f66/l049c98.html)  
         [YouTube](//youtu.be/XnYwwyXPt70) 
-- year: "2018"
-  camps:
   - name: "'18 Global IT Camp @NUS(シンガポール国立大学)/Oxford(オックスフォード大学)"
     background: "img/backgrounds/NUS2018_desktop_1-1.jpg"
     theme: "Think globally, Change the world!"
@@ -62,8 +60,6 @@
       description: |
         [歌詞(azlyrics)](https://www.azlyrics.com/lyrics/vamps/somebodytoyou.html)  
         [YouTube](//youtu.be/0go2nfVXFgA)  
-- year: "2018"
-  camps:
   - name: "'18 Summer Camp"
     background: "img/backgrounds/summer2018_desktop_1.jpg"
     theme: "？？不明"
@@ -77,10 +73,7 @@
       author: "The Jackson 5 feat. TWICE"
       description: |
         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04f8f9/l048610.html)  
-        [YouTube](//youtu.be/X3H-4crGD6k)  
-        
-- year: "2018"
-  camps:
+        [YouTube](//youtu.be/X3H-4crGD6k)        
   - name: "'18 Spring Camp"
     background: "img/backgrounds/spring2018_desktop_5.png"
     theme: "始まりの春。 -STARTING-"
@@ -161,6 +154,11 @@
         NHK Eテレ テレビアニメ「境界のRINNE」第3シリーズ OPテーマソング  
         [YouTube](//youtu.be/6idlVhWIWAE)  
         [歌詞(J-Lyric)](http://j-lyric.net/artist/a05b135/l03f540.html)
+    - title: "By My Side"
+      author: "夜の本気ダンス"
+      description: |
+        [YouTube](//youtu.be/JHFZeM5z0K4)  
+        [歌詞(J-Lyric)](http://j-lyric.net/artist/a05b135/l039db9.html)   
   - name: "'17 Life 那須 Tech !"
     theme: "一年に一度だけ、地獄のような３日間"
     background: "img/backgrounds/nasucamp_key.jpg"
@@ -175,7 +173,7 @@
       author: "Zedd & Alessia Cara"
       description: |
         [YouTube](//youtu.be/h--P8HzYZ74)  
-        [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/zedd/stay.html)  
+        [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/zedd/stay.html)      
   - name: "'17 Spring Camp"
     theme: "閃け！春！Spark -Spark! Spring!-"
     background: "img/backgrounds/spring2017_desktop_1.png"
