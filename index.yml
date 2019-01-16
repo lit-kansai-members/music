@@ -24,28 +24,45 @@
 #         [YouTube](//youtu.be/3j77uK8hu5A)  
 #         [歌詞(J-Lyric)](http://j-lyric.net/artist/a04cc66/l03a371.html)  
 #       # リンクなど。 "|" はYAMLの複数行記法です。
-
 - year: "2018"
   camps:
-  - name: "'18 Spring Camp"
+  - name: "'18 Global IT Camp @NUS(シンガポール国立大学)"
     background: "img/backgrounds/spring2018_desktop_5.png"
-    theme: "始まりの春。 -STARTING-"
+    theme: "Think globally, Change the world!"
     songs: 
-    - title: "始まりの朝"
-      author: "Official髭男dism"
+    - title: "はじまり"
+      author: "Mrs. GREEN APPLE feat. キヨサク from MONGOL800"
       description: |
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a059eab/l03f34e.html)  
-        [YouTube](//youtu.be/EusUvmUi2Xk)  
-    - title: "Hollow"
-      author: "DNCE"
+        オープニング楽曲
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l045f78.html)  
+        [YouTube](//youtu.be/YH1aOeTX7Vs)  
+    - title: "Classic"
+      author: "MKTO"
       description: |
-        [歌詞(Genius Lyrics)](https://genius.com/Dnce-hollow-lyrics)  
-        [YouTube](//youtu.be/hTnQBehHcgk)  
-    - title: "さくら体操"
-      author: "NIPPON HOSO KYOUKAI"
+        [歌詞(azlyrics)](https://www.azlyrics.com/lyrics/mkto/classic.html)  
+        [YouTube](//youtu.be/4Ba_qTPA4Ds)  
+    - title: "Somebody to you"
+      author: "The Vamps"
       description: |
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0006b5/l001e01.html)  
-        [YouTube](//youtu.be/pnBnu5v8KTw)  
+        [歌詞(azlyrics)](https://www.azlyrics.com/lyrics/vamps/somebodytoyou.html)  
+        [YouTube](//youtu.be/0go2nfVXFgA)  
+- year: "2018"
+  camps:
+  - name: "'18 Summer Camp"
+    background: "img/backgrounds/spring2018_desktop_5.png"
+    theme: "？？不明"
+    songs: 
+    - title: "はじまり"
+      author: "Mrs. GREEN APPLE feat. キヨサク from MONGOL800"
+      description: |
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l045f78.html)  
+        [YouTube](//youtu.be/YH1aOeTX7Vs)  
+    - title: "I WANT YOU BACK"
+      author: "The Jackson 5 feat. TWICE"
+      description: |
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04f8f9/l048610.html)  
+        [YouTube](//youtu.be/X3H-4crGD6k)  
+
 - year: "2017"
   camps:
   - name: "'17 Xmas Camp"
