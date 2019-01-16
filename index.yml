@@ -26,7 +26,7 @@
 #       # リンクなど。 "|" はYAMLの複数行記法です。
 - year: "2018"
   camps:
-  - name: "'18 Global IT Camp @NUS(シンガポール国立大学)"
+  - name: "'18 Global IT Camp @NUS(シンガポール国立大学)/Oxford(オックスフォード大学)"
     background: "img/backgrounds/NUS2018_desktop_1-1.jpg"
     theme: "Think globally, Change the world!"
     songs: 
@@ -62,7 +62,28 @@
       description: |
         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04f8f9/l048610.html)  
         [YouTube](//youtu.be/X3H-4crGD6k)  
-
+        
+- year: "2018"
+  camps:
+  - name: "'18 Spring Camp"
+    background: "img/backgrounds/spring2018_desktop_5.png"
+    theme: "始まりの春。 -STARTING-"
+    songs: 
+    - title: "始まりの朝"
+      author: "Official髭男dism"
+      description: |
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a059eab/l03f34e.html)  
+        [YouTube](//youtu.be/EusUvmUi2Xk)  
+    - title: "Hollow"
+      author: "DNCE"
+      description: |
+        [歌詞(Genius Lyrics)](https://genius.com/Dnce-hollow-lyrics)  
+        [YouTube](//youtu.be/hTnQBehHcgk)  
+    - title: "さくら体操"
+      author: "NIPPON HOSO KYOUKAI"
+      description: |
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0006b5/l001e01.html)  
+        [YouTube](//youtu.be/pnBnu5v8KTw)  
 - year: "2017"
   camps:
   - name: "'17 Xmas Camp"
