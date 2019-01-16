@@ -80,7 +80,7 @@ yarn test
 
 ## Contributors
 
-[@KawakawaRitsuki](//github.com/KawakawaRitsuki)（ごっちゃん！！）  
+[@mizucoffee](//github.com/mizucoffee)（Mizucoffee）  
 [@KNTK](//github.com/AkihiroTokai)（あきひろ、監督）  
 [@ygkn](//github.com/ygkn)（やぎちゃん）
 
