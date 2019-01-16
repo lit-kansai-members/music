@@ -26,6 +26,22 @@
 #       # リンクなど。 "|" はYAMLの複数行記法です。
 - year: "2018"
   camps:
+  - name: "'18 Xmas Camp"
+    background: "img/backgrounds/xmas2018_desktop_1-1.png"
+    theme: "Think globally, Change the world!"
+    songs: 
+    - title: "ループ"
+      author: "edda"
+      description: |
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05cfc3/l04926a.html)  
+        [YouTube](//youtu.be/-0-fVutBn38)  
+    - title: "予感"
+      author: "SUPER BEAVER"
+      description: |
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a050f66/l049c98.html)  
+        [YouTube](//youtu.be/XnYwwyXPt70) 
+- year: "2018"
+  camps:
   - name: "'18 Global IT Camp @NUS(シンガポール国立大学)/Oxford(オックスフォード大学)"
     background: "img/backgrounds/NUS2018_desktop_1-1.jpg"
     theme: "Think globally, Change the world!"
