@@ -27,7 +27,7 @@
 - year: "2018"
   camps:
   - name: "'18 Global IT Camp @NUS(シンガポール国立大学)"
-    background: "img/backgrounds/spring2018_desktop_5.png"
+    background: "img/backgrounds/NUS2018_desktop_1-1.jpg"
     theme: "Think globally, Change the world!"
     songs: 
     - title: "はじまり"
@@ -49,7 +49,7 @@
 - year: "2018"
   camps:
   - name: "'18 Summer Camp"
-    background: "img/backgrounds/spring2018_desktop_5.png"
+    background: "img/backgrounds/summer2018_desktop_1.jpg"
     theme: "？？不明"
     songs: 
     - title: "はじまり"
