@@ -24,7 +24,61 @@
 #         [YouTube](//youtu.be/3j77uK8hu5A)  
 #         [歌詞(J-Lyric)](http://j-lyric.net/artist/a04cc66/l03a371.html)  
 #       # リンクなど。 "|" はYAMLの複数行記法です。
-
+- year: "2018"
+  camps:
+  - name: "'18 Xmas Camp"
+    background: "img/backgrounds/xmas2018_desktop_1-1.png"
+    theme: "Think globally, Change the world!"
+    songs: 
+    - title: "ループ"
+      author: "edda"
+      description: |
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05cfc3/l04926a.html)  
+        [YouTube](//youtu.be/-0-fVutBn38)  
+    - title: "予感"
+      author: "SUPER BEAVER"
+      description: |
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a050f66/l049c98.html)  
+        [YouTube](//youtu.be/XnYwwyXPt70) 
+- year: "2018"
+  camps:
+  - name: "'18 Global IT Camp @NUS(シンガポール国立大学)/Oxford(オックスフォード大学)"
+    background: "img/backgrounds/NUS2018_desktop_1-1.jpg"
+    theme: "Think globally, Change the world!"
+    songs: 
+    - title: "はじまり"
+      author: "Mrs. GREEN APPLE feat. キヨサク from MONGOL800"
+      description: |
+        オープニング楽曲
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l045f78.html)  
+        [YouTube](//youtu.be/YH1aOeTX7Vs)  
+    - title: "Classic"
+      author: "MKTO"
+      description: |
+        [歌詞(azlyrics)](https://www.azlyrics.com/lyrics/mkto/classic.html)  
+        [YouTube](//youtu.be/4Ba_qTPA4Ds)  
+    - title: "Somebody to you"
+      author: "The Vamps"
+      description: |
+        [歌詞(azlyrics)](https://www.azlyrics.com/lyrics/vamps/somebodytoyou.html)  
+        [YouTube](//youtu.be/0go2nfVXFgA)  
+- year: "2018"
+  camps:
+  - name: "'18 Summer Camp"
+    background: "img/backgrounds/summer2018_desktop_1.jpg"
+    theme: "？？不明"
+    songs: 
+    - title: "はじまり"
+      author: "Mrs. GREEN APPLE feat. キヨサク from MONGOL800"
+      description: |
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l045f78.html)  
+        [YouTube](//youtu.be/YH1aOeTX7Vs)  
+    - title: "I WANT YOU BACK"
+      author: "The Jackson 5 feat. TWICE"
+      description: |
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04f8f9/l048610.html)  
+        [YouTube](//youtu.be/X3H-4crGD6k)  
+        
 - year: "2018"
   camps:
   - name: "'18 Spring Camp"
