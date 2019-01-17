@@ -40,7 +40,7 @@
       description: |
         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a050f66/l049c98.html)  
         [YouTube](//youtu.be/XnYwwyXPt70) 
-  - name: "'18 Global IT Camp @NUS(シンガポール国立大学)/Oxford(オックスフォード大学)"
+  - name: "'18 Global IT Camp"
     background: "img/backgrounds/NUS2018_desktop_1-1.jpg"
     theme: "Think globally, Change the world!"
     songs: 
@@ -377,7 +377,7 @@
       description: |
         [YouTube](//youtu.be/W3r_wFIGjHU)  
         [歌詞(J-Lyric)](http://j-lyric.net/artist/a01176a/l0011d8.html)  
-  - name: "'15 萩1Days"
+  - name: "'15 萩1Day"
     songs: 
     - title: "超特急ライン"
       author: "もっぴーさうんど"
@@ -444,7 +444,7 @@
       description: |
         [YouTube](//youtu.be/TIzNszoG_TA)  
         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04e594/l02ca67.html)  
-  - name: "'14 English Camp"
+  - name: "'14 English × IT Camp"
     songs: 
     - title: "Happy"
       author: "Rharrell Williams"
