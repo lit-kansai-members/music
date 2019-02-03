@@ -28,7 +28,7 @@
   camps:
   - name: "'18 Xmas Camp"
     background: "img/backgrounds/xmas2018_desktop_1-1.png"
-    theme: "Think globally, Change the world!"
+    theme: "一年に一度だけ、魔法のような数日間。 -Make with magic-"
     songs: 
     - title: "ループ"
       author: "edda"
@@ -62,7 +62,7 @@
         [YouTube](//youtu.be/0go2nfVXFgA)  
   - name: "'18 Summer Camp"
     background: "img/backgrounds/summer2018_desktop_1.jpg"
-    theme: "？？不明"
+    theme: "世界にひとつだけ、あなただけの夏の「物語」へ。　-Only one Your own Summer Story-"
     songs: 
     - title: "はじまり"
       author: "Mrs. GREEN APPLE feat. キヨサク from MONGOL800"
@@ -292,6 +292,7 @@
 - year: "2015"
   camps:
   - name: "'15 Dec-'16 Jan Be Startup Coca-Cola Camp"
+  　　theme: "世の中にないもの、『私』が生み出す。"
     background: "img/backgrounds/cocacola2015.jpg"
     songs: 
     - title: "ハピネス"
@@ -481,6 +482,7 @@
         [YouTube](//youtu.be/uKgmu8g-kXE)  
         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)  
   - name: "'13 Summer Camp"
+    theme: "きっと忘れられない夏になる。"
     songs: 
     - title: "RPG"
       author: "SEKAI NO OWARI"
