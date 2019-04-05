@@ -24,6 +24,28 @@
 #         [YouTube](//youtu.be/3j77uK8hu5A)
 #         [歌詞(J-Lyric)](http://j-lyric.net/artist/a04cc66/l03a371.html)
 #       # リンクなど。 "|" はYAMLの複数行記法です。
+- year: "2019"
+  camps:
+  - name: "'19 Spring Camp"
+    background: "img/backgrounds/spring2019_desktop_1.png"
+    theme: "春よ止まれ"
+    songs:
+    - title: "拝啓、少年よ"
+      author: "Hump Back"
+      description: |
+        [歌詞(プチリリ)](https://petitlyrics.com/lyrics/2747881)
+        [YouTube](//youtu.be/d6i4AtCxrDo)
+    - title: "チェンジユアワールド"
+      author: "go!go!vanillas"
+      description: |
+        動画を見つけたら教えて下さい。
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a059479/l0481b6.html)
+        [レコチョク](//recochoku.jp/song/S1007179020/)
+    - title: "Tを探そう"
+      author: "TT兄弟"
+      description: |
+        注意点「Tを探そう・Cを探そう」元ネタ
+        [YouTube](//youtu.be/IPPsEtMqAt8)
 - year: "2018"
   camps:
   - name: "'18 Xmas Camp"
