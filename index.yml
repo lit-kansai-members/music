@@ -16,178 +16,200 @@
 #   - name: "'17 Spring Camp" # キャンプ名
 #     theme: "閃け！春！Spark" # キャンプのテーマ
 #     background: "img/backgrounds/spring2017_desktop_1.png" # キャンプの壁紙
-#     songs: 
+#     songs:
 #     - title: "Next Stage with YOU" # 曲名
 #       author: "Perfume" # 歌手名
 #       description: |
-#         メルセデス・ベンツ × Perfume コラボレーションCMソング  
-#         [YouTube](//youtu.be/3j77uK8hu5A)  
-#         [歌詞(J-Lyric)](http://j-lyric.net/artist/a04cc66/l03a371.html)  
+#         メルセデス・ベンツ × Perfume コラボレーションCMソング
+#         [YouTube](//youtu.be/3j77uK8hu5A)
+#         [歌詞(J-Lyric)](http://j-lyric.net/artist/a04cc66/l03a371.html)
 #       # リンクなど。 "|" はYAMLの複数行記法です。
+- year: "2019"
+  camps:
+  - name: "'19 Spring Camp"
+    background: "img/backgrounds/spring2019_desktop_1.png"
+    theme: "春よ止まれ"
+    songs:
+    - title: "拝啓、少年よ"
+      author: "Hump Back"
+      description: |
+        [歌詞(プチリリ)](https://petitlyrics.com/lyrics/2747881)
+        [YouTube](//youtu.be/d6i4AtCxrDo)
+    - title: "チェンジユアワールド"
+      author: "go!go!vanillas"
+      description: |
+        動画を見つけたら教えて下さい。
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a059479/l0481b6.html)
+        [レコチョク](//recochoku.jp/song/S1007179020/)
+    - title: "Tを探そう"
+      author: "TT兄弟"
+      description: |
+        注意点「Tを探そう・Cを探そう」元ネタ
+        [YouTube](//youtu.be/IPPsEtMqAt8)
 - year: "2018"
   camps:
   - name: "'18 Xmas Camp"
     background: "img/backgrounds/xmas2018_desktop_1-1.png"
     theme: "一年に一度だけ、魔法のような数日間。 -Make with magic-"
-    songs: 
+    songs:
     - title: "ループ"
       author: "edda"
       description: |
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05cfc3/l04926a.html)  
-        [YouTube](//youtu.be/-0-fVutBn38)  
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05cfc3/l04926a.html)
+        [YouTube](//youtu.be/-0-fVutBn38)
     - title: "予感"
       author: "SUPER BEAVER"
       description: |
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a050f66/l049c98.html)  
-        [YouTube](//youtu.be/XnYwwyXPt70) 
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a050f66/l049c98.html)
+        [YouTube](//youtu.be/XnYwwyXPt70)
   - name: "'18 Global IT Camp"
     background: "img/backgrounds/NUS2018_desktop_1-1.jpg"
     theme: "Think globally, Change the world!"
-    songs: 
+    songs:
     - title: "はじまり"
       author: "Mrs. GREEN APPLE feat. キヨサク from MONGOL800"
       description: |
         オープニング楽曲
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l045f78.html)  
-        [YouTube](//youtu.be/YH1aOeTX7Vs)  
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l045f78.html)
+        [YouTube](//youtu.be/YH1aOeTX7Vs)
     - title: "Classic"
       author: "MKTO"
       description: |
-        [歌詞(azlyrics)](https://www.azlyrics.com/lyrics/mkto/classic.html)  
-        [YouTube](//youtu.be/4Ba_qTPA4Ds)  
+        [歌詞(azlyrics)](https://www.azlyrics.com/lyrics/mkto/classic.html)
+        [YouTube](//youtu.be/4Ba_qTPA4Ds)
     - title: "Somebody to you"
       author: "The Vamps"
       description: |
-        [歌詞(azlyrics)](https://www.azlyrics.com/lyrics/vamps/somebodytoyou.html)  
-        [YouTube](//youtu.be/0go2nfVXFgA)  
+        [歌詞(azlyrics)](https://www.azlyrics.com/lyrics/vamps/somebodytoyou.html)
+        [YouTube](//youtu.be/0go2nfVXFgA)
   - name: "'18 Summer Camp"
     background: "img/backgrounds/summer2018_desktop_1.jpg"
     theme: "世界にひとつだけ、あなただけの夏の「物語」へ。　-Only one Your own Summer Story-"
-    songs: 
+    songs:
     - title: "はじまり"
       author: "Mrs. GREEN APPLE feat. キヨサク from MONGOL800"
       description: |
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l045f78.html)  
-        [YouTube](//youtu.be/YH1aOeTX7Vs)  
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l045f78.html)
+        [YouTube](//youtu.be/YH1aOeTX7Vs)
     - title: "I WANT YOU BACK"
       author: "The Jackson 5 feat. TWICE"
       description: |
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04f8f9/l048610.html)  
-        [YouTube](//youtu.be/X3H-4crGD6k)        
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04f8f9/l048610.html)
+        [YouTube](//youtu.be/X3H-4crGD6k)
   - name: "'18 Spring Camp"
     background: "img/backgrounds/spring2018_desktop_5.png"
     theme: "始まりの春。 -STARTING-"
-    songs: 
+    songs:
     - title: "始まりの朝"
       author: "Official髭男dism"
       description: |
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a059eab/l03f34e.html)  
-        [YouTube](//youtu.be/EusUvmUi2Xk)  
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a059eab/l03f34e.html)
+        [YouTube](//youtu.be/EusUvmUi2Xk)
     - title: "Hollow"
       author: "DNCE"
       description: |
-        [歌詞(Genius Lyrics)](https://genius.com/Dnce-hollow-lyrics)  
-        [YouTube](//youtu.be/hTnQBehHcgk)  
+        [歌詞(Genius Lyrics)](https://genius.com/Dnce-hollow-lyrics)
+        [YouTube](//youtu.be/hTnQBehHcgk)
     - title: "さくら体操"
       author: "NIPPON HOSO KYOUKAI"
       description: |
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0006b5/l001e01.html)  
-        [YouTube](//youtu.be/pnBnu5v8KTw)  
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0006b5/l001e01.html)
+        [YouTube](//youtu.be/pnBnu5v8KTw)
 - year: "2017"
   camps:
   - name: "'17 Xmas Camp"
     theme: "さあ、とっておきの世にも素敵な魔法の世界へ -MAKE WITH MAGIC-"
     background: "img/backgrounds/xmas2017_desktop_1.png"
-    songs: 
+    songs:
     - title: "ONE"
       author: "Aimer"
       description: |
-        [YouTube](//youtu.be/8HleM0glzdE)  
+        [YouTube](//youtu.be/8HleM0glzdE)
         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05570f/l04307e.html)
     - title: "ハピネス"
       author: "AI"
       description: |
-        コカ・コーラ 冬期CMソング  
-        [YouTube](//youtu.be/uKgmu8g-kXE)  
+        コカ・コーラ 冬期CMソング
+        [YouTube](//youtu.be/uKgmu8g-kXE)
         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
     - title: "ようこそジャパリパークへ"
       author: "どうぶつビスケッツ×PPP"
       description: |
         けものフレンズ　主題歌（MC紹介映像BGM）
-        [YouTube](//youtu.be/xkMdLcB_vNU)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05c47f/l03e218.html)   
+        [YouTube](//youtu.be/xkMdLcB_vNU)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05c47f/l03e218.html)
   - name: "'17 Summer Camp"
     theme: "夏が君を動かす。君が世界を動かす。-Move-"
     poem: |
-      Summer moves your heart. You inspire the World .  
-      
-      夏は不思議な力を持っている。  
-      
-      何かに夢中になりたくなる。  
-      誰かとはしゃぎたくなる。  
-      秘密を語り合いたくなる。  
-      新しい自分を見たくなる。  
-      
-      夏が君を突き動かす。  
-      そこからすべてが始まる。  
-      
-      君が動くことで、世界は動き始める。  
-      この夏のテーマは「Move」  
-      
-      世界を動かす、感動させる特別な夏へようこそ！  
+      Summer moves your heart. You inspire the World .
+
+      夏は不思議な力を持っている。
+
+      何かに夢中になりたくなる。
+      誰かとはしゃぎたくなる。
+      秘密を語り合いたくなる。
+      新しい自分を見たくなる。
+
+      夏が君を突き動かす。
+      そこからすべてが始まる。
+
+      君が動くことで、世界は動き始める。
+      この夏のテーマは「Move」
+
+      世界を動かす、感動させる特別な夏へようこそ！
     background: "img/backgrounds/summer2017_desktop_2.png"
-    songs: 
+    songs:
     - title: "明日も"
       author: "SHISHAMO"
       description: |
-        NTTドコモ"ドコモの学割「ししゃも？」篇" CMソング  
-        [YouTube](//youtu.be/zhCtzmDWsN0)  
-        [歌詞(J-Lyric)](http://j-lyric.net/artist/a056dae/l03e5dd.html)  
+        NTTドコモ"ドコモの学割「ししゃも？」篇" CMソング
+        [YouTube](//youtu.be/zhCtzmDWsN0)
+        [歌詞(J-Lyric)](http://j-lyric.net/artist/a056dae/l03e5dd.html)
     - title: "鱗"
       author: "秦基博"
       description: |
-        [YouTube](//youtu.be/x2WP1ZSQVlQ)  
+        [YouTube](//youtu.be/x2WP1ZSQVlQ)
         [歌詞(J-Lyric)](http://j-lyric.net/artist/a04c9d1/l00a8ba.html)
     - title: "SHINY"
       author: "夜の本気ダンス"
       description: |
-        NHK Eテレ テレビアニメ「境界のRINNE」第3シリーズ OPテーマソング  
-        [YouTube](//youtu.be/6idlVhWIWAE)  
+        NHK Eテレ テレビアニメ「境界のRINNE」第3シリーズ OPテーマソング
+        [YouTube](//youtu.be/6idlVhWIWAE)
         [歌詞(J-Lyric)](http://j-lyric.net/artist/a05b135/l03f540.html)
     - title: "By My Side"
       author: "夜の本気ダンス"
       description: |
-        [YouTube](//youtu.be/JHFZeM5z0K4)  
-        [歌詞(J-Lyric)](http://j-lyric.net/artist/a05b135/l039db9.html)   
+        [YouTube](//youtu.be/JHFZeM5z0K4)
+        [歌詞(J-Lyric)](http://j-lyric.net/artist/a05b135/l039db9.html)
   - name: "'17 Life 那須 Tech !"
     theme: "一年に一度だけ、地獄のような３日間"
     background: "img/backgrounds/nasucamp_key.jpg"
-    songs: 
+    songs:
     - title: "見たこともない景色"
       author: "菅田将暉"
       description: |
         au「au BLUE CHALLENGE」「応援」編 CMソング
-        [YouTube](//youtu.be/hHM5VJQ5NRg)  
-        [歌詞(J-Lyric)](http://j-lyric.net/artist/a05c7bf/l03ee0e.html)  
+        [YouTube](//youtu.be/hHM5VJQ5NRg)
+        [歌詞(J-Lyric)](http://j-lyric.net/artist/a05c7bf/l03ee0e.html)
     - title: "Stay"
       author: "Zedd & Alessia Cara"
       description: |
-        [YouTube](//youtu.be/h--P8HzYZ74)  
-        [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/zedd/stay.html)      
+        [YouTube](//youtu.be/h--P8HzYZ74)
+        [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/zedd/stay.html)
   - name: "'17 Spring Camp"
     theme: "閃け！春！Spark -Spark! Spring!-"
     background: "img/backgrounds/spring2017_desktop_1.png"
-    songs: 
+    songs:
     - title: "Next Stage with YOU"
       author: "Perfume"
       description: |
-        メルセデス・ベンツ × Perfume コラボレーションCMソング  
-        [YouTube](//youtu.be/3j77uK8hu5A)  
-        [歌詞(J-Lyric)](http://j-lyric.net/artist/a04cc66/l03a371.html)  
+        メルセデス・ベンツ × Perfume コラボレーションCMソング
+        [YouTube](//youtu.be/3j77uK8hu5A)
+        [歌詞(J-Lyric)](http://j-lyric.net/artist/a04cc66/l03a371.html)
     - title: "さよならバイスタンダー"
       author: "YUKI"
       description: |
-        TVアニメ「３月のライオン」オープニングテーマ  
+        TVアニメ「３月のライオン」オープニングテーマ
         [YouTube](//youtu.be/ZFshsGiJqmM)
         [歌詞(歌詞タイム)](http://www.kasi-time.com/item-80975.html)
     - title: "やってみよう"
@@ -200,19 +222,19 @@
       author: "ブルゾンちえみ"
       description: |
         注意点ヒューマン元ネタ
-        [YouTube](//youtu.be/8puMpOhm_5s)  
-        [注意点ヒューマン歌詞](注意点/注意点ヒューマン2017Spring.md)  
+        [YouTube](//youtu.be/8puMpOhm_5s)
+        [注意点ヒューマン歌詞](注意点/注意点ヒューマン2017Spring.md)
     - title: "さくら体操"
       author: "NIPPON HOSO KYOUKAI"
       description: |
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0006b5/l001e01.html)  
-        [YouTube](//youtu.be/pnBnu5v8KTw)  
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0006b5/l001e01.html)
+        [YouTube](//youtu.be/pnBnu5v8KTw)
 - year: "2016"
   camps:
   - name: "'16 Xmas Camp"
     theme: "一年に一度だけ、特別な数日間。-Leep into a magic story.-"
     background: "img/backgrounds/xmas2016_desktop_yellow.jpg"
-    songs: 
+    songs:
     - title: "Hey Ho"
       author: "SEKAI NO OWARI"
       description: |
@@ -221,337 +243,337 @@
     - title: "PPAP(ペンパイナッポーアッポーペン)"
       author: "ピコ太郎"
       description: |
-        注意点太郎 元曲  
-        [YouTube](//youtu.be/0E00Zuayv9Q)  
-        [歌詞(歌ネット)](http://www.uta-net.com/song/216737/)  
-        [注意点太郎歌詞](注意点/注意点太郎2016Xmas.md)  
+        注意点太郎 元曲
+        [YouTube](//youtu.be/0E00Zuayv9Q)
+        [歌詞(歌ネット)](http://www.uta-net.com/song/216737/)
+        [注意点太郎歌詞](注意点/注意点太郎2016Xmas.md)
   - name: "'16 Summer Camp"
     theme: "世界なんて、ひと夏で変わる。 -LIVE AN ADVENTUROUS-"
     background: "img/backgrounds/desktop_summer2016_blue.png"
-    songs: 
+    songs:
     - title: "CAN'T STOP THEE FEELING!"
       author: "JUSTIN TIMBERLAKE"
       description: |
-        [YouTube](//youtu.be/ru0K8uYEZWw)  
-        [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/justintimberlake/cantstopthefeeling.html)  
+        [YouTube](//youtu.be/ru0K8uYEZWw)
+        [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/justintimberlake/cantstopthefeeling.html)
     - title: "シュガーソングとビターステップ"
       author: "UNISON SQUARE GARDEN"
       description: |
-        TVアニメ「血界戦線」エンディングテーマ  
-        [YouTube](//youtu.be/3exsRhw3xt8)  
-        [歌詞(J-Lyric.net)](http://www.azlyrics.com/lyrics/justintimberlake/cantstopthefeeling.html)  
+        TVアニメ「血界戦線」エンディングテーマ
+        [YouTube](//youtu.be/3exsRhw3xt8)
+        [歌詞(J-Lyric.net)](http://www.azlyrics.com/lyrics/justintimberlake/cantstopthefeeling.html)
     - title: "宝石になった日"
       author: "BUMP OF CHICKEN"
       description: |
-        [YouTube](//youtu.be/4Sd3iIdM4Co)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a000673/l0396dd.html)  
+        [YouTube](//youtu.be/4Sd3iIdM4Co)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a000673/l0396dd.html)
     - title: "Green Bird"
       author: "フジファブリック"
       description: |
-        [YouTube](//youtu.be/PcFaBM_3Ucc)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a033e7f/l0365c3.html)  
+        [YouTube](//youtu.be/PcFaBM_3Ucc)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a033e7f/l0365c3.html)
     - title: "MUSIC VIDEO"
       author: "岡崎体育"
       description: |
-        注意点 VIDEO 元曲  
-        [YouTube](//youtu.be/fTwAz1JC4yI)  
-        [注意点VIDEO歌詞](注意点/注意点VIDEO2016Summer.md)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b49f/l03a993.html)  
+        注意点 VIDEO 元曲
+        [YouTube](//youtu.be/fTwAz1JC4yI)
+        [注意点VIDEO歌詞](注意点/注意点VIDEO2016Summer.md)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b49f/l03a993.html)
   - name: "'16 Spring Camp"
     theme: "まだ見ぬ世界に全力でワクワクしよう。 -Next World-"
     background: "img/backgrounds/desktop_spring2016_web.png"
-    songs: 
+    songs:
     - title: "シルエット"
       author: "KANA-BOON"
       description: |
-        TVアニメ「NARUTO -ナルト- 疾風伝」オープニングテーマ  
-        [YouTube](//youtu.be/ZFoJYI7Q4iA)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05808c/l033c07.html)  
+        TVアニメ「NARUTO -ナルト- 疾風伝」オープニングテーマ
+        [YouTube](//youtu.be/ZFoJYI7Q4iA)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05808c/l033c07.html)
     - title: "Tell The World"
       author: "Eric Hutchinson"
       description: |
-        [YouTube](//youtu.be/vZ2_tOoefyU)  
-        [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/hillsongunited/telltheworld.html)  
+        [YouTube](//youtu.be/vZ2_tOoefyU)
+        [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/hillsongunited/telltheworld.html)
     - title: "ランアンドラン"
       author: "KANA-BOON"
       description: |
-        [YouTube](//youtu.be/JbyQOzRANYs)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05808c/l0391c1.html)  
+        [YouTube](//youtu.be/JbyQOzRANYs)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05808c/l0391c1.html)
     - title: "PERFECT HUMAN"
       author: "RADIOFISH"
       description: |
-        注意点HUMAN  
-        [YouTube](//youtu.be/4Bh1nm7Ir8c)  
-        [注意点HUMAN歌詞](注意点/注意点HUMAN2016Spring.md)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b4f4/l03ab42.html)  
+        注意点HUMAN
+        [YouTube](//youtu.be/4Bh1nm7Ir8c)
+        [注意点HUMAN歌詞](注意点/注意点HUMAN2016Spring.md)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b4f4/l03ab42.html)
     - title: "さくら体操"
       author: "NIPPON HOSO KYOUKAI"
       description: |
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0006b5/l001e01.html)  
-        [YouTube](//youtu.be/pnBnu5v8KTw)  
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0006b5/l001e01.html)
+        [YouTube](//youtu.be/pnBnu5v8KTw)
 - year: "2015"
   camps:
   - name: "'15 Dec-'16 Jan Be Startup Coca-Cola Camp"
     theme: "世の中にないもの、『私』が生み出す。"
     background: "img/backgrounds/cocacola2015.jpg"
-    songs: 
+    songs:
     - title: "ハピネス"
       author: "AI"
       description: |
-        コカ・コーラ 冬期CMソング  
-        [YouTube](//youtu.be/uKgmu8g-kXE)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)  
+        コカ・コーラ 冬期CMソング
+        [YouTube](//youtu.be/uKgmu8g-kXE)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
     - title: "螢のテーマ"
       author: "AI"
       description: |
-        北の国から 遥かなる大地より  
-        [YouTube](//youtu.be/hsSAnsrQvLk)  
+        北の国から 遥かなる大地より
+        [YouTube](//youtu.be/hsSAnsrQvLk)
   - name: "'15 Xmas Camp"
     theme: "5日間だけの魔法の世界へ、ようこそ -Make with Magic-"
     background: "img/backgrounds/desktop_xmas2015_night.jpg"
-    songs: 
+    songs:
     - title: "新宝島"
       author: "サカナクション"
       description: |
-        映画 バクマン。 主題歌  
-        [YouTube](//youtu.be/LIlZCmETvsY)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04d6c9/l037b92.html)  
+        映画 バクマン。 主題歌
+        [YouTube](//youtu.be/LIlZCmETvsY)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04d6c9/l037b92.html)
     - title: "ハピネス"
       author: "AI"
       description: |
-        コカ・コーラ 冬期CMソング  
-        [YouTube](//youtu.be/uKgmu8g-kXE)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)  
+        コカ・コーラ 冬期CMソング
+        [YouTube](//youtu.be/uKgmu8g-kXE)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
     - title: "Share The Love"
       author: "三代目 J Soul Brothers"
       description: |
-        Pocky CMソング  
-        [YouTube](//youtu.be/MxHIFZp7Uek)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b271/l03a1e5.html)  
+        Pocky CMソング
+        [YouTube](//youtu.be/MxHIFZp7Uek)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b271/l03a1e5.html)
     - title: "ハレ晴レユカイ"
       author: "涼宮ハルヒ(平野綾)/長門有希(茅原実里)/朝比奈みくる(後藤邑子)"
       description: |
-        TVアニメ「涼宮ハルヒの憂鬱」エンディングテーマ  
-        [YouTube](//youtu.be/a6iZKNfDuh4)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cfa4/l00a8e0.html)  
+        TVアニメ「涼宮ハルヒの憂鬱」エンディングテーマ
+        [YouTube](//youtu.be/a6iZKNfDuh4)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cfa4/l00a8e0.html)
     - title: "あたりまえ体操"
       author: "COWCOW"
       description: |
-        注意点体操  
-        [YouTube](//youtu.be/G0zRBRUQils)  
-        [注意点体操歌詞](注意点/注意点体操Xmas2015.md)  
-        [歌詞(J-Lyric.net)](http://utaten.com/lyric/COWCOW/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E4%BD%93%E6%93%8D%28%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%29/) 
+        注意点体操
+        [YouTube](//youtu.be/G0zRBRUQils)
+        [注意点体操歌詞](注意点/注意点体操Xmas2015.md)
+        [歌詞(J-Lyric.net)](http://utaten.com/lyric/COWCOW/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E4%BD%93%E6%93%8D%28%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%29/)
   - name: "'15 Summer Camp"
     theme: "世界で一番、ココロ踊る「夏」を。 -A SUMMER THAT ROCKS YOUR HEART-"
     background: "img/backgrounds/summer2015-blue.jpg"
-    songs: 
+    songs:
     - title: "Come On! Come On! -Happy with Smile-"
       author: "THE UNITED"
       description: |
-        [YouTube](//youtu.be/xii1jKIbHH8)  
-        [歌詞(musiXmatch)](http://www.musixmatch.com/ja/lyrics/The-United/Come-On-Come-On-~Happy-with-Smile~)  
+        [YouTube](//youtu.be/xii1jKIbHH8)
+        [歌詞(musiXmatch)](http://www.musixmatch.com/ja/lyrics/The-United/Come-On-Come-On-~Happy-with-Smile~)
     - title: "Beautiful"
       author: "Superfly"
       description: |
-        [YouTube](//youtu.be/tfeSwQ-iU0U)  
-        [歌詞(J-Lyric)](http://j-lyric.net/artist/a04cdbd/l036081.html)  
+        [YouTube](//youtu.be/tfeSwQ-iU0U)
+        [歌詞(J-Lyric)](http://j-lyric.net/artist/a04cdbd/l036081.html)
     - title: "あたりまえ体操"
       author: "COWCOW"
       description: |
-        注意点体操  
-        [YouTube](//youtu.be/G0zRBRUQils)  
-        [注意点体操歌詞](注意点/注意点体操2015Summer.md)  
-        [歌詞(J-Lyric.net)](http://utaten.com/lyric/COWCOW/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E4%BD%93%E6%93%8D%28%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%29/) 
+        注意点体操
+        [YouTube](//youtu.be/G0zRBRUQils)
+        [注意点体操歌詞](注意点/注意点体操2015Summer.md)
+        [歌詞(J-Lyric.net)](http://utaten.com/lyric/COWCOW/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E4%BD%93%E6%93%8D%28%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%29/)
   - name: "'15 Jun. YOSHIMOTO TECHDAY"
     background: "img/backgrounds/yoshimoto_bg.png"
-    songs: 
+    songs:
     - title: "LAUGH! LAUGH! LAUGH!"
       description: |
-        [YouTube](//youtu.be/1yy4kxA_UVU)  
-        [歌詞(歌ネット)](http://www.uta-net.com/song/167194/)  
+        [YouTube](//youtu.be/1yy4kxA_UVU)
+        [歌詞(歌ネット)](http://www.uta-net.com/song/167194/)
   - name: "'15 Life 伊豆 Tech !"
     theme: "一年に一度だけ、地獄のような３日間"
     background: "img/backgrounds/key_izu.png"
-    songs: 
+    songs:
     - title: "バリバリ最強No.1"
       author: "FEEL SO BAD"
       description: |
-        [YouTube](//youtu.be/W3r_wFIGjHU)  
-        [歌詞(J-Lyric)](http://j-lyric.net/artist/a01176a/l0011d8.html)  
+        [YouTube](//youtu.be/W3r_wFIGjHU)
+        [歌詞(J-Lyric)](http://j-lyric.net/artist/a01176a/l0011d8.html)
   - name: "'15 萩1Day"
-    songs: 
+    songs:
     - title: "超特急ライン"
       author: "もっぴーさうんど"
       description: |
-        [YouTube](//youtu.be/5FOBkm0ibWI)  
-        [DOVA-SYNDROME](//dova-s.jp/bgm/play2260.html)  
+        [YouTube](//youtu.be/5FOBkm0ibWI)
+        [DOVA-SYNDROME](//dova-s.jp/bgm/play2260.html)
   - name: "'15 Spring Camp"
     theme: "すべてがサプライズの春キャンプへ -Surprise Everything-"
     background: "img/backgrounds/2015_spring.jpeg"
-    songs: 
+    songs:
     - title: "超特急ライン"
       author: "もっぴーさうんど"
       description: |
-        [YouTube](//youtu.be/5FOBkm0ibWI)  
-        [DOVA-SYNDROME](//dova-s.jp/bgm/play2260.html)  
+        [YouTube](//youtu.be/5FOBkm0ibWI)
+        [DOVA-SYNDROME](//dova-s.jp/bgm/play2260.html)
     - title: "ひまわりの約束"
       author: "秦基博"
       description: |
-        STAND BY ME ドラえもん 主題歌  
-        [YouTube](//youtu.be/hOcmPLT2U48)  
-        [歌詞(J-Lyric)](http://j-lyric.net/artist/a04c9d1/l032376.html)  
+        STAND BY ME ドラえもん 主題歌
+        [YouTube](//youtu.be/hOcmPLT2U48)
+        [歌詞(J-Lyric)](http://j-lyric.net/artist/a04c9d1/l032376.html)
     - title: "Happily"
       author: "One Direction"
       description: |
-        [YouTube](//youtu.be/s28PuyRqLrs)  
-        [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/onedirection/happily.html)  
+        [YouTube](//youtu.be/s28PuyRqLrs)
+        [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/onedirection/happily.html)
     - title: "さくら体操"
       author: "NIPPON HOSO KYOUKAI"
       description: |
-        [YouTube](//youtu.be/pnBnu5v8KTw)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0006b5/l001e01.html)  
+        [YouTube](//youtu.be/pnBnu5v8KTw)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0006b5/l001e01.html)
 - year: "2014"
   camps:
   - name: "'14 Xmas Camp"
     theme: "一年に一度だけ、魔法のような4日間"
-    songs: 
+    songs:
     - title: "Dragon Night"
       author: "SEKAI NO OWARI"
       description: |
-        [YouTube](//youtu.be/gsVGf1T2Hfs)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a055790/l033358.html)  
+        [YouTube](//youtu.be/gsVGf1T2Hfs)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a055790/l033358.html)
     - title: "I Won't Let You Down"
       author: "OK Go"
       description: |
-        [YouTube](//youtu.be/u1ZB_rGFyeU)  
-        [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/okgo/iwontletyoudown.html)  
+        [YouTube](//youtu.be/u1ZB_rGFyeU)
+        [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/okgo/iwontletyoudown.html)
     - title: "ハピネス"
       author: "AI"
       description: |
-        コカ・コーラ 冬期CMソング  
-        [YouTube](//youtu.be/uKgmu8g-kXE)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)  
+        コカ・コーラ 冬期CMソング
+        [YouTube](//youtu.be/uKgmu8g-kXE)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
   - name: "'14 Summer Camp"
     theme: "夏のすべてが詰まってる"
     background: "img/backgrounds/summer2014-blue.png"
-    songs: 
+    songs:
     - title: "ray"
       author: "BUMP OF CHICKEN feat. HATSUNE MIKU"
       description: |
-        [YouTube](//youtu.be/yT_ylSCgY6Q)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a000673/l030b34.html)  
+        [YouTube](//youtu.be/yT_ylSCgY6Q)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a000673/l030b34.html)
     - title: "ミラクル"
       author: "miwa"
       description: |
-        [YouTube](//youtu.be/TIzNszoG_TA)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04e594/l02ca67.html)  
+        [YouTube](//youtu.be/TIzNszoG_TA)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04e594/l02ca67.html)
   - name: "'14 English × IT Camp"
-    songs: 
+    songs:
     - title: "Happy"
       author: "Rharrell Williams"
       description: |
-        [YouTube](//youtu.be/y6Sxv-sUYtM)  
-        [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/pharrellwilliams/happy.html)  
+        [YouTube](//youtu.be/y6Sxv-sUYtM)
+        [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/pharrellwilliams/happy.html)
   - name: "'14 Spring Camp"
     theme: "出会い、別れ、はじまり"
-    songs: 
+    songs:
     - title: "スターラブレイション"
       author: "ケラケラ"
       description: |
-        [YouTube](//youtu.be/JQowMIY2bOw)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05751d/l02cddb.html)  
+        [YouTube](//youtu.be/JQowMIY2bOw)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05751d/l02cddb.html)
     - title: "変わらないもの"
       author: "奥華子"
       description: |
-        アニメ映画「時をかける少女」挿入歌  
-        [YouTube](//youtu.be/CwOvDQdH2-Q)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04c9e3/l00af88.html)  
+        アニメ映画「時をかける少女」挿入歌
+        [YouTube](//youtu.be/CwOvDQdH2-Q)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04c9e3/l00af88.html)
 - year: "2013"
   camps:
   - name: "'13 Xmas Camp"
-    songs: 
+    songs:
     - title: "恋するフォーチュンクッキー"
       author: "AKB48"
       description: |
-        [YouTube](//youtu.be/dFf4AgBNR1E)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cb7c/l02e06a.html)  
+        [YouTube](//youtu.be/dFf4AgBNR1E)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cb7c/l02e06a.html)
     - title: "ハピネス"
       author: "AI"
       description: |
-        コカ・コーラ 冬期CMソング  
-        [YouTube](//youtu.be/uKgmu8g-kXE)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)  
+        コカ・コーラ 冬期CMソング
+        [YouTube](//youtu.be/uKgmu8g-kXE)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
   - name: "'13 Summer Camp"
     theme: "きっと忘れられない夏になる。"
-    songs: 
+    songs:
     - title: "RPG"
       author: "SEKAI NO OWARI"
       description: |
-        映画「クレヨンしんちゃん バカうまっ!B級グルメサバイバル!!」主題歌  
-        [YouTube](//youtu.be/Mi9uNu35Gmk)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a055790/l02cbdb.html)  
+        映画「クレヨンしんちゃん バカうまっ!B級グルメサバイバル!!」主題歌
+        [YouTube](//youtu.be/Mi9uNu35Gmk)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a055790/l02cbdb.html)
   - name: "'13 Spring Camp"
-    songs: 
+    songs:
     - title: "Boom!"
       author: "Maia Hirasawa"
       description: |
-        「JR九州/祝！九州キャンペーン」CMソング  
-        [YouTube](//youtu.be/N6-0aquSvXk)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a054d2c/l025022.html)  
+        「JR九州/祝！九州キャンペーン」CMソング
+        [YouTube](//youtu.be/N6-0aquSvXk)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a054d2c/l025022.html)
     - title: "ODDS&ENDS"
       author: "ryo(supercell) feat. 初音ミク"
       description: |
-        ゲーム「初音ミク -Project Diva- f」テーマソング  
-        [YouTube](//youtu.be/HUzLUGKwQJc)  
-        [歌詞(歌ネット)](http://www.uta-net.com/song/134511/)  
+        ゲーム「初音ミク -Project Diva- f」テーマソング
+        [YouTube](//youtu.be/HUzLUGKwQJc)
+        [歌詞(歌ネット)](http://www.uta-net.com/song/134511/)
     - title: "さよならメモリーズ"
       author: "supercell"
       description: |
-        [YouTube](//youtu.be/ZP9mJdpENMg)  
+        [YouTube](//youtu.be/ZP9mJdpENMg)
         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a051979/l01e2e0.html)
 - year: "2012"
   camps:
   - name: "'12 Xmas Camp"
-    songs: 
+    songs:
     - title: "ハピネス"
       author: "AI"
       description: |
-        コカ・コーラ 冬期CMソング  
-        [YouTube](//youtu.be/uKgmu8g-kXE)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)  
+        コカ・コーラ 冬期CMソング
+        [YouTube](//youtu.be/uKgmu8g-kXE)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
   - name: "'12 Summer Camp"
-    songs: 
+    songs:
     - title: "君の知らない物語"
       author: "supercell"
       description: |
-        TVアニメ「化物語」エンディングテーマ  
-        [YouTube](//youtu.be/wfkgRfBUWLo)  
-        [歌詞(歌詞タイム)](http://www.kasi-time.com/item-43855.html)  
+        TVアニメ「化物語」エンディングテーマ
+        [YouTube](//youtu.be/wfkgRfBUWLo)
+        [歌詞(歌詞タイム)](http://www.kasi-time.com/item-43855.html)
     - title: "Overture of the Summer Wars"
       author: "松本晃彦"
       description: |
-        アニメ映画「サマーウォーズ」挿入歌  
-        [YouTube](//youtu.be/RbpDRk_OAPU)  
+        アニメ映画「サマーウォーズ」挿入歌
+        [YouTube](//youtu.be/RbpDRk_OAPU)
 - year: "番外編"
   camps:
   - name: "メンター/コース紹介"
-    songs: 
+    songs:
     - title: "Wings"
       author: "Little Mix"
       description: |
-        [YouTube](//youtu.be/cOQDsmEqVt8)  
-        [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/littlemix/wings.html)  
+        [YouTube](//youtu.be/cOQDsmEqVt8)
+        [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/littlemix/wings.html)
   - name: "スクール夏期講習(2016)"
-    songs: 
+    songs:
     - title: "PERFECT BLUE"
       author: "Base Ball Bear"
       description: |
-        [YouTube](//youtu.be/jgofbf8Q_-Y)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04c8a1/l02bdf5.html)  
+        [YouTube](//youtu.be/jgofbf8Q_-Y)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04c8a1/l02bdf5.html)
   - name: "メンター講習テーマ"
-    songs: 
+    songs:
     - title: "SUN"
       author: "星野源"
       description: |
-        [YouTube](//youtu.be/7gcCRAl58u4)  
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0512cf/l036090.html)  
+        [YouTube](//youtu.be/7gcCRAl58u4)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0512cf/l036090.html)
