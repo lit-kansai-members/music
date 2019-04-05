@@ -92,10 +92,11 @@ html(lang='ja')
               class=`background${camp.background ? "" : " noimage"}`)
             each song in camp.songs
               - const youtube = /^\s*\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)\s*$/mg.exec(song.description);
-              - 
-                const description = song.description
+              -
+                const descriptions = song.description
                   .replace(/^\s*\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)\s*$/mg, "")
-                  .replace(/\[(.*)\]\(注意点\/(.+).md\)/g, '<a href="#a-$2" class="open-modal">$1</a>');
+                  .replace(/\[(.*)\]\(注意点\/(.+).md\)/g, '<a href="#a-$2" class="open-modal">$1</a>')
+                  .split('\n')
               section
                 if youtube
                   .youtube
@@ -103,24 +104,26 @@ html(lang='ja')
                       youtube[2]+"/0.jpg")
                     button.play(data-youtube-id=youtube[2], data-title=song.title, data-author=song.author)
                     a(href=youtube[1])
-                      | Watch at 
+                      | Watch at
                       img(src='./img/YouTube-logo-light.png', alt='YouTube')
                 h4= song.title
                   small= song.author
-                .body!= data.marked(description)
+                .body
+                  for description in descriptions
+                    != data.marked(description)
     footer
       div
         p#thanks.colorful Thanks for visit!
         p
           | do you have some infomation?
           br
-          | Tell me with 
+          | Tell me with
           a(href="https://docs.google.com/forms/d/e/1FAIpQLSefqsiMlk6Kr9G-Xxcu5CpKfntP_f7KjZX6Q8Gd8VrGK6uVdw/viewform?c=0&w=1")
             | Web Form
           br
           | or
           br
-          |     fork me on 
+          |     fork me on
           a(href='https://github.com/lit-kansai-members/music').github
             img(src='img/github-mark.svg')
             img(src='img/github-logo.svg', alt='GitHub')
