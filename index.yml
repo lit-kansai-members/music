@@ -24,6 +24,28 @@
 #         [YouTube](//youtu.be/3j77uK8hu5A)
 #         [歌詞(J-Lyric)](http://j-lyric.net/artist/a04cc66/l03a371.html)
 #       # リンクなど。 "|" はYAMLの複数行記法です。
+- year: "2019"
+  camps:
+  - name: "'19 Spring Camp"
+    background: "img/backgrounds/spring2019_desktop_1.png"
+    theme: "春よ止まれ"
+    songs:
+    - title: "拝啓、少年よ"
+      author: "Hump Back"
+      description: |
+        [歌詞(プチリリ)](https://petitlyrics.com/lyrics/2747881)
+        [YouTube](//youtu.be/d6i4AtCxrDo)
+    - title: "チェンジユアワールド"
+      author: "go!go!vanillas"
+      description: |
+        動画を見つけたら教えて下さい。
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a059479/l0481b6.html)
+        [レコチョク](//recochoku.jp/song/S1007179020/)
+    - title: "Tを探そう"
+      author: "TT兄弟"
+      description: |
+        注意点「Tを探そう・Cを探そう」元ネタ
+        [YouTube](//youtu.be/IPPsEtMqAt8)
 - year: "2018"
   camps:
   - name: "'18 Xmas Camp"
@@ -339,7 +361,7 @@
       description: |
         注意点体操
         [YouTube](//youtu.be/G0zRBRUQils)
-        [注意点体操歌詞](注意点/注意点体操Xmas2015.md)
+        [注意点体操歌詞](注意点/注意点体操2015Xmas.md)
         [歌詞(J-Lyric.net)](http://utaten.com/lyric/COWCOW/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E4%BD%93%E6%93%8D%28%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%29/)
   - name: "'15 Summer Camp"
     theme: "世界で一番、ココロ踊る「夏」を。 -A SUMMER THAT ROCKS YOUR HEART-"
