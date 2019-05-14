@@ -577,3 +577,18 @@
       description: |
         [YouTube](//youtu.be/7gcCRAl58u4)
         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0512cf/l036090.html)
+ - name: "Happy Graduation(関西卒業サプライズ2019）"
+    theme: "桜とキミとぼくらと"
+    background: "img/backgrounds/kansai-surprise2019_key.jpg"
+    songs:
+    - title: "桜のあと (all quartets lead to the?)"
+      author: "UNISON SQUARE GARDEN"
+      description: |
+        [YouTube](//youtu.be/9zluQwPBMWM)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04e406/l02eeeb.html)
+    songs:
+    - title: "桜ノ雨"
+      author: "absorb feat 初音ミク"
+      description: |
+        [YouTube](//youtu.be/Bc283_Ic79g)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04f309/l0141af.html)           
