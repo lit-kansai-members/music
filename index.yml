@@ -586,9 +586,23 @@
       description: |
         [YouTube](//youtu.be/9zluQwPBMWM)
         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04e406/l02eeeb.html)
-    songs:
     - title: "桜ノ雨"
       author: "absorb feat 初音ミク"
       description: |
         [YouTube](//youtu.be/Bc283_Ic79g)
-        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04f309/l0141af.html)           
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04f309/l0141af.html)
+  - name: "Graduation 2019(関東卒業サプライズ2019）"
+    background: "img/backgrounds/kanto-surprise2019_key.jpg"
+    songs:
+    - title: "パープル"
+      author: "コレサワ"
+      description: |
+      　　ロート製薬 肌ラボ　恋する肌キュンmovie"第4弾 キャンペーンソング
+        [YouTube](//youtu.be/qnLJk_WoPto)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05acb3/l048b31.html)
+    - title: "アウトフォーカス"
+      author: "Half time Old"
+      description: |
+        [YouTube](//https://youtu.be/3W1JzN1rkWU)
+        [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05d9ce/l043dca.html)      
+
