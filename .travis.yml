@@ -1,7 +1,5 @@
 language: node_js
-node_js:
-  - 'stable'
-  - 'lts/*'
+node_js: node
 sudo: false
 cache:
   yarn: true
@@ -13,6 +11,9 @@ env:
   - GH_USER_EMAIL="2000ygkn0713@gmail"
   - GH_USER_NAME="Yugo Yagita"
 
+before_install:
+  - npm install -g yarn
+  
 script: npm run build
 
 after_success:
