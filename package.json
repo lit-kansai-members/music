@@ -4,8 +4,8 @@
   "description": "Life is Tech! の音楽",
   "main": "README.md",
   "scripts": {
-    "test": "gulp generate:development",
-    "build": "gulp generate"
+    "test": "parcel src/pug/index.pug --out-dir build",
+    "build": "parcel build src/pug/index.pug --out-dir build"
   },
   "repository": {
     "type": "git",
