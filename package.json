@@ -5,7 +5,7 @@
   "main": "README.md",
   "scripts": {
     "test": "parcel src/pug/index.pug --out-dir build",
-    "build": "parcel build src/pug/index.pug --out-dir build"
+    "build": "parcel build src/pug/index.pug --out-dir build --public-url '.'"
   },
   "repository": {
     "type": "git",
