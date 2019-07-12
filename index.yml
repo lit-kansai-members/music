@@ -579,7 +579,7 @@
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0512cf/l036090.html)
     - name: "Happy Graduation(関西卒業サプライズ2019)"
       theme: "桜とキミとぼくらと"
-      background: "img/backgrounds/kansai-surprise2019_key.jpg"
+      background: "../../res/img/backgrounds/kansai-surprise2019_key.jpg"
       songs:
         - title: "桜のあと (all quartets lead to the?)"
           author: "UNISON SQUARE GARDEN"
@@ -592,7 +592,7 @@
             [YouTube](//youtu.be/Bc283_Ic79g)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04f309/l0141af.html)
     - name: "Graduation 2019(関東卒業サプライズ2019）"
-      background: "img/backgrounds/kanto-surprise2019_key.jpg"
+      background: "../../res/img/backgrounds/kanto-surprise2019_key.jpg"
       songs:
         - title: "パープル"
           author: "コレサワ"
