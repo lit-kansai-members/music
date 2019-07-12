@@ -27,7 +27,7 @@ html(lang='ja')
     meta(name='twitter:image', content=info.image)
     meta(name='twitter:image:alt', content=info.title)
     link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/4.1.0/sanitize.min.css')
-    link(rel='stylesheet', href='./css/style.css', type='text/css')
+    link(rel='stylesheet', href='../scss/style.scss', type='text/css')
     script(src='https://use.fontawesome.com/6915a2ffb0.js')
     script.
       const $ = s => Array.from(document.querySelectorAll(s));
@@ -67,9 +67,9 @@ html(lang='ja')
             .inneryear Thanks !
     header
       h1
-        img#mark(src='img/mark.png')
-        img#logo(src='img/logo.png', alt='Life is Tech! ®')
-        img#music(src='img/music.svg', alt='music')
+        img#mark(src='../../res/img/mark.png')
+        img#logo(src='../../res/img/logo.png', alt='Life is Tech! ®')
+        img#music(src='../../res/img/music.svg', alt='music')
       a.bounce(href='#main' data-scroll)
         | Scroll Down
         br
@@ -88,7 +88,7 @@ html(lang='ja')
               else
                 small.camp-theme=camp.theme
           .parallax
-            img(src=camp.background || "./img/backgrounds/lifeistech-logo.png",
+            img(src=camp.background || "../../res/img/backgrounds/lifeistech-logo.png",
               class=`background${camp.background ? "" : " noimage"}`)
             each song in camp.songs
               - const youtube = /^\s*\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)\s*$/mg.exec(song.description);
@@ -105,7 +105,7 @@ html(lang='ja')
                     button.play(data-youtube-id=youtube[2], data-title=song.title, data-author=song.author)
                     a(href=youtube[1])
                       | Watch at
-                      img(src='./img/YouTube-logo-light.png', alt='YouTube')
+                      img(src='../../res/img/YouTube-logo-light.png', alt='YouTube')
                 h4= song.title
                   small= song.author
                 .body
@@ -125,8 +125,8 @@ html(lang='ja')
           br
           |     fork me on
           a(href='https://github.com/lit-kansai-members/music').github
-            img(src='img/github-mark.svg')
-            img(src='img/github-logo.svg', alt='GitHub')
+            img(src='../../res/img/github-mark.svg')
+            img(src='../../res/img/github-logo.svg', alt='GitHub')
           br
           small This project is an unoffcial.
     each chuiten in data.chuitens
@@ -173,5 +173,5 @@ html(lang='ja')
               span.checkbox-bg
                 i.fa.fa-check(class="fa fa-check", aria-hidden="true")
               span リピート再生
-    script(type='text/javascript', src='./js/script.js')
+    script(type='text/javascript', src='../js/index.js')
     script(src="https://www.youtube.com/iframe_api")
