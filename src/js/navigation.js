@@ -2,19 +2,18 @@
  * .opened, .full-opened で最適な大きさになるようなCSSを作成して
  * <head> の末尾に追記
  */
-const style = document.createElement("style")
+const style = document.createElement("style");
 let css = "";
 
-Array.from(document.querySelectorAll("#navigations .year"))
-.forEach((el, i) => {
-  const selector =`#navigations > .year:nth-child(${i + 1})`;
+Array.from(document.querySelectorAll("#navigations .year")).forEach((el, i) => {
+  const selector = `#navigations > .year:nth-child(${i + 1})`;
   const inneryear = el.querySelector(".inneryear");
   const outerCamp = el.querySelector(".outerCamp");
   css += `
 ${selector}.opened, ${selector}:hover {
   --width: ${inneryear.offsetWidth + 2}px;
 }`;
-  if(outerCamp){
+  if (outerCamp) {
     const lastCamp = outerCamp.querySelector(".camp:last-child");
     css += `
 ${selector}.full-opened {
@@ -23,9 +22,9 @@ ${selector}.full-opened {
 ${selector}.full-opened .outerCamp {
   height: ${lastCamp.offsetTop + lastCamp.offsetHeight}px;
 }
-`
+`;
   }
-})
+});
 
 style.innerHTML = css;
 document.head.appendChild(style);
@@ -34,9 +33,9 @@ document.head.appendChild(style);
  * hover時に .full-opened をつける
  */
 
-Array.from(document.querySelectorAll(".inneryear, .outerCamp"))
-.forEach( v => {
-  const year = (v.classList.contains("inneryear") ? v.parentElement : v).parentElement;
+Array.from(document.querySelectorAll(".inneryear, .outerCamp")).forEach(v => {
+  const year = (v.classList.contains("inneryear") ? v.parentElement : v)
+    .parentElement;
   v.addEventListener("mouseenter", e => year.classList.add("full-opened"));
   v.addEventListener("mouseleave", e => year.classList.remove("full-opened"));
 });
@@ -46,11 +45,10 @@ Array.from(document.querySelectorAll(".inneryear, .outerCamp"))
  * .outerCampが閉じてしまうのを遅れることで回避
  */
 
-Array.from(document.getElementsByClassName("outerCamp"))
-.forEach(outerCamp =>
-  outerCamp.addEventListener("transitionend", e=>{
+Array.from(document.getElementsByClassName("outerCamp")).forEach(outerCamp =>
+  outerCamp.addEventListener("transitionend", e => {
     const year = outerCamp.parentElement;
-    if(year.classList.contains("full-opened")) {
+    if (year.classList.contains("full-opened")) {
       year.style.transitionDelay = "450ms";
       outerCamp.style.transitionDelay = "50ms";
     } else {
@@ -64,17 +62,21 @@ Array.from(document.getElementsByClassName("outerCamp"))
  * TOPがウィンドウの高さの半分以上の最後の要素を開く
  */
 
-const years = Array.from(document.querySelectorAll("header, main > h2 ,footer")).reverse();
+const years = Array.from(
+  document.querySelectorAll("header, main > h2 ,footer")
+).reverse();
 
-const yearNavs = Array.from(document.querySelectorAll("#navigations > .year")).reverse();
+const yearNavs = Array.from(
+  document.querySelectorAll("#navigations > .year")
+).reverse();
 
 let opened = 0;
 
-window.addEventListener("scroll", e =>{
+window.addEventListener("scroll", e => {
   const VHHalf = window.innerHeight / 2;
   let open = years.findIndex(e => e.getBoundingClientRect().top < VHHalf);
   open = ~open ? open : years.length - 1;
-  if(open !== opened) {
+  if (open !== opened) {
     yearNavs[opened].classList.remove("opened");
     yearNavs[open].classList.add("opened");
     opened = open;
