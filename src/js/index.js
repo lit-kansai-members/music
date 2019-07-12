@@ -1,9 +1,9 @@
-require('./colorful');
-require('./index');
-require('./loading');
-require('./lit-words');
-require('./modal');
-require('./navigation');
-require('./parallax');
-require('./player');
-require('./scroll');
+import "./colorful";
+import "./index";
+import "./loading";
+import "./lit-words";
+import "./modal";
+import "./navigation";
+import "./parallax";
+import "./player";
+import "./scroll";

@@ -1,4 +1,4 @@
-const SweetScroll = require("sweet-scroll");
+import SweetScroll from "sweet-scroll";
 
 const afterScroll = (toScroll, trigger) =>
   location.hash = trigger.hash.slice(1);
