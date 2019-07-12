@@ -7,17 +7,17 @@ window.onYouTubeIframeAPIReady = () => {
     navigator.userAgent.toLowerCase()
   );
 
-  const $toggleButton = $(".controller .toggle")[0];
-  const $backButton = $(".controller .back")[0];
-  const $nextButton = $(".controller .next")[0];
-  const $title = $(".playing .title")[0];
-  const $author = $(".playing .author")[0];
-  const $thumbnail = $(".playing .thumb")[0];
-  const $player = $(".player")[0];
-  const $toggleSetting = $(".toggle-setting")[0];
-  const $balloon = $(".balloon")[0];
-  const $continue = $("[name='continue']")[0];
-  const $repeat = $("[name='repeat']")[0];
+  const $toggleButton = document.querySelector(".controller .toggle");
+  const $backButton = document.querySelector(".controller .back");
+  const $nextButton = document.querySelector(".controller .next");
+  const $title = document.querySelector(".playing .title");
+  const $author = document.querySelector(".playing .author");
+  const $thumbnail = document.querySelector(".playing .thumb");
+  const $player = document.querySelector(".player");
+  const $toggleSetting = document.querySelector(".toggle-setting");
+  const $balloon = document.querySelector(".balloon");
+  const $continue = document.querySelector("[name='continue']");
+  const $repeat = document.querySelector("[name='repeat']");
 
   const events = {
     onStateChange({ target, data: state }) {
@@ -76,12 +76,14 @@ window.onYouTubeIframeAPIReady = () => {
 
   const playNext = () => play((playing + 1) % players.length);
 
-  const players = $(".play").map((trigger, index) => {
-    const data = Object.assign({}, trigger.dataset);
-    data.trigger = trigger;
-    trigger.addEventListener("click", e => load(index));
-    return data;
-  });
+  const players = [...document.querySelectorAll(".play")].map(
+    (trigger, index) => {
+      const data = Object.assign({}, trigger.dataset);
+      data.trigger = trigger;
+      trigger.addEventListener("click", e => load(index));
+      return data;
+    }
+  );
   $toggleButton.addEventListener("click", e =>
     players[playing].player[
       $toggleButton.classList.contains("paused") ? "playVideo" : "pauseVideo"

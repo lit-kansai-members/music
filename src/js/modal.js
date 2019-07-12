@@ -1,12 +1,14 @@
-$(".close-modal").forEach(v =>
+document.querySelectorAll(".close-modal").forEach(v =>
   v.addEventListener("click", e => {
     document.body.style.overflow = "";
     e.preventDefault();
-    $(".modal.open").forEach(v => v.classList.remove("open"));
+    document
+      .querySelectorAll(".modal.open")
+      .forEach(v => v.classList.remove("open"));
   })
 );
 
-$(".open-modal").forEach(v =>
+document.querySelectorAll(".open-modal").forEach(v =>
   v.addEventListener("click", e => {
     document.body.style.overflow = "hidden";
     e.preventDefault();
@@ -16,7 +18,7 @@ $(".open-modal").forEach(v =>
   })
 );
 
-const $modals = $(".modal");
+const $modals = document.querySelectorAll(".modal");
 
 window.addEventListener(
   "keydown",

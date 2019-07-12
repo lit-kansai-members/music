@@ -2,7 +2,8 @@ const $mark = document.getElementById("mark");
 
 // move mark to center of viewport.
 $mark.style.transform = `translateX(${window.innerWidth / 2 -
-  $("#mark")[0].getBoundingClientRect().left}px) translateX(-50%)`;
+  document.querySelector("#mark").getBoundingClientRect()
+    .left}px) translateX(-50%)`;
 $mark.style.transition = "1s";
 
 const paths = Array.from(document.querySelectorAll("path.first, path.second"));
