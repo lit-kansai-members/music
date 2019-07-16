@@ -1,7 +1,7 @@
 {
-  "name": "lit-bgm",
+  "name": "music",
   "version": "1.0.0",
-  "description": "Life is Tech! の音楽",
+  "description": "Life is Tech!な音楽をまとめた\"非公式\"リポジトリ",
   "main": "README.md",
   "scripts": {
     "test": "parcel src/pug/index.pug --out-dir build",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lit-kansai-members/LiT-BGM.git"
+    "url": "git@github.com:lit-kansai-members/music.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lit-kansai-members/LiT-BGM/issues"
+    "url": "https://github.com/lit-kansai-members/music/issues"
   },
-  "homepage": "https://github.com/lit-kansai-members/LiT-BGM#readme",
+  "homepage": "https://lit-kansai-members.github.io/music/",
   "devDependencies": {
     "@alrra/travis-scripts": "^3.0.1",
     "js-yaml": "^3.13.1",
@@ -27,5 +27,6 @@
   },
   "dependencies": {
     "sweet-scroll": "^4.0.0"
-  }
+  },
+  "private": true
 }
