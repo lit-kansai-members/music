@@ -27,6 +27,16 @@
 - year: "2019"
   camps:
     - name: "'19 Spring Camp"
+      background: "../../res/img/backgrounds/izu-2019.jpg"
+      theme: "社会が抱える実課題をIT×Teamで解決!"
+      songs:
+        - title: "オーバーライト"
+          author: "フジファブリック"
+          description: |
+            J SPORTS STADIUM2019　野球中継テーマソング
+            [歌詞(プチリリ)](https://petitlyrics.com/lyrics/2793901)
+            [YouTube](//youtu.be/7sVhaTcd77E)
+    - name: "'19 Spring Camp"
       background: "../../res/img/backgrounds/spring2019_desktop_1.png"
       theme: "春よ止まれ"
       songs:
