@@ -74,7 +74,9 @@ yarn test
 [@GenbuHase](//github.com/GenbuHase)（げんちゃん)  
 [@natom_nano](//github.com/natom-nano)（Natom(mineral))  
 [さっきー](//twitter.com/222222222332a)（さっきー（Twitter))  
-[ちか](//twitter.com/LitChika)（ちか（Twitter))
+[ちか](//twitter.com/LitChika)（ちか（Twitter))  
+[@ENDOTAKUMI](//github.com/ENDOTAKUMI)（えんたく）   
+[タツ](//twitter.com/u39dc)（タツ（Twitter)） 
 
 
 
