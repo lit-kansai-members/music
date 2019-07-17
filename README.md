@@ -4,7 +4,7 @@
 
 Life is Tech!で使われている BGM のまとめのリポジトリです。関西系メンバーが勝手に集めてます！ 関東や九州やそれ以外の地域の方も是非活用してください！
 
-Life is Tech ! MUSIC はネタバレ防止のため必ず全てのキャンプが終了してから更新します。
+Life is Tech ! MUSIC はネタバレ防止のため必ず全てのキャンプが終了してから更新するため、SummerCamp2019に関する情報の反映は2019年8月30日金曜日9時00分（UTC)以降を予定しています。
 
 [Web ページ](http://lit-kansai-members.github.io/music/)（[index.yml](./index.yml)から自動生成）
 
