@@ -26,7 +26,7 @@
 #       # リンクなど。 "|" はYAMLの複数行記法です。
 - year: "2019"
   camps:
-    - name: "'19 Spring Camp"
+    - name: "Life 伊豆 Tech !(2019)"
       background: "../../res/img/backgrounds/izu-2019.jpg"
       theme: "社会が抱える実課題をIT×Teamで解決!"
       songs:
@@ -401,7 +401,7 @@
           description: |
             [YouTube](//youtu.be/1yy4kxA_UVU)
             [歌詞(歌ネット)](http://www.uta-net.com/song/167194/)
-    - name: "'15 Life 伊豆 Tech !"
+    - name: "Life 伊豆 Tech !(2015)"
       theme: "一年に一度だけ、地獄のような３日間"
       background: "../../res/img/backgrounds/key_izu.png"
       songs:
@@ -615,7 +615,7 @@
           description: |
             [YouTube](//youtu.be/3W1JzN1rkWU)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05d9ce/l043dca.html)
-    - name: "School(Spring season 2019)"
+    - name: "School(Springseason 2019)"
       songs:
         - title: "10時の方角"
           author: "sumika"
