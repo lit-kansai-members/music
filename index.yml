@@ -26,6 +26,22 @@
 #       # リンクなど。 "|" はYAMLの複数行記法です。
 - year: "2019"
   camps:
+    - name: "'19 Summer Camp"
+      background: "../../res/img/backgrounds/summer-2019.jpg"
+      theme: "『夏』が、好きだああああああああああああ。"
+      songs:
+        - title: "雀ノ欠伸"
+          author: "Saucy Dog"
+          description: |
+            サントリー天然水 GREEN TEA「徒然なる トリビュート」　参加楽曲
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05fdb9/l04c4cf.html)
+            [YouTube](//youtu.be/IJRdeZA05OE)
+        - title: "Player"
+          author: "chelmico"
+          description: |
+            Apple Watch Series4　CMソング
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05e5c8/l04828c.html)
+            [YouTube](//youtu.be/P7ds78eOLjU)    
     - name: "Life 伊豆 Tech !(2019)"
       background: "../../res/img/backgrounds/izu-2019.jpg"
       theme: "社会が抱える実課題をIT×Teamで解決!"
