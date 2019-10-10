@@ -67,7 +67,7 @@ yarn test
 [@shoya140](//github.com/shoya140)（しょうさま）  
 [@E235-235](//github.com/E235-235)（かっくん）  
 [@RinYokoi](//github.com/RinYokoi)（なぽるん,りん）  
-[@rkccdsnagoya1](//github.com/rkccdsnagoya1)（りゅうせい,くあてろ） 
+[@rkccdsnagoya1](//github.com/rkccdsnagoya1)（りゅうせい,くあてろ）  
 [@Mon-Take](//github.com/Mon-Take)（モンタケ）  
 [べじぴぽ@LiT!](//twitter.com/_vegi_pipo_Lit)（べじぴぽ（Twitter））  
 [@GenbuHase](//github.com/GenbuHase)（げんちゃん）  
