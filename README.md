@@ -66,14 +66,14 @@ yarn test
 [@sanu22](//github.com/sanu22)（いかさん,いかおじさん）  
 [@shoya140](//github.com/shoya140)（しょうさま）  
 [@E235-235](//github.com/E235-235)（かっくん）  
-[@RinYokoi](//github.com/RinYokoi)（なぽるん,りん）
+[@RinYokoi](//github.com/RinYokoi)（なぽるん,りん）  
 [@rkccdsnagoya1](//github.com/rkccdsnagoya1)（りゅうせい,くあてろ） 
-[@Mon-Take](//github.com/Mon-Take)（モンタケ）
-[べじぴぽ@LiT!](//twitter.com/_vegi_pipo_Lit)（べじぴぽ（Twitter））
-[@GenbuHase](//github.com/GenbuHase)（げんちゃん）
-[@7io63](//github.com/7io63)（なとむ,みねらる）
-[さっきー](//twitter.com/222222222332a)（さっきー（Twitter））
-[ちか](//twitter.com/LitChika)（ちか（Twitter））
+[@Mon-Take](//github.com/Mon-Take)（モンタケ）  
+[べじぴぽ@LiT!](//twitter.com/_vegi_pipo_Lit)（べじぴぽ（Twitter））  
+[@GenbuHase](//github.com/GenbuHase)（げんちゃん）  
+[@7io63](//github.com/7io63)（なとむ,みねらる）  
+[さっきー](//twitter.com/222222222332a)（さっきー（Twitter））  
+[ちか](//twitter.com/LitChika)（ちか（Twitter））  
 [@ENDOTAKUMI](//github.com/ENDOTAKUMI)（えんたく）   
 [タツ](//twitter.com/u39dc)（タツ（Twitter）） 
 
