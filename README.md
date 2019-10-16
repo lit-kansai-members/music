@@ -4,7 +4,6 @@
 
 Life is Tech!で使われている BGM のまとめのリポジトリです。関西系メンバーが勝手に集めてます！ 関東や九州やそれ以外の地域の方も是非活用してください！
 
-Life is Tech ! MUSIC はネタバレ防止のため必ず全てのキャンプが終了してから更新するため、SummerCamp2019に関する情報の反映は2019年8月30日金曜日9時00分（UTC)以降を予定しています。
 
 [Web ページ](http://lit-kansai-members.github.io/music/)（[index.yml](./index.yml)から自動生成）
 
@@ -67,16 +66,16 @@ yarn test
 [@sanu22](//github.com/sanu22)（いかさん,いかおじさん）  
 [@shoya140](//github.com/shoya140)（しょうさま）  
 [@E235-235](//github.com/E235-235)（かっくん）  
-[@RinYokoi](//github.com/RinYokoi)（なぽるん,りん)  
-[@rkccdsnagoya1](//github.com/rkccdsnagoya1)（りゅうせい,くあてろ)  
-[@Mon-Take](//github.com/Mon-Take)（モンタケ)  
-[べじぴぽ@LiT!](//twitter.com/_vegi_pipo_Lit)（べじぴぽ（Twitter))   
-[@GenbuHase](//github.com/GenbuHase)（げんちゃん)  
-[@natom_nano](//github.com/natom-nano)（Natom(mineral))  
-[さっきー](//twitter.com/222222222332a)（さっきー（Twitter))  
-[ちか](//twitter.com/LitChika)（ちか（Twitter))  
+[@RinYokoi](//github.com/RinYokoi)（なぽるん,りん）  
+[@rkccdsnagoya1](//github.com/rkccdsnagoya1)（りゅうせい,くあてろ）  
+[@Mon-Take](//github.com/Mon-Take)（モンタケ）  
+[べじぴぽ@LiT!](//twitter.com/_vegi_pipo_Lit)（べじぴぽ（Twitter））  
+[@GenbuHase](//github.com/GenbuHase)（げんちゃん）  
+[@7io63](//github.com/7io63)（なとむ,みねらる）  
+[さっきー](//twitter.com/222222222332a)（さっきー（Twitter））  
+[ちか](//twitter.com/LitChika)（ちか（Twitter））  
 [@ENDOTAKUMI](//github.com/ENDOTAKUMI)（えんたく）   
-[タツ](//twitter.com/u39dc)（タツ（Twitter)） 
+[タツ](//twitter.com/u39dc)（タツ（Twitter）） 
 
 
 
