@@ -26,6 +26,22 @@
 #       # リンクなど。 "|" はYAMLの複数行記法です。
 - year: "2019"
   camps:
+    - name: "'19 Xmas Camp"
+      background: "../../res/img/backgrounds/xmas-2019.jpg"
+      theme: "一年に一度だけ、特別な数日間。"
+      songs:
+        - title: "lovin'"
+          author: "Mrs. GREEN APPLE"
+          description: |
+            フジテレビ系「めざましどようび」テーマソング
+            [YouTube](//youtu.be/Ff7kdaIQvQM)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l04d234.html)
+        - title: "ハピネス"
+          author: "AI"
+          description: |
+            コカ・コーラ 冬期CMソング
+            [YouTube](//youtu.be/uKgmu8g-kXE)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
     - name: "'19 Summer Camp"
       background: "../../res/img/backgrounds/summer-2019.jpg"
       theme: "『夏』が、好きだああああああああああああ。"
