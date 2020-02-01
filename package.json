@@ -23,7 +23,7 @@
     "marked": "0.8.0",
     "parcel-bundler": "1.12.4",
     "pug": "2.0.4",
-    "sass": "1.24.4"
+    "sass": "1.25.0"
   },
   "dependencies": {
     "sweet-scroll": "4.0.0"
