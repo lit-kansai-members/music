@@ -607,6 +607,15 @@
             [YouTube](//youtu.be/RbpDRk_OAPU)
 - year: "番外編"
   camps:
+    - name: "テックなオフ会"
+      theme: "ピクニック気分で集まっちゃう秋2019"
+      background: "../../res/img/backgrounds/offParty-autumn2019.jpg"
+      songs:
+        - title: "群青"
+          author: "サイダーガール"
+          description: |
+            [YouTube](//youtu.be/5zZSfXiyTvA)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05bd82/l045db0.html)
     - name: "メンター/コース紹介"
       songs:
         - title: "Wings"
