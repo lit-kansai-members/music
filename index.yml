@@ -58,7 +58,7 @@
             Apple Watch Series4　CMソング
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05e5c8/l04828c.html)
             [YouTube](//youtu.be/P7ds78eOLjU)
-    name: "'19 English×IT Camp "
+    - name: "'19 English×IT Camp "
       theme: "THINK GLOBALLY,CHANGE THE WORLD"
       songs:
         - title: "BrandNew"
@@ -516,8 +516,7 @@
         - title: "ミラクル"
           author: "miwa"
           description: |
-            [YouTube](//youtu.be/TIzNszoG_TA)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04e594/l02ca67.html)
+            [YouTube](//ynet)](http://j-lyric.net/artist/a04e594/l02ca67.html)
     - name: "'14　English × IT Camp　"
       songs:
         - title: "Happy"
