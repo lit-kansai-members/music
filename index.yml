@@ -35,7 +35,7 @@
           description: |
             フジテレビ系「めざましどようび」テーマソング
             [YouTube](//youtu.be/Ff7kdaIQvQM)
-            [歌詞(J-Lyri.net)](http://j-lyric.net/artist/a05a2d6/l04d234.html)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l04d234.html)
         - title: "ハピネス"
           author: "AI"
           description: |
@@ -58,7 +58,7 @@
             Apple Watch Series4　CMソング
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05e5c8/l04828c.html)
             [YouTube](//youtu.be/P7ds78eOLjU)
-    name: "English×IT Camp 2019"
+    name: "'19 English×IT Camp "
       theme: "THINK GLOBALLY,CHANGE THE WORLD"
       songs:
         - title: "BrandNew"
@@ -67,7 +67,7 @@
             [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/benrector/brandnew.htmls)
             [YouTube](//youtu.be/D7I8-bS7vBs)
 
-    - name: "Life 伊豆 Tech ! 2019"
+    - name: "'19 Life 伊豆 Tech !"
       background: "../../res/img/backgrounds/izu-2019.jpg"
       theme: "社会が抱える実課題をIT×Teamで解決!"
       songs:
@@ -518,7 +518,7 @@
           description: |
             [YouTube](//youtu.be/TIzNszoG_TA)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04e594/l02ca67.html)
-    - name: "　English × IT Camp　2014"
+    - name: "'14　English × IT Camp　"
       songs:
         - title: "Happy"
           author: "Rharrell Williams"
