@@ -57,8 +57,17 @@
           description: |
             Apple Watch Series4　CMソング
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05e5c8/l04828c.html)
-            [YouTube](//youtu.be/P7ds78eOLjU)    
-    - name: "Life 伊豆 Tech !(2019)"
+            [YouTube](//youtu.be/P7ds78eOLjU)
+    - name: "'19 English×IT Camp "
+      theme: "THINK GLOBALLY,CHANGE THE WORLD"
+      songs:
+        - title: "BrandNew"
+          author: "Ben Rector"
+          description: |
+            [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/benrector/brandnew.htmls)
+            [YouTube](//youtu.be/D7I8-bS7vBs)
+
+    - name: "'19 Life 伊豆 Tech !"
       background: "../../res/img/backgrounds/izu-2019.jpg"
       theme: "社会が抱える実課題をIT×Teamで解決!"
       songs:
@@ -258,7 +267,7 @@
           author: "WANIMA"
           description: |
             au 冬期CMソング
-            [YouTube](//youtu.be/XWC9c3vFx8c)
+            [YouTube](//youtu.be/eIja9BI_h9U)
             [歌詞(プチリリ)](http://petitlyrics.com/lyrics/2554503)
         - title: "キャリア・ウーマン"
           author: "ブルゾンちえみ"
@@ -303,7 +312,7 @@
           description: |
             TVアニメ「血界戦線」エンディングテーマ
             [YouTube](//youtu.be/3exsRhw3xt8)
-            [歌詞(J-Lyric.net)](http://www.azlyrics.com/lyrics/justintimberlake/cantstopthefeeling.html)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04e406/l035ee5.html)
         - title: "宝石になった日"
           author: "BUMP OF CHICKEN"
           description: |
@@ -433,7 +442,7 @@
           description: |
             [YouTube](//youtu.be/1yy4kxA_UVU)
             [歌詞(歌ネット)](http://www.uta-net.com/song/167194/)
-    - name: "Life 伊豆 Tech !(2015)"
+    - name: "Life 伊豆 Tech !　2015"
       theme: "一年に一度だけ、地獄のような３日間"
       background: "../../res/img/backgrounds/key_izu.png"
       songs:
@@ -462,7 +471,7 @@
           author: "秦基博"
           description: |
             STAND BY ME ドラえもん 主題歌
-            [YouTube](//youtu.be/hOcmPLT2U48)
+            [YouTube](//youtu.be/rKsQ-3N-Bks)
             [歌詞(J-Lyric)](http://j-lyric.net/artist/a04c9d1/l032376.html)
         - title: "Happily"
           author: "One Direction"
@@ -507,9 +516,8 @@
         - title: "ミラクル"
           author: "miwa"
           description: |
-            [YouTube](//youtu.be/TIzNszoG_TA)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04e594/l02ca67.html)
-    - name: "'14 English × IT Camp"
+            [YouTube](//ynet)](http://j-lyric.net/artist/a04e594/l02ca67.html)
+    - name: "'14　English × IT Camp　"
       songs:
         - title: "Happy"
           author: "Rharrell Williams"
@@ -528,7 +536,7 @@
           author: "奥華子"
           description: |
             アニメ映画「時をかける少女」挿入歌
-            [YouTube](//youtu.be/CwOvDQdH2-Q)
+            [YouTube](//youtu.be/-KRvjsXi9Ds)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04c9e3/l00af88.html)
 - year: "2013"
   camps:
@@ -598,6 +606,15 @@
             [YouTube](//youtu.be/RbpDRk_OAPU)
 - year: "番外編"
   camps:
+    - name: "テックなオフ会"
+      theme: "ピクニック気分で集まっちゃう秋2019"
+      background: "../../res/img/backgrounds/offParty-autumn2019.jpg"
+      songs:
+        - title: "群青"
+          author: "サイダーガール"
+          description: |
+            [YouTube](//youtu.be/5zZSfXiyTvA)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05bd82/l045db0.html)
     - name: "メンター/コース紹介"
       songs:
         - title: "Wings"
@@ -653,4 +670,5 @@
           author: "sumika"
           description: |
             [YouTube](//youtu.be/HFTB-tZs2a4)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04b3e1/l04af4d.html)        
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04b3e1/l04af4d.html)
+
