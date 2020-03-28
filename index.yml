@@ -22,7 +22,7 @@
 #       description: |
 #         メルセデス・ベンツ × Perfume コラボレーションCMソング
 #         [YouTube](//youtu.be/3j77uK8hu5A)
-#         [歌詞(J-Lyric)](http://j-lyric.net/artist/a04cc66/l03a371.html)
+#         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cc66/l03a371.html)
 #       # リンクなど。 "|" はYAMLの複数行記法です。
 - year: "2019"
   camps:
@@ -215,23 +215,23 @@
           description: |
             NTTドコモ"ドコモの学割「ししゃも？」篇" CMソング
             [YouTube](//youtu.be/zhCtzmDWsN0)
-            [歌詞(J-Lyric)](http://j-lyric.net/artist/a056dae/l03e5dd.html)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a056dae/l03e5dd.html)
         - title: "鱗"
           author: "秦基博"
           description: |
             [YouTube](//youtu.be/x2WP1ZSQVlQ)
-            [歌詞(J-Lyric)](http://j-lyric.net/artist/a04c9d1/l00a8ba.html)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04c9d1/l00a8ba.html)
         - title: "SHINY"
           author: "夜の本気ダンス"
           description: |
             NHK Eテレ テレビアニメ「境界のRINNE」第3シリーズ OPテーマソング
             [YouTube](//youtu.be/6idlVhWIWAE)
-            [歌詞(J-Lyric)](http://j-lyric.net/artist/a05b135/l03f540.html)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b135/l03f540.html)
         - title: "By My Side"
           author: "夜の本気ダンス"
           description: |
             [YouTube](//youtu.be/JHFZeM5z0K4)
-            [歌詞(J-Lyric)](http://j-lyric.net/artist/a05b135/l039db9.html)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b135/l039db9.html)
     - name: "'17 Life 那須 Tech !"
       theme: "一年に一度だけ、地獄のような３日間"
       background: "../../res/img/backgrounds/nasucamp_key.jpg"
@@ -241,7 +241,7 @@
           description: |
             au「au BLUE CHALLENGE」「応援」編 CMソング
             [YouTube](//youtu.be/hHM5VJQ5NRg)
-            [歌詞(J-Lyric)](http://j-lyric.net/artist/a05c7bf/l03ee0e.html)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05c7bf/l03ee0e.html)
         - title: "Stay"
           author: "Zedd & Alessia Cara"
           description: |
@@ -262,7 +262,7 @@
           description: |
             TVアニメ「３月のライオン」オープニングテーマ
             [YouTube](//youtu.be/ZFshsGiJqmM)
-            [歌詞(歌詞タイム)](http://www.kasi-time.com/item-80975.html)
+            [歌詞(プチリリ)](http://petitlyrics.com/lyrics/2554503)
         - title: "やってみよう"
           author: "WANIMA"
           description: |
@@ -472,7 +472,7 @@
           description: |
             STAND BY ME ドラえもん 主題歌
             [YouTube](//youtu.be/rKsQ-3N-Bks)
-            [歌詞(J-Lyric)](http://j-lyric.net/artist/a04c9d1/l032376.html)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04c9d1/l032376.html)
         - title: "Happily"
           author: "One Direction"
           description: |
@@ -598,7 +598,7 @@
           description: |
             TVアニメ「化物語」エンディングテーマ
             [YouTube](//youtu.be/wfkgRfBUWLo)
-            [歌詞(J-Lyric.net)]http://j-lyric.net/artist/a054f0a/l024c87.html)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a054f0a/l024c87.html)
         - title: "Overture of the Summer Wars"
           author: "松本晃彦"
           description: |
