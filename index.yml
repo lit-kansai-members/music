@@ -627,6 +627,24 @@
             [YouTube](//youtu.be/RbpDRk_OAPU)
 - year: "番外編"
   camps:
+    - name: "Departure '20 (関西卒業サプライズ2020)"
+      background: "../../res/img/backgrounds/departure-2020.jpg"
+      songs:
+        - title: "ハイヤーグラウンド"
+          author: "sumika"
+          description: |
+            テレビ朝日土曜ドラマ2019/4Q おっさんずラブ-in the sky- 主題歌　僕のヒーローアカデミア　THE MOVIE ヒーローズ:ライジング　主題歌
+            🎤[DAM] [6244-23](https://www.clubdam.com/app/leaf/songKaraokeLeaf.html?contentsId=5819665) [JOYSOUND] [444410](https://www.joysound.com/web/search/song/802364)
+            [YouTube](//youtu.be/xQS6sE5K0pY)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04b3e1/l04ea8c.html)
+      songs:
+        - title: "愛をこめて花束を"
+          author: "Superfly"
+          description: |
+            TBS金曜ドラマ2008/1Q エジソンの母EDSong
+            🎤[DAM] [4190-04](https://www.clubdam.com/app/leaf/songKaraokeLeaf.html?contentsId=4686197) [JOYSOUND] [85897](https://www.joysound.com/web/search/song/113523)
+            [YouTube](//youtu.be/gU5oN0KVofU)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cdbd/l00c3b4.html)      
     - name: "テックなオフ会"
       theme: "ピクニック気分で集まっちゃう秋2019"
       background: "../../res/img/backgrounds/offParty-autumn2019.jpg"
