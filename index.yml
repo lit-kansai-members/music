@@ -42,6 +42,15 @@
             コカ・コーラ 冬期CMソング
             [YouTube](//youtu.be/uKgmu8g-kXE)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
+    - name: "'19 GLOBAL IT Camp"
+      background: "../../res/img/backgrounds/global_poly.jpg"
+      theme: "THINK GLOBALLY,CHANGE THE WORLD"
+      songs:
+        - title: High Hopes"
+          author: "Panic! At The Disco"
+          description: |
+            [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/panicatthedisco/highhopes.html)
+            [YouTube](//youtu.be/IPXIgEAGe4U)     
     - name: "'19 Summer Camp"
       background: "../../res/img/backgrounds/summer-2019.jpg"
       theme: "『夏』が、好きだああああああああああああ。"
