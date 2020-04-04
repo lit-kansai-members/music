@@ -24,6 +24,17 @@
 #         [YouTube](//youtu.be/3j77uK8hu5A)
 #         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cc66/l03a371.html)
 #       # リンクなど。 "|" はYAMLの複数行記法です。
+- year: "2020"
+  camps:
+   - name: "SONY ENTERTAINMENT CAMP 2020"
+      theme: "君にしかつくれないエンタテインメントを世界へ"
+      songs:
+        - title: "バニラ"
+          author: "蒼山幸子"
+          description: |
+            🎤[DAM]404 [JOYSOUND]404
+            [YouTube](//youtu.be/2TDx_XNQ5QU)
+            [歌詞](Lyrical Nonsense):https://www.lyrical-nonsense.com/lyrics/sachiko-aoyama/vanilla/
 - year: "2019"
   camps:
     - name: "'19 Xmas Camp"
@@ -49,6 +60,7 @@
         - title: High Hopes"
           author: "Panic! At The Disco"
           description: |
+            🎤[DAM] [3844-71](https://www.clubdam.com/app/leaf/songKaraokeLeaf.html?contentsId=5792434) [JOYSOUND][437459](https://www.joysound.com/web/search/song/735036)
             [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/panicatthedisco/highhopes.html)
             [YouTube](//youtu.be/IPXIgEAGe4U)     
     - name: "'19 Summer Camp"
