@@ -24,6 +24,41 @@
 #         [YouTube](//youtu.be/3j77uK8hu5A)
 #         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cc66/l03a371.html)
 #       # リンクなど。 "|" はYAMLの複数行記法です。
+- year: "2020"
+  camps:
+    - name: "SONY ENTERTAINMENT CAMP 2020"
+      background: "../../res/img/backgrounds/entertainment-2020.jpg"
+      theme: "君にしかつくれないエンタテインメントを世界へ"
+      poem: |
+        誰もがエンタテインメントを創りだすクリエイターになれる。
+        私たちはそう信じている。
+
+        例えば、ダンスが好きな人、音楽が好きな人、ゲームが好きな人、
+        写真や動画を撮るのが好きな人、物語をつくるのが好きな人。
+
+        君が好きなことを通じて、誰かを笑顔にしたり、世界中を楽しませたりする力が、君にはきっとある。
+
+        私たちは、技術やノウハウ、環境など、ソニーが持つ様々な資源を最大限に使って、君の無限の可能性を引き出したい。
+        そして、君の好きなことから広がる、エンタテインメントの世界を一緒に創りだしたい。
+
+        クリエイターをテクノロジーでサポートし、ゲームや音楽、映画、アニメなど、さまざまなエンタテインメントを生み出しているソニーが提供する「ENTERTAINMENT CAMP 2020」。
+
+        オーディションを経て、シナリオライティング、ダンス、映像制作、音楽制作のそれぞれのジャンルに分かれ、プロのレッスンを受けながらスキルを育むプログラム。
+        各ジャンルの4人が1つのチームとなり、最高の作品を創り出す。
+
+        君の中に眠るクリエイティビティに磨きを掛けるために、ゲームや音楽を創りだしているプロのクリエイターが講師となり、最先端の知見を君に注ぎ込む。
+        最高の作品を創りあげるにあたって、プロと同じ開発環境も用意する。
+
+        ぜひこの扉を叩いて欲しい。
+        ソニーは君の挑戦を待っている。
+
+      songs:
+        - title: "バニラ"
+          author: "蒼山幸子"
+          description: |
+            🎤[DAM]404 [JOYSOUND]404
+            [YouTube](//youtu.be/2TDx_XNQ5QU)
+            [歌詞](Lyrical Nonsense):https://www.lyrical-nonsense.com/lyrics/sachiko-aoyama/vanilla/
 - year: "2019"
   camps:
     - name: "'19 Xmas Camp"
@@ -42,6 +77,16 @@
             コカ・コーラ 冬期CMソング
             [YouTube](//youtu.be/uKgmu8g-kXE)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
+    - name: "'19 GLOBAL IT Camp"
+      background: "../../res/img/backgrounds/global_poly.jpg"
+      theme: "THINK GLOBALLY,CHANGE THE WORLD"
+      songs:
+        - title: High Hopes"
+          author: "Panic! At The Disco"
+          description: |
+            🎤[DAM] [3844-71](https://www.clubdam.com/app/leaf/songKaraokeLeaf.html?contentsId=5792434) [JOYSOUND][437459](https://www.joysound.com/web/search/song/735036)
+            [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/panicatthedisco/highhopes.html)
+            [YouTube](//youtu.be/IPXIgEAGe4U)     
     - name: "'19 Summer Camp"
       background: "../../res/img/backgrounds/summer-2019.jpg"
       theme: "『夏』が、好きだああああああああああああ。"
@@ -606,6 +651,23 @@
             [YouTube](//youtu.be/RbpDRk_OAPU)
 - year: "番外編"
   camps:
+    - name: "Departure '20 (関西卒業サプライズ2020)"
+      background: "../../res/img/backgrounds/departure-2020.jpg"
+      songs:
+        - title: "ハイヤーグラウンド"
+          author: "sumika"
+          description: |
+            テレビ朝日土曜ドラマ2019/4Q おっさんずラブ-in the sky- 主題歌　僕のヒーローアカデミア　THE MOVIE ヒーローズ:ライジング　主題歌
+            🎤[DAM] [6244-23](https://www.clubdam.com/app/leaf/songKaraokeLeaf.html?contentsId=5819665) [JOYSOUND] [444410](https://www.joysound.com/web/search/song/802364)
+            [YouTube](//youtu.be/xQS6sE5K0pY)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04b3e1/l04ea8c.html)
+        - title: "愛をこめて花束を"
+          author: "Superfly"
+          description: |
+            TBS金曜ドラマ2008/1Q エジソンの母EDSong
+            🎤[DAM] [4190-04](https://www.clubdam.com/app/leaf/songKaraokeLeaf.html?contentsId=4686197) [JOYSOUND] [85897](https://www.joysound.com/web/search/song/113523)
+            [YouTube](//youtu.be/gU5oN0KVofU)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cdbd/l00c3b4.html)      
     - name: "テックなオフ会"
       theme: "ピクニック気分で集まっちゃう秋2019"
       background: "../../res/img/backgrounds/offParty-autumn2019.jpg"
