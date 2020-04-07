@@ -73,16 +73,20 @@ yarn test
 [@GenbuHase](//github.com/GenbuHase)（げんちゃん）  
 [@7io63](//github.com/7io63)（なとむ,みねらる）  
 [さっきー](//twitter.com/222222222332a)（さっきー（Twitter））  
-[ちか](//twitter.com/LitChika)（ちか（Twitter））  
+ちか  
 [@ENDOTAKUMI](//github.com/ENDOTAKUMI)（えんたく）   
-[タツ](//twitter.com/u39dc)（タツ（Twitter）） 
+[タツ](//twitter.com/u39dc)（タツ（Twitter））
+[たまご丸。](//twitter.com/tamagomaRuuu)（たまご丸。（Twitter））
+[@souta0104](//github.com/souta0104)（そーた） 
+[来留](//twitter.com/rairuuuuuuuuu)（来留（Twitter））  
+[めんちゃん](//twitter.com/menchan_klis)（めんちゃん（Twitter）） 
 
 
 
 ## Contributors
 
 [@mizucoffee](//github.com/mizucoffee)（Mizucoffee）  
-[@KNTK](//github.com/AkihiroTokai)（あきひろ、監督）  
+[@KNTK](//github.com/AkihiroTokai)（かんとく）  
 [@ygkn](//github.com/ygkn)（やぎちゃん）
 
 ## 最後に
