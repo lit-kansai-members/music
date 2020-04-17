@@ -8,12 +8,13 @@ Life is Tech!で使われている BGM のまとめのリポジトリです。�
 [Web ページ](http://lit-kansai-members.github.io/music/)（[index.yml](./index.yml)から自動生成）
 
 
-##　⚠️SpringCamp2020・関東卒業サプライズ掲載時期について⚠️
+## ⚠️SpringCamp2020・関東卒業サプライズ掲載時期について⚠️
+
 SpringCamp2020の一部日程と関東卒業サプライズは当初の日程から延期が決定しています。
-Life is Tech! MUSICでは当該Event全日程終了後に掲載作業をおこなっているため、これらのEventに関連する曲の追加は2020年5月上旬以降になる見込みです。
+Life is Tech! MUSICでは当該Event全日程終了後に掲載作業をおこなっているため、**これらのEventに関連するContentsの追加は2020年5月上旬以降になる見込みです。**
 ご不便をおかけし申し訳ありませんが趣旨をご理解いただきもうしばらくお待ちください。
 ※状況に変化があればこちらの内容に随時反映します。
-(Last update:April 7 2020)
+(Last update:April 16 2020)
 
 ## こんな曲かかってたよ！
 
@@ -82,13 +83,12 @@ yarn test
 [@7io63](//github.com/7io63)（なとむ,みねらる）  
 [さっきー](//twitter.com/222222222332a)（さっきー（Twitter））  
 ちか  
-[@ENDOTAKUMI](//github.com/ENDOTAKUMI)（えんたく）   
-[タツ](//twitter.com/u39dc)（タツ（Twitter））
-[たまご丸。](//twitter.com/tamagomaRuuu)（たまご丸。（Twitter））
-[@souta0104](//github.com/souta0104)（そーた） 
+[@ENDOTAKUMI](//github.com/ENDOTAKUMI)（えんたく）  
+[タツ](//twitter.com/u39dc)（タツ（Twitter））  
+[たまご丸。](//twitter.com/tamagomaRuuu)（たまご丸。（Twitter））  
+[@souta0104](//github.com/souta0104)（そーた）  
 [来留](//twitter.com/rairuuuuuuuuu)（来留（Twitter））  
-[めんちゃん](//twitter.com/menchan_klis)（めんちゃん（Twitter）） 
-
+[めんちゃん](//twitter.com/menchan_klis)（めんちゃん（Twitter））  
 
 
 ## Contributors
