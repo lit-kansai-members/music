@@ -8,19 +8,27 @@
 # description では Markdown 記法が利用できます。HTMLへの変換は https://github.com/chjj/marked を使用しています。
 # なるべく動画はYouTubeにしてください。
 # YouTubeへのリンクは `[YouTube](//youtu.be/動画ID)` のみ動画を埋め込みます。
+# themeとpoemについては特に正確な表記でお願いします。
 
 # 例
 
 # - year: "2017" # String です！
 #   camps:
 #   - name: "'17 Spring Camp" # キャンプ名
-#     theme: "閃け！春！Spark" # キャンプのテーマ
 #     background: "../../res/img/backgrounds/spring2017_desktop_1.png" # キャンプの壁紙
+#     theme: "閃け！春！Spark" # キャンプのテーマ（poemとは異なります。）
+#     poem: |  # キャンプのポエム（themeとは異なります。ある場合は記載してください。）
+#       キミが好きなこと、得意なことはなんだろう。
+#       時間を忘れて夢中になれる何かを、とことん面白がって楽しみ尽くす。
+#       ただそれだけで、指先から世界は広がっていく。
+#       これからを生きるキミたちに、これからに活きる技術を。
+#
 #     songs:
 #     - title: "Next Stage with YOU" # 曲名
 #       author: "Perfume" # 歌手名
 #       description: |
 #         メルセデス・ベンツ × Perfume コラボレーションCMソング
+#         🎤[DAM] [6271-62](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6271-62) [JOYSOUND][442282](https://www.joysound.com/web/search/song/562986) # DAMとJOYSOUNDの選曲用番号 
 #         [YouTube](//youtu.be/3j77uK8hu5A)
 #         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cc66/l03a371.html)
 #       # リンクなど。 "|" はYAMLの複数行記法です。
@@ -160,45 +168,55 @@
         - title: "ループ"
           author: "edda"
           description: |
+            テレビ東京土曜ドラマ　ドラマ24　2018/4Q 忘却のサチコEDSong
+            🎤[DAM] [5176-32](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5176-32) [JOYSOUND][433711](https://www.joysound.com/web/search/song/716232)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05cfc3/l04926a.html)
             [YouTube](//youtu.be/-0-fVutBn38)
         - title: "予感"
           author: "SUPER BEAVER"
           description: |
+            フジテレビ火曜ドラマ　2018/4Q 僕らは奇跡でできているEDSong
+            🎤[DAM] [5153-16](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5153-16) [JOYSOUND][433195](https://www.joysound.com/web/search/song/713175)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a050f66/l049c98.html)
             [YouTube](//youtu.be/XnYwwyXPt70)
     - name: "'18 Global IT Camp"
       background: "../../res/img/backgrounds/NUS2018_desktop_1-1.jpg"
       theme: "Think globally, Change the world!"
       songs:
-        - title: "はじまり"
-          author: "Mrs. GREEN APPLE feat. キヨサク from MONGOL800"
+        - title: "はじまり feat. キヨサク from MONGOL800"
+          author: "Mrs. GREEN APPLE"
           description: |
             オープニング楽曲
+            🎤[DAM] [6093-89](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6093-89) [JOYSOUND][428173](https://www.joysound.com/web/search/song/685515)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l045f78.html)
             [YouTube](//youtu.be/YH1aOeTX7Vs)
         - title: "Classic"
           author: "MKTO"
           description: |
+            🎤[DAM] [3947-95](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3947-95) [JOYSOUND]404
             [歌詞(azlyrics)](https://www.azlyrics.com/lyrics/mkto/classic.html)
             [YouTube](//youtu.be/4Ba_qTPA4Ds)
         - title: "Somebody to you"
           author: "The Vamps"
           description: |
+            🎤[DAM] [3932-86](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3932-86) [JOYSOUND][678565](https://www.joysound.com/web/search/song/489534)
             [歌詞(azlyrics)](https://www.azlyrics.com/lyrics/vamps/somebodytoyou.html)
             [YouTube](//youtu.be/0go2nfVXFgA)
     - name: "'18 Summer Camp"
       background: "../../res/img/backgrounds/summer2018_desktop_1.jpg"
       theme: "世界にひとつだけ、あなただけの夏の「物語」へ。　-Only one Your own Summer Story-"
       songs:
-        - title: "はじまり"
-          author: "Mrs. GREEN APPLE feat. キヨサク from MONGOL800"
+        - title: "はじまり feat. キヨサク from MONGOL800"
+          author: "Mrs. GREEN APPLE"
           description: |
+            🎤[DAM] [6093-89](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6093-89) [JOYSOUND][428173](https://www.joysound.com/web/search/song/685515)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l045f78.html)
             [YouTube](//youtu.be/YH1aOeTX7Vs)
         - title: "I WANT YOU BACK"
-          author: "The Jackson 5 feat. TWICE"
+          author: " TWICE feat.The Jackson 5"
           description: |
+            映画 センセイ君主　主題歌
+            🎤[DAM] [7343-72](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=7343-72) [JOYSOUND][428173](https://www.joysound.com/web/search/song/695732)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04f8f9/l048610.html)
             [YouTube](//youtu.be/X3H-4crGD6k)
     - name: "'18 Spring Camp"
@@ -208,16 +226,19 @@
         - title: "始まりの朝"
           author: "Official髭男dism"
           description: |
+            🎤[DAM] [7416-55](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=7416-55) [JOYSOUND][697374](https://www.joysound.com/web/search/song/615796)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a059eab/l03f34e.html)
             [YouTube](//youtu.be/EusUvmUi2Xk)
         - title: "Hollow"
           author: "DNCE"
           description: |
+            🎤[DAM] 404 [JOYSOUND][424097](https://www.joysound.com/web/search/song/659520)
             [歌詞(Genius Lyrics)](https://genius.com/Dnce-hollow-lyrics)
             [YouTube](//youtu.be/hTnQBehHcgk)
         - title: "さくら体操"
           author: "NHK"
           description: |
+            🎤[DAM] [4630-01](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=4630-01) [JOYSOUND][28584](https://www.joysound.com/web/search/song/26476)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0006b5/l001e01.html)
             [YouTube](//youtu.be/pnBnu5v8KTw)
 - year: "2017"
