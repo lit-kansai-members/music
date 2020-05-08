@@ -8,13 +8,13 @@ Life is Tech!で使われている BGM のまとめのリポジトリです。�
 [Web ページ](http://lit-kansai-members.github.io/music/)（[index.yml](./index.yml)から自動生成）
 
 
-## ⚠️SpringCamp2020・関東卒業サプライズ掲載時期について⚠️
+## ⚠️関東卒業サプライズ掲載時期について⚠️
 
-SpringCamp2020の一部日程と関東卒業サプライズは当初の日程から延期が決定しています。
-Life is Tech! MUSICでは当該Event全日程終了後に掲載作業をおこなっているため、**これらのEventに関連するContentsの追加は2020年5月上旬以降になる見込みです。**
+関東卒業サプライズは当初の日程から延期が決定しています。（開催日程未定）
+Life is Tech! MUSICでは当該Eventが完全に終了した後掲載作業(Deploy)をおこなっているため、**関東卒業サプライズに関連するContentsの追加時期は未定です。**
 ご不便をおかけし申し訳ありませんが趣旨をご理解いただきもうしばらくお待ちください。
-※状況に変化があればこちらの内容に随時反映します。
-(Last update:May 4 2020)
+※SpringCamp2020に関連するContentsを追加しました。状況に変化があればこちらの内容に随時反映します。
+(Last update:May 8 2020)
 
 ## こんな曲かかってたよ！
 
@@ -80,7 +80,7 @@ yarn test
 [@Mon-Take](//github.com/Mon-Take)（モンタケ）  
 [べじぴぽ@LiT!](//twitter.com/_vegi_pipo_Lit)（べじぴぽ（Twitter））  
 [@GenbuHase](//github.com/GenbuHase)（げんちゃん）  
-[@7io63](//github.com/7io63)（なとむ,みねらる）  
+[@mizphses](//github.com/mizphses)（なとむ,みねらる）  
 [さっきー](//twitter.com/222222222332a)（さっきー（Twitter））  
 ちか  
 [@ENDOTAKUMI](//github.com/ENDOTAKUMI)（えんたく）  
