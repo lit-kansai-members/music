@@ -67,6 +67,24 @@
             🎤[DAM]404 NotFound [JOYSOUND]404 NotFound
             [YouTube](//youtu.be/2TDx_XNQ5QU)
             [歌詞(Lyrical Nonsense)](https://www.lyrical-nonsense.com/lyrics/sachiko-aoyama/vanilla/)
+    - name: "'20 Spring Camp"
+      background: "../../res/img/backgrounds/spring-2020.jpg"
+      theme: "Spring is Comming -はじまりの合図は「春」-"
+      songs:
+        - title: "旅は道連れ"
+          author: "Official髭男dism"
+          description: |
+            Suzuki SWIFT TVCM Song
+            🎤[DAM] [6223-79](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6223-79) [JOYSOUND][443149](https://www.joysound.com/web/search/song/791332)
+            [YouTube](//youtu.be/7yG9OJgakm8)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a059eab/l04dc0f.html)
+        - title: "Party All Night"
+          author: "FAITH"
+          description: |
+            TBS 王様のブランチ　2020Jan ED Theme songh
+            🎤[DAM] [5231-48](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5231-48) [JOYSOUND][803513](https://www.joysound.com/web/search/song/816397)
+            [YouTube](//youtu.be/t5noRnkNy4E)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04acbe/l04ef90.html)
 - year: "2019"
   camps:
     - name: "'19 Xmas Camp"
@@ -135,10 +153,10 @@
             J SPORTS STADIUM2019　野球中継テーマソング
             🎤[DAM] [7048-85](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=7048-85) [JOYSOUND]404 NotFound
             [歌詞(プチリリ)](https://petitlyrics.com/lyrics/2793901)
-            [YouTube](//youtu.be/7sVhaTcd77E)
+            [YouTube](//youtu.be/zhWJhHm1cn0)
     - name: "'19 Spring Camp"
       background: "../../res/img/backgrounds/spring2019_desktop_1.png"
-      theme: "春よ止まれ"
+      theme: "この春よ、止まれ"
       songs:
         - title: "拝啓、少年よ"
           author: "Hump Back"
@@ -158,7 +176,7 @@
           description: |
             注意点「Tを探そう・Cを探そう」元ネタ
             🎤[DAM]404 NotFound [JOYSOUND]404 NotFound
-            [YouTube](//youtu.be/IPPsEtMqAt8)
+            [YouTube](//youtu.be/yir2I0X6siA)
 - year: "2018"
   camps:
     - name: "'18 Xmas Camp"
@@ -621,7 +639,10 @@
         - title: "ミラクル"
           author: "miwa"
           description: |
-            [YouTube](//ynet)](http://j-lyric.net/artist/a04e594/l02ca67.html)
+            資生堂 SEA BREEZE 2013 CMSong
+            🎤[DAM] [4729-87](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=4729-87) [JOYSOUND][724525](https://www.joysound.com/web/search/song/252647)
+            [YouTube](//youtu.be/HlDo8qEPbNg)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04e594/l02ca67.html)
     - name: "'14　English × IT Camp　"
       songs:
         - title: "Happy"
