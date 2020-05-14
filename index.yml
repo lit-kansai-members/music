@@ -34,6 +34,24 @@
 #       # リンクなど。 "|" はYAMLの複数行記法です。
 - year: "2020"
   camps:
+    - name: "'20 Spring Camp"
+      background: "../../res/img/backgrounds/spring-2020.jpg"
+      theme: "Spring is Comming -はじまりの合図は「春」-"
+      songs:
+        - title: "旅は道連れ"
+          author: "Official髭男dism"
+          description: |
+            Suzuki SWIFT TVCM Song
+            🎤[DAM] [6223-79](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6223-79) [JOYSOUND][443149](https://www.joysound.com/web/search/song/791332)
+            [YouTube](//youtu.be/7yG9OJgakm8)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a059eab/l04dc0f.html)
+        - title: "Party All Night"
+          author: "FAITH"
+          description: |
+            TBS 王様のブランチ　2020Jan ED Theme songh
+            🎤[DAM] [5231-48](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5231-48) [JOYSOUND][803513](https://www.joysound.com/web/search/song/816397)
+            [YouTube](//youtu.be/t5noRnkNy4E)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04acbe/l04ef90.html)
     - name: "SONY ENTERTAINMENT CAMP 2020"
       background: "../../res/img/backgrounds/entertainment-2020.jpg"
       theme: "君にしかつくれないエンタテインメントを世界へ"
@@ -59,7 +77,6 @@
 
         ぜひこの扉を叩いて欲しい。
         ソニーは君の挑戦を待っている。
-
       songs:
         - title: "バニラ"
           author: "蒼山幸子"
@@ -67,24 +84,6 @@
             🎤[DAM]404 NotFound [JOYSOUND]404 NotFound
             [YouTube](//youtu.be/2TDx_XNQ5QU)
             [歌詞(Lyrical Nonsense)](https://www.lyrical-nonsense.com/lyrics/sachiko-aoyama/vanilla/)
-    - name: "'20 Spring Camp"
-      background: "../../res/img/backgrounds/spring-2020.jpg"
-      theme: "Spring is Comming -はじまりの合図は「春」-"
-      songs:
-        - title: "旅は道連れ"
-          author: "Official髭男dism"
-          description: |
-            Suzuki SWIFT TVCM Song
-            🎤[DAM] [6223-79](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6223-79) [JOYSOUND][443149](https://www.joysound.com/web/search/song/791332)
-            [YouTube](//youtu.be/7yG9OJgakm8)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a059eab/l04dc0f.html)
-        - title: "Party All Night"
-          author: "FAITH"
-          description: |
-            TBS 王様のブランチ　2020Jan ED Theme songh
-            🎤[DAM] [5231-48](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5231-48) [JOYSOUND][803513](https://www.joysound.com/web/search/song/816397)
-            [YouTube](//youtu.be/t5noRnkNy4E)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04acbe/l04ef90.html)
 - year: "2019"
   camps:
     - name: "'19 Xmas Camp"
@@ -543,7 +542,7 @@
             🎤[DAM] [6857-88](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6857-88) [JOYSOUND][721576](https://www.joysound.com/web/search/song/247565)
             [YouTube](//youtu.be/G0zRBRUQils)
             [注意点体操歌詞](注意点/注意点体操2015Xmas.md)
-            [歌詞(J-Lyric.net)](http://utaten.com/lyric/COWCOW/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E4%BD%93%E6%93%8D%28%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%29/)
+            [歌詞(UtaTen)](https://utaten.com/lyric/pt15102702/)
     - name: "'15 Summer Camp"
       theme: "世界で一番、ココロ踊る「夏」を。 -A SUMMER THAT ROCKS YOUR HEART-"
       background: "../../res/img/backgrounds/summer2015-blue.jpg"
@@ -568,7 +567,7 @@
             🎤[DAM] [6857-88](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6857-88) [JOYSOUND][721576](https://www.joysound.com/web/search/song/247565)
             [YouTube](//youtu.be/G0zRBRUQils)
             [注意点体操歌詞](注意点/注意点体操2015Summer.md)
-            [歌詞(J-Lyric.net)](http://utaten.com/lyric/COWCOW/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E4%BD%93%E6%93%8D%28%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%29/)
+            [歌詞(UtaTen)](https://utaten.com/lyric/pt15102702/)
     - name: "'15 Jun. YOSHIMOTO TECHDAY"
       background: "../../res/img/backgrounds/yoshimoto_bg.png"
       songs:
