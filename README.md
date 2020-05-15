@@ -95,7 +95,8 @@ yarn test
 
 [@mizucoffee](//github.com/mizucoffee)（Mizucoffee）  
 [@KNTK](//github.com/AkihiroTokai)（かんとく）  
-[@ygkn](//github.com/ygkn)（やぎちゃん）
+[@ygkn](//github.com/ygkn)（やぎちゃん）  
+[@RenMatsushita](//github.com/RenMatsushita)（れん）  
 
 ## 最後に
 
