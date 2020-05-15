@@ -34,22 +34,7 @@
 #       # リンクなど。 "|" はYAMLの複数行記法です。
 - year: "2020"
   camps:
-   - name: "Life is Hack !"
-     background: "../../res/img/backgrounds/lifeishack-hello_world.jpg"
-     theme: "Hello, World!!・Online#1"
-     songs:
-       - title: "スタートライン"
-         author: "ベリーグッドマン"
-         description: |
-           TBS アニメ　新幹線変形ロボ シンカリオン　ED
-           🎤[DAM] [6211-82](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6211-82) [JOYSOUND]404 NotFound
-           [YouTube](//youtu.be/MKKgw3X49Bc)
-           [歌詞(J-Lyrics.net)](http://j-lyric.net/artist/a058dc1/l04bf0b.html)
-  
-  
-  
-  
-   - name: "SONY ENTERTAINMENT CAMP 2020"
+    - name: "SONY ENTERTAINMENT CAMP 2020"
       background: "../../res/img/backgrounds/entertainment-2020.jpg"
       theme: "君にしかつくれないエンタテインメントを世界へ"
       poem: |
@@ -747,6 +732,18 @@
             [YouTube](//youtu.be/RbpDRk_OAPU)
 - year: "番外編"
   camps:
+    - name: "Life is Hack !"
+      background: "../../res/img/backgrounds/lifeishack.jpg"
+      theme: "Hello, World!!・Online#1"
+      songs:
+        - title: "スタートライン"
+          author: "ベリーグッドマン"
+          description: |
+            TBS アニメ　新幹線変形ロボ シンカリオン　ED
+            🎤[DAM] [6211-82](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6211-82) [JOYSOUND]404 NotFound
+            [YouTube](//youtu.be/MKKgw3X49Bc)
+            [歌詞(J-Lyrics.net)](http://j-lyric.net/artist/a058dc1/l04bf0b.html)
+            
     - name: "Departure '20 (関西卒業サプライズ2020)"
       background: "../../res/img/backgrounds/departure-2020.jpg"
       songs:
