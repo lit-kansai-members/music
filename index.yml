@@ -732,17 +732,6 @@
             [YouTube](//youtu.be/RbpDRk_OAPU)
 - year: "番外編"
   camps:
-    - name: "Life is Hack !"
-      background: "../../res/img/backgrounds/lifeishack.jpg"
-      theme: "Hello, World!!・Online#1"
-      songs:
-        - title: "スタートライン"
-          author: "ベリーグッドマン"
-          description: |
-            TBS アニメ　新幹線変形ロボ シンカリオン　ED
-            🎤[DAM] [6211-82](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6211-82) [JOYSOUND]404 NotFound
-            [YouTube](//youtu.be/MKKgw3X49Bc)
-            [歌詞(J-Lyrics.net)](http://j-lyric.net/artist/a058dc1/l04bf0b.html)
     - name: "Departure '20 (関西卒業サプライズ2020)"
       background: "../../res/img/backgrounds/departure-2020.jpg"
       songs:
@@ -759,7 +748,18 @@
             TBS金曜ドラマ2008/1Q エジソンの母EDSong
             🎤[DAM] [4190-04](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=4190-04) [JOYSOUND] [85897](https://www.joysound.com/web/search/song/113523)
             [YouTube](//youtu.be/gU5oN0KVofU)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cdbd/l00c3b4.html)      
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cdbd/l00c3b4.html)
+    - name: "Life is Hack !"
+      background: "../../res/img/backgrounds/lifeishack.jpg"
+      theme: "Hello, World!!・Online#1"
+      songs:
+        - title: "スタートライン"
+          author: "ベリーグッドマン"
+          description: |
+            TBS アニメ　新幹線変形ロボ シンカリオン　ED
+            🎤[DAM] [6211-82](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6211-82) [JOYSOUND]404 NotFound
+            [YouTube](//youtu.be/MKKgw3X49Bc)
+            [歌詞(J-Lyrics.net)](http://j-lyric.net/artist/a058dc1/l04bf0b.html)
     - name: "テックなオフ会"
       theme: "ピクニック気分で集まっちゃう秋2019"
       background: "../../res/img/backgrounds/offParty-autumn2019.jpg"
