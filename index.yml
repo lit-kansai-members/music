@@ -694,7 +694,7 @@
           description: |
             アニメ映画「時をかける少女」挿入歌
             🎤[DAM] [2889-23](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=2889-23) [JOYSOUND][161753](https://www.joysound.com/web/search/song/99643)
-            [YouTube](//youtu.be/-KRvjsXi9Ds)
+            [YouTube](//youtu.be/SqANEGZ6Ty0)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04c9e3/l00af88.html)
 - year: "2013"
   camps:
@@ -702,13 +702,17 @@
       songs:
         - title: "恋するフォーチュンクッキー"
           author: "AKB48"
+#            虎ノ門ヒルズ駅開業(Jun 06 2020)後H16に変更予定。          
           description: |
+            東京地下鉄日比谷線 秋葉原駅 (H15) 発車サイン音
+            🎤[DAM] [6572-52](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6572-52) [JOYSOUND][119131](https://www.joysound.com/web/search/song/99643)
             [YouTube](//youtu.be/dFf4AgBNR1E)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cb7c/l02e06a.html)
         - title: "ハピネス"
           author: "AI"
           description: |
             コカ・コーラ 冬期CMソング
+            🎤[DAM] [6484-08](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6484-08) [JOYSOUND][29625](https://www.joysound.com/web/search/song/186425)
             [YouTube](//youtu.be/uKgmu8g-kXE)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
     - name: "'13 Summer Camp"
@@ -718,6 +722,7 @@
           author: "SEKAI NO OWARI"
           description: |
             映画「クレヨンしんちゃん バカうまっ!B級グルメサバイバル!!」主題歌
+            🎤[DAM] [5847-34](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5847-34) [JOYSOUND][724236](https://www.joysound.com/web/search/song/251945)
             [YouTube](//youtu.be/Mi9uNu35Gmk)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a055790/l02cbdb.html)
     - name: "'13 Spring Camp"
@@ -726,19 +731,23 @@
           author: "Maia Hirasawa"
           description: |
             「JR九州/祝！九州キャンペーン」CMソング
+            🎤[DAM] [3819-51](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3819-51) [JOYSOUND][94720](https://www.joysound.com/web/search/song/167564)
             [YouTube](//youtu.be/N6-0aquSvXk)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a054d2c/l025022.html)
         - title: "ODDS&ENDS"
           author: "ryo(supercell) feat. 初音ミク"
           description: |
             ゲーム「初音ミク -Project Diva- f」テーマソング
+            🎤[DAM] [3612-33](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3612-33) [JOYSOUND][730048](https://www.joysound.com/web/search/song/233518)
             [YouTube](//youtu.be/HUzLUGKwQJc)
             [歌詞(歌ネット)](http://www.uta-net.com/song/134511/)
         - title: "さよならメモリーズ"
           author: "supercell"
           description: |
-            [YouTube](//youtu.be/ZP9mJdpENMg)
+            動画を見つけたら教えて下さい。
+            🎤[DAM] [5667-78](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5667-78) [JOYSOUND][139943](https://www.joysound.com/web/search/song/147099)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a051979/l01e2e0.html)
+            [レコチョク](//recochoku.jp/song/S20294713/)
 - year: "2012"
   camps:
     - name: "'12 Xmas Camp"
