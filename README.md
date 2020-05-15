@@ -89,6 +89,7 @@ yarn test
 [@souta0104](//github.com/souta0104)（そーた）  
 [来留](//twitter.com/rairuuuuuuuuu)（来留（Twitter））  
 [めんちゃん](//twitter.com/menchan_klis)（めんちゃん（Twitter））  
+[@sugijotaro](//github.com/sugijotaro)（わくわくさん）
 
 
 ## Contributors
