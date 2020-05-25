@@ -22,7 +22,7 @@
     "js-yaml": "3.13.1",
     "marked": "1.1.0",
     "parcel-bundler": "1.12.4",
-    "pug": "2.0.4",
+    "pug": "3.0.0",
     "sass": "1.26.5"
   },
   "dependencies": {
