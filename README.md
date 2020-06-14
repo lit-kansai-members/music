@@ -1,6 +1,6 @@
 # Life is Tech! MUSIC
 
-[![devDependencies Status](https://david-dm.org/lit-kansai-members/music/dev-status.svg)](https://david-dm.org/lit-kansai-members/music?type=dev)
+[![Deploy Status](https://github.com/lit-kansai-members/music/workflows/Deploy/badge.svg)](https://github.com/lit-kansai-members/music/actions?query=workflow%3ADeploy) [![devDependencies Status](https://david-dm.org/lit-kansai-members/music/dev-status.svg)](https://david-dm.org/lit-kansai-members/music?type=dev)
 
 Life is Tech!で使われている BGM のまとめのリポジトリです。関西系メンバーが勝手に集めてます！ 関東や九州やそれ以外の地域の方も是非活用してください！
 
