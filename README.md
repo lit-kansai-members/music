@@ -1,19 +1,17 @@
 # Life is Tech! MUSIC
 
-[![Build Status](https://travis-ci.org/lit-kansai-members/music.svg?branch=master)](https://travis-ci.org/lit-kansai-members/music) [![devDependencies Status](https://david-dm.org/lit-kansai-members/music/dev-status.svg)](https://david-dm.org/lit-kansai-members/music?type=dev)
+[![Deploy Status](https://github.com/lit-kansai-members/music/workflows/Deploy/badge.svg)](https://github.com/lit-kansai-members/music/actions?query=workflow%3ADeploy) [![devDependencies Status](https://david-dm.org/lit-kansai-members/music/dev-status.svg)](https://david-dm.org/lit-kansai-members/music?type=dev)
 
 Life is Tech!で使われている BGM のまとめのリポジトリです。関西系メンバーが勝手に集めてます！ 関東や九州やそれ以外の地域の方も是非活用してください！
 
-
 [Web ページ](http://lit-kansai-members.github.io/music/)（[index.yml](./index.yml)から自動生成）
 
-
-## ⚠️関東卒業サプライズ掲載時期について⚠️
+## ⚠️ 関東卒業サプライズ掲載時期について ⚠️
 
 関東卒業サプライズは当初の日程から延期が決定しています。（開催日程未定）
-Life is Tech! MUSICでは当該Eventが完全に終了した後掲載作業(Deploy)をおこなっているため、**関東卒業サプライズに関連するContentsの追加時期は未定です。**
+Life is Tech! MUSIC では当該 Event が完全に終了した後掲載作業(Deploy)をおこなっているため、**関東卒業サプライズに関連する Contents の追加時期は未定です。**
 ご不便をおかけし申し訳ありませんが趣旨をご理解いただきもうしばらくお待ちください。
-※SpringCamp2020に関連するContentsを追加しました。状況に変化があればこちらの内容に随時反映します。
+※SpringCamp2020 に関連する Contents を追加しました。状況に変化があればこちらの内容に随時反映します。
 (Last update:May 8 2020)
 
 ## こんな曲かかってたよ！
@@ -55,12 +53,12 @@ Life is Tech! MUSICでは当該Eventが完全に終了した後掲載作業(Depl
 
 ## ルール
 
-* 採用の判断基準は **全国規模で流れていた曲** です。メンバーがかけていた曲はそのキャンプだけなので **対象外** です。
-* テーマは DVD に記載されているものになります。
+- 採用の判断基準は **全国規模で流れていた曲** です。メンバーがかけていた曲はそのキャンプだけなので **対象外** です。
+- テーマは DVD に記載されているものになります。
 
 ## PR について
 
-* Pull Request を行う前に可能ならばテストを行ってください。
+- Pull Request を行う前に可能ならばテストを行ってください。
 
 ```bash
 # yarn をインストールしていない場合は npm i -g yarn でインストールしてください
@@ -91,13 +89,12 @@ yarn test
 [めんちゃん](//twitter.com/menchan_klis)（めんちゃん（Twitter））  
 [@sugijotaro](//github.com/sugijotaro)（わくわくさん）
 
-
 ## Contributors
 
 [@mizucoffee](//github.com/mizucoffee)（Mizucoffee）  
 [@KNTK](//github.com/AkihiroTokai)（かんとく）  
 [@ygkn](//github.com/ygkn)（やぎちゃん）  
-[@RenMatsushita](//github.com/RenMatsushita)（れん）  
+[@RenMatsushita](//github.com/RenMatsushita)（れん）
 
 ## 最後に
 
