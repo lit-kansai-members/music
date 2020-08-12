@@ -6,13 +6,8 @@ Life is Tech!で使われている BGM のまとめのリポジトリです。�
 
 [Web ページ](http://lit-kansai-members.github.io/music/)（[index.yml](./index.yml)から自動生成）
 
-## ⚠️ 関東卒業サプライズ掲載時期について ⚠️
-
-関東卒業サプライズは当初の日程から延期が決定しています。（開催日程未定）
-Life is Tech! MUSIC では当該 Event が完全に終了した後掲載作業(Deploy)をおこなっているため、**関東卒業サプライズに関連する Contents の追加時期は未定です。**
-ご不便をおかけし申し訳ありませんが趣旨をご理解いただきもうしばらくお待ちください。
-※SpringCamp2020 に関連する Contents を追加しました。状況に変化があればこちらの内容に随時反映します。
-(Last update:May 8 2020)
+## ⚠️ SummerCamp2020掲載時期について ⚠️
+Life is Tech! MUSIC では当該 Event が完全に終了した後掲載作業(Deploy)をおこなっているため、SummerCamp2020に関連する Contents の追加時期は2020年8月27日以降になる見込みです。ご不便をおかけし申し訳ありませんが趣旨をご理解いただきもうしばらくお待ちください。(Last update:August 12 2020)
 
 ## こんな曲かかってたよ！
 
