@@ -588,14 +588,6 @@
             🎤[DAM] [3206-03](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3206-03) [JOYSOUND][14246](https://www.joysound.com/web/search/song/14238)
             [YouTube](//youtu.be/W3r_wFIGjHU)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a01176a/l0011d8.html)
-    - name: "'15 萩1Day"
-      songs:
-        - title: "超特急ライン"
-          author: "もっぴーさうんど"
-          description: |
-            🎤[DAM]404 NotFound [JOYSOUND]404 NotFound
-            [YouTube](//youtu.be/5FOBkm0ibWI)
-            [DOVA-SYNDROME](//dova-s.jp/bgm/play2260.html)
     - name: "'15 Spring Camp"
       theme: "すべてがサプライズの春キャンプへ -Surprise Everything-"
       background: "../../res/img/backgrounds/2015_spring.jpeg"
