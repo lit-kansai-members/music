@@ -2,20 +2,17 @@
 
 [![Deploy Status](https://github.com/lit-kansai-members/music/workflows/Deploy/badge.svg)](https://github.com/lit-kansai-members/music/actions?query=workflow%3ADeploy) [![devDependencies Status](https://david-dm.org/lit-kansai-members/music/dev-status.svg)](https://david-dm.org/lit-kansai-members/music?type=dev)
 
-Life is Tech!で使われている BGM のまとめのリポジトリです。関西系メンバーが勝手に集めてます！ 関東や九州やそれ以外の地域の方も是非活用してください！
+Life is Tech!で使われている BGM をまとめたリポジトリです。関西のメンバーを中心にまとめています！もちろん関西以外のメンバーもWelcome！是非活用してくださいね！
 
 [Web ページ](http://lit-kansai-members.github.io/music/)（[index.yml](./index.yml)から自動生成）
 
-## ⚠️ SummerCamp2020掲載時期について ⚠️
-Life is Tech! MUSIC では当該 Event が完全に終了した後掲載作業(Deploy)をおこなっているため、SummerCamp2020に関連する Contents の追加時期は2020年8月27日以降になる見込みです。ご不便をおかけし申し訳ありませんが趣旨をご理解いただきもうしばらくお待ちください。(Last update:August 12 2020)
-
 ## こんな曲かかってたよ！
 
-そんな曲をご存知の方はフォームから提案していただければと思います。
-
-[![Form](https://placehold.jp/24/3d4070/e8e8e8/170x50.png?text=%E6%8F%90%E6%A1%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0&css=%7B%22border-radius%22%3A%227px%22%7D)](https://goo.gl/forms/VNdvhC37OuRBtWCD3)
+そんな曲をご存知の方はIssuesで提案していただければと思います。
 
 <!--
+[![Form](https://placehold.jp/24/3d4070/e8e8e8/170x50.png?text=%E6%8F%90%E6%A1%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0&css=%7B%22border-radius%22%3A%227px%22%7D)](https://goo.gl/forms/VNdvhC37OuRBtWCD3)
+
 ## Contribution
 ### Life is Tech! BGM におけるContributionのやり方講座
 
@@ -65,31 +62,31 @@ yarn test
 
 ## 曲情報提供者様
 
-[@sanu22](//github.com/sanu22)（いかさん,いかおじさん）  
-[@shoya140](//github.com/shoya140)（しょうさま）  
-[@E235-235](//github.com/E235-235)（かっくん）  
-[@RinYokoi](//github.com/RinYokoi)（なぽるん,りん）  
-[@rkccdsnagoya1](//github.com/rkccdsnagoya1)（りゅうせい,くあてろ）  
-[@Mon-Take](//github.com/Mon-Take)（モンタケ）  
-[べじぴぽ@LiT!](//twitter.com/_vegi_pipo_Lit)（べじぴぽ（Twitter））  
-[@GenbuHase](//github.com/GenbuHase)（げんちゃん）  
-[@mizphses](//github.com/mizphses)（なとむ,みねらる）  
-[さっきー](//twitter.com/222222222332a)（さっきー（Twitter））  
+いかさん [@sanu22](//github.com/sanu22)  
+しょうさま [@shoya140](//github.com/shoya140)  
+かっくん [@E235-235](//github.com/E235-235)   
+なぽるん / りん [@RinYokoi](//github.com/RinYokoi)   
+りゅうせい / くあてろ [@rkccdsnagoya1](//github.com/rkccdsnagoya1)  
+モンタケ [@Mon-Take](//github.com/Mon-Take)  
+べじぴぽ [@_vegi_pipo_Lit](//twitter.com/_vegi_pipo_Lit)（Twitter）  
+げんちゃん [@GenbuHase](//github.com/GenbuHase)  
+なとむ / みねらる [@mizphses](//github.com/mizphses)  
+さっきー [@222222222332a](//twitter.com/222222222332a)（Twitter）  
 ちか  
-[@ENDOTAKUMI](//github.com/ENDOTAKUMI)（えんたく）  
-[タツ](//twitter.com/u39dc)（タツ（Twitter））  
-[たまご丸。](//twitter.com/tamagomaRuuu)（たまご丸。（Twitter））  
-[@souta0104](//github.com/souta0104)（そーた）  
-[来留](//twitter.com/rairuuuuuuuuu)（来留（Twitter））  
-[めんちゃん](//twitter.com/menchan_klis)（めんちゃん（Twitter））  
-[@sugijotaro](//github.com/sugijotaro)（わくわくさん）
+えんたく [@ENDOTAKUMI](//github.com/ENDOTAKUMI)  
+タツ [@u39dc](//twitter.com/u39dc)（Twitter）  
+たまご丸。 [@tamagomaRuuu](//twitter.com/tamagomaRuuu)（Twitter）  
+そーた [@souta0104](//github.com/souta0104)  
+来留 [@rairuuuuuuuuu](//twitter.com/rairuuuuuuuuu)（Twitter）  
+めんちゃん [@menchan_klis](//twitter.com/menchan_klis)（Twitter）  
+わくわくさん [@sugijotaro](//github.com/sugijotaro)  
 
 ## Contributors
 
-[@mizucoffee](//github.com/mizucoffee)（Mizucoffee）  
-[@KNTK](//github.com/AkihiroTokai)（かんとく）  
-[@ygkn](//github.com/ygkn)（やぎちゃん）  
-[@RenMatsushita](//github.com/RenMatsushita)（れん）
+ごっちゃん / みず [@mizucoffee](//github.com/mizucoffee)  
+かんとく [@KNTK](//github.com/AkihiroTokai)   
+やぎちゃん [@ygkn](//github.com/ygkn)  
+れん  [@RenMatsushita](//github.com/RenMatsushita)
 
 ## 最後に
 
