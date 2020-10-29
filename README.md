@@ -6,9 +6,6 @@ Life is Tech!で使われている BGM のまとめのリポジトリです。�
 
 [Web ページ](http://lit-kansai-members.github.io/music/)（[index.yml](./index.yml)から自動生成）
 
-## ⚠️ SummerCamp2020掲載時期について ⚠️
-Life is Tech! MUSIC では当該 Event が完全に終了した後掲載作業(Deploy)をおこなっているため、SummerCamp2020に関連する Contents の追加時期は2020年8月27日以降になる見込みです。ご不便をおかけし申し訳ありませんが趣旨をご理解いただきもうしばらくお待ちください。(Last update:August 12 2020)
-
 ## こんな曲かかってたよ！
 
 そんな曲をご存知の方はフォームから提案していただければと思います。
