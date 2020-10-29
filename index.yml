@@ -34,6 +34,31 @@
 #       # リンクなど。 "|" はYAMLの複数行記法です。
 - year: "2020"
   camps:
+    - name: "'20 Summer Camp"
+      background: "../../res/img/backgrounds/summer-2020.png"
+      theme: "走れ。夏。"
+      poem: |
+        走る。全速力で。無我夢中で。
+        まわりが見えなくなったっていい。
+        のめりこめ、今この瞬間に。
+
+        自分だけの「世界」よ、もっともっとひろがれ。
+
+        さあ、無限大の夏が今始まる。
+      songs:
+        - title: "あの夢をなぞって"
+          author: "YOASOBI"
+          description: |
+            フジテレビ 「情報プレゼンター とくダネ!」　2020Jun お天気コーナー Monthly Song
+            🎤[DAM] [5267-36](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5267-36) [JOYSOUND][446885](https://www.joysound.com/web/search/song/822624)
+            [YouTube](//youtu.be/sAuEeM_6zpk)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a061652/l050f8b.html)
+        - title: "怪獣の花唄"
+          author: "Vaundy"
+          description: |
+            🎤[DAM] [5277-09](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5277-09) [JOYSOUND][485151](https://www.joysound.com/web/search/song/830943)
+            [YouTube](//youtu.be/UM9XNpgrqVk)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a060fc4/l0506e5.html)
     - name: "'20 Spring Camp"
       background: "../../res/img/backgrounds/spring-2020.jpg"
       theme: "Spring is Comming -はじまりの合図は「春」-"
