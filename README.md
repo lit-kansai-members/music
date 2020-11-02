@@ -10,6 +10,10 @@ Life is Tech!で使われている BGM をまとめたリポジトリです。�
 
 そんな曲をご存知の方はIssuesで提案していただければと思います。
 
+[新曲の追加](https://github.com/lit-kansai-members/music/issues/new?labels=New+Song+Request&template=NEW_SONG.md)
+/
+[Themeの追加](https://github.com/lit-kansai-members/music/issues/new?labels=New+Theme+Request&template=NEW_THEME.md)
+
 <!--
 [![Form](https://placehold.jp/24/3d4070/e8e8e8/170x50.png?text=%E6%8F%90%E6%A1%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0&css=%7B%22border-radius%22%3A%227px%22%7D)](https://goo.gl/forms/VNdvhC37OuRBtWCD3)
 
