@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@alrra/travis-scripts@3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@alrra/travis-scripts/-/travis-scripts-3.0.1.tgz#45d5b9357317b6cc5553dfd99931843ae0b0e53a"
-  integrity sha1-RdW5NXMXtsxVU9/ZmTGEOuCw5To=
-
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
