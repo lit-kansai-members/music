@@ -409,8 +409,8 @@ main {
     section:nth-child(#{$length}n + #{$key}) > .youtube > .play:after {
       border-left-color: $color;
     }
-    .parallax:nth-child(#{$length}n + #{$key}) img.noimage {
-      background: lighten($color, 20%);
+    .parallax.noimage:nth-child(#{$length}n + #{$key}) {
+      background-color: lighten($color, 20%);
     }
   }
 
@@ -446,25 +446,19 @@ main {
     }
   }
   .parallax {
-    position: relative;
-    overflow: hidden;
-    > .background {
-      position: absolute;
-      top: 0;
-      z-index: -1;
-      width: 100%;
-      object-fit: cover;
-      height: 140vh;
-      &.noimage {
-        object-fit: contain;
-      }
+    background-size: cover;
+    background-attachment: fixed;
+    &.noimage {
+      background-size: contain;
     }
+    display: flex;
+    flex-direction: column;
   }
   section {
     width: calc(100% - 2em);
     max-width: 600px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
-    margin: 4em auto;
+    margin: 2em auto;
     background: white;
     border-radius: 2px;
     padding: 1px 0;
