@@ -66,31 +66,31 @@ yarn test
 
 ## 曲情報提供者様
 
-いかさん [@sanu22](//github.com/sanu22)
-しょうさま [@shoya140](//github.com/shoya140)
-かっくん [@E235-235](//github.com/E235-235)
-なぽるん / りん [@RinYokoi](//github.com/RinYokoi)
-りゅうせい / くあてろ [@rkccdsnagoya1](//github.com/rkccdsnagoya1)
-モンタケ [@Mon-Take](//github.com/Mon-Take)
-べじぴぽ [@\_vegi_pipo_Lit](//twitter.com/_vegi_pipo_Lit)（Twitter）
-げんちゃん [@GenbuHase](//github.com/GenbuHase)
-なとむ / みねらる [@mizphses](//github.com/mizphses)
-さっきー [@222222222332a](//twitter.com/222222222332a)（Twitter）
-ちか
-えんたく [@ENDOTAKUMI](//github.com/ENDOTAKUMI)
-タツ [@u39dc](//twitter.com/u39dc)（Twitter）
-たまご丸。 [@tamagomaRuuu](//twitter.com/tamagomaRuuu)（Twitter）
-そーた [@souta0104](//github.com/souta0104)
-来留 [@rairuuuuuuuuu](//twitter.com/rairuuuuuuuuu)（Twitter）
-めんちゃん [@menchan_klis](//twitter.com/menchan_klis)（Twitter）
-わくわくさん [@sugijotaro](//github.com/sugijotaro)
+- いかさん [@sanu22](//github.com/sanu22)
+- しょうさま [@shoya140](//github.com/shoya140)
+- かっくん [@E235-235](//github.com/E235-235)
+- なぽるん / りん [@RinYokoi](//github.com/RinYokoi)
+- りゅうせい / くあてろ [@rkccdsnagoya1](//github.com/rkccdsnagoya1)
+- モンタケ [@Mon-Take](//github.com/Mon-Take)
+- べじぴぽ [@\_vegi_pipo_Lit](//twitter.com/_vegi_pipo_Lit)（Twitter）
+- げんちゃん [@GenbuHase](//github.com/GenbuHase)
+- なとむ / みねらる [@mizphses](//github.com/mizphses)
+- さっきー [@222222222332a](//twitter.com/222222222332a)（Twitter）
+- ちか
+- えんたく [@ENDOTAKUMI](//github.com/ENDOTAKUMI)
+- タツ [@u39dc](//twitter.com/u39dc)（Twitter）
+- たまご丸。 [@tamagomaRuuu](//twitter.com/tamagomaRuuu)（Twitter）
+- そーた [@souta0104](//github.com/souta0104)
+- 来留 [@rairuuuuuuuuu](//twitter.com/rairuuuuuuuuu)（Twitter）
+- めんちゃん [@menchan_klis](//twitter.com/menchan_klis)（Twitter）
+- わくわくさん [@sugijotaro](//github.com/sugijotaro)
 
 ## Contributors
 
-ごっちゃん / みず [@mizucoffee](//github.com/mizucoffee)
-かんとく [@KNTK](//github.com/AkihiroTokai)
-やぎちゃん [@ygkn](//github.com/ygkn)
-れん [@RenMatsushita](//github.com/RenMatsushita)
+- ごっちゃん / みず [@mizucoffee](//github.com/mizucoffee)
+- かんとく [@KNTK](//github.com/AkihiroTokai)
+- やぎちゃん [@ygkn](//github.com/ygkn)
+- れん [@RenMatsushita](//github.com/RenMatsushita)
 
 ## 最後に
 
