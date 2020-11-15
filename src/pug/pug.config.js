@@ -9,11 +9,11 @@ module.exports = {
       years: YAML.safeLoad(fs.readFileSync("./index.yml")),
       chuitens: fs
         .readdirSync("./注意点")
-        .filter(p => /.+\.md$/.test(p))
-        .map(p => ({
+        .filter((p) => /.+\.md$/.test(p))
+        .map((p) => ({
           content: fs.readFileSync("./注意点/" + p).toString(),
-          name: p.slice(0, -3)
-        }))
-    }
-  }
+          name: p.slice(0, -3),
+        })),
+    },
+  },
 };

@@ -30,9 +30,7 @@ window.onYouTubeIframeAPIReady = () => {
             playing = index;
             $title.innerText = data.title;
             $author.innerText = data.author;
-            $thumbnail.src = `https://img.youtube.com/vi/${
-              data.youtubeId
-            }/0.jpg`;
+            $thumbnail.src = `https://img.youtube.com/vi/${data.youtubeId}/0.jpg`;
             $toggleButton.classList.remove("paused");
             $player.classList.add("show");
             const iframe = target.getIframe();
@@ -50,19 +48,19 @@ window.onYouTubeIframeAPIReady = () => {
           play(playing);
         }
       }
-    }
+    },
   };
 
-  const load = index => {
+  const load = (index) => {
     players[index].player = new YT.Player(players[index].trigger, {
       videoId: players[index].youtubeId,
       playerVars: { autoplay: 1, rel: 0 },
-      events
+      events,
     });
     delete players[index].trigger;
   };
 
-  const play = index => {
+  const play = (index) => {
     if (players[index].player) {
       players[index].player.seekTo(0, true);
       players[index].player.playVideo();
@@ -80,11 +78,11 @@ window.onYouTubeIframeAPIReady = () => {
     (trigger, index) => {
       const data = Object.assign({}, trigger.dataset);
       data.trigger = trigger;
-      trigger.addEventListener("click", e => load(index));
+      trigger.addEventListener("click", (e) => load(index));
       return data;
     }
   );
-  $toggleButton.addEventListener("click", e =>
+  $toggleButton.addEventListener("click", (e) =>
     players[playing].player[
       $toggleButton.classList.contains("paused") ? "playVideo" : "pauseVideo"
     ]()
@@ -93,7 +91,7 @@ window.onYouTubeIframeAPIReady = () => {
   $backButton.addEventListener("click", playBack);
   $nextButton.addEventListener("click", playNext);
 
-  $toggleSetting.addEventListener("click", e =>
+  $toggleSetting.addEventListener("click", (e) =>
     $balloon.classList.toggle("opened")
   );
 };

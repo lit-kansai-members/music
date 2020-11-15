@@ -1,24 +1,24 @@
 let scroll = window.pageYOffset;
-const getDocumentOffset = e => e.getBoundingClientRect().top + scroll;
+const getDocumentOffset = (e) => e.getBoundingClientRect().top + scroll;
 let viewportHeight = window.innerHeight;
 
 let $backgrounds = Array.from(document.querySelectorAll(".parallax")).map(
-  container => {
+  (container) => {
     const background = Array.from(container.children).find(
-      e => e.classList && e.classList.contains("background")
+      (e) => e.classList && e.classList.contains("background")
     );
     return {
       container,
-      background
+      background,
     };
   }
 );
 
-const update = e =>
+const update = (e) =>
   requestAnimationFrame(() => {
     scroll = window.pageYOffset;
     if (e.type !== "scroll") {
-      $backgrounds = $backgrounds.map(value => {
+      $backgrounds = $backgrounds.map((value) => {
         value.top = getDocumentOffset(value.container);
         value.containerHeight = value.container.offsetHeight;
         value.backgroundHeight = value.background.offsetHeight;
@@ -32,7 +32,7 @@ const update = e =>
         background,
         top,
         containerHeight,
-        backgroundHeight
+        backgroundHeight,
       } = $backgrounds[i];
       const viewportTop = top - scroll;
       if (!(viewportTop < 0 && viewportTop > viewportHeight)) {

@@ -2,17 +2,17 @@
 
 [![Deploy Status](https://github.com/lit-kansai-members/music/workflows/Deploy/badge.svg)](https://github.com/lit-kansai-members/music/actions?query=workflow%3ADeploy) [![devDependencies Status](https://david-dm.org/lit-kansai-members/music/dev-status.svg)](https://david-dm.org/lit-kansai-members/music?type=dev)
 
-Life is Tech!で使われている BGM をまとめたリポジトリです。関西のメンバーを中心にまとめています！もちろん関西以外のメンバーもWelcome！是非活用してくださいね！
+Life is Tech!で使われている BGM をまとめたリポジトリです。関西のメンバーを中心にまとめています！もちろん関西以外のメンバーも Welcome！是非活用してくださいね！
 
 [Web ページ](http://lit-kansai-members.github.io/music/)（[index.yml](./index.yml)から自動生成）
 
 ## こんな曲かかってたよ！
 
-そんな曲をご存知の方はIssuesで提案していただければと思います。
+そんな曲をご存知の方は Issues で提案していただければと思います。
 
 [新曲の追加](https://github.com/lit-kansai-members/music/issues/new?labels=New+Song+Request&template=NEW_SONG.md)
 /
-[Themeの追加](https://github.com/lit-kansai-members/music/issues/new?labels=New+Theme+Request&template=NEW_THEME.md)
+[Theme の追加](https://github.com/lit-kansai-members/music/issues/new?labels=New+Theme+Request&template=NEW_THEME.md)
 
 <!--
 [![Form](https://placehold.jp/24/3d4070/e8e8e8/170x50.png?text=%E6%8F%90%E6%A1%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0&css=%7B%22border-radius%22%3A%227px%22%7D)](https://goo.gl/forms/VNdvhC37OuRBtWCD3)
@@ -68,11 +68,11 @@ yarn test
 
 いかさん [@sanu22](//github.com/sanu22)  
 しょうさま [@shoya140](//github.com/shoya140)  
-かっくん [@E235-235](//github.com/E235-235)   
-なぽるん / りん [@RinYokoi](//github.com/RinYokoi)   
+かっくん [@E235-235](//github.com/E235-235)  
+なぽるん / りん [@RinYokoi](//github.com/RinYokoi)  
 りゅうせい / くあてろ [@rkccdsnagoya1](//github.com/rkccdsnagoya1)  
 モンタケ [@Mon-Take](//github.com/Mon-Take)  
-べじぴぽ [@_vegi_pipo_Lit](//twitter.com/_vegi_pipo_Lit)（Twitter）  
+べじぴぽ [@\_vegi_pipo_Lit](//twitter.com/_vegi_pipo_Lit)（Twitter）  
 げんちゃん [@GenbuHase](//github.com/GenbuHase)  
 なとむ / みねらる [@mizphses](//github.com/mizphses)  
 さっきー [@222222222332a](//twitter.com/222222222332a)（Twitter）  
@@ -83,14 +83,14 @@ yarn test
 そーた [@souta0104](//github.com/souta0104)  
 来留 [@rairuuuuuuuuu](//twitter.com/rairuuuuuuuuu)（Twitter）  
 めんちゃん [@menchan_klis](//twitter.com/menchan_klis)（Twitter）  
-わくわくさん [@sugijotaro](//github.com/sugijotaro)  
+わくわくさん [@sugijotaro](//github.com/sugijotaro)
 
 ## Contributors
 
 ごっちゃん / みず [@mizucoffee](//github.com/mizucoffee)  
-かんとく [@KNTK](//github.com/AkihiroTokai)   
+かんとく [@KNTK](//github.com/AkihiroTokai)  
 やぎちゃん [@ygkn](//github.com/ygkn)  
-れん  [@RenMatsushita](//github.com/RenMatsushita)
+れん [@RenMatsushita](//github.com/RenMatsushita)
 
 ## 最後に
 

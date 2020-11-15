@@ -28,7 +28,7 @@
 #       author: "Perfume" # 歌手名
 #       description: |
 #         メルセデス・ベンツ × Perfume コラボレーションCMソング
-#         🎤[DAM] [6271-62](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6271-62) [JOYSOUND][442282](https://www.joysound.com/web/search/song/562986) # DAMとJOYSOUNDの選曲用番号 
+#         🎤[DAM] [6271-62](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6271-62) [JOYSOUND][442282](https://www.joysound.com/web/search/song/562986) # DAMとJOYSOUNDの選曲用番号
 #         [YouTube](//youtu.be/3j77uK8hu5A)
 #         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cc66/l03a371.html)
 #       # リンクなど。 "|" はYAMLの複数行記法です。
@@ -138,7 +138,7 @@
           description: |
             🎤[DAM] [3844-71](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3844-71) [JOYSOUND][437459](https://www.joysound.com/web/search/song/735036)
             [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/panicatthedisco/highhopes.html)
-            [YouTube](//youtu.be/IPXIgEAGe4U)     
+            [YouTube](//youtu.be/IPXIgEAGe4U)
     - name: "'19 Summer Camp"
       background: "../../res/img/backgrounds/summer-2019.jpg"
       theme: "『夏』が、好きだああああああああああああ。"
@@ -903,4 +903,3 @@
             🎤[DAM] [6184-78](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6184-78) [JOYSOUND] [435491](https://www.joysound.com/web/search/song/722544)
             [YouTube](//youtu.be/HFTB-tZs2a4)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04b3e1/l04af4d.html)
-
