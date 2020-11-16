@@ -5,10 +5,10 @@ const afterScroll = (toScroll, trigger) =>
 
 const scroll = new SweetScroll({
   trigger: "[data-scroll]:not(.bounce)",
-  afterScroll
+  afterScroll,
 });
 const scrollBounce = new SweetScroll({
   trigger: "[data-scroll].bounce",
   easing: "easeOutBack",
-  afterScroll
+  afterScroll,
 });

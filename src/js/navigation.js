@@ -33,11 +33,11 @@ document.head.appendChild(style);
  * hover時に .full-opened をつける
  */
 
-Array.from(document.querySelectorAll(".inneryear, .outerCamp")).forEach(v => {
+Array.from(document.querySelectorAll(".inneryear, .outerCamp")).forEach((v) => {
   const year = (v.classList.contains("inneryear") ? v.parentElement : v)
     .parentElement;
-  v.addEventListener("mouseenter", e => year.classList.add("full-opened"));
-  v.addEventListener("mouseleave", e => year.classList.remove("full-opened"));
+  v.addEventListener("mouseenter", (e) => year.classList.add("full-opened"));
+  v.addEventListener("mouseleave", (e) => year.classList.remove("full-opened"));
 });
 
 /**
@@ -45,8 +45,8 @@ Array.from(document.querySelectorAll(".inneryear, .outerCamp")).forEach(v => {
  * .outerCampが閉じてしまうのを遅れることで回避
  */
 
-Array.from(document.getElementsByClassName("outerCamp")).forEach(outerCamp =>
-  outerCamp.addEventListener("transitionend", e => {
+Array.from(document.getElementsByClassName("outerCamp")).forEach((outerCamp) =>
+  outerCamp.addEventListener("transitionend", (e) => {
     const year = outerCamp.parentElement;
     if (year.classList.contains("full-opened")) {
       year.style.transitionDelay = "450ms";
@@ -72,9 +72,9 @@ const yearNavs = Array.from(
 
 let opened = 0;
 
-window.addEventListener("scroll", e => {
+window.addEventListener("scroll", (e) => {
   const VHHalf = window.innerHeight / 2;
-  let open = years.findIndex(e => e.getBoundingClientRect().top < VHHalf);
+  let open = years.findIndex((e) => e.getBoundingClientRect().top < VHHalf);
   open = ~open ? open : years.length - 1;
   if (open !== opened) {
     yearNavs[opened].classList.remove("opened");

@@ -1,10 +1,11 @@
 ---
-name: ' Themeの追加 '
-about: 'Themeの追加はこちら。可能なら事前にissueページで同じテーマの投稿がないようにチェックしてください。'
+name: " Themeの追加 "
+about: "Themeの追加はこちら。可能なら事前にissueページで同じテーマの投稿がないようにチェックしてください。"
 labels: New Theme Request
 ---
 
 ## イベント名: yyyy-xxxxxx
+
 <!--
   Campの場合
   例：2020-Summer
@@ -33,18 +34,19 @@ labels: New Theme Request
 -->
 
 ## 壁紙
-- 壁紙URL: https://life-is-tech.com/xxxx
+
+- 壁紙 URL: https://life-is-tech.com/xxxx
 <!--
   https://life-is-tech.com/materials から標準色（おそらく一番左上）の壁紙を探してください。
   限定壁紙の場合はその旨ご記入ください。
 -->
-
 
 <!--
   情報提供者がいる場合はその人の情報を、そうでない場合はあなたの情報を。
 -->
 
 # 情報提供者
+
 - GitHub ID: @xxxx（空白可）
 
 - Twitter ID: @xxxx（空白可）
