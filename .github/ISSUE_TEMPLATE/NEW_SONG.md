@@ -1,10 +1,11 @@
 ---
-name: ' 新曲の追加 '
-about: '曲の追加はこちら。事前にissueページで同じEventに対する同じ曲の投稿がないようにチェックしてください。'
+name: " 新曲の追加 "
+about: "曲の追加はこちら。事前にissueページで同じEventに対する同じ曲の投稿がないようにチェックしてください。"
 labels: New Song Request
 ---
 
 ## イベント名: yyyy-xxxxxx
+
 <!--
   Campの場合
   例：2020-Summer
@@ -28,7 +29,7 @@ labels: New Song Request
 
 - 曲名: xxxx(曲名)
 
-- Artist: xxxx（アーティスト名） 
+- Artist: xxxx（アーティスト名）
 
 - YouTube URL: https://youtube.com/watch?v=xxxxxxxxxxx
 <!--
@@ -36,7 +37,7 @@ labels: New Song Request
   例えばYouTubeにはないがニコニコ動画にはある場合でも「なし」でおねがいします。
 -->
 
-- 歌詞サイトのURL:
+- 歌詞サイトの URL:
 <!--
   J-Lyric.netが望ましいです。ない場合は他サイトでもかまいません。
   注意点などのオリジナル歌詞の場合は「独自歌詞」等と入力し、どこかに追記してください。
@@ -56,6 +57,7 @@ labels: New Song Request
 -->
 
 # 情報提供者
+
 - GitHub ID: @xxxx（空白可）
 
 - Twitter ID: @xxxx（空白可）

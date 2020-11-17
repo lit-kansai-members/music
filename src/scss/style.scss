@@ -111,9 +111,9 @@ body {
   width: 100%;
   position: relative;
   background: #fff;
-  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro',
-    'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック',
-    'MS PGothic', Arial, sans-serif;
+  font-family: 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro",
+    "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック",
+    "MS PGothic", Arial, sans-serif;
 }
 
 body.loaded {
@@ -131,7 +131,7 @@ body.loaded {
     #music {
       opacity: 1;
     }
-    a[href='#main'] {
+    a[href="#main"] {
       display: block;
       animation: fadeFalf 0.6s ease 1s infinite alternate;
     }
@@ -321,7 +321,7 @@ header {
       opacity: 0;
     }
   }
-  a[href='#main'] {
+  a[href="#main"] {
     left: 50%;
     color: #000;
     text-decoration: none;
@@ -366,7 +366,7 @@ main {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        content: '';
+        content: "";
         width: 0;
         height: 0;
         border-width: $youtube-triangle-height/2 0 $youtube-triangle-height/2
@@ -436,7 +436,7 @@ main {
         position: absolute;
         top: 0.6em;
         left: 0.75em;
-        content: '';
+        content: "";
         display: inline-block;
         height: 0;
         width: 2em;
@@ -468,7 +468,7 @@ main {
       margin: 1em 1em;
     }
     h4 small:before {
-      content: '';
+      content: "";
       display: inline-block;
       width: 1em;
     }
@@ -512,7 +512,7 @@ footer {
         }
       }
       &:after {
-        content: '';
+        content: "";
         position: absolute;
         bottom: 0;
         left: 0;
@@ -660,7 +660,7 @@ a {
       transform-origin: bottom right;
       transition: 0.2s;
       &:before {
-        content: '';
+        content: "";
         position: absolute;
         display: block;
         height: 1em;
@@ -673,7 +673,7 @@ a {
         transform: rotate(45deg) translate(-0.5em, -0.2em);
       }
       label {
-        > input[type='checkbox'] {
+        > input[type="checkbox"] {
           display: none;
           &:checked {
             ~ .checkbox-bg {

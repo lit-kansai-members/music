@@ -1,6 +1,6 @@
 doctype html
-html(lang='ja')
-  - const createId = str => "a-" + str.toString().replace(/[!-/:-@¥[-`{-~\s]/g, "-");
+html(lang="ja")
+  - const createId = (str) => 'a-' + str.toString().replace(/[!-/:-@¥[-`{-~\s]/g, '-');
   -
     const info = { // ページ情報
       title: "Life is Tech ! MUSIC",
@@ -11,66 +11,75 @@ html(lang='ja')
   mixin faicon(name)
     i.fa(class=`fa-${name}`, area-hidden="true")
   head
-    title=info.title
-    meta(name='viewport', content='width=device-width,initial-scale=1')
-    meta(content=info.title, name='title')
-    meta(content=info.description, name='description')
-    meta(property='og:type', content='website')
-    meta(property='og:title', content=info.title)
-    meta(property='og:description', content=info.description)
-    meta(property='og:image', content=info.image)
-    meta(property='og:url', content=info.url)
-    meta(property='og:site_name', content=info.title)
-    meta(name='twitter:card', content='summary')
-    meta(name='twitter:title', content=info.title)
-    meta(name='twitter:description', content=info.description)
-    meta(name='twitter:image', content=info.image)
-    meta(name='twitter:image:alt', content=info.title)
-    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/4.1.0/sanitize.min.css')
-    link(rel='stylesheet', href='../scss/style.scss', type='text/css')
-    script(src='https://use.fontawesome.com/6915a2ffb0.js')
+    title= info.title
+    meta(name="viewport", content="width=device-width,initial-scale=1")
+    meta(content=info.title, name="title")
+    meta(content=info.description, name="description")
+    meta(property="og:type", content="website")
+    meta(property="og:title", content=info.title)
+    meta(property="og:description", content=info.description)
+    meta(property="og:image", content=info.image)
+    meta(property="og:url", content=info.url)
+    meta(property="og:site_name", content=info.title)
+    meta(name="twitter:card", content="summary")
+    meta(name="twitter:title", content=info.title)
+    meta(name="twitter:description", content=info.description)
+    meta(name="twitter:image", content=info.image)
+    meta(name="twitter:image:alt", content=info.title)
+    link(
+      rel="stylesheet",
+      href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/4.1.0/sanitize.min.css"
+    )
+    link(rel="stylesheet", href="../scss/style.scss", type="text/css")
+    script(src="https://use.fontawesome.com/6915a2ffb0.js")
     script.
       const $ = s => Array.from(document.querySelectorAll(s));
   body
     #loading
       p#loading-message
-      svg(viewBox='0 0 230 280')
-        path.second.square(style='stroke:#1792cb', d='m 25,0 0,231')
-        path.second(style='stroke:#f0c11a', d='m 85,120 0,100')
-        path(style='stroke:#f0c11a', d='M 85,110 85,60')
-        path.first(style='stroke:#e83e37', d='M 205,50 C 205,25 180,25 180,25 L 60,25')
-        path.second.square(style='stroke:#e83e37', d='M 145,280 145,49')
-        path.second(style='stroke:#66ae32', d='M 205,220 205,60')
-        path(style='stroke:#66ae32', d='m 205,280 0,-50')
-        path.first(d='m 25,230 c 0,25 25,25 25,25 l 60,0', style='stroke:#1792cb')
+      svg(viewBox="0 0 230 280")
+        path.second.square(style="stroke:#1792cb", d="m 25,0 0,231")
+        path.second(style="stroke:#f0c11a", d="m 85,120 0,100")
+        path(style="stroke:#f0c11a", d="M 85,110 85,60")
+        path.first(
+          style="stroke:#e83e37",
+          d="M 205,50 C 205,25 180,25 180,25 L 60,25"
+        )
+        path.second.square(style="stroke:#e83e37", d="M 145,280 145,49")
+        path.second(style="stroke:#66ae32", d="M 205,220 205,60")
+        path(style="stroke:#66ae32", d="m 205,280 0,-50")
+        path.first(
+          d="m 25,230 c 0,25 25,25 25,25 l 60,0",
+          style="stroke:#1792cb"
+        )
     nav
       ul#navigations
         li.year
-          a(href='#' data-scroll)
+          a(href="#", data-scroll)
             span: +faicon("arrow-up")
             .inneryear TOP
         each year in data.years
           li.year
-            a(href=`#${createId(year.year)}` data-scroll)
+            a(href=`#${createId(year.year)}`, data-scroll)
               if isNaN(year.year)
                 span: +faicon("star")
               else
-                span=year.year.slice(-2)
+                span= year.year.slice(-2)
               .inneryear= year.year
             ul.outerCamp
               each camp in year.camps
                 li.camp
-                  a(href=`#${createId(camp.name)}` data-scroll)= camp.name
+                  a(href=`#${createId(camp.name)}`, data-scroll)= camp.name
         li.year
-          a(href='#thanks' data-scroll)
+          a(href="#thanks", data-scroll)
             span: +faicon("exclamation")
             .inneryear Thanks !
     header
       h1
-        img#mark(src='../../res/img/mark.png')
-        img#logo(src='../../res/img/logo.png', alt='Life is Tech! ®')
-        img#music(src='../../res/img/music.svg', alt='music')
-      a.bounce(href='#main' data-scroll)
+        img#mark(src="../../res/img/mark.png")
+        img#logo(src="../../res/img/logo.png", alt="Life is Tech! ®")
+        img#music(src="../../res/img/music.svg", alt="music")
+      a.bounce(href="#main", data-scroll)
         | Scroll Down
         br
         +faicon("chevron-down")
@@ -83,16 +92,18 @@ html(lang='ja')
             a(href=`#${createId(camp.name)}`)= camp.name
             if camp.theme
               if camp.poem
-                a(href=`#${createId(`poem_${year.year}_${camp.name}`)}`).open-modal
-                  small.camp-theme=camp.theme
+                a.open-modal(
+                  href=`#${createId(`poem_${year.year}_${camp.name}`)}`
+                )
+                  small.camp-theme= camp.theme
               else
-                small.camp-theme=camp.theme
+                small.camp-theme= camp.theme
           div(
-            style=`background-image: url(${camp.background || "../../res/img/backgrounds/lifeistech-logo.png"})`
-            class=`parallax${camp.background ? "" : " noimage"}`
+            style=`background-image: url(${camp.background || '../../res/img/backgrounds/lifeistech-logo.png'})`,
+            class=`parallax${camp.background ? '' : ' noimage'}`
           )
             each song in camp.songs
-              - const youtube = /^\s*\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)\s*$/mg.exec(song.description);
+              - const youtube = /^\s*\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)\s*$/gm.exec(song.description);
               -
                 const descriptions = song.description
                   .replace(/^\s*\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)\s*$/mg, "")
@@ -101,16 +112,24 @@ html(lang='ja')
               section
                 if youtube
                   .youtube
-                    img.thumb(src="https://img.youtube.com/vi/"+
-                      youtube[2]+"/0.jpg")
-                    button.play(data-youtube-id=youtube[2], data-title=song.title, data-author=song.author)
+                    img.thumb(
+                      src="https://img.youtube.com/vi/' + youtube[2] + '/0.jpg"
+                    )
+                    button.play(
+                      data-youtube-id=youtube[2],
+                      data-title=song.title,
+                      data-author=song.author
+                    )
                     a(href=youtube[1])
                       | Watch at
-                      img(src='../../res/img/YouTube-logo-light.png', alt='YouTube')
+                      img(
+                        src="../../res/img/YouTube-logo-light.png",
+                        alt="YouTube"
+                      )
                 h4= song.title
                   small= song.author
                 .body
-                  for description in descriptions
+                  each description in descriptions
                     != data.marked(description)
     footer
       div
@@ -119,28 +138,31 @@ html(lang='ja')
           | do you have some infomation?
           br
           | Tell me with
-          a(href="https://docs.google.com/forms/d/e/1FAIpQLSefqsiMlk6Kr9G-Xxcu5CpKfntP_f7KjZX6Q8Gd8VrGK6uVdw/viewform?c=0&w=1")
+          a(
+            href="https://docs.google.com/forms/d/e/1FAIpQLSefqsiMlk6Kr9G-Xxcu5CpKfntP_f7KjZX6Q8Gd8VrGK6uVdw/viewform?c=0&w=1"
+          )
             | Web Form
           br
           | or
           br
-          |     see this in
-          a(href='https://github.com/lit-kansai-members/music').github
-            img(src='../../res/img/github-mark.svg')
-            img(src='../../res/img/github-logo.svg', alt='GitHub')
+          |
+          | see this in
+          a.github(href="https://github.com/lit-kansai-members/music")
+            img(src="../../res/img/github-mark.svg")
+            img(src="../../res/img/github-logo.svg", alt="GitHub")
           br
           small This project is an unoffcial.
     each chuiten in data.chuitens
       .modal(id=createId(chuiten.name))
-        a.close-modal.close-button(href='#'): +faicon("times-circle")
+        a.close-modal.close-button(href="#"): +faicon("times-circle")
         .inner!= data.marked(chuiten.content)
     each year in data.years
       each camp in year.camps
         if camp.poem
           .modal(id=createId(`poem_${year.year}_${camp.name}`))
-            a.close-modal.close-button(href='#'): +faicon("times-circle")
+            a.close-modal.close-button(href="#"): +faicon("times-circle")
             .inner!= data.marked(camp.poem)
-    a#modal-overlay.close-modal(href='#')
+    a#modal-overlay.close-modal(href="#")
     .player
       .playing
         img.thumb(src="https://img.youtube.com/vi/pnBnu5v8KTw/0.jpg")
@@ -166,13 +188,13 @@ html(lang='ja')
             label
               input(type="checkbox", name="continue", checked)
               span.checkbox-bg
-                i.fa.fa-check(class="fa fa-check", aria-hidden="true")
+                i.fa.fa-check.fa.fa-check(aria-hidden="true")
               span 連続再生
           p
             label
               input(type="checkbox", name="repeat", checked)
               span.checkbox-bg
-                i.fa.fa-check(class="fa fa-check", aria-hidden="true")
+                i.fa.fa-check.fa.fa-check(aria-hidden="true")
               span リピート再生
-    script(type='text/javascript', src='../js/index.js')
+    script(type="text/javascript", src="../js/index.js")
     script(src="https://www.youtube.com/iframe_api")
