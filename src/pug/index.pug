@@ -10,6 +10,10 @@ html(lang="ja")
     };
   mixin faicon(name)
     i.fa(class=`fa-${name}`, area-hidden="true")
+  mixin colorful(text)
+    span.colorful
+      each char in text.split("")
+        span= char
   head
     title= info.title
     meta(name="viewport", content="width=device-width,initial-scale=1")
@@ -86,7 +90,8 @@ html(lang="ja")
     main#main
       each year in data.years
         h2(id=createId(year.year))
-          a.colorful(href=`#${createId(year.year)}`)= year.year
+          a(href=`#${createId(year.year)}`)
+            +colorful(year.year)
         each camp in year.camps
           h3(id=createId(camp.name))
             a(href=`#${createId(camp.name)}`)= camp.name
@@ -134,7 +139,8 @@ html(lang="ja")
                     != data.marked(description)
     footer
       div
-        p#thanks.colorful Thanks for visit!
+        p#thanks
+          +colorful("Thanks for visit!")
         p
           | do you have some infomation?
           br
