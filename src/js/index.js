@@ -1,4 +1,3 @@
-import "./colorful";
 import "./index";
 import "./loading";
 import "./lit-words";
