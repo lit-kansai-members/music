@@ -90,7 +90,7 @@ yarn test
 - ごっちゃん / みず [@mizucoffee](//github.com/mizucoffee)
 - かんとく [@KNTK](//github.com/AkihiroTokai)
 - やぎちゃん [@ygkn](//github.com/ygkn)
-- れん [@RenMatsushita](//github.com/RenMatsushita)
+- れん [@ren-suke](//github.com/ren-suke)
 
 ## 最後に
 
