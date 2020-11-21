@@ -72,7 +72,7 @@ yarn test
 - なぽるん / りん [@RinYokoi](//github.com/RinYokoi)
 - りゅうせい / くあてろ [@rkccdsnagoya1](//github.com/rkccdsnagoya1)
 - モンタケ [@Mon-Take](//github.com/Mon-Take)
-- べじぴぽ [@_vegi_pipo_Lit](//twitter.com/_vegi_pipo_Lit)（Twitter）
+- べじぴぽ [@\_vegi_pipo_Lit](//twitter.com/_vegi_pipo_Lit)（Twitter）
 - げんちゃん [@GenbuHase](//github.com/GenbuHase)
 - なとむ / みねらる [@mizphses](//github.com/mizphses)
 - さっきー [@222222222332a](//twitter.com/222222222332a)（Twitter）
