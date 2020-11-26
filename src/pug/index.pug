@@ -37,24 +37,24 @@ html(lang="ja")
     link(rel="stylesheet", href="../scss/style.scss", type="text/css")
     script(src="https://use.fontawesome.com/6915a2ffb0.js")
     script.
-      const $ = s => Array.from(document.querySelectorAll(s));
+      const $ = (s) => Array.from(document.querySelectorAll(s));
   body
     #loading
       p#loading-message
       svg(viewBox="0 0 230 280")
-        path.second.square(style="stroke:#1792cb", d="m 25,0 0,231")
-        path.second(style="stroke:#f0c11a", d="m 85,120 0,100")
-        path(style="stroke:#f0c11a", d="M 85,110 85,60")
+        path.second.square(style="stroke: #1792cb", d="m 25,0 0,231")
+        path.second(style="stroke: #f0c11a", d="m 85,120 0,100")
+        path(style="stroke: #f0c11a", d="M 85,110 85,60")
         path.first(
-          style="stroke:#e83e37",
+          style="stroke: #e83e37",
           d="M 205,50 C 205,25 180,25 180,25 L 60,25"
         )
-        path.second.square(style="stroke:#e83e37", d="M 145,280 145,49")
-        path.second(style="stroke:#66ae32", d="M 205,220 205,60")
-        path(style="stroke:#66ae32", d="m 205,280 0,-50")
+        path.second.square(style="stroke: #e83e37", d="M 145,280 145,49")
+        path.second(style="stroke: #66ae32", d="M 205,220 205,60")
+        path(style="stroke: #66ae32", d="m 205,280 0,-50")
         path.first(
           d="m 25,230 c 0,25 25,25 25,25 l 60,0",
-          style="stroke:#1792cb"
+          style="stroke: #1792cb"
         )
     nav
       ul#navigations
