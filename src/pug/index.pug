@@ -119,7 +119,7 @@ html(lang="ja")
                 if youtube
                   .youtube
                     img.thumb(
-                      src="https://img.youtube.com/vi/\" + youtube[2] + \"/0.jpg"
+                      src=`https://img.youtube.com/vi/${youtube[2]}/0.jpg`
                     )
                     button.play(
                       data-youtube-id=youtube[2],
