@@ -28,7 +28,7 @@
     "parcel-bundler": "1.12.4",
     "prettier": "2.2.1",
     "pug": "3.0.0",
-    "sass": "1.29.0"
+    "sass": "1.30.0"
   },
   "dependencies": {
     "sweet-scroll": "4.0.0"
