@@ -101,11 +101,10 @@ html(lang="ja")
                   small.camp-theme= camp.theme
               else
                 small.camp-theme= camp.theme
-          .parallax
-            img(
-              src=camp.background || '../../res/img/backgrounds/lifeistech-logo.png',
-              class=`background${camp.background ? '' : ' noimage'}`
-            )
+          div(
+            style=`background-image: url(${camp.background || '../../res/img/backgrounds/lifeistech-logo.png'})`,
+            class=`parallax${camp.background ? '' : ' noimage'}`
+          )
             each song in camp.songs
               - const youtube = /^\s*\[YouTube\]\((\/\/youtu\.be\/([\w-]+))\)\s*$/gm.exec(song.description);
               -
