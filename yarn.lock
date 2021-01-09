@@ -911,10 +911,10 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
-"@prettier/plugin-pug@1.13.1":
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/@prettier/plugin-pug/-/plugin-pug-1.13.1.tgz#b6fa0ee785769ea7657d93724be5d90e998b15c5"
-  integrity sha512-mWNvi1jJ8j+2a2FZhxmQf3vzovhO1DRG+f1dSAW1lQ85PDEfGe3jhzWuPizxzTIwbk3QazIyvJIfUATdIKqIpg==
+"@prettier/plugin-pug@1.13.2":
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-pug/-/plugin-pug-1.13.2.tgz#32aff982dea5e203f6ce2e433e4d396c1b5981e4"
+  integrity sha512-ACvpUrcd7oTJpNxYNVK78Lstc/tDAuY1qQPU8/I/wAHU9WoWkO7O7pahQf8idm3ALDztwtlCkAas/JQWo0qnpQ==
   dependencies:
     pug-lexer "^5.0.0"
 
