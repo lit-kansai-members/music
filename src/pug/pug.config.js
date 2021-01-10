@@ -6,7 +6,7 @@ module.exports = {
   locals: {
     data: {
       marked,
-      years: YAML.safeLoad(fs.readFileSync("./index.yml")),
+      years: YAML.load(fs.readFileSync("./index.yml")),
       chuitens: fs
         .readdirSync("./注意点")
         .filter((p) => /.+\.md$/.test(p))
