@@ -448,6 +448,7 @@ main {
   .parallax {
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     &.noimage {
       background-size: contain;
     }
