@@ -34,6 +34,17 @@
 #       # リンクなど。 "|" はYAMLの複数行記法です。
 - year: "2020"
   camps:
+    - name: "20 WinterOnline"
+      background: "../../res/img/backgrounds/winter2020_blue_lightmain.png"
+      theme: "かつてないオンラインの祭典が、この冬"
+      songs:
+        - title: "群青"
+          author: "YOASOBI"
+          description: |
+            ブルボン「アルフォート×YOASOBI Special Movie inspired by ブルーピリオド」CMソング
+            🎤[DAM] [5285-69](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5285-69) [JOYSOUND][486218](https://www.joysound.com/web/search/song/486218)
+            [YouTube](//youtu.be/Y4nEEZwckuU)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a061652/l051a48.html)
     - name: "'20 Summer Camp"
       background: "../../res/img/backgrounds/summer-2020.png"
       theme: "走れ。夏。"
