@@ -1,7 +1,18 @@
 {
   "name": "music",
   "version": "1.0.0",
+  "private": true,
   "description": "Life is Tech!な音楽をまとめた\"非公式\"リポジトリ",
+  "homepage": "https://lit-kansai-members.github.io/music/",
+  "bugs": {
+    "url": "https://github.com/lit-kansai-members/music/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lit-kansai-members/music.git"
+  },
+  "license": "ISC",
+  "author": "",
   "main": "README.md",
   "scripts": {
     "test": "parcel src/pug/index.pug --out-dir build",
@@ -10,28 +21,17 @@
     "check": "npm-run-all check:*",
     "check:format": "prettier --check ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:lit-kansai-members/music.git"
+  "dependencies": {
+    "sweet-scroll": "4.0.0"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lit-kansai-members/music/issues"
-  },
-  "homepage": "https://lit-kansai-members.github.io/music/",
   "devDependencies": {
     "@prettier/plugin-pug": "1.13.4",
     "js-yaml": "4.0.0",
-    "npm-run-all": "4.1.5",
     "marked": "2.0.0",
+    "npm-run-all": "4.1.5",
     "parcel-bundler": "1.12.4",
     "prettier": "2.2.1",
     "pug": "3.0.0",
     "sass": "1.32.7"
-  },
-  "dependencies": {
-    "sweet-scroll": "4.0.0"
-  },
-  "private": true
+  }
 }
