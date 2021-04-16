@@ -84,6 +84,7 @@ yarn test
 - 来留 [@rairuuuuuuuuu](//twitter.com/rairuuuuuuuuu)（Twitter）
 - めんちゃん [@menchan_klis](//twitter.com/menchan_klis)（Twitter）
 - わくわくさん [@sugijotaro](//github.com/sugijotaro)
+- あやめ[@ayame-r](//github.com/ayame-r)
 
 ## Contributors
 
