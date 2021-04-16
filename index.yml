@@ -32,6 +32,24 @@
 #         [YouTube](//youtu.be/3j77uK8hu5A)
 #         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cc66/l03a371.html)
 #       # リンクなど。 "|" はYAMLの複数行記法です。
+- year: "2021"
+  camps:
+    - name: "'21 Spring Camp"
+      background: "../../res/img/backgrounds/spring2021_navy.jpeg"
+      theme: "この春も、やまないYELLを君に"
+      songs:
+        - title: "ティーンエイジサンセット"
+          author: "Hump Back"
+          description: |
+            🎤[DAM] [5238-32](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5238-32) [JOYSOUND][485874](https://www.joysound.com/web/search/song/843867)
+            [YouTube](//youtu.be/8fMem5-ONEg)
+            [歌詞(Lyrical Nonsense)](https://www.lyrical-nonsense.com/lyrics/hump-back/teenage-sunset/)
+        - title: "ココロノナカ"
+          author: "RADWIMPS"
+          description: |
+            🎤[DAM] [7096-74](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=7096-74) [JOYSOUND][485392](https://www.joysound.com/web/search/song/841935)
+            [YouTube](//youtu.be/SbGFpis3hiw)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04ac97/l051b90.html)
 - year: "2020"
   camps:
     - name: "20 WinterOnline"
