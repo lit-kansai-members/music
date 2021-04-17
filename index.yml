@@ -820,6 +820,21 @@
             [YouTube](//youtu.be/RbpDRk_OAPU)
 - year: "番外編"
   camps:
+  - name: "関東卒業サプライズ2021 〜つながり〜"
+      background: "../../res/img/backgrounds/kanto-surprise2021_key.jpg"
+      songs:
+        - title: "醒めないで、青春"
+          author: "三月のパンタシア"
+          description: |
+            🎤[DAM] [5242-47](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5242-47) [JOYSOUND] [486489](https://www.joysound.com/web/search/song/831413)
+            [YouTube](//youtu.be/xQS6sE5K0pY)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05b552/l051cd4.html)
+        - title: "Cultivate"
+          author: "(K)NoW_NAME"
+          description: |
+            🎤[DAM] [3762-46](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3762-46) [JOYSOUND] [685712](https://www.joysound.com/web/search/song/567976)
+            [YouTube](//youtu.be/L1DQFIBVDYk)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a054972/l03afba.html)
     - name: "Departure '20 (関西卒業サプライズ2020)"
       background: "../../res/img/backgrounds/departure-2020.jpg"
       songs:
