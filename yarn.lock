@@ -938,12 +938,12 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
-"@prettier/plugin-pug@1.17.3":
-  version "1.17.3"
-  resolved "https://registry.yarnpkg.com/@prettier/plugin-pug/-/plugin-pug-1.17.3.tgz#9828ae199cedbdb99e7597a425ed59a34dbe6cb5"
-  integrity sha512-L9SeKYi9xGqH1q1JHAgNe1gBJ0vNO34q6jyzIlWai6jbD7pHh1U4b+sT34gBqY/mLWUic+RsFuSgm7KP0ji8JQ==
+"@prettier/plugin-pug@2.5.2":
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-pug/-/plugin-pug-2.5.2.tgz#ff60f328d258719b4713ec7a8dd1a027023856f9"
+  integrity sha512-p6r2yBpE8az+z6M5ts4XPnnoxqx4rZRRd2FlpJZaLrdNC7TDEHF0Bhln5wwKQHOTlYSDmNegMXxfSvYBihgMJQ==
   dependencies:
-    pug-lexer "^5.0.0"
+    pug-lexer "^5.0.1"
 
 "@types/q@^1.5.1":
   version "1.5.4"
@@ -4474,15 +4474,6 @@ pug-filters@^4.0.0:
     pug-error "^2.0.0"
     pug-walk "^2.0.0"
     resolve "^1.15.1"
-
-pug-lexer@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/pug-lexer/-/pug-lexer-5.0.0.tgz#0b779e7d8cbf0f103803675be96351942fd9a727"
-  integrity sha512-52xMk8nNpuyQ/M2wjZBN5gXQLIylaGkAoTk5Y1pBhVqaopaoj8Z0iVzpbFZAqitL4RHNVDZRnJDsqEYe99Ti0A==
-  dependencies:
-    character-parser "^2.2.0"
-    is-expression "^4.0.0"
-    pug-error "^2.0.0"
 
 pug-lexer@^5.0.1:
   version "5.0.1"
