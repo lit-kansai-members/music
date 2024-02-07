@@ -84,7 +84,9 @@ yarn test
 - 来留 [@rairuuuuuuuuu](//twitter.com/rairuuuuuuuuu)（Twitter）
 - めんちゃん [@menchan_klis](//twitter.com/menchan_klis)（Twitter）
 - わくわくさん [@sugijotaro](//github.com/sugijotaro)
-- あやめ[@ayame-r](//github.com/ayame-r)
+- あやめ [@ayame-r](//github.com/ayame-r)
+- かなやん [@bearpoohkanayan](//github.com/bearpoohkanayan)
+- simasimasimasima [@simasimasimasima](//github.com/simasimasimasima)
 
 ## Contributors
 
@@ -92,6 +94,7 @@ yarn test
 - かんとく [@KNTK](//github.com/AkihiroTokai)
 - やぎちゃん [@ygkn](//github.com/ygkn)
 - れん [@ren-suke](//github.com/ren-suke)
+- flying-tobisuke [@flying-tobisuke](//github.com/flying-tobisuke)
 
 ## 最後に
 
