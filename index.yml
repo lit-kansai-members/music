@@ -32,8 +32,128 @@
 #         [YouTube](//youtu.be/3j77uK8hu5A)
 #         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cc66/l03a371.html)
 #       # リンクなど。 "|" はYAMLの複数行記法です。
+- year: "2023"
+  camps:
+    - name: "'23 Xmas Camp"
+      background: "../../res/img/backgrounds/camp_2023_xmas.webp"
+      songs:
+        - title: "最高到達点"
+          author: "SEKAI NO OWARI"
+          description: |
+            🎤[DAM] [5848-22](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5848-22) [JOYSOUND][620689](https://www.joysound.com/web/search/song/985197)
+            [YouTube](//youtu.be/BNguaY5exIk)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a055790/l05e0db.html)
+        - title: "ハピネス"
+          author: "AI"
+          description: |
+            コカ・コーラ 冬期CMソング
+            🎤[DAM] [6484-08](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6484-08) [JOYSOUND][29625](https://www.joysound.com/web/search/song/186425)
+            [YouTube](//youtu.be/uKgmu8g-kXE)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
+    - name: "'23 Summer Camp"
+      background: "../../res/img/backgrounds/camp_2023_summer.webp"
+      songs:
+        - title: "夏は巡る"
+          author: "PEOPLE1"
+          description: |
+            🎤[DAM] [5481-43](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5481-43) [JOYSOUND][620760](https://www.joysound.com/web/search/song/992263)
+            [YouTube](//youtu.be/K7h1WF73YwM)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a064b0d/l05cc7e.html)
+        - title: "ことほぎ"
+          author: "Tele"
+          description: |
+            🎤[DAM] [5470-24](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5470-24) [JOYSOUND][617027](https://www.joysound.com/web/search/song/971877)
+            [YouTube](//youtu.be/bcTRLCpId7o)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a064687/l05c9d6.html)
+    - name: "'23 Spring Camp"
+      background: "../../res/img/backgrounds/camp_2023_spring.webp"
+      songs:
+        - title: "現在を生きるのだ。"
+          author: "Saucy Dog"
+          description: |
+            🎤[DAM] [1427-11](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1427-11) [JOYSOUND][613455](https://www.joysound.com/web/search/song/951401)
+            [YouTube](//youtu.be/tbLMacyYZb8)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05fdb9/l05b431.html)
+        - title: "ミラーチューン"
+          author: "ずっと真夜中でいいのに。"
+          description: |
+            🎤[DAM] [5306-93](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1127-07) [JOYSOUND][498201](https://www.joysound.com/web/search/song/923685)
+            [YouTube](//youtu.be/BVvvUGP0MFw)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05f6e2/l058572.html)
+- year: "2022"
+  camps:
+    - name: "'22 Xmas Camp"
+      background: "../../res/img/backgrounds/camp_2022_xmas.webp"
+      songs:
+        - title: "ONE"
+          author: "Aimer"
+          description: |
+            🎤[DAM] [3914-52](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3914-52) [JOYSOUND][698510](https://www.joysound.com/web/search/song/642264)
+            [YouTube](//youtu.be/8HleM0glzdE)
+            [歌詞(Lyrical Nonsense)](https://www.lyrical-nonsense.com/lyrics/aimer/one)
+        - title: "ハピネス"
+          author: "AI"
+          description: |
+            コカ・コーラ 冬期CMソング
+            🎤[DAM] [6484-08](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6484-08) [JOYSOUND][29625](https://www.joysound.com/web/search/song/186425)
+            [YouTube](//youtu.be/uKgmu8g-kXE)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
+    - name: "'22 Summer Camp"
+      background: "../../res/img/backgrounds/camp_2022_summer.webp"
+      songs:
+        - title: "ばかまじめ"
+          author: "Creepy Nuts＆Ayase＆幾田りら"
+          description: |
+            🎤[DAM] [1278-23](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1278-23) [JOYSOUND][497072](https://www.joysound.com/web/search/song/920053)
+            [YouTube](//youtu.be/zNOe2fK1hM0)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a063b01/l0580da.html)
+        - title: "突破口"
+          author: "SUPER BEAVER"
+          description: |
+            🎤[DAM] [6836-84](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6836-84) [JOYSOUND][486786](https://www.joysound.com/web/search/song/850101)
+            [YouTube](//youtu.be/AT2tulhSprE)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a050f66/l05235f.html)
+    - name: "'22 Spring Camp"
+      background: "../../res/img/backgrounds/camp_2022_spring.webp"
+      songs:
+        - title: "HAVE A NICE DAY"
+          author: "imase"
+          description: |
+            🎤[DAM] [6993-21](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6993-21) [JOYSOUND][494769](https://www.joysound.com/web/search/song/905072)
+            [YouTube](//youtu.be/pRlzN2I9Knw)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a063583/l056e9e.html)
+        - title: "光るとき"
+          author: "羊文学"
+          description: |
+            🎤[DAM] [5306-93](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5306-93) [JOYSOUND][495717](https://www.joysound.com/web/search/song/897823)
+            [YouTube](//youtu.be/qknDI1k39Ic)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05d579/l0573ec.html)
 - year: "2021"
   camps:
+    - name: "'21 Winter Camp"
+      background: "../../res/img/backgrounds/camp_2021_winter.webp"
+      songs:
+        - title: "BLUE SOULS"
+          author: "A_o"
+          description: |
+            🎤[DAM] [5375-18](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5375-18) [JOYSOUND][490641](https://www.joysound.com/web/search/song/878603)
+            [YouTube](//youtu.be/33ZWA1GrrXY)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a062d4e/l05562d.html)
+    - name: "'21 Summer Camp"
+      background: "../../res/img/backgrounds/camp_2021_summer.webp"
+      songs:
+        - title: "しわあわせ"
+          author: "Vaundy"
+          description: |
+            🎤[DAM] [5351-39](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5351-39) [JOYSOUND][490361](https://www.joysound.com/web/search/song/876689)
+            [YouTube](//youtu.be/JwmGruvGt_I)
+            [歌詞(Lyrical Nonsense)](https://www.lyrical-nonsense.com/lyrics/vaundy/shiaawase/)
+        - title: "シュガーハイウェイ"
+          author: "神山羊"
+          description: |
+            🎤[DAM] [5226-38](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5226-38) [JOYSOUND][438157](https://www.joysound.com/web/search/song/745741)
+            [YouTube](//youtu.be/IqrbCSiJCA4)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05f5f3/l04b632.html)
     - name: "'21 Spring Camp"
       background: "../../res/img/backgrounds/camp_2021_spring.webp"
       theme: "この春も、やまないYELLを君に"
