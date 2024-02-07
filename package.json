@@ -16,7 +16,7 @@
   "main": "README.md",
   "scripts": {
     "test": "parcel serve src/pug/index.pug --out-dir build",
-    "build": "parcel build src/pug/index.pug --out-dir build --public-url '.'",
+    "build": "parcel build src/pug/index.pug --no-minify --out-dir build --public-url '.'",
     "format": "prettier --write .",
     "check": "npm-run-all check:*",
     "check:format": "prettier --check ."
