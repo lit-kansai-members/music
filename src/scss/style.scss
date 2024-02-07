@@ -369,8 +369,8 @@ main {
         content: "";
         width: 0;
         height: 0;
-        border-width: calc($youtube-triangle-height / 2) 0 calc($youtube-triangle-height / 2)
-          $youtube-triangle-height * 0.866;
+        border-width: calc($youtube-triangle-height / 2) 0
+          calc($youtube-triangle-height / 2) $youtube-triangle-height * 0.866;
         border-color: transparent;
         border-style: solid;
       }
