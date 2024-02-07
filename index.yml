@@ -15,7 +15,7 @@
 # - year: "2017" # String です！
 #   camps:
 #   - name: "'17 Spring Camp" # キャンプ名
-#     background: "../../res/img/backgrounds/spring2017_desktop_1.png" # キャンプの壁紙
+#     background: "../../res/img/backgrounds/camp_2017_spring.webp" # キャンプの壁紙
 #     theme: "閃け！春！Spark" # キャンプのテーマ（poemとは異なります。）
 #     poem: |  # キャンプのポエム（themeとは異なります。ある場合は記載してください。）
 #       キミが好きなこと、得意なことはなんだろう。
@@ -32,10 +32,130 @@
 #         [YouTube](//youtu.be/3j77uK8hu5A)
 #         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cc66/l03a371.html)
 #       # リンクなど。 "|" はYAMLの複数行記法です。
+- year: "2023"
+  camps:
+    - name: "'23 Xmas Camp"
+      background: "../../res/img/backgrounds/camp_2023_xmas.webp"
+      songs:
+        - title: "最高到達点"
+          author: "SEKAI NO OWARI"
+          description: |
+            🎤[DAM] [5848-22](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5848-22) [JOYSOUND][620689](https://www.joysound.com/web/search/song/985197)
+            [YouTube](//youtu.be/BNguaY5exIk)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a055790/l05e0db.html)
+        - title: "ハピネス"
+          author: "AI"
+          description: |
+            コカ・コーラ 冬期CMソング
+            🎤[DAM] [6484-08](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6484-08) [JOYSOUND][29625](https://www.joysound.com/web/search/song/186425)
+            [YouTube](//youtu.be/uKgmu8g-kXE)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
+    - name: "'23 Summer Camp"
+      background: "../../res/img/backgrounds/camp_2023_summer.webp"
+      songs:
+        - title: "夏は巡る"
+          author: "PEOPLE1"
+          description: |
+            🎤[DAM] [5481-43](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5481-43) [JOYSOUND][620760](https://www.joysound.com/web/search/song/992263)
+            [YouTube](//youtu.be/K7h1WF73YwM)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a064b0d/l05cc7e.html)
+        - title: "ことほぎ"
+          author: "Tele"
+          description: |
+            🎤[DAM] [5470-24](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5470-24) [JOYSOUND][617027](https://www.joysound.com/web/search/song/971877)
+            [YouTube](//youtu.be/bcTRLCpId7o)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a064687/l05c9d6.html)
+    - name: "'23 Spring Camp"
+      background: "../../res/img/backgrounds/camp_2023_spring.webp"
+      songs:
+        - title: "現在を生きるのだ。"
+          author: "Saucy Dog"
+          description: |
+            🎤[DAM] [1427-11](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1427-11) [JOYSOUND][613455](https://www.joysound.com/web/search/song/951401)
+            [YouTube](//youtu.be/tbLMacyYZb8)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05fdb9/l05b431.html)
+        - title: "ミラーチューン"
+          author: "ずっと真夜中でいいのに。"
+          description: |
+            🎤[DAM] [5306-93](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1127-07) [JOYSOUND][498201](https://www.joysound.com/web/search/song/923685)
+            [YouTube](//youtu.be/BVvvUGP0MFw)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05f6e2/l058572.html)
+- year: "2022"
+  camps:
+    - name: "'22 Xmas Camp"
+      background: "../../res/img/backgrounds/camp_2022_xmas.webp"
+      songs:
+        - title: "ONE"
+          author: "Aimer"
+          description: |
+            🎤[DAM] [3914-52](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3914-52) [JOYSOUND][698510](https://www.joysound.com/web/search/song/642264)
+            [YouTube](//youtu.be/8HleM0glzdE)
+            [歌詞(Lyrical Nonsense)](https://www.lyrical-nonsense.com/lyrics/aimer/one)
+        - title: "ハピネス"
+          author: "AI"
+          description: |
+            コカ・コーラ 冬期CMソング
+            🎤[DAM] [6484-08](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6484-08) [JOYSOUND][29625](https://www.joysound.com/web/search/song/186425)
+            [YouTube](//youtu.be/uKgmu8g-kXE)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
+    - name: "'22 Summer Camp"
+      background: "../../res/img/backgrounds/camp_2022_summer.webp"
+      songs:
+        - title: "ばかまじめ"
+          author: "Creepy Nuts＆Ayase＆幾田りら"
+          description: |
+            🎤[DAM] [1278-23](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1278-23) [JOYSOUND][497072](https://www.joysound.com/web/search/song/920053)
+            [YouTube](//youtu.be/zNOe2fK1hM0)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a063b01/l0580da.html)
+        - title: "突破口"
+          author: "SUPER BEAVER"
+          description: |
+            🎤[DAM] [6836-84](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6836-84) [JOYSOUND][486786](https://www.joysound.com/web/search/song/850101)
+            [YouTube](//youtu.be/AT2tulhSprE)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a050f66/l05235f.html)
+    - name: "'22 Spring Camp"
+      background: "../../res/img/backgrounds/camp_2022_spring.webp"
+      songs:
+        - title: "HAVE A NICE DAY"
+          author: "imase"
+          description: |
+            🎤[DAM] [6993-21](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6993-21) [JOYSOUND][494769](https://www.joysound.com/web/search/song/905072)
+            [YouTube](//youtu.be/pRlzN2I9Knw)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a063583/l056e9e.html)
+        - title: "光るとき"
+          author: "羊文学"
+          description: |
+            🎤[DAM] [5306-93](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5306-93) [JOYSOUND][495717](https://www.joysound.com/web/search/song/897823)
+            [YouTube](//youtu.be/qknDI1k39Ic)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05d579/l0573ec.html)
 - year: "2021"
   camps:
+    - name: "'21 Winter Camp"
+      background: "../../res/img/backgrounds/camp_2021_winter.webp"
+      songs:
+        - title: "BLUE SOULS"
+          author: "A_o"
+          description: |
+            🎤[DAM] [5375-18](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5375-18) [JOYSOUND][490641](https://www.joysound.com/web/search/song/878603)
+            [YouTube](//youtu.be/33ZWA1GrrXY)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a062d4e/l05562d.html)
+    - name: "'21 Summer Camp"
+      background: "../../res/img/backgrounds/camp_2021_summer.webp"
+      songs:
+        - title: "しわあわせ"
+          author: "Vaundy"
+          description: |
+            🎤[DAM] [5351-39](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5351-39) [JOYSOUND][490361](https://www.joysound.com/web/search/song/876689)
+            [YouTube](//youtu.be/JwmGruvGt_I)
+            [歌詞(Lyrical Nonsense)](https://www.lyrical-nonsense.com/lyrics/vaundy/shiaawase/)
+        - title: "シュガーハイウェイ"
+          author: "神山羊"
+          description: |
+            🎤[DAM] [5226-38](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5226-38) [JOYSOUND][438157](https://www.joysound.com/web/search/song/745741)
+            [YouTube](//youtu.be/IqrbCSiJCA4)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05f5f3/l04b632.html)
     - name: "'21 Spring Camp"
-      background: "../../res/img/backgrounds/spring2021_navy.jpeg"
+      background: "../../res/img/backgrounds/camp_2021_spring.webp"
       theme: "この春も、やまないYELLを君に"
       songs:
         - title: "ティーンエイジサンセット"
@@ -53,7 +173,7 @@
 - year: "2020"
   camps:
     - name: "20 WinterOnline"
-      background: "../../res/img/backgrounds/winter2020_blue_lightmain.png"
+      background: "../../res/img/backgrounds/camp_2020_winter.webp"
       theme: "かつてないオンラインの祭典が、この冬"
       songs:
         - title: "群青"
@@ -64,7 +184,7 @@
             [YouTube](//youtu.be/Y4nEEZwckuU)
             [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a061652/l051a48.html)
     - name: "'20 Summer Camp"
-      background: "../../res/img/backgrounds/summer-2020.png"
+      background: "../../res/img/backgrounds/camp_2020_summer.webp"
       theme: "走れ。夏。"
       poem: |
         走る。全速力で。無我夢中で。
@@ -78,7 +198,7 @@
         - title: "あの夢をなぞって"
           author: "YOASOBI"
           description: |
-            フジテレビ 「情報プレゼンター とくダネ!」　2020Jun お天気コーナー Monthly Song
+            フジテレビ 「情報プレゼンター とくダネ!」 2020Jun お天気コーナー Monthly Song
             🎤[DAM] [5267-36](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5267-36) [JOYSOUND][446885](https://www.joysound.com/web/search/song/822624)
             [YouTube](//youtu.be/sAuEeM_6zpk)
             [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a061652/l050f8b.html)
@@ -89,7 +209,7 @@
             [YouTube](//youtu.be/UM9XNpgrqVk)
             [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a060fc4/l0506e5.html)
     - name: "'20 Spring Camp"
-      background: "../../res/img/backgrounds/spring-2020.jpg"
+      background: "../../res/img/backgrounds/camp_2020_spring.webp"
       theme: "Spring is Comming -はじまりの合図は「春」-"
       songs:
         - title: "旅は道連れ"
@@ -102,12 +222,12 @@
         - title: "Party All Night"
           author: "FAITH"
           description: |
-            TBS 王様のブランチ　2020Jan ED Theme songh
+            TBS 王様のブランチ 2020Jan ED Theme songh
             🎤[DAM] [5231-48](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5231-48) [JOYSOUND][803513](https://www.joysound.com/web/search/song/816397)
             [YouTube](//youtu.be/t5noRnkNy4E)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04acbe/l04ef90.html)
     - name: "SONY ENTERTAINMENT CAMP 2020"
-      background: "../../res/img/backgrounds/entertainment-2020.jpg"
+      background: "../../res/img/backgrounds/sp_camp_2020_entertainment.webp"
       theme: "君にしかつくれないエンタテインメントを世界へ"
       poem: |
         誰もがエンタテインメントを創りだすクリエイターになれる。
@@ -141,7 +261,7 @@
 - year: "2019"
   camps:
     - name: "'19 Xmas Camp"
-      background: "../../res/img/backgrounds/xmas-2019.jpg"
+      background: "../../res/img/backgrounds/camp_2019_xmas.webp"
       theme: "一年に一度だけ、特別な数日間。"
       songs:
         - title: "lovin'"
@@ -159,7 +279,7 @@
             [YouTube](//youtu.be/uKgmu8g-kXE)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
     - name: "'19 GLOBAL IT Camp"
-      background: "../../res/img/backgrounds/global_poly.jpg"
+      background: "../../res/img/backgrounds/common_global.webp"
       theme: "THINK GLOBALLY,CHANGE THE WORLD"
       songs:
         - title: High Hopes"
@@ -169,24 +289,24 @@
             [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/panicatthedisco/highhopes.html)
             [YouTube](//youtu.be/IPXIgEAGe4U)
     - name: "'19 Summer Camp"
-      background: "../../res/img/backgrounds/summer-2019.jpg"
+      background: "../../res/img/backgrounds/camp_2019_summer.webp"
       theme: "『夏』が、好きだああああああああああああ。"
       songs:
         - title: "雀ノ欠伸"
           author: "Saucy Dog"
           description: |
-            サントリー天然水 GREEN TEA「徒然なる トリビュート」　参加楽曲
+            サントリー天然水 GREEN TEA「徒然なる トリビュート」 参加楽曲
             🎤[DAM] [5233-56](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5223-56) [JOYSOUND][441325](https://www.joysound.com/web/search/song/767816)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05fdb9/l04c4cf.html)
             [YouTube](//youtu.be/IJRdeZA05OE)
         - title: "Player"
           author: "chelmico"
           description: |
-            Apple Watch Series4　CMソング
+            Apple Watch Series4 CMソング
             🎤[DAM] [5171-58](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5171-58) [JOYSOUND][431254](https://www.joysound.com/web/search/song/697127)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05e5c8/l04828c.html)
             [YouTube](//youtu.be/P7ds78eOLjU)
-    - name: "'19 English×IT Camp "
+    - name: "'19 English×IT Camp"
       theme: "THINK GLOBALLY,CHANGE THE WORLD"
       songs:
         - title: "BrandNew"
@@ -197,18 +317,18 @@
             [YouTube](//youtu.be/D7I8-bS7vBs)
 
     - name: "'19 Life 伊豆 Tech !"
-      background: "../../res/img/backgrounds/izu-2019.jpg"
+      background: "../../res/img/backgrounds/sp_camp_2019_izu.webp"
       theme: "社会が抱える実課題をIT×Teamで解決!"
       songs:
         - title: "オーバーライト"
           author: "フジファブリック"
           description: |
-            J SPORTS STADIUM2019　野球中継テーマソング
+            J SPORTS STADIUM2019 野球中継テーマソング
             🎤[DAM] [7048-85](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=7048-85) [JOYSOUND]404 NotFound
             [歌詞(プチリリ)](https://petitlyrics.com/lyrics/2793901)
             [YouTube](//youtu.be/rj9nWj0EzcU)
     - name: "'19 Spring Camp"
-      background: "../../res/img/backgrounds/spring2019_desktop_1.png"
+      background: "../../res/img/backgrounds/camp_2019_spring.webp"
       theme: "この春よ、止まれ"
       songs:
         - title: "拝啓、少年よ"
@@ -233,25 +353,25 @@
 - year: "2018"
   camps:
     - name: "'18 Xmas Camp"
-      background: "../../res/img/backgrounds/xmas2018_desktop_1-1.png"
+      background: "../../res/img/backgrounds/camp_2018_xmas.webp"
       theme: "一年に一度だけ、魔法のような数日間。 -Make with magic-"
       songs:
         - title: "ループ"
           author: "edda"
           description: |
-            テレビ東京土曜ドラマ　ドラマ24　2018/4Q 忘却のサチコEDSong
+            テレビ東京土曜ドラマ ドラマ24 2018/4Q 忘却のサチコEDSong
             🎤[DAM] [5176-32](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5176-32) [JOYSOUND][433711](https://www.joysound.com/web/search/song/716232)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05cfc3/l04926a.html)
             [YouTube](//youtu.be/-0-fVutBn38)
         - title: "予感"
           author: "SUPER BEAVER"
           description: |
-            フジテレビ火曜ドラマ　2018/4Q 僕らは奇跡でできているEDSong
+            フジテレビ火曜ドラマ 2018/4Q 僕らは奇跡でできているEDSong
             🎤[DAM] [5153-16](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5153-16) [JOYSOUND][433195](https://www.joysound.com/web/search/song/713175)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a050f66/l049c98.html)
             [YouTube](//youtu.be/XnYwwyXPt70)
     - name: "'18 Global IT Camp"
-      background: "../../res/img/backgrounds/NUS2018_desktop_1-1.jpg"
+      background: "../../res/img/backgrounds/global_camp_2018_nus.webp"
       theme: "Think globally, Change the world!"
       songs:
         - title: "はじまり feat. キヨサク from MONGOL800"
@@ -274,8 +394,8 @@
             [歌詞(azlyrics)](https://www.azlyrics.com/lyrics/vamps/somebodytoyou.html)
             [YouTube](//youtu.be/0go2nfVXFgA)
     - name: "'18 Summer Camp"
-      background: "../../res/img/backgrounds/summer2018_desktop_1.jpg"
-      theme: "世界にひとつだけ、あなただけの夏の「物語」へ。　-Only one Your own Summer Story-"
+      background: "../../res/img/backgrounds/camp_2018_summer.webp"
+      theme: "世界にひとつだけ、あなただけの夏の「物語」へ。 -Only one Your own Summer Story-"
       songs:
         - title: "はじまり feat. キヨサク from MONGOL800"
           author: "Mrs. GREEN APPLE"
@@ -286,12 +406,12 @@
         - title: "I WANT YOU BACK"
           author: " TWICE feat.The Jackson 5"
           description: |
-            映画 センセイ君主　主題歌
+            映画 センセイ君主 主題歌
             🎤[DAM] [7343-72](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=7343-72) [JOYSOUND][428173](https://www.joysound.com/web/search/song/695732)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04f8f9/l048610.html)
             [YouTube](//youtu.be/X3H-4crGD6k)
     - name: "'18 Spring Camp"
-      background: "../../res/img/backgrounds/spring2018_desktop_5.png"
+      background: "../../res/img/backgrounds/camp_2018_spring.webp"
       theme: "始まりの春。 -STARTING-"
       songs:
         - title: "始まりの朝"
@@ -316,7 +436,7 @@
   camps:
     - name: "'17 Xmas Camp"
       theme: "さあ、とっておきの世にも素敵な魔法の世界へ -MAKE WITH MAGIC-"
-      background: "../../res/img/backgrounds/xmas2017_desktop_1.png"
+      background: "../../res/img/backgrounds/camp_2017_xmas.webp"
       songs:
         - title: "ONE"
           author: "Aimer"
@@ -335,7 +455,7 @@
         - title: "ようこそジャパリパークへ"
           author: "どうぶつビスケッツ×PPP"
           description: |
-            けものフレンズ　主題歌（MC紹介映像BGM）
+            けものフレンズ 主題歌（MC紹介映像BGM）
             🎤[DAM] [3776-80](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3776-80) [JOYSOUND][692747](https://www.joysound.com/web/search/song/604068)
             [YouTube](//youtu.be/xkMdLcB_vNU)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05c47f/l03e218.html)
@@ -358,7 +478,7 @@
         この夏のテーマは「Move」
 
         世界を動かす、感動させる特別な夏へようこそ！
-      background: "../../res/img/backgrounds/summer2017_desktop_2.png"
+      background: "../../res/img/backgrounds/camp_2017_summer.webp"
       songs:
         - title: "明日も"
           author: "SHISHAMO"
@@ -388,7 +508,7 @@
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b135/l039db9.html)
     - name: "'17 Life 那須 Tech !"
       theme: "一年に一度だけ、地獄のような3日間"
-      background: "../../res/img/backgrounds/nasucamp_key.jpg"
+      background: "../../res/img/backgrounds/sp_camp_2017_nasu.webp"
       songs:
         - title: "見たこともない景色"
           author: "菅田将暉"
@@ -405,7 +525,7 @@
             [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/zedd/stay.html)
     - name: "'17 Spring Camp"
       theme: "閃け！春！Spark -Spark! Spring!-"
-      background: "../../res/img/backgrounds/spring2017_desktop_1.png"
+      background: "../../res/img/backgrounds/camp_2017_spring.webp"
       songs:
         - title: "Next Stage with YOU"
           author: "Perfume"
@@ -445,7 +565,7 @@
   camps:
     - name: "'16 Xmas Camp"
       theme: "一年に一度だけ、特別な数日間。-Leep into a magic story.-"
-      background: "../../res/img/backgrounds/xmas2016_desktop_yellow.jpg"
+      background: "../../res/img/backgrounds/camp_2016_xmas.webp"
       songs:
         - title: "Hey Ho"
           author: "SEKAI NO OWARI"
@@ -464,7 +584,7 @@
             [注意点太郎歌詞](注意点/注意点太郎2016Xmas.md)
     - name: "'16 Summer Camp"
       theme: "世界なんて、ひと夏で変わる。 -LIVE AN ADVENTUROUS-"
-      background: "../../res/img/backgrounds/desktop_summer2016_blue.png"
+      background: "../../res/img/backgrounds/camp_2016_summer.webp"
       songs:
         - title: "CAN'T STOP THE FEELING!"
           author: "JUSTIN TIMBERLAKE"
@@ -502,7 +622,7 @@
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b49f/l03a993.html)
     - name: "'16 Spring Camp"
       theme: "まだ見ぬ世界に全力でワクワクしよう。 -Next World-"
-      background: "../../res/img/backgrounds/desktop_spring2016_web.png"
+      background: "../../res/img/backgrounds/camp_2016_spring.webp"
       songs:
         - title: "シルエット"
           author: "KANA-BOON"
@@ -541,7 +661,7 @@
   camps:
     - name: "'15 Dec-'16 Jan Be Startup Coca-Cola Camp"
       theme: "世の中にないもの、『私』が生み出す。"
-      background: "../../res/img/backgrounds/cocacola2015.jpg"
+      background: "../../res/img/backgrounds/sp_camp_2015_cocacola.webp"
       songs:
         - title: "ハピネス"
           author: "AI"
@@ -558,7 +678,7 @@
             [YouTube](//youtu.be/hsSAnsrQvLk)
     - name: "'15 Xmas Camp"
       theme: "5日間だけの魔法の世界へ、ようこそ -Make with Magic-"
-      background: "../../res/img/backgrounds/desktop_xmas2015_night.jpg"
+      background: "../../res/img/backgrounds/camp_2015_xmas.webp"
       songs:
         - title: "新宝島"
           author: "サカナクション"
@@ -598,7 +718,7 @@
             [歌詞(UtaTen)](https://utaten.com/lyric/pt15102702/)
     - name: "'15 Summer Camp"
       theme: "世界で一番、ココロ踊る「夏」を。 -A SUMMER THAT ROCKS YOUR HEART-"
-      background: "../../res/img/backgrounds/summer2015-blue.jpg"
+      background: "../../res/img/backgrounds/camp_2015_summer.webp"
       songs:
         - title: "Come On! Come On! -Happy with Smile-"
           author: "THE UNITED"
@@ -622,7 +742,7 @@
             [注意点体操歌詞](注意点/注意点体操2015Summer.md)
             [歌詞(UtaTen)](https://utaten.com/lyric/pt15102702/)
     - name: "'15 Jun. YOSHIMOTO TECHDAY"
-      background: "../../res/img/backgrounds/yoshimoto_bg.png"
+      background: "../../res/img/backgrounds/sp_camp_2015_yoshimoto.webp"
       songs:
         - title: "LAUGH! LAUGH! LAUGH!"
           author: "槇原敬之"
@@ -631,20 +751,20 @@
             🎤[DAM]404 NotFound [JOYSOUND]404 NotFound
             [YouTube](//youtu.be/1yy4kxA_UVU)
             [歌詞(歌ネット)](http://www.uta-net.com/song/167194/)
-    - name: "Life 伊豆 Tech !　2015"
+    - name: "Life 伊豆 Tech ! 2015"
       theme: "一年に一度だけ、地獄のような３日間"
-      background: "../../res/img/backgrounds/key_izu.png"
+      background: "../../res/img/backgrounds/sp_camp_2015_izu.webp"
       songs:
         - title: "バリバリ最強No.1"
           author: "FEEL SO BAD"
           description: |
-            テレビ朝日 アニメ 地獄先生ぬ〜べ〜　OP
+            テレビ朝日 アニメ 地獄先生ぬ〜べ〜 OP
             🎤[DAM] [3206-03](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3206-03) [JOYSOUND][14246](https://www.joysound.com/web/search/song/14238)
             [YouTube](//youtu.be/W3r_wFIGjHU)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a01176a/l0011d8.html)
     - name: "'15 Spring Camp"
       theme: "すべてがサプライズの春キャンプへ -Surprise Everything-"
-      background: "../../res/img/backgrounds/2015_spring.jpeg"
+      background: "../../res/img/backgrounds/camp_2015_spring.webp"
       songs:
         - title: "超特急ライン"
           author: "もっぴーさうんど"
@@ -676,11 +796,12 @@
   camps:
     - name: "'14 Xmas Camp"
       theme: "一年に一度だけ、魔法のような4日間"
+      background: "../../res/img/backgrounds/camp_2014_xmas.webp"
       songs:
         - title: "Dragon Night"
           author: "SEKAI NO OWARI"
           description: |
-            映画　TOKYO FANTASY SEKAI NO OWARI ED
+            映画 TOKYO FANTASY SEKAI NO OWARI ED
             京浜急行電鉄空港線羽田空港第3ターミナル駅(KK16)接近メロディ from Oct 21 2015
             🎤[DAM] [5847-43](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5847-43) [JOYSOUND][119777](https://www.joysound.com/web/search/song/411426)
             [YouTube](//youtu.be/gsVGf1T2Hfs)
@@ -700,7 +821,7 @@
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
     - name: "'14 Summer Camp"
       theme: "夏のすべてが詰まってる"
-      background: "../../res/img/backgrounds/summer2014-blue.png"
+      background: "../../res/img/backgrounds/camp_2014_summer.webp"
       songs:
         - title: "ray"
           author: "BUMP OF CHICKEN feat. HATSUNE MIKU"
@@ -715,7 +836,7 @@
             🎤[DAM] [4729-87](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=4729-87) [JOYSOUND][724525](https://www.joysound.com/web/search/song/252647)
             [YouTube](//youtu.be/HlDo8qEPbNg)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04e594/l02ca67.html)
-    - name: "'14　English × IT Camp　"
+    - name: "'14 English × IT Camp "
       songs:
         - title: "Happy"
           author: "Pharrell Williams"
@@ -821,7 +942,7 @@
 - year: "番外編"
   camps:
     - name: "関東卒業サプライズ2021 〜つながり〜"
-      background: "../../res/img/backgrounds/kanto-surprise2021_key.jpg"
+      background: "../../res/img/backgrounds/event_2021_surprise_kanto.webp"
       songs:
         - title: "醒めないで、青春"
           author: "三月のパンタシア"
@@ -837,12 +958,12 @@
             [YouTube](//youtu.be/L1DQFIBVDYk)
             [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a054972/l03afba.html)
     - name: "Departure '20 (関西卒業サプライズ2020)"
-      background: "../../res/img/backgrounds/departure-2020.jpg"
+      background: "../../res/img/backgrounds/event_2020_surprise_kansai.webp"
       songs:
         - title: "ハイヤーグラウンド"
           author: "sumika"
           description: |
-            テレビ朝日土曜ドラマ2019/4Q おっさんずラブ-in the sky- 主題歌　僕のヒーローアカデミア　THE MOVIE ヒーローズ:ライジング　主題歌
+            テレビ朝日土曜ドラマ2019/4Q おっさんずラブ-in the sky- 主題歌 僕のヒーローアカデミア THE MOVIE ヒーローズ:ライジング 主題歌
             🎤[DAM] [6244-23](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6244-23) [JOYSOUND] [444410](https://www.joysound.com/web/search/song/802364)
             [YouTube](//youtu.be/xQS6sE5K0pY)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04b3e1/l04ea8c.html)
@@ -854,19 +975,19 @@
             [YouTube](//youtu.be/gU5oN0KVofU)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cdbd/l00c3b4.html)
     - name: "Life is Hack !"
-      background: "../../res/img/backgrounds/lifeishack.jpg"
+      background: "../../res/img/backgrounds/event_lifeishack.webp"
       theme: "Hello, World!!・Online#1"
       songs:
         - title: "スタートライン"
           author: "ベリーグッドマン"
           description: |
-            TBS アニメ　新幹線変形ロボ シンカリオン　ED
+            TBS アニメ 新幹線変形ロボ シンカリオン ED
             🎤[DAM] [6211-82](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6211-82) [JOYSOUND]404 NotFound
             [YouTube](//youtu.be/MKKgw3X49Bc)
             [歌詞(J-Lyrics.net)](http://j-lyric.net/artist/a058dc1/l04bf0b.html)
     - name: "テックなオフ会"
       theme: "ピクニック気分で集まっちゃう秋2019"
-      background: "../../res/img/backgrounds/offParty-autumn2019.jpg"
+      background: "../../res/img/backgrounds/event_2019_off_party.webp"
       songs:
         - title: "群青"
           author: "サイダーガール"
@@ -890,23 +1011,14 @@
             🎤[DAM] [5503-13](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5503-13) [JOYSOUND] [721856](https://www.joysound.com/web/search/song/249017)
             [YouTube](//youtu.be/jgofbf8Q_-Y)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04c8a1/l02bdf5.html)
-    - name: "メンター講習テーマ"
-      songs:
-        - title: "SUN"
-          author: "星野源"
-          description: |
-            フジテレビ水曜ドラマ2015/2Q 心がポキッとね 主題歌
-            🎤[DAM] [5941-40](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5941-40) [JOYSOUND] [156185](https://www.joysound.com/web/search/song/423368)
-            [YouTube](//youtu.be/7gcCRAl58u4)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0512cf/l036090.html)
     - name: "Happy Graduation(関西卒業サプライズ2019)"
       theme: "桜とキミとぼくらと"
-      background: "../../res/img/backgrounds/kansai-surprise2019_key.jpg"
+      background: "../../res/img/backgrounds/event_2019_surprise_kansai.webp"
       songs:
         - title: "桜のあと (all quartets lead to the?)"
           author: "UNISON SQUARE GARDEN"
           description: |
-            TBS アニメ 2013/4Q 夜桜四重奏 〜ヨザクラカルテット〜　OP
+            TBS アニメ 2013/4Q 夜桜四重奏 〜ヨザクラカルテット〜 OP
             🎤[DAM] [5902-22](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5902-22) [JOYSOUND] [729880](https://www.joysound.com/web/search/song/300120)
             [YouTube](//youtu.be/9zluQwPBMWM)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04e406/l02eeeb.html)
@@ -917,12 +1029,12 @@
             [YouTube](//youtu.be/Bc283_Ic79g)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04f309/l0141af.html)
     - name: "Graduation 2019(関東卒業サプライズ2019）"
-      background: "../../res/img/backgrounds/kanto-surprise2019_key.jpg"
+      background: "../../res/img/backgrounds/event_2019_surprise_kanto.webp"
       songs:
         - title: "パープル"
           author: "コレサワ"
           description: |
-            ロート製薬 肌ラボ　恋する肌キュンmovie 第4弾 キャンペーンソング
+            ロート製薬 肌ラボ 恋する肌キュンmovie 第4弾 キャンペーンソング
             🎤[DAM] [5174-75](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5174-75) [JOYSOUND] [433153](https://www.joysound.com/web/search/song/705468)
             [YouTube](//youtu.be/qnLJk_WoPto)
             [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05acb3/l048b31.html)
