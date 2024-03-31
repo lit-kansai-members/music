@@ -1,4 +1,4 @@
-const marked = require("marked");
+const { marked } = require("marked");
 const YAML = require("js-yaml");
 const fs = require("fs");
 

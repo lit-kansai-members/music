@@ -16,7 +16,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 10 # due to node-sass
+          node-version: 18
 
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
