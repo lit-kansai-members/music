@@ -318,7 +318,7 @@ header h1 {
   justify-content: center;
   height: 60px;
   position: absolute;
-  top: calc(50% - (60px / 2));
+  top: calc(50% - 60px / 2);
   left: 0;
   width: 100%;
   padding: 0;
@@ -858,4 +858,4 @@ h2 span:nth-child(6n) {
   color: #a278ff;
 }
 
-/*# sourceMappingURL=style.32eef19d.css.map */
+/*# sourceMappingURL=style.2fd1a983.css.map */
