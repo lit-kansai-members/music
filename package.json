@@ -28,7 +28,7 @@
     "@prettier/plugin-pug": "1.17.3",
     "js-yaml": "4.1.0",
     "marked": "12.0.1",
-    "npm-run-all2": "5.0.0",
+    "npm-run-all2": "6.1.2",
     "parcel-bundler": "1.12.5",
     "prettier": "2.8.8",
     "pug": "3.0.2",
