@@ -32,6 +32,23 @@
 #         [YouTube](//youtu.be/3j77uK8hu5A)
 #         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cc66/l03a371.html)
 #       # リンクなど。 "|" はYAMLの複数行記法です。
+- year: "2024"
+  camps:
+    - name: "'24 Spring Camp"
+      background: "../../res/img/backgrounds/camp_2024_spring.webp"
+      songs:
+        - title: "好きなものは手のひらの中"
+          author: "Conton Candy"
+          description: |
+            🎤[DAM] [5443-66](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5443-66)
+            [YouTube](//youtu.be/WoduRoHslg0)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a055790/l05e0db.html)
+        - title: "鈴々"
+          author: "PEOPLE 1"
+          description: |
+            🎤[DAM] [5486-98](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5486-98) [JOYSOUND][999873](https://www.joysound.com/web/search/song/999873)
+            [YouTube](//youtu.be/7synqOiMORc)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a064b0d/l05f438.html)
 - year: "2023"
   camps:
     - name: "'23 Xmas Camp"
@@ -941,6 +958,15 @@
             [YouTube](//youtu.be/RbpDRk_OAPU)
 - year: "番外編"
   camps:
+    - name: "関西卒業サプライズ2024 〜Life is Tech ! 20XX〜"
+      background: "../../res/img/backgrounds/event_2024_surprise_kansai.webp"
+      songs:
+        - title: "バイマイフレンド"
+          author: "bokula."
+          description: |
+            🎤[DAM] [5423-40](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5423-40) [JOYSOUND] [919640](https://www.joysound.com/web/search/song/919640)
+            [YouTube](//youtu.be/IOBny9KrdMg)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a063048/l058ac7.html)
     - name: "関東卒業サプライズ2021 〜つながり〜"
       background: "../../res/img/backgrounds/event_2021_surprise_kanto.webp"
       songs:
