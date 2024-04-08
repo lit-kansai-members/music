@@ -958,6 +958,21 @@
             [YouTube](//youtu.be/RbpDRk_OAPU)
 - year: "番外編"
   camps:
+    - name: "関東卒業サプライズ2024"
+      background: "../../res/img/backgrounds/event_2024_surprise_kanto.webp"
+      songs:
+        - title: "はじまり feat. キヨサク from MONGOL800"
+          author: "Mrs. GREEN APPLE"
+          description: |
+            🎤[DAM] [6093-89](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6093-89) [JOYSOUND][428173](https://www.joysound.com/web/search/song/685515)
+            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l045f78.html)
+            [YouTube](//youtu.be/YH1aOeTX7Vs)
+        - title: "春が過ぎたら"
+          author: "ケプラ"
+          description: |
+            🎤[DAM] [6994-21](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6994-21) [JOYSOUND][895643](https://www.joysound.com/web/search/song/895643)
+            [歌詞(歌ネット)](https://www.uta-net.com/song/309236/)
+            [YouTube](//youtu.be/m6uLTHLcc0A)
     - name: "関西卒業サプライズ2024 〜Life is Tech ! 20XX〜"
       background: "../../res/img/backgrounds/event_2024_surprise_kansai.webp"
       songs:
