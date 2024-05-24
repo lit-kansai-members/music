@@ -30,7 +30,7 @@
 #         メルセデス・ベンツ × Perfume コラボレーションCMソング
 #         🎤[DAM] [6271-62](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6271-62) [JOYSOUND][442282](https://www.joysound.com/web/search/song/562986) # DAMとJOYSOUNDの選曲用番号
 #         [YouTube](//youtu.be/3j77uK8hu5A)
-#         [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cc66/l03a371.html)
+#         [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04cc66/l03a371.html)
 #       # リンクなど。 "|" はYAMLの複数行記法です。
 - year: "2024"
   camps:
@@ -66,7 +66,7 @@
             コカ・コーラ 冬期CMソング
             🎤[DAM] [6484-08](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6484-08) [JOYSOUND][29625](https://www.joysound.com/web/search/song/186425)
             [YouTube](//youtu.be/uKgmu8g-kXE)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a001bf4/l027392.html)
     - name: "'23 Summer Camp"
       background: "../../res/img/backgrounds/camp_2023_summer.webp"
       songs:
@@ -114,7 +114,7 @@
             コカ・コーラ 冬期CMソング
             🎤[DAM] [6484-08](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6484-08) [JOYSOUND][29625](https://www.joysound.com/web/search/song/186425)
             [YouTube](//youtu.be/uKgmu8g-kXE)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a001bf4/l027392.html)
     - name: "'22 Summer Camp"
       background: "../../res/img/backgrounds/camp_2022_summer.webp"
       songs:
@@ -235,14 +235,14 @@
             Suzuki SWIFT TVCM Song
             🎤[DAM] [6223-79](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6223-79) [JOYSOUND][443149](https://www.joysound.com/web/search/song/791332)
             [YouTube](//youtu.be/7yG9OJgakm8)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a059eab/l04dc0f.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a059eab/l04dc0f.html)
         - title: "Party All Night"
           author: "FAITH"
           description: |
             TBS 王様のブランチ 2020Jan ED Theme songh
             🎤[DAM] [5231-48](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5231-48) [JOYSOUND][803513](https://www.joysound.com/web/search/song/816397)
             [YouTube](//youtu.be/t5noRnkNy4E)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04acbe/l04ef90.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04acbe/l04ef90.html)
     - name: "SONY ENTERTAINMENT CAMP 2020"
       background: "../../res/img/backgrounds/sp_camp_2020_entertainment.webp"
       theme: "君にしかつくれないエンタテインメントを世界へ"
@@ -287,14 +287,14 @@
             フジテレビ系「めざましどようび」テーマソング
             🎤[DAM] [6233-06](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6233-06) [JOYSOUND][442282](https://www.joysound.com/web/search/song/773560)
             [YouTube](//youtu.be/Ff7kdaIQvQM)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l04d234.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05a2d6/l04d234.html)
         - title: "ハピネス"
           author: "AI"
           description: |
             コカ・コーラ 冬期CMソング
             🎤[DAM] [6484-08](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6484-08) [JOYSOUND][29625](https://www.joysound.com/web/search/song/186425)
             [YouTube](//youtu.be/uKgmu8g-kXE)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a001bf4/l027392.html)
     - name: "'19 GLOBAL IT Camp"
       background: "../../res/img/backgrounds/common_global.webp"
       theme: "THINK GLOBALLY,CHANGE THE WORLD"
@@ -314,14 +314,14 @@
           description: |
             サントリー天然水 GREEN TEA「徒然なる トリビュート」 参加楽曲
             🎤[DAM] [5233-56](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5223-56) [JOYSOUND][441325](https://www.joysound.com/web/search/song/767816)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05fdb9/l04c4cf.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05fdb9/l04c4cf.html)
             [YouTube](//youtu.be/IJRdeZA05OE)
         - title: "Player"
           author: "chelmico"
           description: |
             Apple Watch Series4 CMソング
             🎤[DAM] [5171-58](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5171-58) [JOYSOUND][431254](https://www.joysound.com/web/search/song/697127)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05e5c8/l04828c.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05e5c8/l04828c.html)
             [YouTube](//youtu.be/P7ds78eOLjU)
     - name: "'19 English×IT Camp"
       theme: "THINK GLOBALLY,CHANGE THE WORLD"
@@ -359,7 +359,7 @@
           description: |
             動画を見つけたら教えて下さい。
             🎤[DAM] [6207-48](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6207-48) [JOYSOUND][432931](https://www.joysound.com/web/search/song/710938)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a059479/l0481b6.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a059479/l0481b6.html)
             [レコチョク](//recochoku.jp/song/S1007179020/)
         - title: "Tを探そう"
           author: "TT兄弟"
@@ -378,14 +378,14 @@
           description: |
             テレビ東京土曜ドラマ ドラマ24 2018/4Q 忘却のサチコEDSong
             🎤[DAM] [5176-32](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5176-32) [JOYSOUND][433711](https://www.joysound.com/web/search/song/716232)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05cfc3/l04926a.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05cfc3/l04926a.html)
             [YouTube](//youtu.be/-0-fVutBn38)
         - title: "予感"
           author: "SUPER BEAVER"
           description: |
             フジテレビ火曜ドラマ 2018/4Q 僕らは奇跡でできているEDSong
             🎤[DAM] [5153-16](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5153-16) [JOYSOUND][433195](https://www.joysound.com/web/search/song/713175)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a050f66/l049c98.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a050f66/l049c98.html)
             [YouTube](//youtu.be/XnYwwyXPt70)
     - name: "'18 Global IT Camp"
       background: "../../res/img/backgrounds/global_camp_2018_nus.webp"
@@ -396,7 +396,7 @@
           description: |
             オープニング楽曲
             🎤[DAM] [6093-89](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6093-89) [JOYSOUND][428173](https://www.joysound.com/web/search/song/685515)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l045f78.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05a2d6/l045f78.html)
             [YouTube](//youtu.be/YH1aOeTX7Vs)
         - title: "Classic"
           author: "MKTO"
@@ -418,14 +418,14 @@
           author: "Mrs. GREEN APPLE"
           description: |
             🎤[DAM] [6093-89](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6093-89) [JOYSOUND][428173](https://www.joysound.com/web/search/song/685515)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l045f78.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05a2d6/l045f78.html)
             [YouTube](//youtu.be/YH1aOeTX7Vs)
         - title: "I WANT YOU BACK"
           author: " TWICE feat.The Jackson 5"
           description: |
             映画 センセイ君主 主題歌
             🎤[DAM] [7343-72](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=7343-72) [JOYSOUND][428173](https://www.joysound.com/web/search/song/695732)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04f8f9/l048610.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04f8f9/l048610.html)
             [YouTube](//youtu.be/X3H-4crGD6k)
     - name: "'18 Spring Camp"
       background: "../../res/img/backgrounds/camp_2018_spring.webp"
@@ -435,7 +435,7 @@
           author: "Official髭男dism"
           description: |
             🎤[DAM] [7416-55](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=7416-55) [JOYSOUND][697374](https://www.joysound.com/web/search/song/615796)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a059eab/l03f34e.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a059eab/l03f34e.html)
             [YouTube](//youtu.be/EusUvmUi2Xk)
         - title: "Hollow"
           author: "DNCE"
@@ -447,7 +447,7 @@
           author: "NHK"
           description: |
             🎤[DAM] [4630-01](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=4630-01) [JOYSOUND][28584](https://www.joysound.com/web/search/song/26476)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0006b5/l001e01.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a0006b5/l001e01.html)
             [YouTube](//youtu.be/pnBnu5v8KTw)
 - year: "2017"
   camps:
@@ -461,21 +461,21 @@
             2018 PyeongChang Olympic JAL CMSong
             🎤[DAM] [3914-52](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3914-52) [JOYSOUND][698510](https://www.joysound.com/web/search/song/642264)
             [YouTube](//youtu.be/8HleM0glzdE)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05570f/l04307e.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05570f/l04307e.html)
         - title: "ハピネス"
           author: "AI"
           description: |
             コカ・コーラ 冬期CMソング
             🎤[DAM] [6484-08](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6484-08) [JOYSOUND][29625](https://www.joysound.com/web/search/song/186425)
             [YouTube](//youtu.be/uKgmu8g-kXE)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a001bf4/l027392.html)
         - title: "ようこそジャパリパークへ"
           author: "どうぶつビスケッツ×PPP"
           description: |
             けものフレンズ 主題歌（MC紹介映像BGM）
             🎤[DAM] [3776-80](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3776-80) [JOYSOUND][692747](https://www.joysound.com/web/search/song/604068)
             [YouTube](//youtu.be/xkMdLcB_vNU)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05c47f/l03e218.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05c47f/l03e218.html)
     - name: "'17 Summer Camp"
       theme: "夏が君を動かす。君が世界を動かす。-Move-"
       poem: |
@@ -503,26 +503,26 @@
             NTTドコモ"ドコモの学割「ししゃも？」篇" CMソング
             🎤[DAM] [1083-19](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1083-19) [JOYSOUND][692522](https://www.joysound.com/web/search/song/608842)
             [YouTube](//youtu.be/zhCtzmDWsN0)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a056dae/l03e5dd.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a056dae/l03e5dd.html)
         - title: "鱗"
           author: "秦基博"
           description: |
             🎤[DAM] [5022-68](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5022-68) [JOYSOUND][163318](https://www.joysound.com/web/search/song/104055)
             [YouTube](//youtu.be/x2WP1ZSQVlQ)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04c9d1/l00a8ba.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04c9d1/l00a8ba.html)
         - title: "SHINY"
           author: "夜の本気ダンス"
           description: |
             NHK Eテレ テレビアニメ「境界のRINNE」第3シリーズ OPテーマソング
             🎤[DAM] [6024-24](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6024-24) [JOYSOUND][694521](https://www.joysound.com/web/search/song/616682)
             [YouTube](//youtu.be/6idlVhWIWAE)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b135/l03f540.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05b135/l03f540.html)
         - title: "By My Side"
           author: "夜の本気ダンス"
           description: |
             🎤[DAM] [3896-62](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3896-62) [JOYSOUND][680561](https://www.joysound.com/web/search/song/534505)
             [YouTube](//youtu.be/JHFZeM5z0K4)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b135/l039db9.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05b135/l039db9.html)
     - name: "'17 Life 那須 Tech !"
       theme: "一年に一度だけ、地獄のような3日間"
       background: "../../res/img/backgrounds/sp_camp_2017_nasu.webp"
@@ -533,7 +533,7 @@
             au「au BLUE CHALLENGE」「応援」編 CMソング
             🎤[DAM] [7020-61](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=7020-61) [JOYSOUND][692579](https://www.joysound.com/web/search/song/607478)
             [YouTube](//youtu.be/hHM5VJQ5NRg)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05c7bf/l03ee0e.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05c7bf/l03ee0e.html)
         - title: "Stay"
           author: "Zedd & Alessia Cara"
           description: |
@@ -550,21 +550,21 @@
             メルセデス・ベンツ × Perfume コラボレーションCMソング
             🎤[DAM] [6271-62](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6271-62) [JOYSOUND][683507](https://www.joysound.com/web/search/song/562986)
             [YouTube](//youtu.be/3j77uK8hu5A)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cc66/l03a371.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04cc66/l03a371.html)
         - title: "さよならバイスタンダー"
           author: "YUKI"
           description: |
             TVアニメ「3月のライオン」オープニングテーマ
             🎤[DAM] [6697-77](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6697-77) [JOYSOUND][691901](https://www.joysound.com/web/search/song/605414)
             [YouTube](//youtu.be/ZFshsGiJqmM)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a00067b/l03e0d1.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a00067b/l03e0d1.html)
         - title: "やってみよう"
           author: "WANIMA"
           description: |
             au 冬期CMソング
             🎤[DAM] [1104-48](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1104-48) [JOYSOUND][693346](https://www.joysound.com/web/search/song/610926)
             [YouTube](//youtu.be/eIja9BI_h9U)
-            [歌詞(プチリリ)](http://petitlyrics.com/lyrics/2554503)
+            [歌詞(プチリリ)](https://petitlyrics.com/lyrics/2554503)
         - title: "キャリア・ウーマン"
           author: "ブルゾンちえみ"
           description: |
@@ -576,7 +576,7 @@
           author: "NHK"
           description: |
             🎤[DAM] [4630-01](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=4630-01) [JOYSOUND][28584](https://www.joysound.com/web/search/song/26476)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0006b5/l001e01.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a0006b5/l001e01.html)
             [YouTube](//youtu.be/pnBnu5v8KTw)
 - year: "2016"
   camps:
@@ -590,14 +590,14 @@
             [動物殺処分ゼロ支援プロジェクト「ブレーメン」支援Song](https://bremen-project.net/mob/index.php)
             🎤[DAM] [5847-57](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5847-57) [JOYSOUND][156923](https://www.joysound.com/web/search/song/581126)
             [YouTube](//youtu.be/qfsr0S_QGOU)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a055790/l03c659.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a055790/l03c659.html)
         - title: "PPAP(ペンパイナッポーアッポーペン)"
           author: "ピコ太郎"
           description: |
             注意点太郎 元曲
             🎤[DAM] [6018-17](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6018-17) [JOYSOUND][689757](https://www.joysound.com/web/search/song/596832)
             [YouTube](//youtu.be/0E00Zuayv9Q)
-            [歌詞(歌ネット)](http://www.uta-net.com/song/216737/)
+            [歌詞(歌ネット)](https://www.uta-net.com/song/216737/)
             [注意点太郎歌詞](注意点/注意点太郎2016Xmas.md)
     - name: "'16 Summer Camp"
       theme: "世界なんて、ひと夏で変わる。 -LIVE AN ADVENTUROUS-"
@@ -608,27 +608,27 @@
           description: |
             🎤[DAM] [3946-09](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3946-09) [JOYSOUND][686425](https://www.joysound.com/web/search/song/571726)
             [YouTube](//youtu.be/ru0K8uYEZWw)
-            [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/justintimberlake/cantstopthefeeling.html)
+            [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/justintimberlake/cantstopthefeeling.html)
         - title: "シュガーソングとビターステップ"
           author: "UNISON SQUARE GARDEN"
           description: |
             TVアニメ「血界戦線」エンディングテーマ
             🎤[DAM] [5902-52](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5902-52) [JOYSOUND][673982](https://www.joysound.com/web/search/song/420975)
             [YouTube](//youtu.be/3exsRhw3xt8)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04e406/l035ee5.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04e406/l035ee5.html)
         - title: "宝石になった日"
           author: "BUMP OF CHICKEN"
           description: |
             🎤[DAM] [6873-68](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6873-68) [JOYSOUND][681904](https://www.joysound.com/web/search/song/556019)
             [YouTube](//youtu.be/4Sd3iIdM4Co)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a000673/l0396dd.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a000673/l0396dd.html)
         - title: "Green Bird"
           author: "フジファブリック"
           description: |
             TBS月曜ドラマ2015/3Q となりの関くん 主題歌
             🎤[DAM] [7048-50](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=7048-50) [JOYSOUND][675813](https://www.joysound.com/web/search/song/491590)
             [YouTube](//youtu.be/PcFaBM_3Ucc)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a033e7f/l0365c3.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a033e7f/l0365c3.html)
         - title: "MUSIC VIDEO"
           author: "岡崎体育"
           description: |
@@ -636,7 +636,7 @@
             🎤[DAM] [6001-91](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6001-91) [JOYSOUND][685245](https://www.joysound.com/web/search/song/570589)
             [YouTube](//youtu.be/fTwAz1JC4yI)
             [注意点VIDEO歌詞](注意点/注意点VIDEO2016Summer.md)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b49f/l03a993.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05b49f/l03a993.html)
     - name: "'16 Spring Camp"
       theme: "まだ見ぬ世界に全力でワクワクしよう。 -Next World-"
       background: "../../res/img/backgrounds/camp_2016_spring.webp"
@@ -647,19 +647,19 @@
             TVアニメ「NARUTO -ナルト- 疾風伝」オープニングテーマ
             🎤[DAM] [5980-09](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5980-09) [JOYSOUND][119897](https://www.joysound.com/web/search/song/414532)
             [YouTube](//youtu.be/ZFoJYI7Q4iA)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05808c/l033c07.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05808c/l033c07.html)
         - title: "Tell The World"
           author: "Eric Hutchinson"
           description: |
             🎤[DAM] [3954-38](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3954-38) [JOYSOUND]404 NotFound
             [YouTube](//youtu.be/vZ2_tOoefyU)
-            [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/hillsongunited/telltheworld.html)
+            [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/hillsongunited/telltheworld.html)
         - title: "ランアンドラン"
           author: "KANA-BOON"
           description: |
             🎤[DAM] [5980-36](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5980-36) [JOYSOUND][156559](https://www.joysound.com/web/search/song/552408)
             [YouTube](//youtu.be/JbyQOzRANYs)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05808c/l0391c1.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05808c/l0391c1.html)
         - title: "PERFECT HUMAN"
           author: "RADIOFISH"
           description: |
@@ -667,12 +667,12 @@
             🎤[DAM] [5994-97](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5994-97) [JOYSOUND][156697](https://www.joysound.com/web/search/song/562610)
             [YouTube](//youtu.be/4Bh1nm7Ir8c)
             [注意点HUMAN歌詞](注意点/注意点HUMAN2016Spring.md)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b4f4/l03ab42.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05b4f4/l03ab42.html)
         - title: "さくら体操"
           author: "NHK"
           description: |
             🎤[DAM] [4630-01](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=4630-01) [JOYSOUND][28584](https://www.joysound.com/web/search/song/26476)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0006b5/l001e01.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a0006b5/l001e01.html)
             [YouTube](//youtu.be/pnBnu5v8KTw)
 - year: "2015"
   camps:
@@ -686,7 +686,7 @@
             コカ・コーラ 冬期CMソング
             🎤[DAM] [6484-08](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6484-08) [JOYSOUND][29625](https://www.joysound.com/web/search/song/186425)
             [YouTube](//youtu.be/uKgmu8g-kXE)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a001bf4/l027392.html)
         - title: "螢のテーマ"
           author: "さだまさし"
           description: |
@@ -703,28 +703,28 @@
             映画 バクマン。 主題歌
             🎤[DAM] [5449-28](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5449-28) [JOYSOUND][156414](https://www.joysound.com/web/search/song/530711)
             [YouTube](//youtu.be/LIlZCmETvsY)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04d6c9/l037b92.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04d6c9/l037b92.html)
         - title: "ハピネス"
           author: "AI"
           description: |
             コカ・コーラ 冬期CMソング
             🎤[DAM] [6484-08](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6484-08) [JOYSOUND][29625](https://www.joysound.com/web/search/song/186425)
             [YouTube](//youtu.be/uKgmu8g-kXE)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a001bf4/l027392.html)
         - title: "Share The Love"
           author: "三代目 J Soul Brothers"
           description: |
             Pocky CMソング
             🎤[DAM] [6854-25](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6854-25) [JOYSOUND][156497](https://www.joysound.com/web/search/song/547165)
             [YouTube](//youtu.be/MxHIFZp7Uek)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05b271/l03a1e5.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05b271/l03a1e5.html)
         - title: "ハレ晴レユカイ"
           author: "涼宮ハルヒ(平野綾)/長門有希(茅原実里)/朝比奈みくる(後藤邑子)"
           description: |
             TVアニメ「涼宮ハルヒの憂鬱」エンディングテーマ
             🎤[DAM] [4461-05](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=4461-05) [JOYSOUND][55206](https://www.joysound.com/web/search/song/87172)
             [YouTube](//youtu.be/a6iZKNfDuh4)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cfa4/l00a8e0.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04cfa4/l00a8e0.html)
         - title: "あたりまえ体操"
           author: "COWCOW"
           description: |
@@ -742,14 +742,14 @@
           description: |
             🎤[DAM] [3923-19](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3923-19) [JOYSOUND]404 NotFound
             [YouTube](//youtu.be/xii1jKIbHH8)
-            [歌詞(musiXmatch)](http://www.musixmatch.com/ja/lyrics/The-United/Come-On-Come-On-~Happy-with-Smile~)
+            [歌詞(musiXmatch)](https://www.musixmatch.com/ja/lyrics/The-United/Come-On-Come-On-~Happy-with-Smile~)
         - title: "Beautiful"
           author: "Superfly"
           description: |
             TBS 火曜ドラマ 2015/2Q マザー・ゲーム～彼女たちの階級～ 主題歌
             🎤[DAM] [4989-58](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=4989-58) [JOYSOUND][156180](https://www.joysound.com/web/search/song/423556)
             [YouTube](//youtu.be/tfeSwQ-iU0U)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cdbd/l036081.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04cdbd/l036081.html)
         - title: "あたりまえ体操"
           author: "COWCOW"
           description: |
@@ -767,7 +767,7 @@
             LIVE STAND Theme Song
             🎤[DAM]404 NotFound [JOYSOUND]404 NotFound
             [YouTube](//youtu.be/1yy4kxA_UVU)
-            [歌詞(歌ネット)](http://www.uta-net.com/song/167194/)
+            [歌詞(歌ネット)](https://www.uta-net.com/song/167194/)
     - name: "Life 伊豆 Tech ! 2015"
       theme: "一年に一度だけ、地獄のような３日間"
       background: "../../res/img/backgrounds/sp_camp_2015_izu.webp"
@@ -778,7 +778,7 @@
             テレビ朝日 アニメ 地獄先生ぬ〜べ〜 OP
             🎤[DAM] [3206-03](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3206-03) [JOYSOUND][14246](https://www.joysound.com/web/search/song/14238)
             [YouTube](//youtu.be/W3r_wFIGjHU)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a01176a/l0011d8.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a01176a/l0011d8.html)
     - name: "'15 Spring Camp"
       theme: "すべてがサプライズの春キャンプへ -Surprise Everything-"
       background: "../../res/img/backgrounds/camp_2015_spring.webp"
@@ -795,20 +795,20 @@
             STAND BY ME ドラえもん 主題歌
             🎤[DAM] [5617-21](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5617-21) [JOYSOUND][119667](https://www.joysound.com/web/search/song/408793)
             [YouTube](//youtu.be/rKsQ-3N-Bks)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04c9d1/l032376.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04c9d1/l032376.html)
         - title: "Happily"
           author: "One Direction"
           description: |
             映画 好きっていいなよ。 主題歌
             🎤[DAM] [3925-07](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3925-07) [JOYSOUND][738409](https://www.joysound.com/web/search/song/405263)
             [YouTube](//youtu.be/s28PuyRqLrs)
-            [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/onedirection/happily.html)
+            [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/onedirection/happily.html)
         - title: "さくら体操"
           author: "NHK"
           description: |
             🎤[DAM] [4630-01](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=4630-01) [JOYSOUND][28584](https://www.joysound.com/web/search/song/26476)
             [YouTube](//youtu.be/pnBnu5v8KTw)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a0006b5/l001e01.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a0006b5/l001e01.html)
 - year: "2014"
   camps:
     - name: "'14 Xmas Camp"
@@ -822,20 +822,20 @@
             京浜急行電鉄空港線羽田空港第3ターミナル駅(KK16)接近メロディ from Oct 21 2015
             🎤[DAM] [5847-43](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5847-43) [JOYSOUND][119777](https://www.joysound.com/web/search/song/411426)
             [YouTube](//youtu.be/gsVGf1T2Hfs)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a055790/l033358.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a055790/l033358.html)
         - title: "I Won't Let You Down"
           author: "OK Go"
           description: |
             🎤[DAM] [3931-37](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3931-37) [JOYSOUND][671324](https://www.joysound.com/web/search/song/417497)
             [YouTube](//youtu.be/u1ZB_rGFyeU)
-            [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/okgo/iwontletyoudown.html)
+            [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/okgo/iwontletyoudown.html)
         - title: "ハピネス"
           author: "AI"
           description: |
             コカ・コーラ 冬期CMソング
             🎤[DAM] [6484-08](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6484-08) [JOYSOUND][29625](https://www.joysound.com/web/search/song/186425)
             [YouTube](//youtu.be/uKgmu8g-kXE)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a001bf4/l027392.html)
     - name: "'14 Summer Camp"
       theme: "夏のすべてが詰まってる"
       background: "../../res/img/backgrounds/camp_2014_summer.webp"
@@ -845,14 +845,14 @@
           description: |
             🎤[DAM] [6873-58](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6873-58) [JOYSOUND][737711](https://www.joysound.com/web/search/song/404180)
             [YouTube](//youtu.be/yT_ylSCgY6Q)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a000673/l030b34.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a000673/l030b34.html)
         - title: "ミラクル"
           author: "miwa"
           description: |
             資生堂 SEA BREEZE 2013 CMSong
             🎤[DAM] [4729-87](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=4729-87) [JOYSOUND][724525](https://www.joysound.com/web/search/song/252647)
             [YouTube](//youtu.be/HlDo8qEPbNg)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04e594/l02ca67.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04e594/l02ca67.html)
     - name: "'14 English × IT Camp "
       songs:
         - title: "Happy"
@@ -861,7 +861,7 @@
             Movie Despicable Me 2 insert song
             🎤[DAM] [5635-09](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5635-09) [JOYSOUND][738399](https://www.joysound.com/web/search/song/406080)
             [YouTube](//youtu.be/y6Sxv-sUYtM)
-            [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/pharrellwilliams/happy.html)
+            [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/pharrellwilliams/happy.html)
     - name: "'14 Spring Camp"
       theme: "出会い、別れ、はじまり"
       songs:
@@ -871,14 +871,14 @@
             フジテレビ木曜ドラマ2013/2Q ラスト・シンデレラEDSong
             🎤[DAM] [4331-86](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=4331-86) [JOYSOUND][725137](https://www.joysound.com/web/search/song/253436)
             [YouTube](//youtu.be/JQowMIY2bOw)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05751d/l02cddb.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05751d/l02cddb.html)
         - title: "変わらないもの"
           author: "奥華子"
           description: |
             アニメ映画「時をかける少女」挿入歌
             🎤[DAM] [2889-23](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=2889-23) [JOYSOUND][161753](https://www.joysound.com/web/search/song/99643)
             [YouTube](//youtu.be/SqANEGZ6Ty0)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04c9e3/l00af88.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04c9e3/l00af88.html)
 - year: "2013"
   camps:
     - name: "'13 Xmas Camp"
@@ -889,14 +889,14 @@
             東京地下鉄日比谷線 秋葉原駅 (H16) 発車サイン音
             🎤[DAM] [6572-52](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6572-52) [JOYSOUND][119131](https://www.joysound.com/web/search/song/99643)
             [YouTube](//youtu.be/dFf4AgBNR1E)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cb7c/l02e06a.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04cb7c/l02e06a.html)
         - title: "ハピネス"
           author: "AI"
           description: |
             コカ・コーラ 冬期CMソング
             🎤[DAM] [6484-08](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6484-08) [JOYSOUND][29625](https://www.joysound.com/web/search/song/186425)
             [YouTube](//youtu.be/uKgmu8g-kXE)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a001bf4/l027392.html)
     - name: "'13 Summer Camp"
       theme: "きっと忘れられない夏になる。"
       songs:
@@ -906,7 +906,7 @@
             映画「クレヨンしんちゃん バカうまっ!B級グルメサバイバル!!」主題歌
             🎤[DAM] [5847-34](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5847-34) [JOYSOUND][724236](https://www.joysound.com/web/search/song/251945)
             [YouTube](//youtu.be/Mi9uNu35Gmk)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a055790/l02cbdb.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a055790/l02cbdb.html)
     - name: "'13 Spring Camp"
       songs:
         - title: "Boom!"
@@ -915,20 +915,20 @@
             「JR九州/祝！九州キャンペーン」CMソング
             🎤[DAM] [3819-51](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3819-51) [JOYSOUND][94720](https://www.joysound.com/web/search/song/167564)
             [YouTube](//youtu.be/N6-0aquSvXk)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a054d2c/l025022.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a054d2c/l025022.html)
         - title: "ODDS&ENDS"
           author: "ryo(supercell) feat. 初音ミク"
           description: |
             ゲーム「初音ミク -Project Diva- f」テーマソング
             🎤[DAM] [3612-33](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3612-33) [JOYSOUND][730048](https://www.joysound.com/web/search/song/233518)
             [YouTube](//youtu.be/HUzLUGKwQJc)
-            [歌詞(歌ネット)](http://www.uta-net.com/song/134511/)
+            [歌詞(歌ネット)](https://www.uta-net.com/song/134511/)
         - title: "さよならメモリーズ"
           author: "supercell"
           description: |
             動画を見つけたら教えて下さい。
             🎤[DAM] [5667-78](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5667-78) [JOYSOUND][139943](https://www.joysound.com/web/search/song/147099)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a051979/l01e2e0.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a051979/l01e2e0.html)
             [レコチョク](//recochoku.jp/song/S20294713/)
 - year: "2012"
   camps:
@@ -940,7 +940,7 @@
             コカ・コーラ 冬期CMソング
             🎤[DAM] [6484-08](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6484-08) [JOYSOUND][29625](https://www.joysound.com/web/search/song/186425)
             [YouTube](//youtu.be/uKgmu8g-kXE)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a001bf4/l027392.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a001bf4/l027392.html)
     - name: "'12 Summer Camp"
       songs:
         - title: "君の知らない物語"
@@ -949,7 +949,7 @@
             TVアニメ「化物語」エンディングテーマ
             🎤[DAM] [3318-21](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3318-21) [JOYSOUND][136606](https://www.joysound.com/web/search/song/133769)
             [YouTube](//youtu.be/wfkgRfBUWLo)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a054f0a/l024c87.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a054f0a/l024c87.html)
         - title: "Overture of the Summer Wars"
           author: "松本晃彦"
           description: |
@@ -965,7 +965,7 @@
           author: "Mrs. GREEN APPLE"
           description: |
             🎤[DAM] [6093-89](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6093-89) [JOYSOUND][428173](https://www.joysound.com/web/search/song/685515)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05a2d6/l045f78.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05a2d6/l045f78.html)
             [YouTube](//youtu.be/YH1aOeTX7Vs)
         - title: "春が過ぎたら"
           author: "ケプラ"
@@ -1007,14 +1007,14 @@
             テレビ朝日土曜ドラマ2019/4Q おっさんずラブ-in the sky- 主題歌 僕のヒーローアカデミア THE MOVIE ヒーローズ:ライジング 主題歌
             🎤[DAM] [6244-23](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6244-23) [JOYSOUND] [444410](https://www.joysound.com/web/search/song/802364)
             [YouTube](//youtu.be/xQS6sE5K0pY)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04b3e1/l04ea8c.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04b3e1/l04ea8c.html)
         - title: "愛をこめて花束を"
           author: "Superfly"
           description: |
             TBS金曜ドラマ2008/1Q エジソンの母EDSong
             🎤[DAM] [4190-04](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=4190-04) [JOYSOUND] [85897](https://www.joysound.com/web/search/song/113523)
             [YouTube](//youtu.be/gU5oN0KVofU)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04cdbd/l00c3b4.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04cdbd/l00c3b4.html)
     - name: "Life is Hack !"
       background: "../../res/img/backgrounds/event_lifeishack.webp"
       theme: "Hello, World!!・Online#1"
@@ -1025,7 +1025,7 @@
             TBS アニメ 新幹線変形ロボ シンカリオン ED
             🎤[DAM] [6211-82](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6211-82) [JOYSOUND]404 NotFound
             [YouTube](//youtu.be/MKKgw3X49Bc)
-            [歌詞(J-Lyrics.net)](http://j-lyric.net/artist/a058dc1/l04bf0b.html)
+            [歌詞(J-Lyrics.net)](https://j-lyric.net/artist/a058dc1/l04bf0b.html)
     - name: "テックなオフ会"
       theme: "ピクニック気分で集まっちゃう秋2019"
       background: "../../res/img/backgrounds/event_2019_off_party.webp"
@@ -1035,7 +1035,7 @@
           description: |
             🎤[DAM] [6031-80](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6031-80) [JOYSOUND] [693475](https://www.joysound.com/web/search/song/581417)
             [YouTube](//youtu.be/5zZSfXiyTvA)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05bd82/l045db0.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05bd82/l045db0.html)
     - name: "メンター/コース紹介"
       songs:
         - title: "Wings"
@@ -1043,7 +1043,7 @@
           description: |
             🎤[DAM] [3904-34](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=3904-34) [JOYSOUND] [728198](https://www.joysound.com/web/search/song/297971)
             [YouTube](//youtu.be/cOQDsmEqVt8)
-            [歌詞(AZLyrics)](http://www.azlyrics.com/lyrics/littlemix/wings.html)
+            [歌詞(AZLyrics)](https://www.azlyrics.com/lyrics/littlemix/wings.html)
     - name: "スクール夏期講習(2016)"
       songs:
         - title: "PERFECT BLUE"
@@ -1051,7 +1051,7 @@
           description: |
             🎤[DAM] [5503-13](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5503-13) [JOYSOUND] [721856](https://www.joysound.com/web/search/song/249017)
             [YouTube](//youtu.be/jgofbf8Q_-Y)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04c8a1/l02bdf5.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04c8a1/l02bdf5.html)
     - name: "Happy Graduation(関西卒業サプライズ2019)"
       theme: "桜とキミとぼくらと"
       background: "../../res/img/backgrounds/event_2019_surprise_kansai.webp"
@@ -1062,13 +1062,13 @@
             TBS アニメ 2013/4Q 夜桜四重奏 〜ヨザクラカルテット〜 OP
             🎤[DAM] [5902-22](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5902-22) [JOYSOUND] [729880](https://www.joysound.com/web/search/song/300120)
             [YouTube](//youtu.be/9zluQwPBMWM)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04e406/l02eeeb.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04e406/l02eeeb.html)
         - title: "桜ノ雨"
           author: "absorb feat 初音ミク"
           description: |
             🎤[DAM] [5315-90](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5315-90) [JOYSOUND] [177230](https://www.joysound.com/web/search/song/125582)
             [YouTube](//youtu.be/Bc283_Ic79g)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04f309/l0141af.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04f309/l0141af.html)
     - name: "Graduation 2019(関東卒業サプライズ2019）"
       background: "../../res/img/backgrounds/event_2019_surprise_kanto.webp"
       songs:
@@ -1078,13 +1078,13 @@
             ロート製薬 肌ラボ 恋する肌キュンmovie 第4弾 キャンペーンソング
             🎤[DAM] [5174-75](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5174-75) [JOYSOUND] [433153](https://www.joysound.com/web/search/song/705468)
             [YouTube](//youtu.be/qnLJk_WoPto)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05acb3/l048b31.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05acb3/l048b31.html)
         - title: "アウトフォーカス"
           author: "Half time Old"
           description: |
             🎤[DAM] [7396-14](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=7396-14) [JOYSOUND] [428373](https://www.joysound.com/web/search/song/659403)
             [YouTube](//youtu.be/3W1JzN1rkWU)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a05d9ce/l043dca.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a05d9ce/l043dca.html)
     - name: "School(Springseason 2019)"
       songs:
         - title: "10時の方角"
@@ -1092,4 +1092,4 @@
           description: |
             🎤[DAM] [6184-78](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6184-78) [JOYSOUND] [435491](https://www.joysound.com/web/search/song/722544)
             [YouTube](//youtu.be/HFTB-tZs2a4)
-            [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a04b3e1/l04af4d.html)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04b3e1/l04af4d.html)
