@@ -34,6 +34,21 @@
 #       # リンクなど。 "|" はYAMLの複数行記法です。
 - year: "2024"
   camps:
+    - name: "'24 Summer Camp"
+      background: "../../res/img/backgrounds/camp_2024_summer.webp"
+      songs:
+        - title: "君のいる方へ"
+          author: "オレンジスパイニクラブ"
+          description: |
+            🎤[DAM] [1384-26](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1384-26) [JOYSOUND][499721](https://www.joysound.com/web/search/song/911692)
+            [YouTube](//youtu.be/tfchdsRncZk)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a061b57/l059659.html)
+        - title: "世界 feat. Moto from Chilli Beans. & Who-ya Extended"
+          author: "KERENMI"
+          description: |
+            🎤[DAM] [1412-67](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1412-67) [JOYSOUND][627533](https://www.joysound.com/web/search/song/1039359)
+            [YouTube](//youtu.be/uXhL_a0hfLU)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a06120b/l0607ef.html)
     - name: "'24 Spring Camp"
       background: "../../res/img/backgrounds/camp_2024_spring.webp"
       songs:
