@@ -417,37 +417,37 @@ main section:nth-child(6n+1) > .youtube > .play:after {
   border-left-color: #e63c35;
 }
 main .parallax.noimage:nth-child(6n+1) {
-  background-color: #f19490;
+  background-color: rgb(241.2334801762, 147.6211453744, 143.7665198238);
 }
 main section:nth-child(6n+2) > .youtube > .play:after {
   border-left-color: #fac700;
 }
 main .parallax.noimage:nth-child(6n+2) {
-  background-color: #ffdf61;
+  background-color: rgb(255, 222.768, 97);
 }
 main section:nth-child(6n+3) > .youtube > .play:after {
   border-left-color: #67b62d;
 }
 main .parallax.noimage:nth-child(6n+3) {
-  background-color: #9cdb6e;
+  background-color: rgb(156.127753304, 219.1189427313, 109.8810572687);
 }
 main section:nth-child(6n+4) > .youtube > .play:after {
   border-left-color: #009bdb;
 }
 main .parallax.noimage:nth-child(6n+4) {
-  background-color: #42c8ff;
+  background-color: rgb(66, 199.7671232877, 255);
 }
 main section:nth-child(6n+5) > .youtube > .play:after {
   border-left-color: #ff8b22;
 }
 main .parallax.noimage:nth-child(6n+5) {
-  background-color: #ffc188;
+  background-color: rgb(255, 192.5384615385, 136);
 }
 main section:nth-child(6n+6) > .youtube > .play:after {
   border-left-color: #bb39ff;
 }
 main .parallax.noimage:nth-child(6n+6) {
-  background-color: #de9fff;
+  background-color: rgb(222.0303030303, 159, 255);
 }
 main h2 {
   font-size: 2em;
@@ -858,4 +858,4 @@ h2 span:nth-child(6n) {
   color: #a278ff;
 }
 
-/*# sourceMappingURL=style.2fd1a983.css.map */
+/*# sourceMappingURL=style.601582bb.css.map */
