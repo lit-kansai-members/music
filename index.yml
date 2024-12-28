@@ -34,6 +34,23 @@
 #       # リンクなど。 "|" はYAMLの複数行記法です。
 - year: "2024"
   camps:
+    - name: "'24 Xmas Camp"
+      background: "../../res/img/backgrounds/camp_2024_xmas.webp"
+      songs:
+        - title: "ユートピア"
+          author: "imase"
+          description: |
+            映画 SAND LAND 主題歌
+            🎤[DAM] [1317-96](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1317-96) [JOYSOUND][618349](https://www.joysound.com/web/search/song/976666)
+            [YouTube](//youtu.be/ePuwo3lYwgc)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a063583/l05d485.html)
+        - title: "ハピネス"
+          author: "AI"
+          description: |
+            コカ・コーラ 冬期CMソング
+            🎤[DAM] [6484-08](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6484-08) [JOYSOUND][29625](https://www.joysound.com/web/search/song/186425)
+            [YouTube](//youtu.be/uKgmu8g-kXE)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a001bf4/l027392.html)
     - name: "'24 Summer Camp"
       background: "../../res/img/backgrounds/camp_2024_summer.webp"
       songs:
