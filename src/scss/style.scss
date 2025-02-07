@@ -1,9 +1,9 @@
-$Red: #e63c35;
-$Yellow: #fac700;
-$Green: #67b62d;
-$Blue: #009bdb;
-$Orange: #ff8b22;
-$Purple: #bb39ff;
+$Red: #ff0000;
+$Yellow: #ffc300;
+$Green: #00aa2d;
+$Blue: #005fff;
+$Orange: #ff8c00;
+$Purple: #800080;
 
 $colors: $Red, $Yellow, $Green, $Blue, $Orange, $Purple;
 
@@ -57,49 +57,49 @@ $youtube-triangle-height: 50px;
 
 @keyframes animateLiTcolor {
   0% {
-    color: #e63c35;
+    color: $Red;
   }
   20% {
-    color: #fac700;
+    color: $Yellow;
   }
   40% {
-    color: #67b62d;
+    color: $Green;
   }
   60% {
-    color: #009bdb;
+    color: $Blue;
   }
   80% {
-    color: #ff8b22;
+    color: $Orange;
   }
   90% {
-    color: #bb39ff;
+    color: $Purple;
   }
   100% {
-    color: #e63c35;
+    color: $Red;
   }
 }
 
 @keyframes animateLiTBGcolor {
   0% {
-    background-color: #e63c35;
+    background-color: $Red;
   }
   20% {
-    background-color: #fac700;
+    background-color: $Yellow;
   }
   40% {
-    background-color: #67b62d;
+    background-color: $Green;
   }
   60% {
-    background-color: #009bdb;
+    background-color: $Blue;
   }
   80% {
-    background-color: #ff8b22;
+    background-color: $Orange;
   }
   90% {
-    background-color: #bb39ff;
+    background-color: $Purple;
   }
   100% {
-    background-color: #e63c35;
+    background-color: $Red;
   }
 }
 
@@ -156,38 +156,12 @@ body.loaded {
     width: 100%;
     opacity: 0.5;
   }
-  svg {
+  img {
     height: $title-height;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    path {
-      fill: none;
-      stroke-width: 50;
-    }
-
-    .first,
-    .second {
-      stroke-dasharray: 100%;
-      stroke-dashoffset: 0;
-      --max: 100%;
-      animation-duration: 1.4s;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
-      animation-direction: alternate;
-    }
-
-    .square {
-      --max: calc(100% - 50px);
-    }
-
-    .first {
-      animation-name: animFirst;
-    }
-    .second {
-      animation-name: animSecond;
-    }
   }
 }
 
@@ -536,7 +510,7 @@ footer {
 
 a:hover,
 a:focus {
-  color: #ff4c4c;
+  color: $Red;
 }
 a:hover {
   cursor: pointer;
@@ -549,7 +523,7 @@ a {
   transition: all 0.25s ease-out;
 }
 a {
-  color: #008cba;
+  color: $Blue;
   text-decoration: none;
   line-height: inherit;
 }
@@ -575,7 +549,7 @@ a {
     height: 100%;
   }
   .close-button {
-    color: #f00;
+    color: $Red;
     font-size: 1.5em;
     position: absolute;
     top: 1em;
@@ -808,21 +782,21 @@ a {
 .colorful,
 h2 {
   span:nth-child(6n + 1) {
-    color: #ff4c4c;
+    color: $Red;
   }
   span:nth-child(6n + 2) {
-    color: #0085ff;
+    color: $Blue;
   }
   span:nth-child(6n + 3) {
-    color: #7dc600;
+    color: $Green;
   }
   span:nth-child(6n + 4) {
-    color: #fac800;
+    color: $Yellow;
   }
   span:nth-child(6n + 5) {
-    color: #ff8b00;
+    color: $Orange;
   }
   span:nth-child(6n) {
-    color: #a278ff;
+    color: $Purple;
   }
 }

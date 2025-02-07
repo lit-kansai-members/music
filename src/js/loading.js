@@ -15,12 +15,9 @@ Promise.resolve()
   )
   .then(
     () =>
-      new Promise((res) =>
-        paths[0].addEventListener("animationiteration", (e) => {
-          console.log(e);
-          if (e.elapsedTime % 4 < 2) res();
-        })
-      )
+      new Promise((res) => {
+        setTimeout(() => res(), 2000);
+      })
   )
   .then(
     () =>
