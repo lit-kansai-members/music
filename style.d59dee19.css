@@ -41,48 +41,48 @@
 }
 @keyframes animateLiTcolor {
   0% {
-    color: #e63c35;
+    color: #ff0000;
   }
   20% {
-    color: #fac700;
+    color: #ffc300;
   }
   40% {
-    color: #67b62d;
+    color: #00aa2d;
   }
   60% {
-    color: #009bdb;
+    color: #005fff;
   }
   80% {
-    color: #ff8b22;
+    color: #ff8c00;
   }
   90% {
-    color: #bb39ff;
+    color: #800080;
   }
   100% {
-    color: #e63c35;
+    color: #ff0000;
   }
 }
 @keyframes animateLiTBGcolor {
   0% {
-    background-color: #e63c35;
+    background-color: #ff0000;
   }
   20% {
-    background-color: #fac700;
+    background-color: #ffc300;
   }
   40% {
-    background-color: #67b62d;
+    background-color: #00aa2d;
   }
   60% {
-    background-color: #009bdb;
+    background-color: #005fff;
   }
   80% {
-    background-color: #ff8b22;
+    background-color: #ff8c00;
   }
   90% {
-    background-color: #bb39ff;
+    background-color: #800080;
   }
   100% {
-    background-color: #e63c35;
+    background-color: #ff0000;
   }
 }
 html,
@@ -133,35 +133,12 @@ body.loaded header a[href="#main"] {
   width: 100%;
   opacity: 0.5;
 }
-#loading svg {
+#loading img {
   height: 60px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-#loading svg path {
-  fill: none;
-  stroke-width: 50;
-}
-#loading svg .first,
-#loading svg .second {
-  stroke-dasharray: 100%;
-  stroke-dashoffset: 0;
-  --max: 100%;
-  animation-duration: 1.4s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-#loading svg .square {
-  --max: calc(100% - 50px);
-}
-#loading svg .first {
-  animation-name: animFirst;
-}
-#loading svg .second {
-  animation-name: animSecond;
 }
 
 #navigations {
@@ -178,64 +155,64 @@ body.loaded header a[href="#main"] {
   margin: 0;
 }
 #navigations > .year:nth-child(6n+1) {
-  background: #e63c35;
-  border-color: #e63c35;
+  background: #ff0000;
+  border-color: #ff0000;
 }
 #navigations > .year:nth-child(6n+1) > a > .inneryear {
-  color: #e63c35;
+  color: #ff0000;
 }
 #navigations > .year:nth-child(6n+1) > .outerCamp {
-  background: #e63c35;
+  background: #ff0000;
 }
 #navigations > .year:nth-child(6n+2) {
-  background: #fac700;
-  border-color: #fac700;
+  background: #ffc300;
+  border-color: #ffc300;
 }
 #navigations > .year:nth-child(6n+2) > a > .inneryear {
-  color: #fac700;
+  color: #ffc300;
 }
 #navigations > .year:nth-child(6n+2) > .outerCamp {
-  background: #fac700;
+  background: #ffc300;
 }
 #navigations > .year:nth-child(6n+3) {
-  background: #67b62d;
-  border-color: #67b62d;
+  background: #00aa2d;
+  border-color: #00aa2d;
 }
 #navigations > .year:nth-child(6n+3) > a > .inneryear {
-  color: #67b62d;
+  color: #00aa2d;
 }
 #navigations > .year:nth-child(6n+3) > .outerCamp {
-  background: #67b62d;
+  background: #00aa2d;
 }
 #navigations > .year:nth-child(6n+4) {
-  background: #009bdb;
-  border-color: #009bdb;
+  background: #005fff;
+  border-color: #005fff;
 }
 #navigations > .year:nth-child(6n+4) > a > .inneryear {
-  color: #009bdb;
+  color: #005fff;
 }
 #navigations > .year:nth-child(6n+4) > .outerCamp {
-  background: #009bdb;
+  background: #005fff;
 }
 #navigations > .year:nth-child(6n+5) {
-  background: #ff8b22;
-  border-color: #ff8b22;
+  background: #ff8c00;
+  border-color: #ff8c00;
 }
 #navigations > .year:nth-child(6n+5) > a > .inneryear {
-  color: #ff8b22;
+  color: #ff8c00;
 }
 #navigations > .year:nth-child(6n+5) > .outerCamp {
-  background: #ff8b22;
+  background: #ff8c00;
 }
 #navigations > .year:nth-child(6n+6) {
-  background: #bb39ff;
-  border-color: #bb39ff;
+  background: #800080;
+  border-color: #800080;
 }
 #navigations > .year:nth-child(6n+6) > a > .inneryear {
-  color: #bb39ff;
+  color: #800080;
 }
 #navigations > .year:nth-child(6n+6) > .outerCamp {
-  background: #bb39ff;
+  background: #800080;
 }
 #navigations > .year {
   cursor: pointer;
@@ -414,40 +391,40 @@ main .youtube iframe {
   border: none;
 }
 main section:nth-child(6n+1) > .youtube > .play:after {
-  border-left-color: #e63c35;
+  border-left-color: #ff0000;
 }
 main .parallax.noimage:nth-child(6n+1) {
-  background-color: rgb(241.2334801762, 147.6211453744, 143.7665198238);
+  background-color: #ff6666;
 }
 main section:nth-child(6n+2) > .youtube > .play:after {
-  border-left-color: #fac700;
+  border-left-color: #ffc300;
 }
 main .parallax.noimage:nth-child(6n+2) {
-  background-color: rgb(255, 222.768, 97);
+  background-color: #ffdb66;
 }
 main section:nth-child(6n+3) > .youtube > .play:after {
-  border-left-color: #67b62d;
+  border-left-color: #00aa2d;
 }
 main .parallax.noimage:nth-child(6n+3) {
-  background-color: rgb(156.127753304, 219.1189427313, 109.8810572687);
+  background-color: #11ff50;
 }
 main section:nth-child(6n+4) > .youtube > .play:after {
-  border-left-color: #009bdb;
+  border-left-color: #005fff;
 }
 main .parallax.noimage:nth-child(6n+4) {
-  background-color: rgb(66, 199.7671232877, 255);
+  background-color: #669fff;
 }
 main section:nth-child(6n+5) > .youtube > .play:after {
-  border-left-color: #ff8b22;
+  border-left-color: #ff8c00;
 }
 main .parallax.noimage:nth-child(6n+5) {
-  background-color: rgb(255, 192.5384615385, 136);
+  background-color: #ffba66;
 }
 main section:nth-child(6n+6) > .youtube > .play:after {
-  border-left-color: #bb39ff;
+  border-left-color: #800080;
 }
 main .parallax.noimage:nth-child(6n+6) {
-  background-color: rgb(222.0303030303, 159, 255);
+  background-color: #e600e6;
 }
 main h2 {
   font-size: 2em;
@@ -568,7 +545,7 @@ footer div a.github:after {
 
 a:hover,
 a:focus {
-  color: #ff4c4c;
+  color: #ff0000;
 }
 
 a:hover {
@@ -584,7 +561,7 @@ a {
 }
 
 a {
-  color: #008cba;
+  color: #005fff;
   text-decoration: none;
   line-height: inherit;
 }
@@ -611,7 +588,7 @@ a {
   height: 100%;
 }
 .modal .close-button {
-  color: #f00;
+  color: #ff0000;
   font-size: 1.5em;
   position: absolute;
   top: 1em;
@@ -835,27 +812,27 @@ a {
 
 .colorful span:nth-child(6n+1),
 h2 span:nth-child(6n+1) {
-  color: #ff4c4c;
+  color: #ff0000;
 }
 .colorful span:nth-child(6n+2),
 h2 span:nth-child(6n+2) {
-  color: #0085ff;
+  color: #005fff;
 }
 .colorful span:nth-child(6n+3),
 h2 span:nth-child(6n+3) {
-  color: #7dc600;
+  color: #00aa2d;
 }
 .colorful span:nth-child(6n+4),
 h2 span:nth-child(6n+4) {
-  color: #fac800;
+  color: #ffc300;
 }
 .colorful span:nth-child(6n+5),
 h2 span:nth-child(6n+5) {
-  color: #ff8b00;
+  color: #ff8c00;
 }
 .colorful span:nth-child(6n),
 h2 span:nth-child(6n) {
-  color: #a278ff;
+  color: #800080;
 }
 
-/*# sourceMappingURL=style.601582bb.css.map */
+/*# sourceMappingURL=style.d59dee19.css.map */

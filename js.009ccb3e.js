@@ -132,10 +132,9 @@ Promise.resolve().then(function () {
   });
 }).then(function () {
   return new Promise(function (res) {
-    return paths[0].addEventListener("animationiteration", function (e) {
-      console.log(e);
-      if (e.elapsedTime % 4 < 2) res();
-    });
+    setTimeout(function () {
+      return res();
+    }, 2000);
   });
 }).then(function () {
   return new Promise(function (res) {
@@ -1078,4 +1077,4 @@ require("./navigation");
 require("./player");
 require("./scroll");
 },{"./index":"Y5Mt","./loading":"hIs6","./lit-words":"m9uI","./modal":"Jxnb","./navigation":"bekQ","./player":"xWRB","./scroll":"ZBey"}]},{},["Y5Mt"], null)
-//# sourceMappingURL=js.e16f4f2d.js.map
+//# sourceMappingURL=js.009ccb3e.js.map
