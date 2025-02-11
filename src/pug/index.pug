@@ -39,21 +39,7 @@ html(lang="ja")
   body
     #loading
       p#loading-message
-      svg(viewBox="0 0 230 280")
-        path.second.square(style="stroke: #1792cb", d="m 25,0 0,231")
-        path.second(style="stroke: #f0c11a", d="m 85,120 0,100")
-        path(style="stroke: #f0c11a", d="M 85,110 85,60")
-        path.first(
-          style="stroke: #e83e37",
-          d="M 205,50 C 205,25 180,25 180,25 L 60,25"
-        )
-        path.second.square(style="stroke: #e83e37", d="M 145,280 145,49")
-        path.second(style="stroke: #66ae32", d="M 205,220 205,60")
-        path(style="stroke: #66ae32", d="m 205,280 0,-50")
-        path.first(
-          d="m 25,230 c 0,25 25,25 25,25 l 60,0",
-          style="stroke: #1792cb"
-        )
+      img(src="../../res/img/loading.svg")
     nav
       ul#navigations
         li.year
@@ -78,8 +64,8 @@ html(lang="ja")
             .inneryear Thanks !
     header
       h1
-        img#mark(src="../../res/img/mark.png")
-        img#logo(src="../../res/img/logo.png", alt="Life is Tech! ®")
+        img#mark(src="../../res/img/mark.svg")
+        img#logo(src="../../res/img/logo.svg", alt="Life is Tech!")
         img#music(src="../../res/img/music.svg", alt="music")
       a.bounce(href="#main", data-scroll)
         | Scroll Down
@@ -126,7 +112,7 @@ html(lang="ja")
                     a(href=youtube[1])
                       | Watch at
                       img(
-                        src="../../res/img/YouTube-logo-light.png",
+                        src="../../res/img/YouTube-logo-light.svg",
                         alt="YouTube"
                       )
                 h4= song.title
@@ -137,23 +123,25 @@ html(lang="ja")
     footer
       div
         p#thanks
-          +colorful("Thanks for visit!")
+          +colorful("Thanks for visiting!")
         p
-          | do you have some infomation?
+          | Do you have any information?
           br
-          | Tell me with
+          | Tell me on&nbsp;
           a(href="https://www.facebook.com/LiTmusic-182225395894104")
             | Facebook
+          | ,
           br
           | or
           br
           |
-          | see this in
+          | You can check it on&nbsp;
           a.github(href="https://github.com/lit-kansai-members/music")
             img(src="../../res/img/github-mark.svg")
             img(src="../../res/img/github-logo.svg", alt="GitHub")
+          | &nbsp;.
           br
-          small This project is an unoffcial.
+          small This project is unofficial.
     each chuiten in data.chuitens
       .modal(id=createId(chuiten.name))
         a.close-modal.close-button(href="#"): +faicon("times-circle")
