@@ -992,6 +992,21 @@
             [YouTube](//youtu.be/RbpDRk_OAPU)
 - year: "番外編"
   camps:
+    - name: "関西卒業サプライズ2025"
+      background: "../../res/img/backgrounds/event_2025_surprise_kansai.webp"
+      songs:
+        - title: "たいせつ"
+          author: "Arakezuri"
+          description: |
+            🎤[DAM] [5519-92](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5519-92) [JOYSOUND][820457](https://www.joysound.com/web/search/song/1079016)
+            [歌詞(歌ネット)](https://www.uta-net.com/song/337408/)
+            [YouTube](//youtu.be/0Y0AuOSCeZY)
+        - title: "夢でみたような"
+          author: "まなつ"
+          description: |
+            🎤[DAM] 404 Not Found [JOYSOUND] 404 Not Found
+            [歌詞(UtaTen)](https://utaten.com/lyric/mi20030604/)
+            [YouTube](//youtu.be/ko29ZW-7ylo)
     - name: "関東卒業サプライズ2024"
       background: "../../res/img/backgrounds/event_2024_surprise_kanto.webp"
       songs:
