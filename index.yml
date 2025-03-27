@@ -32,25 +32,6 @@
 #         [YouTube](//youtu.be/3j77uK8hu5A)
 #         [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a04cc66/l03a371.html)
 #       # リンクなど。 "|" はYAMLの複数行記法です。
-- year: "2025"
-  camps:
-    - name: "'25 Spring Camp"
-      background: "../../res/img/backgrounds/camp_2025_spring.webp"
-      songs:
-        - title: "ひとりぼっちと廊下の窓"
-          author: "サバシスター"
-          description: |
-            ブルボン 濃厚チョコブラウニー CMソング
-            🎤[DAM] [5512-83](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5512-83) [JOYSOUND][630673](https://www.joysound.com/web/search/song/1059552)
-            [YouTube](//youtu.be/-zmfWs7CAIk)
-            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a066254/l061e70.html)
-        - title: "アタシのドレス"
-          author: "ねぐせ。"
-          description: |
-            TVアニメ「メダリスト」エンディングテーマ
-            🎤[DAM] [5587-14](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5587-14) [JOYSOUND][634020](https://www.joysound.com/web/search/song/1075134)
-            [YouTube](//youtu.be/8wZw9HePP-I)
-            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a062d50/l063303.html)
 - year: "2024"
   camps:
     - name: "'24 Xmas Camp"
