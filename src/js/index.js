@@ -5,3 +5,4 @@ import "./modal";
 import "./navigation";
 import "./player";
 import "./scroll";
+import "./console";

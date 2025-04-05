@@ -14,4 +14,3 @@ const index = Math.floor(Math.random() * length);
 
 document.getElementById("loading-message").innerText =
   words[index >= length ? length - 1 : index];
-console.log(words[index >= length ? length - 1 : index]);
