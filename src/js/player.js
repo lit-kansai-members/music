@@ -95,7 +95,7 @@ window.onYouTubeIframeAPIReady = () => {
     $balloon.classList.toggle("opened")
   );
 
-  [$title, $author, $thumbnail].forEach(element => {
+  [$title, $author, $thumbnail].forEach((element) => {
     element.addEventListener("click", () => {
       const currentPlayer = players[playing]?.player;
       if (currentPlayer) {
@@ -104,4 +104,4 @@ window.onYouTubeIframeAPIReady = () => {
       }
     });
   });
-}
+};
