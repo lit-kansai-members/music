@@ -49,8 +49,8 @@ Life is Tech ! で使われている BGM をまとめたリポジトリです。
 
 ## ルール
 
-- 採用の判断基準は **全国規模で流れていた曲** です。メンバーがかけていた曲はそのキャンプだけなので **対象外** です。
-- テーマは DVD に記載されているものになります。
+- 採用の判断基準は **エンディングムービーで使用される曲** です。DJ System の曲は **対象外** です。
+- テーマは告知で使用されるものです。
 
 ## PR について
 
@@ -72,21 +72,21 @@ yarn test
 - なぽるん / りん [@RinYokoi](//github.com/RinYokoi)
 - りゅうせい / くあてろ [@rkccdsnagoya1](//github.com/rkccdsnagoya1)
 - モンタケ [@Mon-Take](//github.com/Mon-Take)
-- べじぴぽ [@\_vegi_pipo_Lit](//twitter.com/_vegi_pipo_Lit)（Twitter）
+- べじぴぽ [@\_vegi_pipo_Lit](//x.com/_vegi_pipo_Lit)（X）
 - げんちゃん [@GenbuHase](//github.com/GenbuHase)
 - なとむ / みねらる [@mizphses](//github.com/mizphses)
-- さっきー [@222222222332a](//twitter.com/222222222332a)（Twitter）
+- さっきー [@222222222332a](//x.com/222222222332a)（X）
 - ちか
 - えんたく [@ENDOTAKUMI](//github.com/ENDOTAKUMI)
-- タツ [@u39dc](//twitter.com/u39dc)（Twitter）
-- たまご丸。 [@tamagomaRuuu](//twitter.com/tamagomaRuuu)（Twitter）
+- タツ [@u39dc](//x.com/u39dc)（X）
+- たまご丸。 [@tamagomaRuuu](//x.com/tamagomaRuuu)（X）
 - そーた [@souta0104](//github.com/souta0104)
-- 来留 [@rairuuuuuuuuu](//twitter.com/rairuuuuuuuuu)（Twitter）
-- めんちゃん [@menchan_klis](//twitter.com/menchan_klis)（Twitter）
+- 来留 [@rairuuuuuuuuu](//x.com/rairuuuuuuuuu)（X）
+- めんちゃん [@menchan_klis](//x.com/menchan_klis)（X）
 - わくわくさん [@sugijotaro](//github.com/sugijotaro)
 - あやめ [@ayame-r](//github.com/ayame-r)
-- かなやん [@bearpoohkanayan](//github.com/bearpoohkanayan)
 - simasimasimasima [@simasimasimasima](//github.com/simasimasimasima)
+- なつき [@Natsuki0117](//github.com/Natsuki0117)
 
 ## Contributors
 
@@ -95,6 +95,7 @@ yarn test
 - やぎちゃん [@ygkn](//github.com/ygkn)
 - れん [@ren-suke](//github.com/ren-suke)
 - flying-tobisuke [@flying-tobisuke](//github.com/flying-tobisuke)
+- かなやん [@kanayankee](//github.com/kanayankee)
 
 ## 最後に
 
