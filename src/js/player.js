@@ -57,7 +57,6 @@ window.onYouTubeIframeAPIReady = () => {
         players.forEach((data, idx) => {
           if (data.player == null) return;
           if (data.player !== target) {
-            data.player.getPlayerState() === YT.PlayerState.PLAYING && data.player.pauseVideo();
             data.player.getPlayerState() === YT.PlayerState.PLAYING &&
               data.player.pauseVideo();
           } else if (!isMobile) {
