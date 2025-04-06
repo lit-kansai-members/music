@@ -15,7 +15,7 @@ console.log("%cL%ci%cT%c!%cM%cU%cS%cI%cC", ...styles);
 console.log(
   `
 %cDAMチャンネルをご覧のみなさん%c
-ソースコードを見てしまうようなメンバーの皆さん、
+ソースコードを見てしまうようなメンバーのみなさん、
 LiT!MUSICの開発に参加してみませんか？
 → https://github.com/lit-kansai-members/music/
 `,
