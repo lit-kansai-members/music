@@ -649,6 +649,7 @@ a {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .player .setting {
   min-width: 0;
@@ -835,4 +836,4 @@ h2 span:nth-child(6n) {
   color: #800080;
 }
 
-/*# sourceMappingURL=style.d59dee19.css.map */
+/*# sourceMappingURL=style.416b014b.css.map */
