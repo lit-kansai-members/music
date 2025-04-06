@@ -155,7 +155,6 @@ var words = ["なんと！　ななんと！　なななんと！", "Life is Tec
 var length = words.length;
 var index = Math.floor(Math.random() * length);
 document.getElementById("loading-message").innerText = words[index >= length ? length - 1 : index];
-console.log(words[index >= length ? length - 1 : index]);
 },{}],"Jxnb":[function(require,module,exports) {
 document.querySelectorAll(".close-modal").forEach(function (v) {
   return v.addEventListener("click", function (e) {
@@ -1066,7 +1065,12 @@ var scrollBounce = new _sweetScroll.default({
   easing: "easeOutBack",
   afterScroll: afterScroll
 });
-},{"sweet-scroll":"J4PH"}],"Y5Mt":[function(require,module,exports) {
+},{"sweet-scroll":"J4PH"}],"dtBx":[function(require,module,exports) {
+var _console;
+var styles = ["color: #005fff; font-size: 64px;", "color: #ffc300; font-size: 64px;", "color: #ff0000; font-size: 64px;", "color: #00aa2d; font-size: 64px;", "color: #ff0000; font-size: 64px;", "color: #005fff; font-size: 64px;", "color: #00aa2d; font-size: 64px;", "color: #ffc300; font-size: 64px;", "color: #ff8c00; font-size: 64px;"];
+(_console = console).log.apply(_console, ["%cL%ci%cT%c!%cM%cU%cS%cI%cC"].concat(styles));
+console.log("\n%cDAM\u30C1\u30E3\u30F3\u30CD\u30EB\u3092\u3054\u89A7\u306E\u307F\u306A\u3055\u3093%c\n\u30BD\u30FC\u30B9\u30B3\u30FC\u30C9\u3092\u898B\u3066\u3057\u307E\u3046\u3088\u3046\u306A\u30E1\u30F3\u30D0\u30FC\u306E\u307F\u306A\u3055\u3093\u3001\nLiT!MUSIC\u306E\u958B\u767A\u306B\u53C2\u52A0\u3057\u3066\u307F\u307E\u305B\u3093\u304B\uFF1F\n\u2192 https://github.com/lit-kansai-members/music/\n", "text-decoration: line-through; font-size: 16px;", "font-size: 16px;");
+},{}],"Y5Mt":[function(require,module,exports) {
 "use strict";
 
 require("./index");
@@ -1076,5 +1080,6 @@ require("./modal");
 require("./navigation");
 require("./player");
 require("./scroll");
-},{"./index":"Y5Mt","./loading":"hIs6","./lit-words":"m9uI","./modal":"Jxnb","./navigation":"bekQ","./player":"xWRB","./scroll":"ZBey"}]},{},["Y5Mt"], null)
-//# sourceMappingURL=js.009ccb3e.js.map
+require("./console");
+},{"./index":"Y5Mt","./loading":"hIs6","./lit-words":"m9uI","./modal":"Jxnb","./navigation":"bekQ","./player":"xWRB","./scroll":"ZBey","./console":"dtBx"}]},{},["Y5Mt"], null)
+//# sourceMappingURL=js.73686fc7.js.map
