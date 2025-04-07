@@ -1047,6 +1047,16 @@ window.onYouTubeIframeAPIReady = function () {
   $toggleSetting.addEventListener("click", function (e) {
     return $balloon.classList.toggle("opened");
   });
+  [$title, $author, $thumbnail].forEach(function (element) {
+    element.addEventListener("click", function () {
+      var _players$playing;
+      var currentPlayer = (_players$playing = players[playing]) === null || _players$playing === void 0 ? void 0 : _players$playing.player;
+      if (currentPlayer) {
+        var iframe = currentPlayer.getIframe();
+        sweetScroll.toElement(iframe);
+      }
+    });
+  });
 };
 },{"sweet-scroll":"J4PH"}],"ZBey":[function(require,module,exports) {
 "use strict";
@@ -1082,4 +1092,4 @@ require("./player");
 require("./scroll");
 require("./console");
 },{"./index":"Y5Mt","./loading":"hIs6","./lit-words":"m9uI","./modal":"Jxnb","./navigation":"bekQ","./player":"xWRB","./scroll":"ZBey","./console":"dtBx"}]},{},["Y5Mt"], null)
-//# sourceMappingURL=js.73686fc7.js.map
+//# sourceMappingURL=js.1986555e.js.map

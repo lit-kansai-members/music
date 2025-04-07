@@ -643,6 +643,7 @@ a {
 .player .playing .thumb {
   padding: 10px;
   height: 100%;
+  cursor: pointer;
 }
 .player .playing > span {
   overflow: auto;
@@ -836,4 +837,4 @@ h2 span:nth-child(6n) {
   color: #800080;
 }
 
-/*# sourceMappingURL=style.416b014b.css.map */
+/*# sourceMappingURL=style.4c079bde.css.map */
