@@ -94,4 +94,14 @@ window.onYouTubeIframeAPIReady = () => {
   $toggleSetting.addEventListener("click", (e) =>
     $balloon.classList.toggle("opened")
   );
+
+  [$title, $author, $thumbnail].forEach((element) => {
+    element.addEventListener("click", () => {
+      const currentPlayer = players[playing]?.player;
+      if (currentPlayer) {
+        const iframe = currentPlayer.getIframe();
+        sweetScroll.toElement(iframe);
+      }
+    });
+  });
 };
