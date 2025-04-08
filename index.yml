@@ -1027,7 +1027,7 @@
           description: |
             アニメ映画「サマーウォーズ」挿入歌
             🎤[DAM]404 NotFound [JOYSOUND]404 NotFound
-            [YouTube](//youtu.be/RbpDRk_OAPU)o
+            [YouTube](//youtu.be/RbpDRk_OAPU)
 - year: "番外編"
   camps:
     - name: "関東卒業サプライズ2025"
@@ -1043,9 +1043,9 @@
         - title: "閃光"
           author: "SUPER BEAVER"
           description: |
-             Ending movie
+            Ending movie
             🎤[DAM][7397-32](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=7397-32) [JOYSOUND][431023](https://www.joysound.com/web/search/song/693429)
-            [歌詞(UtaTen)](https://utaten.com/lyric/mi20030604/)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a050f66/l04985b.html/)
             [YouTube](//youtu.be/CxTtwJ2yG_E)
     - name: "関西卒業サプライズ2025"
       background: "../../res/img/backgrounds/event_2025_surprise_kansai.webp"
@@ -1054,7 +1054,7 @@
           author: "Arakezuri"
           description: |
             🎤[DAM] [5519-92](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5519-92) [JOYSOUND][820457](https://www.joysound.com/web/search/song/1079016)
-            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a050f66/l04985b.html)
+            [歌詞(歌ネット)](https://www.uta-net.com/song/337408/)
             [YouTube](//youtu.be/0Y0AuOSCeZY)
         - title: "夢でみたような"
           author: "まなつ"
