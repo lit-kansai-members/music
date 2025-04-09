@@ -1031,9 +1031,11 @@
 - year: "番外編"
   camps:
     - name: "関東卒業サプライズ2025"
+      theme: "青春の1ページの続きを"
       background: "../../res/img/backgrounds/event_2025_surprise_kanto.webp"
       songs:
-        - title: "風の噂"
+        - title: "風の噂" 　
+        　theme: "夏のすべてが詰まってる"
           author: "トンボコープ"
           description: |
             Opening movie
