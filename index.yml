@@ -1029,12 +1029,12 @@
             🎤[DAM]404 NotFound [JOYSOUND]404 NotFound
             [YouTube](//youtu.be/RbpDRk_OAPU)
 - year: "番外編"
-  camps:   
+  camps:
     - name: "関東卒業サプライズ2025"
       background: "../../res/img/backgrounds/event_2025_surprise_kanto.webp" 
       theme: "青春の1ページの続きを" 
       songs:
-        - title: "風の噂" 　
+        - title: "風の噂"
           author: "トンボコープ"
           description: |
             Opening movie
