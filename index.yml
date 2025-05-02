@@ -1030,6 +1030,24 @@
             [YouTube](//youtu.be/RbpDRk_OAPU)
 - year: "番外編"
   camps:
+    - name: "関東卒業サプライズ2025"
+      background: "../../res/img/backgrounds/event_2025_surprise_kanto.webp"
+      theme: "青春の1ページの続きを"
+      songs:
+        - title: "風の噂"
+          author: "トンボコープ"
+          description: |
+            Opening movie
+            🎤[DAM] [5479-89](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5479-89) [JOYSOUND][621406](https://www.joysound.com/web/search/song/997078)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a06597c/l0602ad.html/)
+            [YouTube](//youtu.be/uz1VrmbfeYs)
+        - title: "閃光"
+          author: "SUPER BEAVER"
+          description: |
+            Ending movie
+            🎤[DAM][7397-32](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=7397-32) [JOYSOUND][431023](https://www.joysound.com/web/search/song/693429)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a050f66/l04985b.html/)
+            [YouTube](//youtu.be/CxTtwJ2yG_E)
     - name: "関西卒業サプライズ2025"
       background: "../../res/img/backgrounds/event_2025_surprise_kansai.webp"
       songs:
