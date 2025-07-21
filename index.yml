@@ -34,6 +34,23 @@
 #       # リンクなど。 "|" はYAMLの複数行記法です。
 - year: "2025"
   camps:
+    - name: "'25 Summer Camp"
+      background: "../../res/img/backgrounds/camp_2025_Summer.webp"
+      songs:
+        - title: "バイマイフレンド"
+          author: "bokula."
+          description: |
+            🎤[DAM] [5423-40](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5423-40) [JOYSOUND] [812225](https://www.joysound.com/web/search/song/919640)
+            [YouTube](//youtu.be/IOBny9KrdMg)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a063048/l058ac7.html)
+        - title: "月面着陸計画"
+          author: "tuki."
+          description: |
+            スズキ「ソリオバンディット」CMソング、第66回日本レコード大賞特別賞
+            🎤[DAM] [5553-14](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5553-14) [JOYSOUND][633169](https://www.joysound.com/web/search/song/1077783)
+            [YouTube](//youtu.be/mX9IJ7Urn28)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a067492/l063283.html)
+
     - name: "'25 Spring Camp"
       background: "../../res/img/backgrounds/camp_2025_spring.webp"
       songs:
