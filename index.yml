@@ -35,7 +35,7 @@
 - year: "2025"
   camps:
     - name: "'25 Summer Camp"
-      background: "../../res/img/backgrounds/camp_2025_Summer.webp"
+      background: "../../res/img/backgrounds/camp_2025_summer.webp"
       songs:
         - title: "バイマイフレンド"
           author: "bokula."
@@ -50,7 +50,6 @@
             🎤[DAM] [5553-14](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=5553-14) [JOYSOUND][633169](https://www.joysound.com/web/search/song/1077783)
             [YouTube](//youtu.be/mX9IJ7Urn28)
             [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a067492/l063283.html)
-
     - name: "'25 Spring Camp"
       background: "../../res/img/backgrounds/camp_2025_spring.webp"
       songs:
