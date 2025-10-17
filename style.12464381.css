@@ -141,19 +141,6 @@ body.loaded header a[href="#main"] {
   transform: translate(-50%, -50%);
 }
 
-#navigations {
-  position: fixed;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 1em;
-  z-index: 4;
-  font-size: 0.75em;
-  padding: 0;
-  margin: 0;
-}
 #navigations > .year:nth-child(6n+1) {
   background: #ff0000;
   border-color: #ff0000;
@@ -213,6 +200,19 @@ body.loaded header a[href="#main"] {
 }
 #navigations > .year:nth-child(6n+6) > .outerCamp {
   background: #800080;
+}
+#navigations {
+  position: fixed;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1em;
+  z-index: 4;
+  font-size: 0.75em;
+  padding: 0;
+  margin: 0;
 }
 #navigations > .year {
   cursor: pointer;
@@ -461,11 +461,13 @@ main .parallax {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  display: flex;
-  flex-direction: column;
 }
 main .parallax.noimage {
   background-size: contain;
+}
+main .parallax {
+  display: flex;
+  flex-direction: column;
 }
 main section {
   width: calc(100% - 2em);
@@ -837,4 +839,4 @@ h2 span:nth-child(6n) {
   color: #800080;
 }
 
-/*# sourceMappingURL=style.4c079bde.css.map */
+/*# sourceMappingURL=style.12464381.css.map */
