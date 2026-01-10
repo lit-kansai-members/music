@@ -34,6 +34,23 @@
 #       # リンクなど。 "|" はYAMLの複数行記法です。
 - year: "2025"
   camps:
+    - name: "'25 Xmas Camp"
+      background: "../../res/img/backgrounds/camp_2025_xmas.webp"
+      songs:
+        - title: "PLAYERS"
+          author: "YOASOBI"
+          description: |
+            PlayStation CMソング
+            🎤[DAM] [1060-71](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1060-71) [JOYSOUND][635895](https://www.joysound.com/web/search/song/1079168)
+            [YouTube](//youtu.be/ZfR_FP_7w00)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a061652/l063f06.html)
+        - title: "ハピネス"
+          author: "AI"
+          description: |
+            コカ・コーラ 冬期CMソング
+            🎤[DAM] [6484-08](https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=6484-08) [JOYSOUND][29625](https://www.joysound.com/web/search/song/186425)
+            [YouTube](//youtu.be/uKgmu8g-kXE)
+            [歌詞(J-Lyric.net)](https://j-lyric.net/artist/a001bf4/l027392.html)
     - name: "'25 Summer Camp"
       background: "../../res/img/backgrounds/camp_2025_summer.webp"
       songs:
