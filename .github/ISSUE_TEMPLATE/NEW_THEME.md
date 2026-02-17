@@ -1,9 +1,7 @@
 ---
 name: " Themeの追加 "
 about: Themeの追加はこちら。可能なら事前にissueページで同じテーマの投稿がないようにチェックしてください。
-title: ''
 labels: New Theme Request
-assignees: ''
 
 ---
 

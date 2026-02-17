@@ -1,9 +1,7 @@
 ---
 name: " エラー・バグ報告 "
 about: バグ等の報告はこのフォームから行ってください。
-title: ''
-labels: ''
-assignees: ''
+labels: Bug
 
 ---
 
