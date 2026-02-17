@@ -1,7 +1,10 @@
 ---
 name: " 新曲の追加 "
-about: "曲の追加はこちら。事前にissueページで同じEventに対する同じ曲の投稿がないようにチェックしてください。"
+about: 曲の追加はこちら。事前にissueページで同じEventに対する同じ曲の投稿がないようにチェックしてください。
+title: ''
 labels: New Song Request
+assignees: ''
+
 ---
 
 ## イベント名: yyyy-xxxxxx
@@ -60,6 +63,6 @@ labels: New Song Request
 
 - GitHub ID: @xxxx（空白可）
 
-- Twitter ID: @xxxx（空白可）
+- X ID: @xxxx（空白可）
 
 - ニックネーム: xxxx

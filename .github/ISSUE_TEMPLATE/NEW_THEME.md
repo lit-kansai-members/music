@@ -1,7 +1,10 @@
 ---
 name: " Themeの追加 "
-about: "Themeの追加はこちら。可能なら事前にissueページで同じテーマの投稿がないようにチェックしてください。"
+about: Themeの追加はこちら。可能なら事前にissueページで同じテーマの投稿がないようにチェックしてください。
+title: ''
 labels: New Theme Request
+assignees: ''
+
 ---
 
 ## イベント名: yyyy-xxxxxx
@@ -49,6 +52,6 @@ labels: New Theme Request
 
 - GitHub ID: @xxxx（空白可）
 
-- Twitter ID: @xxxx（空白可）
+- X ID: @xxxx（空白可）
 
 - ニックネーム: xxxx
