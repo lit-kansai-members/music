@@ -970,17 +970,51 @@ window.onYouTubeIframeAPIReady = function () {
   var $balloon = document.querySelector(".balloon");
   var $continue = document.querySelector("[name='continue']");
   var $repeat = document.querySelector("[name='repeat']");
+  var ERROR_CODES = {
+    2: "無効なパラメータ値",
+    5: "HTML5プレイヤーエラー",
+    100: "動画が見つからないか削除された",
+    101: "埋め込み再生が許可されていない",
+    150: "埋め込み再生が許可されていない"
+  };
   var events = {
-    onStateChange: function onStateChange(_ref) {
-      var target = _ref.target,
-        state = _ref.data;
-      if (state === 1) {
-        players.forEach(function (data, index) {
+    onReady: function onReady(event) {
+      var target = event.target;
+      var index = players.findIndex(function (_ref) {
+        var player = _ref.player;
+        return player === target;
+      });
+      if (index !== -1) {
+        console.log("Video ".concat(index, " (").concat(players[index].youtubeId, ") is ready"));
+        // 動画の状態をチェックする
+        checkVideoPlayability(target, index);
+        // 再生開始タイムアウトを設定
+        players[index].loadTimeout = setTimeout(function () {
+          checkVideoPlayability(target, index);
+        }, 3000);
+      }
+    },
+    onStateChange: function onStateChange(_ref2) {
+      var target = _ref2.target,
+        state = _ref2.data;
+      var index = players.findIndex(function (_ref3) {
+        var player = _ref3.player;
+        return player === target;
+      });
+
+      // タイムアウトをクリア（正常に状態が変化した）
+      if (index !== -1 && players[index].loadTimeout) {
+        clearTimeout(players[index].loadTimeout);
+        players[index].loadTimeout = null;
+      }
+      if (state === YT.PlayerState.PLAYING) {
+        // 1
+        players.forEach(function (data, idx) {
           if (data.player == null) return;
           if (data.player !== target) {
-            data.player.getPlayerState() === 1 && data.player.pauseVideo();
+            data.player.getPlayerState() === YT.PlayerState.PLAYING && data.player.pauseVideo();
           } else if (!isMobile) {
-            playing = index;
+            playing = idx;
             $title.innerText = data.title;
             $author.innerText = data.author;
             $thumbnail.src = "https://img.youtube.com/vi/".concat(data.youtubeId, "/0.jpg");
@@ -990,57 +1024,180 @@ window.onYouTubeIframeAPIReady = function () {
             sweetScroll.toElement(iframe);
           }
         });
-      } else if (state === 2) {
-        if (players.findIndex(function (_ref2) {
-          var player = _ref2.player;
-          return player === target;
-        }) === playing) {
+      } else if (state === YT.PlayerState.PAUSED) {
+        // 2
+        if (index === playing) {
           $toggleButton.classList.add("paused");
         }
-      } else if (state === 0) {
+      } else if (state === YT.PlayerState.ENDED) {
+        // 0
         if ($continue.checked) {
           if (playing !== players.length - 1 || $repeat.checked) playNext();
         } else if ($repeat.checked) {
           play(playing);
         }
+      } else if (state === YT.PlayerState.UNSTARTED) {
+        // -1
+        // 未開始状態が続く場合もチェック
+        if (index === playing) {
+          setTimeout(function () {
+            // 3秒後もまだUNSTARTEDならエラーと見なす
+            if (target.getPlayerState() === YT.PlayerState.UNSTARTED) {
+              console.log("Video at index ".concat(index, " stuck in UNSTARTED state, skipping..."));
+              if ($continue.checked) playNext();
+            }
+          }, 3000);
+        }
+      }
+    },
+    onError: function onError(_ref4) {
+      var target = _ref4.target,
+        errorCode = _ref4.data;
+      var index = players.findIndex(function (_ref5) {
+        var player = _ref5.player;
+        return player === target;
+      });
+      if (index !== -1) {
+        console.error("Error playing video at index ".concat(index, ": ").concat(ERROR_CODES[errorCode] || "Unknown error (".concat(errorCode, ")")));
+
+        // エラー発生時にタイムアウトをクリア
+        if (players[index].loadTimeout) {
+          clearTimeout(players[index].loadTimeout);
+          players[index].loadTimeout = null;
+        }
+
+        // 現在再生中の動画でエラーが発生した場合に次へ
+        if (index === playing && $continue.checked) {
+          playNext();
+        }
+      }
+    }
+  };
+
+  // 動画が再生可能かどうかを積極的にチェック
+  var checkVideoPlayability = function checkVideoPlayability(player, index) {
+    if (!player) return;
+    try {
+      var duration = player.getDuration();
+      var state = player.getPlayerState();
+
+      // 動画の再生が不可能な状態を検出
+      if (duration <= 0 && state !== YT.PlayerState.BUFFERING || state === YT.PlayerState.UNSTARTED || state === -1) {
+        console.log("Video at index ".concat(index, " seems unplayable (state: ").concat(state, ", duration: ").concat(duration, ")"));
+
+        // 特定の条件での追加チェック
+        player.playVideo();
+
+        // 再度確認するための短いタイムアウト
+        setTimeout(function () {
+          var newState = player.getPlayerState();
+          var newDuration = player.getDuration();
+          if (newDuration <= 0 && newState !== YT.PlayerState.BUFFERING || newState === YT.PlayerState.UNSTARTED || newState === -1) {
+            console.log("Confirmed video at index ".concat(index, " is unplayable, skipping..."));
+            if (index === playing && $continue.checked) {
+              playNext();
+            }
+          }
+        }, 1000);
+      }
+    } catch (error) {
+      console.error("Error checking video at index ".concat(index, ":"), error);
+      if (index === playing && $continue.checked) {
+        playNext();
       }
     }
   };
   var load = function load(index) {
-    players[index].player = new YT.Player(players[index].trigger, {
-      videoId: players[index].youtubeId,
-      playerVars: {
-        autoplay: 1,
-        rel: 0
-      },
-      events: events
-    });
-    delete players[index].trigger;
+    try {
+      // すでにトリガー要素が置き換えられている場合は再作成
+      if (!players[index].trigger && !players[index].player) {
+        console.error("Cannot load player at index ".concat(index, ": Trigger element is gone"));
+        if ($continue.checked && index === playing) {
+          setTimeout(playNext, 500);
+        }
+        return;
+      }
+      players[index].player = new YT.Player(players[index].trigger, {
+        videoId: players[index].youtubeId,
+        playerVars: {
+          autoplay: 1,
+          rel: 0,
+          enablejsapi: 1
+        },
+        events: events
+      });
+      delete players[index].trigger;
+    } catch (error) {
+      console.error("Failed to create player for index ".concat(index, ":"), error);
+      if ($continue.checked && index === playing) {
+        setTimeout(playNext, 500);
+      }
+    }
   };
   var play = function play(index) {
+    // 前の動画のタイムアウトをクリア
+    if (playing !== undefined && players[playing] && players[playing].loadTimeout) {
+      clearTimeout(players[playing].loadTimeout);
+      players[playing].loadTimeout = null;
+    }
+    if (index < 0 || index >= players.length) {
+      console.error("Invalid index ".concat(index));
+      return;
+    }
     if (players[index].player) {
-      players[index].player.seekTo(0, true);
-      players[index].player.playVideo();
+      try {
+        playing = index;
+        players[index].player.seekTo(0, true);
+        players[index].player.playVideo();
+
+        // 再生開始を確認するためのタイムアウト
+        players[index].loadTimeout = setTimeout(function () {
+          if (players[index].player) {
+            checkVideoPlayability(players[index].player, index);
+          }
+        }, 3000);
+      } catch (error) {
+        console.error("Error playing video at index ".concat(index, ":"), error);
+        if ($continue.checked) {
+          playNext();
+        }
+      }
     } else {
+      playing = index;
       load(index);
     }
   };
   var playBack = function playBack() {
-    return play(playing - 1 < 0 ? players.length - 1 : playing - 1);
+    play(playing - 1 < 0 ? players.length - 1 : playing - 1);
   };
   var playNext = function playNext() {
-    return play((playing + 1) % players.length);
+    if (players.length <= 1) return;
+    var startIndex = playing !== undefined ? playing : 0;
+    var attempts = 0;
+    var tryPlay = function tryPlay() {
+      if (attempts >= players.length) {
+        console.warn("Tried all videos but none are playable");
+        return;
+      }
+      var nextIndex = (startIndex + 1 + attempts) % players.length;
+      attempts++;
+      play(nextIndex);
+    };
+    tryPlay();
   };
   var players = _toConsumableArray(document.querySelectorAll(".play")).map(function (trigger, index) {
     var data = Object.assign({}, trigger.dataset);
     data.trigger = trigger;
+    data.loadTimeout = null;
     trigger.addEventListener("click", function (e) {
       return load(index);
     });
     return data;
   });
   $toggleButton.addEventListener("click", function (e) {
-    return players[playing].player[$toggleButton.classList.contains("paused") ? "playVideo" : "pauseVideo"]();
+    if (playing !== undefined && players[playing].player) {
+      players[playing].player[$toggleButton.classList.contains("paused") ? "playVideo" : "pauseVideo"]();
+    }
   });
   $backButton.addEventListener("click", playBack);
   $nextButton.addEventListener("click", playNext);
@@ -1092,4 +1249,4 @@ require("./player");
 require("./scroll");
 require("./console");
 },{"./index":"Y5Mt","./loading":"hIs6","./lit-words":"m9uI","./modal":"Jxnb","./navigation":"bekQ","./player":"xWRB","./scroll":"ZBey","./console":"dtBx"}]},{},["Y5Mt"], null)
-//# sourceMappingURL=js.1986555e.js.map
+//# sourceMappingURL=js.ceb64c69.js.map
