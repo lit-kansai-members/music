@@ -1,9 +1,9 @@
 ---
-name: " エラー・バグ報告 "
+name: ' エラー・バグ報告 '
 about: バグ等の報告はこのフォームから行ってください。
-title: ""
-labels: ""
-assignees: ""
+title: ''
+labels: ''
+assignees: ''
 ---
 
 ## 起こっている状況

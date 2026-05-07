@@ -4,48 +4,15 @@
 
 Life is Tech ! で使われている BGM をまとめたリポジトリです。関西のメンバーを中心にまとめています！もちろん関西以外のメンバーも Welcome！是非活用してくださいね！
 
-[Web ページ](http://lit-kansai-members.github.io/music/)（[index.yml](./index.yml)から自動生成）
+[Web ページ](http://lit-kansai-members.github.io/music/)（[/src/data/index.json](./src/data/index.json)から自動生成）
 
 ## こんな曲かかってたよ！
 
 そんな曲をご存知の方は Issues で提案していただければと思います。
 
-[新曲の追加](https://github.com/lit-kansai-members/music/issues/new?labels=New+Song+Request&template=NEW_SONG.md)
+[新曲の追加](http://lit-kansai-members.github.io/music/post/)
 /
 [Theme の追加](https://github.com/lit-kansai-members/music/issues/new?labels=New+Theme+Request&template=NEW_THEME.md)
-
-<!--
-[![Form](https://placehold.jp/24/3d4070/e8e8e8/170x50.png?text=%E6%8F%90%E6%A1%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0&css=%7B%22border-radius%22%3A%227px%22%7D)](https://goo.gl/forms/VNdvhC37OuRBtWCD3)
-
-## Contribution
-### Life is Tech! BGM におけるContributionのやり方講座
-
-1. Fork
-2. Edit
-3. Commitをする
-4. Pull Request
-5. Marge plz! :)
-
--->
-
-<!--
-### :warning: WARNING :warning:
-- 以下のフォーマットを使用してください
-
-  ```yml
-  - year: "2016" # 年 (Stringです！)
-    camps:
-    - name: "'16 Xmas Camp" # キャンプ名
-      background: "img/backgorunds/xmas2016_desktop_yellow.jpg" # 背景画像のURL
-      songs:
-      - title: "Hey Ho" # 曲名
-        author: "SEKAI NO OWARI" # 歌手名
-        description: |
-          [YouTube](//youtu.be/qfsr0S_QGOU)
-          [歌詞(J-Lyric.net)](http://j-lyric.net/artist/a055790/l03c659.html)
-        # リンクなど。"|"はYAMLの複数行記法です。
-  ```
--->
 
 ## ルール
 
@@ -66,7 +33,7 @@ yarn test
 
 ## Special Thanks
 
-- English×ITCamp 2014 ご参加のみなさま
+- English × ITCamp 2014 ご参加のみなさま
 - てっくな予感ぷろじぇくと(とき・あおい・HasuLi・もやし・おとのん・なと・とっぽ・わくわくさん・ゆかり・のぞみ)
 - かずさ [@KazusaLiT](//x.com/KazusaLiT)（X）
 

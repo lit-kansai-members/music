@@ -1,37 +1,27 @@
 {
-  "name": "music",
-  "version": "1.0.0",
+  "name": "lit-music",
   "private": true,
-  "description": "Life is Tech!な音楽をまとめた\"非公式\"リポジトリ",
-  "homepage": "https://lit-kansai-members.github.io/music/",
-  "bugs": {
-    "url": "https://github.com/lit-kansai-members/music/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:lit-kansai-members/music.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "main": "README.md",
+  "version": "2.0.0",
+  "type": "module",
   "scripts": {
-    "test": "parcel serve src/pug/index.pug --out-dir build",
-    "build": "parcel build src/pug/index.pug --no-minify --out-dir build --public-url '.'",
+    "dev": "vite",
+    "predev": "yarn format",
+    "build": "yarn format && tsc && vite build",
+    "preview": "vite preview",
     "format": "prettier --write .",
-    "check": "npm-run-all check:*",
-    "check:format": "prettier --check ."
+    "check": "prettier --check . && tsc --noEmit"
   },
   "dependencies": {
-    "sweet-scroll": "4.0.0"
+    "lit": "^3.1.2",
+    "marked": "^15.0.0"
   },
   "devDependencies": {
-    "@prettier/plugin-pug": "1.17.3",
-    "js-yaml": "4.1.1",
-    "marked": "15.0.12",
-    "npm-run-all2": "8.0.4",
-    "parcel-bundler": "1.12.5",
-    "prettier": "2.8.8",
-    "pug": "3.0.4",
-    "sass": "1.99.0"
+    "cssnano": "^6.1.2",
+    "postcss": "^8.4.38",
+    "postcss-preset-env": "^9.5.0",
+    "prettier": "^3.8.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-checker": "^0.13.0"
   }
 }
