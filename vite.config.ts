@@ -6,9 +6,8 @@ import checker from 'vite-plugin-checker';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig(({ mode }) => {
-  // Detect if we're on Netlify or building for a local root preview
-  const isNetlify = process.env.NETLIFY === 'true';
-  const base = isNetlify ? '/' : '/music/';
+  const isRootPreview = process.env.NETLIFY === 'true' || process.env.CF_PAGES === '1';
+  const base = isRootPreview ? '/' : '/music/';
 
   return {
     base: base,
