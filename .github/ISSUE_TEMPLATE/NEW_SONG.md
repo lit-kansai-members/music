@@ -1,9 +1,9 @@
 ---
-name: " 新曲の追加 "
+name: ' 新曲の追加 '
 about: 曲の追加はこちら。事前にissueページで同じEventに対する同じ曲の投稿がないようにチェックしてください。
-title: ""
+title: ''
 labels: New Song Request
-assignees: ""
+assignees: ''
 ---
 
 ## イベント名: yyyy-xxxxxx
