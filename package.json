@@ -16,7 +16,7 @@
     "marked": "^15.0.0"
   },
   "devDependencies": {
-    "cssnano": "^6.1.2",
+    "cssnano": "^8.0.0",
     "postcss": "^8.4.38",
     "postcss-preset-env": "^11.0.0",
     "prettier": "^3.8.3",
