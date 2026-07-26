@@ -1,4 +1,4 @@
-import"./modulepreload-polyfill-wMinxHhO.js";var e=document.getElementById(`songs-container`),t=document.getElementById(`add-song-btn`);function n(){let t=document.createElement(`div`);t.className=`song-block`,t.style.padding=`1rem`,t.style.border=`1px solid #e2e8f0`,t.style.marginBottom=`1rem`,t.style.borderRadius=`8px`,t.style.background=`#f8fafc`,t.innerHTML=`
+import"./modulepreload-polyfill-Dezn_h7o.js";var e=document.getElementById(`songs-container`),t=document.getElementById(`add-song-btn`);function n(){let t=document.createElement(`div`);t.className=`song-block`,t.style.padding=`1rem`,t.style.border=`1px solid #e2e8f0`,t.style.marginBottom=`1rem`,t.style.borderRadius=`8px`,t.style.background=`#f8fafc`,t.innerHTML=`
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
       <h3 style="margin: 0; font-size: 1rem; color: #475569;">曲</h3>
       <button type="button" class="del-song-btn" style="background: transparent; color: #ef4444; border: 1px solid #ef4444; padding: 0.2rem 0.6rem; width: auto; font-size: 0.8rem; margin: 0;">削除</button>
