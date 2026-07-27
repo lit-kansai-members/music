@@ -29,7 +29,7 @@ function createSongField() {
     </div>
     <div class="field">
       <label>曲名 <span style="color:red">*</span></label>
-      <input type="text" class="s-title" placeholder="偉星人" required>
+      <input type="text" class="s-title" placeholder="偉生人" required>
     </div>
     <div class="field">
       <label>アーティスト <span class="optional">(任意)</span></label>
