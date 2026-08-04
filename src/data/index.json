@@ -1836,6 +1836,38 @@
             "youtubeUrl": "//youtu.be/PZ3CB2vmGYo"
           }
         ]
+      },
+      {
+        "name": "Summer Camp 2026",
+        "background": "../../res/img/backgrounds/camp_2026_summer.webp",
+        "songs": [
+          {
+            "title": "マイユー",
+            "author": "Hump Back",
+            "description": "",
+            "spotify": "https://open.spotify.com/track/6lsG2bomzob32e77v6R25f",
+            "damNumber": "",
+            "damUrl": "",
+            "joyNumber": "621871",
+            "joyUrl": "https://www.joysound.com/web/search/song/883336",
+            "lyricsSiteName": "歌ネット",
+            "lyricsUrl": "https://www.uta-net.com/song/369925/",
+            "youtubeUrl": "//youtu.be/cb50Lbx-x_s"
+          },
+          {
+            "title": "Good Luck, Have Fun",
+            "author": "muque",
+            "description": "",
+            "spotify": "https://open.spotify.com/track/0bk6J02P3J8swGanX4Tki0",
+            "damNumber": "1470-39",
+            "damUrl": "https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1470-39",
+            "joyNumber": "647475",
+            "joyUrl": "https://www.joysound.com/web/search/song/1169066",
+            "lyricsSiteName": "歌ネット",
+            "lyricsUrl": "https://www.uta-net.com/song/390437/",
+            "youtubeUrl": "//youtu.be/p_l3vPsgMCQ"
+          }
+        ]
       }
     ]
   },
