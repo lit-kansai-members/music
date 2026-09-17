@@ -1,6 +1,6 @@
 function checkYouTubeVideos() {
   const jsonUrl =
-    'https://raw.githubusercontent.com/lit-kansai-members/music/refs/heads/main/src/data/index.json';
+    'https://raw.githubusercontent.com/lit-kansai-members/music/b573cdd7364ad0936b0e47bd83142b07d411fed1/src/data/index.json';
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('data');
 
   // スプレッドシートのヘッダー設定
@@ -39,16 +39,14 @@ function checkYouTubeVideos() {
             const title = song.title;
             const author = song.author || '';
 
-            // YouTube URLを抽出 (descriptionやyoutubeIdから)
-            let videoId = null;
-
-            if (song.youtubeId) {
-              videoId = song.youtubeId;
-            } else if (song.description) {
-              const youtubeMatch = song.description.match(/\[YouTube\]\(\/\/youtu\.be\/(.+?)\)/);
-              if (youtubeMatch) {
-                videoId = youtubeMatch[1];
-              }
+            // YouTube動画IDを抽出
+            let videoId = song.youtubeId || '';
+            const youtubeSource = song.youtubeUrl || song.description || '';
+            const youtubeMatch = youtubeSource.match(
+              /(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([^?&#)\s]+)/
+            );
+            if (youtubeMatch) {
+              videoId = youtubeMatch[1];
             }
 
             if (!videoId) continue;
