@@ -2131,6 +2131,25 @@
             "youtubeUrl": "//youtu.be/rxAM0ncKB9Q"
           }
         ]
+      },
+      {
+        "name": "LiT! School 2026 Autumn",
+        "background": "../../res/img/backgrounds/school.webp",
+        "songs": [
+          {
+            "title": "Right Here, Right Now",
+            "author": "KANA-BOON",
+            "description": "",
+            "spotify": "https://open.spotify.com/track/7BtJasZtJfoNBKNUBeRoOC",
+            "damNumber": "1529-10",
+            "damUrl": "https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1529-10",
+            "joyNumber": "662575",
+            "joyUrl": "https://www.joysound.com/web/search/song/1193548",
+            "lyricsSiteName": "歌ネット",
+            "lyricsUrl": "https://www.uta-net.com/song/396306/",
+            "youtubeUrl": "//youtu.be/WI8WnDb9SlQ"
+          }
+        ]
       }
     ]
   },
