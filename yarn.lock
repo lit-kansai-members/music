@@ -804,9 +804,9 @@ fsevents@~2.3.3:
   integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
 js-tokens@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-10.0.0.tgz#dffe7599b4a8bb7fe30aff8d0235234dffb79831"
-  integrity sha512-lM/UBzQmfJRo9ABXbPWemivdCW8V2G8FHaHdypQaIy523snUjog0W71ayWXTjiR+ixeMyVHN2XcpnTd/liPg/Q==
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-10.0.1.tgz#de22ff1149f046e6c9a585f5fc276b664d115725"
+  integrity sha512-XMt+uh+yEs6srFvEb/pEe4IMvbtoXVdNxF7lZFU+I9sdWI641L97L+gXQMTGm1x3RjPUVizNVjHueclXr0U7sw==
 
 lightningcss-android-arm64@1.33.0:
   version "1.33.0"
@@ -1274,9 +1274,9 @@ source-map-js@^1.2.2:
   integrity sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==
 
 tinyexec@^1.2.4:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/tinyexec/-/tinyexec-1.3.1.tgz#16a2e3c6e23fafce72640e678e651db36145b9c6"
-  integrity sha512-GCvB3aoys96IuDFBMcTB46JOR6mdMtAToqwiW8JlWhsoh1mhHi/xn9ss/Dg7N555GiJyEt2qzoG/NHCwM6h1EA==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/tinyexec/-/tinyexec-1.4.0.tgz#00ebfefb08f1d608ccbf433743830dffe56c7dee"
+  integrity sha512-PV6lIcJQh57aFeJDwx16JNHmgFRh5xguzallrDW1qe8nAghYgr5MKz2K5k7wEyV/ygZhdnIAP8+HZSarHPBCsg==
 
 tinyglobby@^0.2.17:
   version "0.2.17"
@@ -1326,9 +1326,9 @@ util-deprecate@^1.0.2:
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
 vite-plugin-checker@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-checker/-/vite-plugin-checker-1.0.0.tgz#8027a347e19cdaa0e7d841cd5ae5eed9f59b5b9e"
-  integrity sha512-3Ef78GTs13BUSTCqUCnl5kh8/Ev00G3cTt4z2mQacCODCdx6oq4B/TgXiCvGJ1D7/Hhbd84QKz691+8gbn1uog==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-checker/-/vite-plugin-checker-1.1.0.tgz#bb7edffc4dd07f52e3fd21a13820e751264758af"
+  integrity sha512-div6bd92uVpoTNUm3WYqlFQnc9MvAX8urim8VYjk14+15wzsefxs3DFO1S2WTlF1Gtg+4IWkfcsbyhqarQsusQ==
   dependencies:
     "@babel/code-frame" "^8.0.0"
     chokidar "^6.0.0"
